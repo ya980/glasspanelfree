@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: '[E] 🇨🇳 中国 09'
+  network: tcp
+  port: '50002'
+  server: 112.132.215.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 10'
+  network: tcp
+  port: '2648'
+  server: 150.242.244.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c

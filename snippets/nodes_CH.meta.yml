@@ -7,3 +7,11 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '[H] CH 02'
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

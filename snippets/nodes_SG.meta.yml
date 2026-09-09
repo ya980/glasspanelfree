@@ -1,13 +1,21 @@
 proxies:
-- name: '[E] 🇸🇬 新加坡 01'
-  password: 436114b5f36b2e704bdfa0927d57b6cd
-  port: 50160
-  server: 47.241.108.227
+- name: '[D] 🇸🇬 新加坡 01'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.250.120.9
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: 13.250.120.9
   tls: false
   type: hysteria2
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[D] 🇸🇬 新加坡 02'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.151.142.26
+  skip-cert-verify: true
+  sni: whatsapp.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 03'
   password: f87376e17da040ed04c9665ce8972930
   port: 50160
   server: 138.2.73.238
@@ -15,7 +23,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 41142
@@ -24,17 +32,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 04'
-  network: ws
-  port: 2096
-  server: 8.39.125.245
-  servername: mianfei-73q.pages.dev
-  skip-cert-verify: true
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '[H] 🇸🇬 新加坡 05'
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  ws-opts:
-    headers:
-      Host: mianfei-73q.pages.dev
-    path: /proxyip=154.3.33.43
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652

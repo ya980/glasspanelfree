@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 09'
-  network: tcp
+  network: raw
   port: '443'
   server: 165.140.217.2
   servername: ''
@@ -29,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[I] 🇺🇸 美国 36'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   password: humanity
   port: 443
@@ -40,7 +40,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 37'
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   password: humanity
   port: 443

@@ -89,7 +89,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 09'
-  network: tcp
+  network: raw
   port: '443'
   server: 165.140.217.2
   servername: ''
@@ -116,169 +116,84 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 13'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5iZBmQ9iLLxvEHo_XilfjC7OM2-EmYTPQp-bzxlTqUU
-    short-id: '!!str 4568f3e435322cc8'
-  server: 38.244.21.139
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1dcdda0-b2d2-4e18-88e2-c87c9257128e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 14'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
-    short-id: '!!str 55ab5559e3a6d10a'
-  server: 5.34.178.120
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-- name: '[H] 🇺🇸 美国 15'
-  password: 'null'
-  port: '443'
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 16'
+- name: '[H] 🇺🇸 美国 13'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
   skip-cert-verify: true
   sni: anytls2.864106.xyz
   type: anytls
-- name: '[H] 🇺🇸 美国 17'
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
+- name: '[H] 🇺🇸 美国 14'
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
   tls: true
   type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 18'
-  password: None
+- name: '[H] 🇺🇸 美国 15'
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 16'
+  password: 'null'
   port: 443
   server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 19'
-  password: ''
-  port: 9002
-  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 20'
+  username: 'null'
+- name: '[H] 🇺🇸 美国 17'
   port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 21'
-  password: None
-  port: 443
-  server: 149.88.21.129
+  server: fullmanfirm.icu
   skip-cert-verify: true
+  sni: fullmanfirm.icu
   tls: true
   type: http
-  username: null
-- name: '[H] 🇺🇸 美国 22'
+- name: '[H] 🇺🇸 美国 18'
   port: 443
   server: voteshirleysew.club
-  sni: voteshirleysew.club
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 23'
+- name: '[H] 🇺🇸 美国 19'
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 24'
-  port: 443
-  server: webdrone.club
-  sni: webdrone.club
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 25'
+- name: '[H] 🇺🇸 美国 20'
   password: None
   port: 443
-  server: webdrone.club
+  server: efr-marktplatz.club
   skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 26'
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 27'
-  password: None
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 21'
   port: 443
   server: purecambogiasl.live
   skip-cert-verify: true
   sni: purecambogiasl.live
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 29'
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 30'
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 31'
+- name: '[H] 🇺🇸 美国 22'
   port: 443
   server: purposebydesig.club
   sni: purposebydesig.club
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 32'
+- name: '[H] 🇺🇸 美国 23'
   password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
+  port: 443
+  server: webdrone.club
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 33'
+- name: '[H] 🇺🇸 美国 24'
   password: None
   port: 443
   server: berniesbodybla.fun
@@ -286,32 +201,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 34'
-  password: 'null'
-  port: '443'
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 35'
-  network: ws
-  port: '2053'
-  server: 142.248.218.34
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /
-  xudp: true
-- name: '[I] 🇺🇸 美国 36'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   password: humanity
   port: 443
@@ -322,7 +212,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 37'
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   password: humanity
   port: 443

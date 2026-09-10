@@ -15,7 +15,7 @@ proxies:
   network: ws
   port: '8443'
   server: 172.64.80.1
-  servername: ''
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -57,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[I] 🇺🇸 美国 55'
+- name: '[I] 🇺🇸 美国 50'
   network: ws
   password: humanity
   port: 443
@@ -68,7 +68,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 56'
+- name: '[I] 🇺🇸 美国 51'
   network: ws
   password: humanity
   port: 443

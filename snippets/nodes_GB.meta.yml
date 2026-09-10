@@ -15,49 +15,21 @@ proxies:
   flow: xtls-rprx-vision
   name: '[H] 🇬🇧 英国 02'
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 2.26.178.154
+    short-id: '!!str '
+  server: 2.26.178.138
   servername: localhost
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: brightharbor.download
-  servername: brightharbor.download
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
+- name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 06'
-  password: None
-  port: 443
-  server: 212.102.63.1
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http

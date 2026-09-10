@@ -43,8 +43,20 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  fingerprint: chrome
   name: '[D] 🇫🇷 法国 05'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: ijrixp6yh62ectfw
+  port: 52031
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇫🇷 法国 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -53,7 +65,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
+- name: '[D] 🇫🇷 法国 07'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -63,3 +75,45 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 08'
+  network: ws
+  port: '443'
+  server: 212.43.156.143
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 09'
+  network: ws
+  port: '443'
+  server: 95.81.126.119
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 10'
+  network: ws
+  port: '443'
+  server: 111.88.74.167
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket

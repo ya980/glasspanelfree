@@ -1,28 +1,20 @@
 proxies:
-- name: '[D] 🇷🇺 俄罗斯 01'
-  password: e0b9fb0f-1bbd-478b-9580-c2294778338b
-  port: 8443
-  server: cdncache.pleiades.codes
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇷🇺 俄罗斯 02'
-  obfs: ''
-  obfs-password: ''
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: '443'
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
-  up: ''
 - client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: 14443
   server: pr-media.pepro.site
+  servername: pr-media.pepro.site
+  tls: true
+  type: vless
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  ws-opts:
+    path: '%2Fws'
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 14443
+  server: 95.163.232.171
   servername: pr-media.pepro.site
   tls: true
   type: vless

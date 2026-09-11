@@ -1,5 +1,13 @@
 proxies:
-- name: '[E] 🇸🇬 新加坡 01'
+- name: '[D] 🇸🇬 新加坡 01'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.0.20
+  skip-cert-verify: true
+  sni: whatsapp.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 02'
   password: f87376e17da040ed04c9665ce8972930
   port: 50160
   server: 138.2.73.238
@@ -7,7 +15,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 41142

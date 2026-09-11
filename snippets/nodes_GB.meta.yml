@@ -11,12 +11,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 02'
+- name: '[E] 🇬🇧 英国 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 212.102.63.61
+  server: vpn-uk-001.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: t.me
+  tls: false
+  type: hysteria2
 - name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
@@ -26,35 +28,48 @@ proxies:
   type: http
   username: null
 - name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 06'
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 07'
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 08'
   password: None
   port: 443
-  server: 185.235.0.34
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: edge
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: '[H] 🇬🇧 英国 05'
-  network: grpc
-  port: '9844'
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aabbccdd'
-  server: 95.143.191.92
-  servername: dl.google.com
+- name: '[H] 🇬🇧 英国 09'
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  xudp: true
+  type: http
 - alpn:
   - h2
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 06'
+  name: '[I] 🇬🇧 英国 10'
   port: 443
   server: en-new.moriarty-web.com
   servername: en-new.moriarty-web.com

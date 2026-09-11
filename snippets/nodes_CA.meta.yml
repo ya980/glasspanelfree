@@ -6,7 +6,21 @@ proxies:
   sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
-- name: '[I] 🇨🇦 加拿大 02'
+- cipher: aes-256-cfb
+  name: '[H] 🇨🇦 加拿大 02'
+  password: amazonskr05
+  port: '443'
+  server: 16.52.168.26
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇨🇦 加拿大 03'
+  password: amazonskr05
+  port: '443'
+  server: 16.52.165.74
+  type: ss
+  udp: true
+- name: '[I] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
@@ -15,7 +29,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 03'
+- name: '[I] 🇨🇦 加拿大 05'
   network: ws
   password: humanity
   port: 443
@@ -24,7 +38,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[I] 🇨🇦 加拿大 04'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
@@ -33,7 +47,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 05'
+- name: '[I] 🇨🇦 加拿大 07'
   network: ws
   password: humanity
   port: 443
@@ -42,7 +56,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[I] 🇨🇦 加拿大 06'
+- name: '[I] 🇨🇦 加拿大 08'
   network: ws
   password: humanity
   port: 443
@@ -53,7 +67,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[I] 🇨🇦 加拿大 09'
   network: ws
   password: humanity
   port: 443
@@ -63,7 +77,7 @@ proxies:
   ws-opts:
     path: '%2Fassignment'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 08'
+  name: '[I] 🇨🇦 加拿大 10'
   network: ws
   port: 443
   server: 172.67.184.123
@@ -75,7 +89,7 @@ proxies:
     headers:
       Host: 2-M13.35c73e3F-b0ae-4ae0-B41f-62dFd753A988.kdns.fR
     path: '%2FED3ZQPu7lqyeDGD58KabZ'
-- name: '[I] 🇨🇦 加拿大 09'
+- name: '[I] 🇨🇦 加拿大 11'
   network: ws
   password: humanity
   port: 443
@@ -85,7 +99,7 @@ proxies:
   ws-opts:
     path: '%2Fassignment'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 10'
+  name: '[I] 🇨🇦 加拿大 12'
   network: ws
   port: 443
   server: 172.67.139.129
@@ -97,7 +111,7 @@ proxies:
     headers:
       Host: 7-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
     path: '%2F8qMLgNapWf6SBxo8fhQlVPYO'
-- name: '[I] 🇨🇦 加拿大 11'
+- name: '[I] 🇨🇦 加拿大 13'
   network: ws
   password: humanity
   port: 443
@@ -106,7 +120,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 12'
+- name: '[I] 🇨🇦 加拿大 14'
   network: ws
   password: humanity
   port: 443
@@ -115,7 +129,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 13'
+- name: '[I] 🇨🇦 加拿大 15'
   network: ws
   password: humanity
   port: 443
@@ -124,7 +138,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 14'
+- name: '[I] 🇨🇦 加拿大 16'
   network: ws
   password: humanity
   port: 443
@@ -135,7 +149,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 15'
+- name: '[I] 🇨🇦 加拿大 17'
   network: ws
   port: 443
   server: 172.67.198.209
@@ -147,7 +161,7 @@ proxies:
     headers:
       Host: 2-m9.56e2241d-b6f5-4eb7-8ed9-c89e0e22d6b4.kdns.fr
     path: '%2FBzuntJ8qZN0TRKbC8TveMxJ0'
-- name: '[I] 🇨🇦 加拿大 16'
+- name: '[I] 🇨🇦 加拿大 18'
   network: ws
   password: humanity
   port: 443
@@ -156,7 +170,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 17'
+- name: '[I] 🇨🇦 加拿大 19'
   network: ws
   port: 443
   server: 172.67.196.178
@@ -168,7 +182,7 @@ proxies:
     headers:
       Host: 4-m9.pattaya-4.kdns.fr
     path: '%2FBzuntJ8qZN0TRKbC8TveMxJ0'
-- name: '[I] 🇨🇦 加拿大 18'
+- name: '[I] 🇨🇦 加拿大 20'
   network: ws
   password: humanity
   port: 443
@@ -179,7 +193,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 19'
+- name: '[I] 🇨🇦 加拿大 21'
   network: ws
   password: humanity
   port: 443
@@ -188,7 +202,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 20'
+- name: '[I] 🇨🇦 加拿大 22'
   network: ws
   password: humanity
   port: 443
@@ -199,7 +213,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 21'
+- name: '[I] 🇨🇦 加拿大 23'
   network: ws
   password: humanity
   port: 443
@@ -208,7 +222,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 22'
+- name: '[I] 🇨🇦 加拿大 24'
   network: ws
   password: humanity
   port: 443
@@ -217,7 +231,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 23'
+- name: '[I] 🇨🇦 加拿大 25'
   network: ws
   password: humanity
   port: 443
@@ -228,7 +242,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 24'
+- name: '[I] 🇨🇦 加拿大 26'
   network: ws
   password: humanity
   port: 443
@@ -237,7 +251,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 25'
+- name: '[I] 🇨🇦 加拿大 27'
   network: ws
   password: humanity
   port: 443
@@ -248,7 +262,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 26'
+- name: '[I] 🇨🇦 加拿大 28'
   network: ws
   port: 443
   server: 172.67.206.119
@@ -260,7 +274,7 @@ proxies:
     headers:
       Host: 8-m9.fa481bc3-db71-45d0-b251-3cd830fd1b94.kdns.fr
     path: '%2FBzuntJ8qZN0TRKbC8TveMxJ0'
-- name: '[I] 🇨🇦 加拿大 27'
+- name: '[I] 🇨🇦 加拿大 29'
   network: ws
   password: humanity
   port: 443
@@ -271,7 +285,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 28'
+- name: '[I] 🇨🇦 加拿大 30'
   network: ws
   password: humanity
   port: 443
@@ -280,7 +294,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 29'
+- name: '[I] 🇨🇦 加拿大 31'
   network: ws
   password: humanity
   port: 443
@@ -289,7 +303,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 30'
+- name: '[I] 🇨🇦 加拿大 32'
   network: ws
   password: humanity
   port: 443
@@ -298,7 +312,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 31'
+- name: '[I] 🇨🇦 加拿大 33'
   network: ws
   password: humanity
   port: 443
@@ -307,7 +321,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 32'
+- name: '[I] 🇨🇦 加拿大 34'
   network: ws
   password: humanity
   port: 443
@@ -316,7 +330,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 33'
+- name: '[I] 🇨🇦 加拿大 35'
   network: ws
   password: humanity
   port: 443
@@ -325,7 +339,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 34'
+- name: '[I] 🇨🇦 加拿大 36'
   network: ws
   password: humanity
   port: 443
@@ -334,7 +348,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 35'
+- name: '[I] 🇨🇦 加拿大 37'
   network: ws
   password: humanity
   port: 443
@@ -343,7 +357,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 36'
+- name: '[I] 🇨🇦 加拿大 38'
   network: ws
   port: 443
   server: 172.67.222.216
@@ -355,7 +369,7 @@ proxies:
     headers:
       Host: 4-m9.0353d46a-c168-413e-95bd-b5f2eb943cd7.kdns.fr
     path: '%2FBzuntJ8qZN0TRKbC8TveMxJ0'
-- name: '[I] 🇨🇦 加拿大 37'
+- name: '[I] 🇨🇦 加拿大 39'
   network: ws
   password: humanity
   port: 443

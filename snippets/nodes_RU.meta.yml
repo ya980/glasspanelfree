@@ -1,40 +1,23 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[H] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: R7NfFaabgh-0a2KR0Bfmn3a-O6mDT550OgXUDygDKBs
-    short-id: '!!str c603efb3ddaf633d'
-  server: 109.238.95.39
-  servername: w-mebel.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c48b5f5-7766-4896-874e-b3ba1860e83a
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 02'
   network: xhttp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc
-    short-id: '!!str 2c9431dc7a306018'
-  server: 84.38.187.134
-  servername: git.xpkg.ru
+    public-key: YHPoUNxsml4z6pYt-7djOb1lqnBjxCk4-2mk84pveyc
+    short-id: '!!str 3b5b38669a1a51c0'
+  server: 93.189.63.146
+  servername: mm.melbicom.net
   tls: true
   type: vless
   udp: true
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
   xhttp-opts:
-    path: /repository
-  xudp: true
-- client-fingerprint: edge
+    host: mm.melbicom.net
+    path: /static
+- client-fingerprint: firefox
   encryption: none
-  name: '[H] 🇷🇺 俄罗斯 03'
+  name: '[H] 🇷🇺 俄罗斯 02'
   network: xhttp
   port: '443'
   reality-opts:
@@ -49,16 +32,16 @@ proxies:
   xhttp-opts:
     path: /script
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: edge
   encryption: none
-  name: '[H] 🇷🇺 俄罗斯 04'
+  name: '[H] 🇷🇺 俄罗斯 03'
   network: xhttp
   port: '443'
   reality-opts:
-    public-key: YHPoUNxsml4z6pYt-7djOb1lqnBjxCk4-2mk84pveyc
-    short-id: '!!str 3b5b38669a1a51c0'
-  server: 95.143.188.10
-  servername: git.medrocket.ru
+    public-key: QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc
+    short-id: '!!str 2c9431dc7a306018'
+  server: 84.38.187.134
+  servername: git.xpkg.ru
   tls: true
   type: vless
   udp: true
@@ -67,7 +50,7 @@ proxies:
     path: /repository
   xudp: true
 - client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 05'
+  name: '[I] 🇷🇺 俄罗斯 04'
   network: ws
   port: 14443
   server: pr-media.pepro.site
@@ -78,7 +61,7 @@ proxies:
   ws-opts:
     path: '%2Fws'
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 06'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: ws
   port: 14443
   server: 95.163.232.171

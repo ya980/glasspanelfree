@@ -8,10 +8,11 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
   name: '[H] CH 02'
-  network: tcp
-  port: 443
+  network: raw
+  port: '443'
   reality-opts:
     public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
     short-id: '!!str 19253fae84102271'
@@ -21,15 +22,8 @@ proxies:
   type: vless
   udp: true
   uuid: 3950b45e-740d-4dca-ac95-505ec8534592
+  xudp: true
 - name: '[H] CH 03'
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] CH 04'
   password: None
   port: 443
   server: 31.7.62.50

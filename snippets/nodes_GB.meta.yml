@@ -11,47 +11,13 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[H] 🇬🇧 英国 02'
+- name: '[H] 🇬🇧 英国 02'
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.26
-  servername: localhost
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇬🇧 英国 03'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: freshjuniper.download
-  servername: freshjuniper.download
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 04'
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 2.26.178.152
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- name: '[H] 🇬🇧 英国 05'
+  type: http
+- name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
   server: 37.120.233.18
@@ -59,31 +25,39 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 06'
-  network: tcp
+- name: '[H] 🇬🇧 英国 04'
+  password: None
   port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: edge
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: '[H] 🇬🇧 英国 05'
+  network: grpc
+  port: '9844'
   reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 2.26.178.172
-  servername: localhost
-  skip-cert-verify: false
-  tfo: false
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aabbccdd'
+  server: 95.143.191.92
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- name: '[H] 🇬🇧 英国 07'
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 06'
   port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
+  server: en-new.moriarty-web.com
+  servername: en-new.moriarty-web.com
   tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 08'
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277

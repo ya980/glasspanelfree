@@ -112,14 +112,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 12'
-  password: PD_0jD41hkQxq5ghBRhe7adO
-  port: 8882
-  server: 192.220.56.72
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 13'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -128,7 +120,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: none
-  name: '[E] 🇺🇸 美国 14'
+  name: '[E] 🇺🇸 美国 13'
   network: tcp
   port: '443'
   server: 165.140.217.2
@@ -138,7 +130,7 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 15'
+  name: '[E] 🇺🇸 美国 14'
   network: raw
   port: '443'
   server: 165.140.217.2
@@ -146,33 +138,19 @@ proxies:
   tls: false
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 16'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 17'
+  name: '[F] 🇺🇸 美国 15'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 18'
+  name: '[F] 🇺🇸 美国 16'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 19'
+- name: '[F] 🇺🇸 美国 17'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -180,30 +158,43 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 20'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 18'
+  network: ws
+  port: '443'
+  server: d56bb06d-6f6b-4c07-8600-a76f48568495-production.up.railway.app
+  servername: fssingg-production.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: fssingg-production.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /ws/d56bb06d-6f6b-4c07-8600-a76f48568495
+  xudp: true
+- name: '[H] 🇺🇸 美国 19'
+  password: 'null'
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 21'
+  username: 'null'
+- name: '[H] 🇺🇸 美国 20'
   password: None
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 22'
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 23'
+- name: '[H] 🇺🇸 美国 21'
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -212,7 +203,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🇺🇸 美国 24'
+- name: '[H] 🇺🇸 美国 22'
   password: None
   port: 443
   server: purecambogiasl.live
@@ -220,7 +211,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 25'
+- name: '[H] 🇺🇸 美国 23'
   password: ''
   port: '9002'
   server: 138.199.35.207
@@ -228,25 +219,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 26'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: '[H] 🇺🇸 美国 27'
-  password: ''
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: true
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 24'
   password: None
   port: 443
   server: mmgr.club
@@ -254,126 +227,54 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 29'
+- name: '[H] 🇺🇸 美国 25'
+  port: 443
+  server: kimberlymilano.icu
+  sni: kimberlymilano.icu
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 26'
   password: None
   port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
+  server: tzoa.fun
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 30'
+- name: '[H] 🇺🇸 美国 27'
   password: None
   port: 443
-  server: jgwynphotoarts.pro
+  server: berniesbodybla.fun
   skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 28'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 29'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 30'
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] 🇺🇸 美国 31'
-  password: None
-  port: 443
-  server: webdrone.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 32'
   password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 33'
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 34'
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 35'
-  password: 'null'
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 36'
-  password: None
-  port: 443
+  port: '443'
   server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🇺🇸 美国 37'
-  port: 8081
-  server: 73.109.227.116
-  type: http
-- name: '[H] 🇺🇸 美国 38'
-  password: ''
-  port: 8443
-  server: 104.219.236.83
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 39'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
-    short-id: '!!str '
-  server: 143.246.193.215
-  servername: www.blocket.se
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 40'
-  network: ws
-  port: '2053'
-  server: 142.248.218.34
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 41'
-  network: ws
-  port: '80'
-  server: 91.193.58.8
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /pyip=Telegram-WangCai2🇨🇳
-  xudp: true
+  username: 'null'

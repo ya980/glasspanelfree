@@ -1,17 +1,5 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇯🇵 日本 01'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: mdq80x0xv9wt7520
-  port: 52046
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
+- name: '[E] 🇯🇵 日本 01'
   password: 184cdec28da5a09450803c8debcd2cc9
   port: 50160
   server: 138.3.208.26
@@ -19,7 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 3893
@@ -28,35 +16,40 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 04'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇯🇵 日本 06'
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 05'
   network: ws
+  password: 62dbcf02-0989-4441-a01a-93f9c3b93525
   port: '443'
-  server: 64.204.49.68
-  servername: vp10.pages.dev
-  tls: true
-  type: vless
+  server: 172.64.229.84
+  skip-cert-verify: false
+  sni: ot.hyas.space
+  type: trojan
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /x7f9k2m4p8
+- name: '[H] 🇯🇵 日本 06'
+  password: ''
+  port: '8094'
+  server: 110.80.25.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[I] 🇯🇵 日本 07'

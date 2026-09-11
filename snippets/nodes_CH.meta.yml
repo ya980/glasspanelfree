@@ -1,13 +1,5 @@
 proxies:
-- name: '[E] CH 01'
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[H] CH 02'
+- name: '[H] CH 01'
   password: None
   port: 9443
   server: 37.120.213.210
@@ -15,28 +7,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] CH 03'
-  password: None
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: edge
-  encryption: none
-  name: '[H] CH 04'
-  network: xhttp
-  port: '8443'
-  reality-opts:
-    public-key: Gu_QdtOX6E8pZcYvDWgHKA5dxcit7hrpU27sizCEWXg
-    short-id: '!!str e0'
-  server: ch-plr-xh-pilot.tcp-reset-club.net
-  servername: s3.netavex.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4fb82973-a7f1-4fc2-9958-cb21f5162f06
-  xhttp-opts:
-    path: /assets/v2/pkg
-  xudp: true

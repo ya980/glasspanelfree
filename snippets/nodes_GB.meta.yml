@@ -11,15 +11,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- name: '[H] 🇬🇧 英国 03'
+- name: '[H] 🇬🇧 英国 02'
   password: None
   port: 443
   server: 37.120.233.18
@@ -27,9 +19,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 04'
+- name: '[H] 🇬🇧 英国 03'
   port: 443
   server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
@@ -40,25 +38,25 @@ proxies:
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 06'
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 07'
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 07'
+- name: '[H] 🇬🇧 英国 08'
   port: 443
   server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 08'
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: '[H] 🇬🇧 英国 09'
   port: 443
   server: 212.102.63.61

@@ -27,17 +27,17 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 05'
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
-    short-id: '!!str a1b2c3d4'
-  server: 31.59.150.174
-  servername: hotcoals.aeternavpn.space
+- name: '[H] 🇯🇵 日本 05'
+  password: ''
+  port: '443'
+  server: fan.571589.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
+  type: http
+  username: bnVsbDpudWxs
+- name: '[I] 🇯🇵 日本 06'
+  port: 8444
+  server: connect3.nyxserver.ir
+  tls: true
   type: vless
-  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+  uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21

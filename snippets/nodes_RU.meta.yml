@@ -1,20 +1,20 @@
 proxies:
-- client-fingerprint: qq
+- client-fingerprint: chrome
   name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: 14443
-  server: pr-media.pepro.site
+  server: 95.163.232.171
   servername: pr-media.pepro.site
   tls: true
   type: vless
   uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
   ws-opts:
     path: '%2Fws'
-- client-fingerprint: chrome
+- client-fingerprint: qq
   name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 14443
-  server: 95.163.232.171
+  server: pr-media.pepro.site
   servername: pr-media.pepro.site
   tls: true
   type: vless

@@ -27,22 +27,7 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 05'
-  network: ws
-  password: 62dbcf02-0989-4441-a01a-93f9c3b93525
-  port: '443'
-  server: 172.64.229.84
-  skip-cert-verify: false
-  sni: ot.hyas.space
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /x7f9k2m4p8
-- name: '[H] 🇯🇵 日本 06'
+- name: '[H] 🇯🇵 日本 05'
   password: ''
   port: '8094'
   server: 110.80.25.76
@@ -52,7 +37,7 @@ proxies:
   username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 06'
   network: tcp
   port: 9443
   reality-opts:

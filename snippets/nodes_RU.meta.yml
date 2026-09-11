@@ -1,22 +1,6 @@
 proxies:
-- client-fingerprint: edge
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc
-    short-id: '!!str 2c9431dc7a306018'
-  server: 84.38.187.134
-  servername: git.xpkg.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  xhttp-opts:
-    host: git.xpkg.ru
-    path: /repository
 - client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: 14443
   server: pr-media.pepro.site
@@ -27,7 +11,7 @@ proxies:
   ws-opts:
     path: '%2Fws'
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 14443
   server: 95.163.232.171

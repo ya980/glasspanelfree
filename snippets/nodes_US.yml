@@ -1,24 +1,46 @@
 proxies:
 - alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 13'
-  network: tcp
-  port: '443'
-  server: 165.140.217.2
+  cipher: auto
+  name: '[E] 🇺🇸 美国 12'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 13'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 14'
-  network: raw
-  port: '443'
-  server: 165.140.217.2
-  servername: ''
-  tls: false
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
   name: '[F] 🇺🇸 美国 15'
   password: Butterfly123@qwe9527

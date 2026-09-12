@@ -1,12 +1,22 @@
 proxies:
-- name: '[H] SE 01'
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] SE 01'
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: tl7xSwczBM--oN16cxdLnAD8GMf8tA0f-FXE9ilCCjA
+    short-id: '!!str '
+  server: 89.47.55.9
+  servername: download.intel.com
   tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - name: '[H] SE 02'
   password: None
   port: 443

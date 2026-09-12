@@ -1,16 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 14443
-  server: 95.163.232.171
-  servername: pr-media.pepro.site
-  tls: true
-  type: vless
-  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
-  ws-opts:
-    path: '%2Fws'
 - client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 01'
+  port: 443
+  reality-opts:
+    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
+    short-id: '!!str 52ccb3687fe0b7ec'
+  server: 200.165.235.78
+  servername: api8.eaglors.com
+  tls: false
+  type: vless
+  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
+  ws-opts:
+    headers:
+      Host: '%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI'
+- client-fingerprint: chrome
   name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 14443

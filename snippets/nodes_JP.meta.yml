@@ -7,21 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 02'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: None
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: None
-    path: /cctv13.m3u8
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 3893
@@ -30,20 +16,35 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 04'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[I] 🇯🇵 日本 06'
-  port: 8444
-  server: connect3.nyxserver.ir
+- name: '[H] 🇯🇵 日本 05'
+  password: 'null'
+  port: '443'
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: unsafe
+  name: '[I] 🇯🇵 日本 06'
+  network: ws
+  port: 2087
+  server: 188.114.97.6
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   tls: true
   type: vless
-  uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+    path: '%2F%3Fed%3D2560'

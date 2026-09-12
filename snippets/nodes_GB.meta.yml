@@ -18,9 +18,25 @@ proxies:
   sni: uk.shamanapp.online
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 03'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F_ws7uB6_86TsgsC2wUnVT0Jp1qqTgmR0ucRwPRhETg
+    short-id: '!!str 32434434567654'
+  server: lond.2clash.ru
+  servername: lond.2clash.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3b6a9df3-f1d1-4bc1-94a5-0d8f2d5512b1
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: '[H] 🇬🇧 英国 03'
+  name: '[H] 🇬🇧 英国 04'
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -28,14 +44,9 @@ proxies:
   server: vpn-uk-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-uk-002.fastervpn.world
+  tls: false
   type: hysteria2
   up: ''
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '[H] 🇬🇧 英国 05'
   port: 443
   server: 212.102.63.61
@@ -43,11 +54,13 @@ proxies:
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 06'
-  port: 443
-  server: 185.235.0.98
+  password: ''
+  port: '443'
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
+  username: ''
 - name: '[H] 🇬🇧 英国 07'
   port: 443
   server: 185.235.0.34
@@ -65,14 +78,6 @@ proxies:
 - name: '[H] 🇬🇧 英国 09'
   password: None
   port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 10'
-  password: None
-  port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
@@ -81,7 +86,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 11'
+  name: '[H] 🇬🇧 英国 10'
   network: tcp
   port: '443'
   reality-opts:

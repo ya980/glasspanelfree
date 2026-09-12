@@ -99,19 +99,22 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 12'
-  network: tcp
-  port: '443'
-  server: 165.140.217.2
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 13'
@@ -126,19 +129,33 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 14'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 14'
+  name: '[F] 🇺🇸 美国 15'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 15'
+  name: '[F] 🇺🇸 美国 16'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 16'
+- name: '[F] 🇺🇸 美国 17'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -146,7 +163,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 17'
+- name: '[H] 🇺🇸 美国 18'
   password: ''
   port: 443
   server: purposebydesig.club
@@ -154,7 +171,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 18'
+- name: '[H] 🇺🇸 美国 19'
   password: None
   port: 443
   server: 149.88.21.129
@@ -162,14 +179,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 19'
+- name: '[H] 🇺🇸 美国 20'
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 20'
+- name: '[H] 🇺🇸 美国 21'
   password: None
   port: 9002
   server: 138.199.35.207
@@ -177,7 +194,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 21'
+- name: '[H] 🇺🇸 美国 22'
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -186,7 +203,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🇺🇸 美国 22'
+- name: '[H] 🇺🇸 美国 23'
   password: ''
   port: 9002
   server: 138.199.35.208
@@ -194,7 +211,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 23'
+- name: '[H] 🇺🇸 美国 24'
   password: None
   port: 9002
   server: 138.199.35.219
@@ -202,7 +219,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 24'
+- name: '[H] 🇺🇸 美国 25'
   password: 'null'
   port: 9002
   server: 138.199.35.205
@@ -210,7 +227,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 25'
+- name: '[H] 🇺🇸 美国 26'
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -218,7 +235,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 26'
+- name: '[H] 🇺🇸 美国 27'
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -226,7 +243,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 27'
+- name: '[H] 🇺🇸 美国 28'
   password: 'null'
   port: 9002
   server: 138.199.35.214
@@ -234,14 +251,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 29'
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 29'
+- name: '[H] 🇺🇸 美国 30'
   password: ''
   port: 9002
   server: 138.199.35.209
@@ -249,7 +266,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 30'
+- name: '[H] 🇺🇸 美国 31'
   password: None
   port: 9002
   server: 138.199.35.197
@@ -261,7 +278,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: '[H] 🇺🇸 美国 31'
+  name: '[H] 🇺🇸 美国 32'
   network: ws
   port: 2083
   server: 104.16.157.58
@@ -274,7 +291,7 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
-- name: '[H] 🇺🇸 美国 32'
+- name: '[H] 🇺🇸 美国 33'
   password: ''
   port: 8443
   server: 104.219.236.83
@@ -285,7 +302,7 @@ proxies:
   username: ''
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 33'
+  name: '[H] 🇺🇸 美国 34'
   network: tcp
   port: '443'
   reality-opts:
@@ -298,7 +315,7 @@ proxies:
   udp: true
   uuid: 74a755ed-3276-4894-b010-8eea73feb267
   xudp: true
-- name: '[H] 🇺🇸 美国 34'
+- name: '[H] 🇺🇸 美国 35'
   password: 'null'
   port: '9002'
   server: 138.199.35.206
@@ -306,7 +323,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 35'
+- name: '[H] 🇺🇸 美国 36'
   password: ''
   port: '9002'
   server: 138.199.35.212
@@ -314,7 +331,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 36'
+- name: '[H] 🇺🇸 美国 37'
   password: 'null'
   port: '9002'
   server: 138.199.35.199
@@ -325,7 +342,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 37'
+  name: '[H] 🇺🇸 美国 38'
   network: tcp
   port: '443'
   reality-opts:
@@ -338,7 +355,7 @@ proxies:
   udp: true
   uuid: 367b6ccd-ecf1-42da-b9d7-375161ab0952
   xudp: true
-- name: '[I] 🇺🇸 美国 38'
+- name: '[I] 🇺🇸 美国 39'
   network: ws
   password: humanity
   port: 443
@@ -347,7 +364,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 39'
+- name: '[I] 🇺🇸 美国 40'
   network: ws
   password: humanity
   port: 443
@@ -356,7 +373,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 40'
+- name: '[I] 🇺🇸 美国 41'
   network: ws
   password: humanity
   port: 443
@@ -365,7 +382,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 41'
+- name: '[I] 🇺🇸 美国 42'
   network: ws
   password: humanity
   port: 443

@@ -18,77 +18,30 @@ proxies:
   sni: uk.shamanapp.online
   tls: false
   type: hysteria2
-- name: '[E] 🇬🇧 英国 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: '[H] 🇬🇧 英国 03'
   port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇬🇧 英国 04'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: '[H] 🇬🇧 英国 05'
-  port: 443
-  server: 212.102.63.1
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 06'
+- name: '[H] 🇬🇧 英国 04'
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 07'
-  password: ''
-  port: '443'
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇬🇧 英国 08'
+- name: '[H] 🇬🇧 英国 05'
+  password: None
   port: 443
-  server: 185.235.0.98
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 09'
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 10'
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 11'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: '!!str 8ffa160e608bf539'
-  server: 31.76.20.209
-  servername: de.pinkmoon.pro
-  tls: true
-  type: vless
+  username: null
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 06'
+  password: c58d16e593d44f42
+  port: 11001
+  server: 158.173.221.214
+  type: ss
   udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  xudp: true

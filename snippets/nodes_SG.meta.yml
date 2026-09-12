@@ -1,13 +1,5 @@
 proxies:
-- name: '[D] 🇸🇬 新加坡 01'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 47.129.0.20
-  skip-cert-verify: true
-  sni: whatsapp.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[E] 🇸🇬 新加坡 01'
   password: f87376e17da040ed04c9665ce8972930
   port: 50160
   server: 138.2.73.238
@@ -15,7 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: BxceQaOe
   port: 41142
@@ -23,21 +15,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇸🇬 新加坡 04'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: 47.129.241.226
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇸🇬 新加坡 05'
+  name: '[H] 🇸🇬 新加坡 03'
   network: ws
   port: '8443'
   server: news.zoom.us
@@ -53,27 +33,11 @@ proxies:
         Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: firefox
-  name: '[H] 🇸🇬 新加坡 06'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: cf1-1mh.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  ws-opts:
-    headers:
-      Host: cf1-1mh.pages.dev
-    path: /?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: '[H] 🇸🇬 新加坡 07'
+  name: '[H] 🇸🇬 新加坡 04'
   network: ws
   port: 2096
   server: 188.164.248.78

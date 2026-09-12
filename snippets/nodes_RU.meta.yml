@@ -1,6 +1,22 @@
 proxies:
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 01'
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: GKuFgxMDHNxodlhM5bVclxDtFSdb1vSadmpD7fYRERo
+    short-id: '!!str c3248f699ea5d8d0'
+  server: 5.35.91.96
+  servername: rus1.baboon.digital
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 14443
   server: 95.163.232.171
@@ -11,7 +27,7 @@ proxies:
   ws-opts:
     path: '%2Fws'
 - client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 03'
   network: ws
   port: 14443
   server: pr-media.pepro.site

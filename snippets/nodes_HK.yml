@@ -3,16 +3,16 @@ proxies:
   cipher: auto
   name: '[E] 🇭🇰 香港 01'
   network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: www.pubgmobile.com
-  tls: false
+  port: '443'
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: ''
+  tls: true
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: www.pubgmobile.com
-    path: /
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: '[F] 🇭🇰 香港 02'

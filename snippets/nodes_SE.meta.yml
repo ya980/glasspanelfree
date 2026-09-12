@@ -1,12 +1,14 @@
 proxies:
-- name: '[H] SE 01'
-  password: None
+- name: '[D] SE 01'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  server: 2.27.249.79
+  skip-cert-verify: false
+  sni: nl1.sferavpn.pro
+  tls: false
+  type: hysteria2
 - name: '[H] SE 02'
   password: None
   port: 443
@@ -15,3 +17,9 @@ proxies:
   tls: true
   type: http
   username: null
+- name: '[H] SE 03'
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http

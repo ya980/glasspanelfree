@@ -3,16 +3,16 @@ proxies:
   cipher: auto
   name: '[E] 🇭🇰 香港 01'
   network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: www.pubgmobile.com
-  tls: false
+  port: '443'
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: ''
+  tls: true
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: www.pubgmobile.com
-    path: /
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: '[F] 🇭🇰 香港 02'
@@ -60,3 +60,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 08'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: '!!str ea6b43'
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 09'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+    short-id: '!!str a2d13d677624197e'
+  server: hk6.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+  xudp: true

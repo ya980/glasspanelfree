@@ -11,40 +11,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: b3a11068-1a7e-4643-85de-7c82cce46943
-  port: 10451
-  server: 82.38.171.81
-  sni: uk.shamanapp.online
-  tls: false
-  type: hysteria2
-- name: '[H] 🇬🇧 英国 03'
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 06'
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 07'
+- name: '[H] 🇬🇧 英国 02'
   password: None
   port: 443
   server: 37.120.233.34
@@ -52,17 +19,9 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 08'
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 09'
+  name: '[I] 🇬🇧 英国 03'
   port: 443
   server: ai-dedic.failspace.top
   tls: true

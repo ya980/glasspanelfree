@@ -50,7 +50,7 @@ proxies:
 - name: '[E] 🇺🇸 美国 05'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-au-002.fastervpn.world
+  server: 32.236.171.236
   skip-cert-verify: true
   sni: css.rbxcdn.com
   tls: false
@@ -60,7 +60,7 @@ proxies:
   port: 443
   server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 07'
@@ -68,7 +68,7 @@ proxies:
   port: 443
   server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 08'
@@ -76,13 +76,13 @@ proxies:
   port: 443
   server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 09'
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  port: 50160
-  server: 129.159.156.109
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -142,104 +142,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 18'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo
-  server: 170.168.97.8
-  servername: cdn.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  xhttp-opts:
-    host: cdn.steamstatic.com
-    mode: auto
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: '[H] 🇺🇸 美国 19'
-  network: grpc
-  port: '8443'
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-    short-id: '!!str '
-  server: 170.168.97.8
-  servername: download.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  xudp: true
-- name: '[H] 🇺🇸 美国 20'
-  password: 18bd49994f2eea74ff62798bd75fb7d1
-  port: 443
-  server: 107.175.219.48
+- name: '[H] 🇺🇸 美国 18'
+  password: c2356e22-b026-4f12-8508-cf61f0b0c867
+  port: 4356
+  server: 107.174.255.14
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[H] 🇺🇸 美国 21'
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- auth: maintell
-  name: '[H] 🇺🇸 美国 22'
-  obfs: salamander
-  obfs-password: maintell
-  password: maintell
-  port: 2053
-  server: 107.172.67.52
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: '[H] 🇺🇸 美国 23'
-  password: None
-  port: 443
-  server: zebpay.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 24'
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 25'
-  password: 'null'
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 26'
-  password: None
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 27'
-  password: 'null'
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 19'
   password: None
   port: 443
   server: kimberlymilano.icu
@@ -247,18 +157,22 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 29'
-  password: None
-  port: 443
-  server: tzoa.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇺🇸 美国 20'
+  obfs: ''
+  obfs-password: ''
+  password: user1:ShVN9wnGVNptyPsNNpdBhlTUBG7vKZqh
+  port: '443'
+  server: 144.202.99.96
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 30'
+  name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 443
   server: 199.232.78.170
@@ -274,7 +188,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 31'
+  name: '[I] 🇺🇸 美国 22'
   network: ws
   port: 443
   server: 199.232.78.160
@@ -290,7 +204,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: firefox
-  name: '[I] 🇺🇸 美国 32'
+  name: '[I] 🇺🇸 美国 23'
   network: ws
   port: 443
   server: k2.cloud--vpn.site
@@ -305,7 +219,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 33'
+  name: '[I] 🇺🇸 美国 24'
   port: 443
   reality-opts:
     public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
@@ -316,7 +230,7 @@ proxies:
   type: vless
   uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 34'
+  name: '[I] 🇺🇸 美国 25'
   network: ws
   port: 8443
   server: news.zoom.us

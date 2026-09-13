@@ -4,26 +4,9 @@ proxies:
   server: 45.132.252.25
   type: http
 - client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 02'
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
-    short-id: '!!str '
-  server: 170.168.99.8
-  servername: www.epson.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 02'
+  network: raw
   port: 443
   reality-opts:
     public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
@@ -33,14 +16,22 @@ proxies:
   tls: false
   type: vless
   uuid: 238e492b-bc20-4380-92b6-135d39112ca4
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 03'
+  network: ws
+  port: 14443
+  server: pr-media.pepro.site
+  servername: pr-media.pepro.site
+  tls: true
+  type: vless
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
   ws-opts:
-    headers:
-      Host: '%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI'
+    path: '%2Fws'
 - client-fingerprint: chrome
   name: '[I] 🇷🇺 俄罗斯 04'
   network: ws
   port: 14443
-  server: pr-media.pepro.site
+  server: 95.163.232.171
   servername: pr-media.pepro.site
   tls: true
   type: vless

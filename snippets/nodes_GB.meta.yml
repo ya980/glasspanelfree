@@ -18,46 +18,40 @@ proxies:
   sni: uk.shamanapp.online
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇬🇧 英国 03'
-  obfs: ''
-  obfs-password: ''
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: '443'
-  server: cze-02.node.lumixnet.com
-  skip-cert-verify: true
-  sni: cze-02.node.lumixnet.com
-  type: hysteria2
-  up: ''
-- name: '[H] 🇬🇧 英国 04'
+- name: '[H] 🇬🇧 英国 03'
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 05'
+- name: '[H] 🇬🇧 英国 04'
   port: 443
   server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  port: 443
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 06'
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] 🇬🇧 英国 07'
-  password: ''
+  password: None
   port: 443
-  server: 185.235.0.66
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
+  username: null
 - name: '[H] 🇬🇧 英国 08'
   password: None
   port: 443
@@ -68,36 +62,13 @@ proxies:
   username: null
 - name: '[H] 🇬🇧 英国 09'
   port: 443
-  server: 185.235.0.2
+  server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 10'
   port: 443
-  server: 212.102.63.1
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: edge
-  encryption: none
-  name: '[H] 🇬🇧 英国 11'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: Vktj1xTermYXMcgW4MwH0mpCdOCE2JeZLvKWbXy0YkY
-    short-id: '!!str ffb43069c9bb'
-  server: 104.194.149.180
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 156ff3c8-4578-4fcf-82be-ddc792d98928
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 12'
-  port: 443
-  server: ai-dedic.failspace.top
-  tls: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277

@@ -1,7 +1,23 @@
 proxies:
+- name: '[E] 🇭🇰 香港 01'
+  password: qxW-odeprn8NZcCjOyx3fx27Wmr7XLYt
+  port: 443
+  server: b-balance.avantage.7.s.cdnnow.xyz
+  skip-cert-verify: true
+  sni: b-balance.avantage.7.s.cdnnow.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 02'
+  password: SiLseGtXmWyIGNidDiEmWa4t2vvG4WWQ
+  port: 443
+  server: b-balance.avantage.7.s.cdnnow.xyz
+  skip-cert-verify: true
+  sni: b-balance.avantage.7.s.cdnnow.xyz
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
+  name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '443'
   server: ex1ogt73nzpqkac2.v.3dns.vip
@@ -15,46 +31,18 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 03'
-  network: ws
-  port: '443'
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: '[E] 🇭🇰 香港 04'
   network: ws
-  port: '35043'
-  server: 156.245.232.239
+  port: '443'
+  server: 47.83.207.148
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: '[F] 🇭🇰 香港 05'
@@ -102,3 +90,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[H] 🇭🇰 香港 11'
+  port: 1080
+  server: 47.76.175.249
+  type: socks5
+- name: '[H] 🇭🇰 香港 12'
+  password: ''
+  port: '1080'
+  server: 103.210.161.8
+  skip-cert-verify: true
+  type: socks5
+  username: ''

@@ -1,7 +1,29 @@
 proxies:
+- name: '[H] 🇷🇺 俄罗斯 01'
+  port: 49156
+  server: 45.132.252.25
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
+    short-id: '!!str '
+  server: 170.168.99.8
+  servername: www.epson.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 03'
   port: 443
   reality-opts:
     public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
@@ -15,7 +37,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 04'
   network: ws
   port: 14443
   server: pr-media.pepro.site

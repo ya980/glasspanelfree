@@ -14,10 +14,20 @@ proxies:
   sni: hys34.wba-pn.ru
   tls: false
   type: hysteria2
+- name: '[D] SE 03'
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: c4d7e69958b226a426157a6e80eb9406
+  port: 443
+  server: 80.91.79.136
+  skip-cert-verify: true
+  sni: 80.91.79.136
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 03'
+  name: '[D] SE 04'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -29,7 +39,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 04'
+  name: '[D] SE 05'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -41,7 +51,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 05'
+  name: '[D] SE 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -53,7 +63,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 06'
+  name: '[D] SE 07'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -65,7 +75,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 07'
+  name: '[D] SE 08'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -77,7 +87,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 08'
+  name: '[D] SE 09'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -89,7 +99,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 09'
+  name: '[D] SE 10'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -101,7 +111,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] SE 10'
+  name: '[D] SE 11'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -110,3 +120,33 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '[H] SE 12'
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 13'
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] SE 14'
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] SE 15'
+  password: None
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

@@ -7,21 +7,22 @@ proxies:
   sni: 'off'
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
-  network: raw
+- name: '[D] 🇷🇺 俄罗斯 02'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  reality-opts:
-    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
-    short-id: '!!str 52ccb3687fe0b7ec'
-  server: 200.165.235.78
-  servername: api8.eaglors.com
+  server: 144.31.49.138
+  skip-cert-verify: false
+  sni: ru1.sferavpn.pro🇷🇺@FreakConfig
   tls: false
-  type: vless
-  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
+  type: hysteria2
+- name: '[H] 🇷🇺 俄罗斯 03'
+  port: 49156
+  server: 45.132.252.25
+  type: http
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 04'
   network: ws
   port: 14443
   server: pr-media.pepro.site
@@ -32,7 +33,7 @@ proxies:
   ws-opts:
     path: '%2Fws'
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: ws
   port: 14443
   server: 95.163.232.171

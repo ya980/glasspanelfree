@@ -1,18 +1,8 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: 162.249.125.133
-  skip-cert-verify: false
-  sni: hy2-new.aspidnet.xyz
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -24,7 +14,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -33,7 +23,7 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: V2RayyNGvpn&Telegram
   password: Ur0okuRxze
@@ -43,7 +33,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: V2RayyNGvpn&Telegram
   password: V2RayyNGvpn
@@ -53,7 +43,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 06'
+- name: '[D] 🇩🇪 德国 05'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -65,7 +55,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
@@ -75,15 +65,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 64.188.98.171
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 09'
+- name: '[D] 🇩🇪 德国 07'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -91,7 +73,7 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 10'
+- name: '[D] 🇩🇪 德国 08'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -101,7 +83,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 11'
+- name: '[D] 🇩🇪 德国 09'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -111,24 +93,41 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 13'
-  network: ws
-  password: humanity
+- name: '[H] 🇩🇪 德国 10'
   port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 11'
+  port: 11111
+  server: 103.237.102.191
+  type: http
+- name: '[H] 🇩🇪 德国 12'
+  password: None
   port: 443
-  reality-opts:
-    public-key: 9OV_GN4lgwY_4llPfYCGev-PPXLMj-hfYnveKF4tjws
-    short-id: '!!str f8'
-  server: 31.76.64.248
-  servername: blog.api.www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 0a322246-8c1a-47cd-9865-cccebbb2e5c1
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 13'
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 14'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 15'
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http

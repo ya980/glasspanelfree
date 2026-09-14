@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: '[H] 🇰🇷 韩国 05'
+  password: 1234!@#$
+  port: '1774'
+  server: 49.254.204.134
+  type: ss
+  udp: true

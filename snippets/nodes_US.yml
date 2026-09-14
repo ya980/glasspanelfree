@@ -1,59 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 13'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 14'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 15'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 16'
+  name: '[F] 🇺🇸 美国 08'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 17'
+  name: '[F] 🇺🇸 美国 09'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 18'
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -63,7 +21,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 44'
+  name: '[I] 🇺🇸 美国 33'
   network: ws
   password: MiTiVPN
   port: 443
@@ -74,7 +32,7 @@ proxies:
     headers:
       Host: mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net
     path: '@bored_vpn'
-- name: '[I] 🇺🇸 美国 45'
+- name: '[I] 🇺🇸 美国 34'
   network: ws
   password: humanity
   port: 443
@@ -85,7 +43,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 46'
+- name: '[I] 🇺🇸 美国 35'
   network: ws
   password: humanity
   port: 443
@@ -94,7 +52,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 47'
+- name: '[I] 🇺🇸 美国 36'
   network: ws
   password: humanity
   port: 443
@@ -103,7 +61,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 48'
+- name: '[I] 🇺🇸 美国 37'
   network: ws
   password: humanity
   port: 443
@@ -112,7 +70,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 49'
+- name: '[I] 🇺🇸 美国 38'
   network: ws
   password: humanity
   port: 443

@@ -18,8 +18,8 @@ proxies:
   name: '[E] 🇫🇷 法国 08'
   network: ws
   port: '443'
-  server: 194.87.71.141
-  servername: ''
+  server: 195.19.20.80
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -32,8 +32,8 @@ proxies:
   name: '[E] 🇫🇷 法国 09'
   network: ws
   port: '443'
-  server: 193.180.208.234
-  servername: ''
+  server: 195.85.23.225
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -47,7 +47,7 @@ proxies:
   network: ws
   port: '443'
   server: 193.124.181.123
-  servername: ''
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -60,8 +60,8 @@ proxies:
   name: '[E] 🇫🇷 法国 11'
   network: ws
   port: '443'
-  server: 34.175.202.195
-  servername: renderer-stream-2-62.mirra.now
+  server: 145.63.134.175
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -74,8 +74,8 @@ proxies:
   name: '[E] 🇫🇷 法国 12'
   network: ws
   port: '443'
-  server: 84.75.76.16
-  servername: ''
+  server: 64.188.117.165
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -88,7 +88,49 @@ proxies:
   name: '[E] 🇫🇷 法国 13'
   network: ws
   port: '443'
-  server: 145.63.134.175
+  server: 5.101.122.59
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 14'
+  network: ws
+  port: '443'
+  server: 95.164.90.133
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 15'
+  network: ws
+  port: '443'
+  server: 64.188.82.159
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 16'
+  network: ws
+  port: '443'
+  server: 178.248.75.57
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -98,7 +140,7 @@ proxies:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇫🇷 法国 15'
+  name: '[I] 🇫🇷 法国 17'
   password: c58d16e593d44f42
   port: 11001
   server: 158.173.221.214

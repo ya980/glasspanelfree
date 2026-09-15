@@ -1,5 +1,13 @@
 proxies:
 - name: '[E] 🇸🇬 新加坡 01'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 02'
   password: f87376e17da040ed04c9665ce8972930
   port: 50160
   server: 138.2.73.238
@@ -7,7 +15,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 41142
@@ -15,3 +23,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: '[H] 🇸🇬 新加坡 04'
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '[H] 🇸🇬 新加坡 05'
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http

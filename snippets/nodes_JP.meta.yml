@@ -27,12 +27,16 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[I] 🇯🇵 日本 05'
-  network: ws
-  password: humanity
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 05'
+  network: xhttp
   port: 443
-  server: 172.67.74.2
-  sni: www.ignitelimit.com
-  type: trojan
+  reality-opts:
+    public-key: sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU
+  server: 89.47.55.5
+  servername: cdn.steamstatic.com
+  tls: false
+  type: vless
+  uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
   ws-opts:
-    path: '%2Fassignment'
+    path: /

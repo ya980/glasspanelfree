@@ -1,35 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 05'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 07'
+  name: '[E] 🇺🇸 美国 03'
   network: ws
   port: '8443'
   server: chatgpt.com
@@ -39,21 +11,11 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: none
-  name: '[E] 🇺🇸 美国 08'
-  network: tcp
-  port: '443'
-  server: 165.140.217.11
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 04'
   network: tcp
   port: '443'
   server: 165.140.217.14
@@ -63,57 +25,7 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: none
-  name: '[E] 🇺🇸 美国 10'
-  network: tcp
-  port: '443'
-  server: 165.140.217.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 11'
-  network: tcp
-  port: '443'
-  server: 165.140.217.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 12'
-  network: tcp
-  port: '443'
-  server: 165.140.217.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 13'
-  network: tcp
-  port: '443'
-  server: 165.140.217.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 14'
-  network: tcp
-  port: '443'
-  server: 165.140.217.139
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 15'
+  name: '[E] 🇺🇸 美国 05'
   network: tcp
   port: '443'
   server: 165.140.217.30
@@ -121,19 +33,29 @@ proxies:
   tls: false
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 06'
+  network: tcp
+  port: '443'
+  server: 165.140.217.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 16'
+  name: '[F] 🇺🇸 美国 07'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 17'
+  name: '[F] 🇺🇸 美国 08'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 18'
+- name: '[F] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -141,7 +63,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[I] 🇺🇸 美国 36'
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 25'
+  password: amazonskr05
+  port: '443'
+  server: 3.144.113.215
+  type: ss
+  udp: true
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   password: humanity
   port: 443
@@ -152,7 +81,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 37'
+- name: '[I] 🇺🇸 美国 27'
   network: ws
   password: humanity
   port: 443

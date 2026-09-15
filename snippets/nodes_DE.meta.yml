@@ -1,8 +1,15 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -14,7 +21,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -23,7 +30,7 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: V2RayyNGvpn&Telegram
   password: Ur0okuRxze
@@ -33,7 +40,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 05'
   obfs: salamander
   obfs-password: V2RayyNGvpn&Telegram
   password: V2RayyNGvpn
@@ -43,19 +50,19 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 06'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: 2.27.59.206
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 07'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
@@ -65,7 +72,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 07'
+- name: '[D] 🇩🇪 德国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -73,7 +80,7 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
+- name: '[D] 🇩🇪 德国 09'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -83,7 +90,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 09'
+- name: '[D] 🇩🇪 德国 10'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -93,23 +100,3 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: '[H] 🇩🇪 德国 10'
-  network: ws
-  port: '443'
-  server: 31.58.237.147
-  servername: t1dn.blazenetwork.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b5a7a00-2bcf-463e-9f1f-c47756588fb5
-  ws-opts:
-    headers:
-      Host: t1dn.blazenetwork.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /t/assets
-  xudp: true

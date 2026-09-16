@@ -20,31 +20,30 @@ proxies:
   server: 103.236.66.4
   type: ss
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
   name: '[H] 🇯🇵 日本 04'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Ci03uVNJ34iSg-BSeOgrhTAeWcJExB5gQNuQVRY3a2Q
-    short-id: '!!str 01b4986b50245272'
-  server: 8.209.217.129
-  servername: www.logitech.com
+  network: ws
+  port: 8443
+  server: 151.145.67.90
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 4a1bd3a7-22e6-4ed0-add4-7ee824d8f54a
-  xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 05'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU
-  server: 89.47.55.5
-  servername: cdn.steamstatic.com
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /city/playlist/out.php?ed=2560
+- name: '[I] 🇯🇵 日本 05'
+  network: ws
+  port: 2095
+  server: www.csgo.net
   tls: false
   type: vless
-  uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
+    headers:
+      Host: pornbitches.asshole.us.ci
     path: /

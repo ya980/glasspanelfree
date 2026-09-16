@@ -131,16 +131,26 @@ proxies:
 - name: '[H] SE 13'
   password: None
   port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] SE 14'
-  password: None
-  port: 443
   server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] SE 14'
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+    short-id: '!!str '
+  server: 170.168.99.9
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true

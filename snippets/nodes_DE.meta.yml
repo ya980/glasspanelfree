@@ -100,34 +100,11 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.16.92.112
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-- name: '[H] 🇩🇪 德国 12'
-  password: udp-relay=true
+- name: '[H] 🇩🇪 德国 11'
   port: 11111
   server: 103.237.102.191
   type: http
-  username: None
-- name: '[H] 🇩🇪 德国 13'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 14'
+- name: '[H] 🇩🇪 德国 12'
   password: None
   port: 443
   server: 149.36.50.129
@@ -135,15 +112,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 15'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 16'
+- name: '[H] 🇩🇪 德国 13'
   password: None
   port: 443
   server: 87.249.132.97
@@ -151,33 +120,13 @@ proxies:
   tls: true
   type: http
   username: null
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇩🇪 德国 17'
-  network: xhttp
-  port: '443'
-  server: 172.67.156.105
-  servername: fwe4.yasharmobile.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c3923ff7-a642-40bc-86cd-520bd6401f67
-  xhttp-opts:
-    host: fwe4.yasharmobile.com
-    mode: auto
-  xudp: true
-- name: '[H] 🇩🇪 德国 18'
-  password: ''
-  port: '1080'
-  server: 135.125.232.151
+- name: '[H] 🇩🇪 德国 14'
+  port: 443
+  server: 141.17.83.78
   skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[I] 🇩🇪 德国 19'
+  tls: true
+  type: http
+- name: '[I] 🇩🇪 德国 15'
   network: ws
   password: humanity
   port: 443

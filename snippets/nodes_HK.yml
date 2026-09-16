@@ -1,119 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: www.pubgmobile.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: 156.245.232.239
-    path: /
-- alterId: 0
-  cipher: auto
   name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '443'
-  server: 47.242.79.198
-  servername: ejomsxptp19apygl.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: 8.217.229.155
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 05'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 06'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 07'
-  network: ws
-  port: '443'
-  server: ejomsxptp19apygl.v.3dns.vip
-  servername: ejOMsxPtP19APyGL.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 08'
-  network: ws
-  port: '443'
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -121,18 +23,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 10'
+  name: '[F] 🇭🇰 香港 05'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 11'
+  name: '[F] 🇭🇰 香港 06'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 2716
@@ -140,7 +42,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 51391
@@ -150,7 +52,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 14'
+  name: '[G] 🇭🇰 香港 09'
   network: tcp
   port: '30807'
   server: v10.hdacd.com

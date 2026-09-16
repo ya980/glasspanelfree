@@ -1,5 +1,12 @@
 proxies:
-- name: '[I] 🇩🇪 德国 12'
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 11'
+  password: amazonskr05
+  port: 443
+  server: 52.28.158.0
+  type: ss
+  udp: true
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   password: humanity
   port: 443

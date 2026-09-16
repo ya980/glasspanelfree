@@ -101,21 +101,22 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: aes-256-cfb
   name: '[H] 🇩🇪 德国 11'
-  network: tcp
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    short-id: '!!str 5a9ab320'
-  server: de2.miyazono-kaori.com
-  servername: www.siemens.com
-  tls: true
-  type: vless
+  server: 52.28.158.0
+  type: ss
   udp: true
-  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
-- name: '[I] 🇩🇪 德国 12'
+- name: '[H] 🇩🇪 德国 12'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   password: humanity
   port: 443

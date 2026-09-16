@@ -1,17 +1,49 @@
 proxies:
 - alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 03'
-  network: tcp
-  port: '443'
-  server: 165.140.217.141
-  servername: ''
-  tls: false
+  cipher: auto
+  name: '[E] 🇺🇸 美国 04'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 05'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 06'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: none
-  name: '[E] 🇺🇸 美国 04'
+  name: '[E] 🇺🇸 美国 07'
   network: tcp
   port: '443'
   server: 165.140.217.142
@@ -21,17 +53,7 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: none
-  name: '[E] 🇺🇸 美国 05'
-  network: tcp
-  port: '443'
-  server: 165.140.217.30
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🇺🇸 美国 06'
+  name: '[E] 🇺🇸 美国 08'
   network: tcp
   port: '443'
   server: 165.140.217.53
@@ -41,7 +63,7 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 07'
+  name: '[E] 🇺🇸 美国 09'
   network: tcp
   port: '443'
   server: 165.140.217.56
@@ -50,28 +72,28 @@ proxies:
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 08'
-  network: ''
+  cipher: none
+  name: '[E] 🇺🇸 美国 10'
+  network: tcp
   port: '443'
-  server: 165.140.217.141
+  server: 165.140.217.14
   servername: ''
   tls: false
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 11'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 12'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 11'
+- name: '[F] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -83,12 +105,11 @@ proxies:
   name: '[H] 🇺🇸 美国 14'
   password: amazonskr05
   port: 443
-  server: 3.16.81.205
+  server: 18.191.174.144
   type: ss
-  udp: true
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 16'
+  name: '[I] 🇺🇸 美国 19'
   network: ws
   password: MITIVPN
   port: 443
@@ -102,7 +123,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 20'
   network: ws
   password: MITIVPN
   port: 443
@@ -114,7 +135,7 @@ proxies:
     headers:
       Host: mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net
     path: '@mehrosaboran'
-- name: '[I] 🇺🇸 美国 18'
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   password: humanity
   port: 443

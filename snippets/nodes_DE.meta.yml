@@ -1,8 +1,11 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
   port: 443
   server: 162.249.125.133
+  skip-cert-verify: false
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
@@ -56,7 +59,7 @@ proxies:
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: 2.27.59.206
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
@@ -75,19 +78,17 @@ proxies:
 - name: '[D] 🇩🇪 德国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: 91.196.32.163
+  server: 64.188.98.171
   skip-cert-verify: true
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 09'
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: 130.49.161.70
-  skip-cert-verify: false
-  sni: hy2.aspidnet.xyz
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 10'
@@ -100,85 +101,21 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 11'
   network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.16.92.112
-  servername: jobinvest.ru
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: '!!str 5a9ab320'
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
   tls: true
   type: vless
   udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-- name: '[H] 🇩🇪 德国 12'
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: None
-- name: '[H] 🇩🇪 德国 13'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 14'
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 15'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 16'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 212.16.92.111
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 17'
-  network: tcp
-  port: '20443'
-  reality-opts:
-    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
-    short-id: '!!str 08'
-  server: ee.cdn-update.rutube.info
-  servername: dest1.cdn-update.rutube.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-  xudp: true
-- name: '[H] 🇩🇪 德国 18'
-  port: 11111
-  server: 103.237.102.191
-  type: http
-- name: '[I] 🇩🇪 德国 19'
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+- name: '[I] 🇩🇪 德国 12'
   network: ws
   password: humanity
   port: 443

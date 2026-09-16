@@ -1,10 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 45'
+  name: '[E] 🌍 其它地区 42'
   network: ws
   port: '443'
-  server: 193.124.181.123
+  server: 64.188.97.153
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: none
+  name: '[E] 🌍 其它地区 43'
+  network: tcp
+  port: '443'
+  server: 165.140.217.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 44'
+  network: ws
+  port: '443'
+  server: 64.188.117.165
   servername: ''
   tls: true
   type: vmess
@@ -15,41 +39,11 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 46'
-  network: tcp
-  port: '443'
-  server: 165.140.217.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: none
-  name: '[E] 🌍 其它地区 47'
-  network: tcp
-  port: '443'
-  server: 165.140.217.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 48'
-  network: tcp
-  port: '443'
-  server: 165.140.217.30
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
   name: '[E] 🇫🇷 法国 07'
   network: ws
   port: '443'
-  server: 2.27.54.132
-  servername: renderer-stream-2-62.mirra.now
+  server: 2.27.16.177
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -62,7 +56,7 @@ proxies:
   name: '[E] 🇫🇷 法国 08'
   network: ws
   port: '443'
-  server: 212.95.34.195
+  server: 212.80.218.89
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -76,7 +70,7 @@ proxies:
   name: '[E] 🇫🇷 法国 09'
   network: ws
   port: '443'
-  server: 111.88.74.167
+  server: 108.165.236.142
   servername: ''
   tls: true
   type: vmess
@@ -90,7 +84,7 @@ proxies:
   name: '[E] 🇫🇷 法国 10'
   network: ws
   port: '443'
-  server: 185.232.204.222
+  server: 178.248.75.57
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -104,7 +98,7 @@ proxies:
   name: '[E] 🇫🇷 法国 11'
   network: ws
   port: '443'
-  server: 185.99.2.175
+  server: 185.233.203.113
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -132,8 +126,8 @@ proxies:
   name: '[E] 🇫🇷 法国 13'
   network: ws
   port: '443'
-  server: 185.36.143.71
-  servername: ''
+  server: 194.87.71.141
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -146,8 +140,8 @@ proxies:
   name: '[E] 🇫🇷 法国 14'
   network: ws
   port: '443'
-  server: 185.4.73.45
-  servername: renderer-stream-2-62.mirra.now
+  server: 194.226.142.120
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -160,8 +154,8 @@ proxies:
   name: '[E] 🇫🇷 法国 15'
   network: ws
   port: '443'
-  server: 188.253.25.172
-  servername: renderer-stream-2-62.mirra.now
+  server: 195.19.20.80
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -174,7 +168,7 @@ proxies:
   name: '[E] 🇫🇷 法国 16'
   network: ws
   port: '443'
-  server: 194.164.192.16
+  server: 13.140.28.46
   servername: ''
   tls: true
   type: vmess
@@ -188,8 +182,8 @@ proxies:
   name: '[E] 🇫🇷 法国 17'
   network: ws
   port: '443'
-  server: 194.87.71.141
-  servername: renderer-stream-2-62.mirra.now
+  server: 31.15.19.180
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -202,8 +196,8 @@ proxies:
   name: '[E] 🇫🇷 法国 18'
   network: ws
   port: '443'
-  server: 194.226.142.120
-  servername: renderer-stream-2-62.mirra.now
+  server: 80.74.25.110
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -216,7 +210,7 @@ proxies:
   name: '[E] 🇫🇷 法国 19'
   network: ws
   port: '443'
-  server: 195.85.23.225
+  server: 89.42.142.63
   servername: ''
   tls: true
   type: vmess
@@ -230,7 +224,7 @@ proxies:
   name: '[E] 🇫🇷 法国 20'
   network: ws
   port: '443'
-  server: 193.180.211.155
+  server: 84.75.76.16
   servername: ''
   tls: true
   type: vmess
@@ -244,8 +238,8 @@ proxies:
   name: '[E] 🇫🇷 法国 21'
   network: ws
   port: '443'
-  server: 31.57.241.56
-  servername: renderer-stream-2-62.mirra.now
+  server: 85.215.41.19
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -258,7 +252,7 @@ proxies:
   name: '[E] 🇫🇷 法国 22'
   network: ws
   port: '443'
-  server: 34.175.202.195
+  server: 85.159.228.232
   servername: ''
   tls: true
   type: vmess
@@ -272,7 +266,7 @@ proxies:
   name: '[E] 🇫🇷 法国 23'
   network: ws
   port: '443'
-  server: 46.17.106.121
+  server: 91.217.76.237
   servername: ''
   tls: true
   type: vmess
@@ -286,7 +280,7 @@ proxies:
   name: '[E] 🇫🇷 法国 24'
   network: ws
   port: '443'
-  server: 64.188.106.254
+  server: 94.159.105.148
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -300,104 +294,6 @@ proxies:
   name: '[E] 🇫🇷 法国 25'
   network: ws
   port: '443'
-  server: 64.188.97.153
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 26'
-  network: ws
-  port: '443'
-  server: 5.255.109.47
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 27'
-  network: ws
-  port: '443'
-  server: 5.39.249.167
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 28'
-  network: ws
-  port: '443'
-  server: 80.74.25.110
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 29'
-  network: ws
-  port: '443'
-  server: 90.127.143.135
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 30'
-  network: ws
-  port: '443'
-  server: 94.177.51.198
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 31'
-  network: ws
-  port: '443'
-  server: 94.159.105.148
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 32'
-  network: ws
-  port: '443'
   server: 94.159.110.41
   servername: renderer-stream-2-62.mirra.now
   tls: true
@@ -409,63 +305,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 33'
-  network: ws
-  port: '443'
-  server: 95.182.94.210
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 34'
-  network: ws
-  port: '443'
-  server: 95.164.90.133
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 35'
-  network: ws
-  port: '443'
-  server: 95.85.233.138
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 36'
-  network: ws
-  port: '443'
-  server: 45.144.154.149
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 37'
+  name: '[E] 🇫🇷 法国 26'
   network: ws
   port: '443'
   server: 45.158.127.48
@@ -479,63 +319,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 38'
-  network: ws
-  port: '443'
-  server: 5.101.122.59
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 39'
-  network: ws
-  port: '443'
-  server: 64.188.106.254
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: ''
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 40'
-  network: ws
-  port: '443'
-  server: 64.188.117.165
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 41'
-  network: ws
-  port: '443'
-  server: 64.188.82.159
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 42'
+  name: '[E] 🇫🇷 法国 27'
   network: ws
   port: '443'
   server: 95.85.233.138
@@ -549,10 +333,10 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 43'
+  name: '[E] 🇫🇷 法国 28'
   network: ws
   port: '443'
-  server: 178.248.75.57
+  server: 95.182.94.210
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -563,10 +347,38 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 44'
+  name: '[E] 🇫🇷 法国 29'
   network: ws
   port: '443'
-  server: 185.230.190.29
+  server: 109.172.93.20
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 30'
+  network: ws
+  port: '443'
+  server: 185.36.143.71
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 31'
+  network: ws
+  port: '443'
+  server: 193.23.118.195
   servername: ''
   tls: true
   type: vmess
@@ -577,10 +389,10 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 45'
+  name: '[E] 🇫🇷 法国 32'
   network: ws
   port: '443'
-  server: 185.233.203.113
+  server: 193.180.208.234
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -591,7 +403,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 46'
+  name: '[E] 🇫🇷 法国 33'
   network: ws
   port: '443'
   server: 212.43.156.143
@@ -605,10 +417,38 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 47'
+  name: '[E] 🇨🇦 加拿大 08'
   network: ws
   port: '443'
-  server: 212.80.218.89
+  server: 2.27.54.132
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇦 加拿大 09'
+  network: ws
+  port: '443'
+  server: 64.188.106.254
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇦 加拿大 10'
+  network: ws
+  port: '443'
+  server: 64.188.82.159
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -619,11 +459,11 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 48'
+  name: '[E] 🇨🇦 加拿大 11'
   network: ws
   port: '443'
-  server: 212.87.220.98
-  servername: renderer-stream-2-62.mirra.now
+  server: 46.17.106.121
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -633,77 +473,25 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 03'
+  name: '[E] 🇨🇦 加拿大 12'
   network: ws
   port: '443'
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: ''
+  server: 64.188.106.254
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
     headers:
       Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 02'
-  network: tcp
-  port: '38320'
-  server: 124.151.45.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 49'
-  network: ws
-  port: '49667'
-  server: 118.193.57.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /d46bf492
+    path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇦 加拿大 13'
   network: ws
   port: '443'
-  server: 172.98.207.58
+  server: 185.230.190.29
   servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇦 加拿大 14'
-  network: ws
-  port: '443'
-  server: 145.63.134.175
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇦 加拿大 15'
-  network: ws
-  port: '443'
-  server: 35.241.172.224
-  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -713,10 +501,30 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: none
+  name: '[E] 🇺🇸 美国 03'
+  network: tcp
+  port: '443'
+  server: 165.140.217.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: none
+  name: '[E] 🇺🇸 美国 04'
+  network: tcp
+  port: '443'
+  server: 165.140.217.142
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: none
   name: '[E] 🇺🇸 美国 05'
   network: tcp
   port: '443'
-  server: 165.140.217.14
+  server: 165.140.217.30
   servername: ''
   tls: false
   type: vmess
@@ -726,7 +534,7 @@ proxies:
   name: '[E] 🇺🇸 美国 06'
   network: tcp
   port: '443'
-  server: 165.140.217.141
+  server: 165.140.217.53
   servername: ''
   tls: false
   type: vmess
@@ -744,40 +552,20 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 08'
-  network: tcp
-  port: '443'
-  server: 165.140.217.139
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 09'
   network: ''
   port: '443'
-  server: 165.140.217.14
+  server: 165.140.217.141
   servername: ''
   tls: false
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 10'
-  network: ''
-  port: '443'
-  server: 165.140.217.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇦 加拿大 16'
+  name: '[E] 🇨🇦 加拿大 14'
   network: ws
   port: '443'
-  server: 89.42.142.63
-  servername: ''
+  server: 185.4.73.45
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -785,15 +573,39 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇦 加拿大 15'
+  network: ws
+  port: '443'
+  server: 194.164.192.16
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 04'
+  network: tcp
+  port: '50011'
+  server: 36.133.74.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 50'
+  name: '[F] 🌍 其它地区 45'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 05'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -801,18 +613,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 06'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 07'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[F] 🇭🇰 香港 07'
+- name: '[F] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 2716
@@ -820,7 +632,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 08'
+- name: '[F] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
   port: 51391
@@ -828,7 +640,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 3893
@@ -837,18 +649,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 02'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: BxceQaOe
   port: 41142
@@ -857,18 +669,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 11'
+  name: '[F] 🇺🇸 美国 09'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 12'
+  name: '[F] 🇺🇸 美国 10'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 13'
+- name: '[F] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -884,7 +696,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 09'
+  name: '[G] 🇭🇰 香港 10'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -892,170 +704,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇫🇷 法国 49'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.221.242
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /assignment
 - alpn:
-  - http/1.1
-  name: '[H] 🇫🇷 法国 50'
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[H] 🇨🇳 台湾 03'
   network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 443
+  server: 82259754d625.oylfmxz.cn
+  servername: 82259754d625.oylfmxz.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 51'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /assignment
-- name: '[H] 🇫🇷 法国 52'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.14.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /assignment
-- name: '[H] 🇫🇷 法国 53'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.108
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 54'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 55'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.219
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 56'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 86.38.214.205
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 57'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.207
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 58'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.3
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 59'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.124
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /assignment
+      Host: 82259754d625.oylfmxz.cn
+    path: /
 - cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 61'
+  name: '[H] 🇺🇸 美国 14'
   password: amazonskr05
   port: 443
-  server: 15.237.137.134
+  server: 3.16.81.205
   type: ss
   udp: true
-- name: '[I] 🇩🇪 德国 19'
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 34'
+  password: amazonskr05
+  port: '443'
+  server: 13.39.233.161
+  type: ss
+  udp: true
+- name: '[I] 🇩🇪 德国 12'
   network: ws
   password: humanity
   port: 443
@@ -1065,7 +746,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[I] 🇨🇦 加拿大 17'
+- name: '[I] 🇨🇦 加拿大 16'
   network: ws
   password: humanity
   port: 443
@@ -1074,7 +755,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 18'
+- name: '[I] 🇨🇦 加拿大 17'
   network: ws
   password: humanity
   port: 443
@@ -1087,7 +768,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '[I] 🇨🇦 加拿大 19'
+  name: '[I] 🇨🇦 加拿大 18'
   network: ws
   password: humanity
   port: 443
@@ -1098,7 +779,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 20'
+- name: '[I] 🇨🇦 加拿大 19'
   network: ws
   password: humanity
   port: 443
@@ -1109,7 +790,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 21'
+- name: '[I] 🇨🇦 加拿大 20'
   network: ws
   password: humanity
   port: 443
@@ -1122,7 +803,7 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 32'
+  name: '[I] 🇺🇸 美国 16'
   network: ws
   password: MITIVPN
   port: 443
@@ -1136,7 +817,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 33'
+  name: '[I] 🇺🇸 美国 17'
   network: ws
   password: MITIVPN
   port: 443
@@ -1149,12 +830,12 @@ proxies:
       Host: mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net
     path: '@mehrosaboran'
 - cipher: aes-256-gcm
-  name: '[I] 🇨🇦 加拿大 22'
+  name: '[I] 🇨🇦 加拿大 21'
   password: fbcec76953a2d173
   port: 7018
   server: 166.88.130.218
   type: ss
-- name: '[I] 🇺🇸 美国 34'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -1163,7 +844,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 23'
+- name: '[I] 🇨🇦 加拿大 22'
   network: ws
   password: humanity
   port: 443
@@ -1172,7 +853,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 91'
+- name: '[I] 🌍 其它地区 57'
   network: ws
   password: humanity
   port: 443
@@ -1183,7 +864,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 24'
+- name: '[I] 🇨🇦 加拿大 23'
   network: ws
   password: humanity
   port: 443
@@ -1194,7 +875,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 25'
+- name: '[I] 🇨🇦 加拿大 24'
   network: ws
   password: humanity
   port: 443
@@ -1203,7 +884,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 26'
+- name: '[I] 🇨🇦 加拿大 25'
   network: ws
   password: humanity
   port: 443
@@ -1212,7 +893,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 27'
+- name: '[I] 🇨🇦 加拿大 26'
   network: ws
   password: humanity
   port: 443
@@ -1223,7 +904,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 28'
+- name: '[I] 🇨🇦 加拿大 27'
   network: ws
   password: humanity
   port: 443
@@ -1232,7 +913,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 29'
+- name: '[I] 🇨🇦 加拿大 28'
   network: ws
   password: humanity
   port: 443
@@ -1243,7 +924,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 30'
+- name: '[I] 🇨🇦 加拿大 29'
   network: ws
   password: humanity
   port: 443
@@ -1254,7 +935,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 31'
+- name: '[I] 🇨🇦 加拿大 30'
   network: ws
   password: humanity
   port: 443
@@ -1265,7 +946,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 32'
+- name: '[I] 🇨🇦 加拿大 31'
   network: ws
   password: humanity
   port: 443
@@ -1274,7 +955,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 34'
+- name: '[I] 🇨🇦 加拿大 33'
   network: ws
   password: humanity
   port: 443
@@ -1285,7 +966,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 35'
+- name: '[I] 🇨🇦 加拿大 34'
   network: ws
   password: humanity
   port: 443
@@ -1296,7 +977,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 36'
+- name: '[I] 🇨🇦 加拿大 35'
   network: ws
   password: humanity
   port: 443
@@ -1305,7 +986,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 37'
+- name: '[I] 🇨🇦 加拿大 36'
   network: ws
   password: humanity
   port: 443
@@ -1314,7 +995,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 92'
+- name: '[I] 🌍 其它地区 58'
   network: ws
   password: humanity
   port: 443
@@ -1323,7 +1004,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 38'
+- name: '[I] 🇨🇦 加拿大 37'
   network: ws
   password: humanity
   port: 443
@@ -1332,7 +1013,7 @@ proxies:
   type: trojan
   ws-opts:
     path: assignment
-- name: '[I] 🌍 其它地区 93'
+- name: '[I] 🌍 其它地区 59'
   network: ws
   password: humanity
   port: 443
@@ -1341,7 +1022,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 94'
+- name: '[I] 🌍 其它地区 60'
   network: ws
   password: humanity
   port: 443
@@ -1350,7 +1031,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 95'
+- name: '[I] 🌍 其它地区 61'
   network: ws
   password: humanity
   port: 443
@@ -1359,7 +1040,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 96'
+- name: '[I] 🌍 其它地区 62'
   network: ws
   password: humanity
   port: 443
@@ -1370,7 +1051,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 97'
+- name: '[I] 🌍 其它地区 63'
   network: ws
   password: humanity
   port: 443
@@ -1379,7 +1060,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 98'
+- name: '[I] 🌍 其它地区 64'
   network: ws
   password: humanity
   port: 443
@@ -1388,7 +1069,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 99'
+- name: '[I] 🌍 其它地区 65'
   network: ws
   password: humanity
   port: 443
@@ -1399,7 +1080,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 100'
+- name: '[I] 🌍 其它地区 66'
   network: ws
   password: humanity
   port: 443
@@ -1408,7 +1089,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 101'
+- name: '[I] 🌍 其它地区 67'
   network: ws
   password: humanity
   port: 443
@@ -1417,7 +1098,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 102'
+- name: '[I] 🌍 其它地区 68'
   network: ws
   password: humanity
   port: 443
@@ -1426,7 +1107,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 103'
+- name: '[I] 🌍 其它地区 69'
   network: ws
   password: humanity
   port: 443
@@ -1435,7 +1116,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 104'
+- name: '[I] 🌍 其它地区 70'
   network: ws
   password: humanity
   port: 443
@@ -1444,7 +1125,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 105'
+- name: '[I] 🌍 其它地区 71'
   network: ws
   password: humanity
   port: 443
@@ -1453,7 +1134,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 106'
+- name: '[I] 🌍 其它地区 72'
   network: ws
   password: humanity
   port: 443
@@ -1462,7 +1143,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 107'
+- name: '[I] 🌍 其它地区 73'
   network: ws
   password: humanity
   port: 443
@@ -1471,7 +1152,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 108'
+- name: '[I] 🌍 其它地区 74'
   network: ws
   password: humanity
   port: 443
@@ -1482,7 +1163,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 109'
+- name: '[I] 🌍 其它地区 75'
   network: ws
   password: humanity
   port: 443
@@ -1493,7 +1174,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 110'
+- name: '[I] 🌍 其它地区 76'
   network: ws
   password: humanity
   port: 443
@@ -1502,7 +1183,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 111'
+- name: '[I] 🌍 其它地区 77'
   network: ws
   password: humanity
   port: 443
@@ -1513,7 +1194,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 112'
+- name: '[I] 🌍 其它地区 78'
   network: ws
   password: humanity
   port: 443
@@ -1524,7 +1205,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 113'
+- name: '[I] 🌍 其它地区 79'
   network: ws
   password: humanity
   port: 443
@@ -1533,7 +1214,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 114'
+- name: '[I] 🌍 其它地区 80'
   network: ws
   password: humanity
   port: 443
@@ -1542,7 +1223,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 115'
+- name: '[I] 🌍 其它地区 81'
   network: ws
   password: humanity
   port: 443
@@ -1551,7 +1232,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 116'
+- name: '[I] 🌍 其它地区 82'
   network: ws
   password: humanity
   port: 443
@@ -1562,7 +1243,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 117'
+- name: '[I] 🌍 其它地区 83'
   network: ws
   password: humanity
   port: 443
@@ -1571,7 +1252,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 118'
+- name: '[I] 🌍 其它地区 84'
   network: ws
   password: humanity
   port: 443
@@ -1580,7 +1261,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 119'
+- name: '[I] 🌍 其它地区 85'
   network: ws
   password: humanity
   port: 443
@@ -1591,7 +1272,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 120'
+- name: '[I] 🌍 其它地区 86'
   network: ws
   password: humanity
   port: 443
@@ -1602,7 +1283,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 121'
+- name: '[I] 🌍 其它地区 87'
   network: ws
   password: humanity
   port: 443
@@ -1611,7 +1292,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 122'
+- name: '[I] 🌍 其它地区 88'
   network: ws
   password: humanity
   port: 443
@@ -1620,7 +1301,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 123'
+- name: '[I] 🌍 其它地区 89'
   network: ws
   password: humanity
   port: 443
@@ -1629,7 +1310,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 124'
+- name: '[I] 🌍 其它地区 90'
   network: ws
   password: humanity
   port: 443
@@ -1638,7 +1319,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 125'
+- name: '[I] 🌍 其它地区 91'
   network: ws
   password: humanity
   port: 443
@@ -1647,7 +1328,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 126'
+- name: '[I] 🌍 其它地区 92'
   network: ws
   password: humanity
   port: 443

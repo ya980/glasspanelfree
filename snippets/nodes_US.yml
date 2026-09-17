@@ -62,13 +62,13 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 14'
+  name: '[H] 🇺🇸 美国 33'
   password: amazonskr05
-  port: 443
-  server: 3.16.81.205
+  port: '443'
+  server: 3.148.252.26
   type: ss
   udp: true
-- name: '[I] 🇺🇸 美国 37'
+- name: '[I] 🇺🇸 美国 36'
   network: ws
   password: humanity
   port: 443
@@ -79,7 +79,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 38'
+- name: '[I] 🇺🇸 美国 37'
   network: ws
   password: humanity
   port: 443

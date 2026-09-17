@@ -115,26 +115,12 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] SE 11'
-  password: None
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: '[H] SE 12'
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] SE 13'
-  port: 9950
-  server: 95.140.159.180
-  type: http
-- name: '[H] SE 14'
   password: None
   port: 443
   server: 146.70.242.130

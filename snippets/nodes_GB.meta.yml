@@ -1,10 +1,20 @@
 proxies:
-- name: '[H] 🇬🇧 英国 02'
+- name: '[H] 🇬🇧 英国 01'
+  password: None
   port: 443
-  server: 185.235.0.34
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: '[H] 🇬🇧 英国 02'
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
@@ -15,33 +25,32 @@ proxies:
   username: null
 - name: '[H] 🇬🇧 英国 04'
   password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 05'
-  password: None
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 05'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: yMoulSTnxnbOfAjWPfB244a29ms9HUkjgA1zLZ65Nzw
+    short-id: '!!str '
+  server: 31.76.111.152
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
+  xudp: true
 - name: '[H] 🇬🇧 英国 06'
-  password: None
-  port: 443
-  server: 212.102.63.31
+  password: ''
+  port: '443'
+  server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🇬🇧 英国 07'
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  username: ''

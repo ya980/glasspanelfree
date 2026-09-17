@@ -27,6 +27,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  port: 50160
+  server: 129.159.156.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 05'
   password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
   port: 2077
   server: us2.xiaoliyu.us
@@ -34,7 +42,7 @@ proxies:
   sni: us2.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 06'
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
   server: us2.xiaoliyu.cyou
@@ -42,18 +50,12 @@ proxies:
   sni: us2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  tls: false
-  type: hysteria2
 - name: '[E] 🇺🇸 美国 07'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - alterId: 0
@@ -118,20 +120,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
   name: '[H] 🇺🇸 美国 14'
-  password: amazonskr05
-  port: 443
-  server: 3.16.81.205
-  type: ss
-  udp: true
-- name: '[H] 🇺🇸 美国 15'
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
+  network: grpc
+  port: '9881'
+  reality-opts:
+    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
+    short-id: '!!str '
+  server: 176.108.246.58
+  servername: dl.google.com
   tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 16'
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
+- name: '[H] 🇺🇸 美国 15'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -139,14 +145,23 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: '[H] 🇺🇸 美国 17'
-  password: None
-  port: 9002
-  server: 138.199.35.199
+- name: '[H] 🇺🇸 美国 16'
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+  username: 'null'
+- name: '[H] 🇺🇸 美国 17'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - name: '[H] 🇺🇸 美国 18'
   password: None
   port: 9002
@@ -158,12 +173,28 @@ proxies:
 - name: '[H] 🇺🇸 美国 19'
   password: None
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] 🇺🇸 美国 20'
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 21'
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 22'
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -171,7 +202,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 21'
+- name: '[H] 🇺🇸 美国 23'
   password: ''
   port: 9002
   server: 138.199.35.212
@@ -180,7 +211,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🇺🇸 美国 22'
+- name: '[H] 🇺🇸 美国 24'
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -188,7 +219,15 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 23'
+- name: '[H] 🇺🇸 美国 25'
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 26'
   password: None
   port: 9002
   server: 138.199.35.202
@@ -196,15 +235,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 24'
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 25'
+- name: '[H] 🇺🇸 美国 27'
   password: 'null'
   port: 9002
   server: 138.199.35.220
@@ -212,40 +243,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: '[H] 🇺🇸 美国 26'
-  network: ws
-  port: 2083
-  server: 64.227.67.161
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /members/detail/gif?ed=2560
-- name: '[H] 🇺🇸 美国 27'
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - name: '[H] 🇺🇸 美国 28'
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: null
 - name: '[H] 🇺🇸 美国 29'
   password: ''
   port: 9002
@@ -264,38 +269,15 @@ proxies:
   udp: true
   username: ''
 - name: '[H] 🇺🇸 美国 31'
-  password: ''
-  port: 8443
-  server: 104.219.236.83
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: us2.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 32'
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 33'
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: '[H] 🇺🇸 美国 34'
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
+  type: hysteria2
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc-tunnel
-  name: '[H] 🇺🇸 美国 35'
+  name: '[H] 🇺🇸 美国 32'
   network: grpc
   port: '9880'
   reality-opts:
@@ -308,7 +290,32 @@ proxies:
   udp: true
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   xudp: true
-- name: '[H] 🇺🇸 美国 36'
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 33'
+  password: amazonskr05
+  port: '443'
+  server: 3.148.252.26
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 34'
+  network: ws
+  port: '443'
+  server: 208.68.180.91
+  servername: thus-k.netnode.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 79b4644b-1494-408b-976f-07101b4aa364
+  ws-opts:
+    headers:
+      Host: thus-k.netnode.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /t.me/daily_free_vpn
+  xudp: true
+- name: '[H] 🇺🇸 美国 35'
   password: ''
   port: '9002'
   server: 138.199.35.209
@@ -316,7 +323,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[I] 🇺🇸 美国 37'
+- name: '[I] 🇺🇸 美国 36'
   network: ws
   password: humanity
   port: 443
@@ -327,7 +334,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 38'
+- name: '[I] 🇺🇸 美国 37'
   network: ws
   password: humanity
   port: 443

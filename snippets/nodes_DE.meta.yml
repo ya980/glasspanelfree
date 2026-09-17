@@ -75,9 +75,24 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '[H] 🇩🇪 德国 08'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 09'
+  password: amazonskr05
+  port: '443'
+  server: 52.28.158.0
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 08'
+  name: '[I] 🇩🇪 德国 10'
   network: tcp
   port: '2086'
   server: 91.107.146.97
@@ -85,75 +100,3 @@ proxies:
   tls: false
   type: vmess
   uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 09'
-  network: xhttp
-  port: '443'
-  server: 199.232.79.166
-  servername: cdn.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78b82738-ac86-4a6e-8a78-fdb3b52f500a
-  xhttp-opts:
-    host: telegram-uonvpn.global.ssl.fastly.net
-    mode: auto
-    path: /@UonVPN-**--@UonVPN-*-@UonVPN--*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
-    x-padding-bytes: 100-1000
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 10'
-  password: amazonskr05
-  port: 443
-  server: 3.75.89.244
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: '[H] 🇩🇪 德国 11'
-  network: ws
-  port: 23351
-  server: 185.217.108.229
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /help?ed=2560
-- name: '[H] 🇩🇪 德国 12'
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 13'
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 14'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 18'
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null

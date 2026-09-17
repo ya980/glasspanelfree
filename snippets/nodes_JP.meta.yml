@@ -1,20 +1,5 @@
 proxies:
 - name: '[E] 🇯🇵 日本 01'
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: 45.88.43.116
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 03'
   password: 184cdec28da5a09450803c8debcd2cc9
   port: 50160
   server: 138.3.208.26
@@ -22,57 +7,23 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 04'
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
+- name: '[E] 🇯🇵 日本 02'
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 27102
+  server: jp1.xiaoliyu.us
   skip-cert-verify: true
-  sni: 138.3.208.26
+  sni: jp1.xiaoliyu.us
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 05'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: ''
+- name: '[E] 🇯🇵 日本 03'
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 27102
+  server: jp3.xiaoliyu.us
+  skip-cert-verify: true
+  sni: jp3.xiaoliyu.us
   tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 06'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: None
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 07'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-- name: '[F] 🇯🇵 日本 08'
+  type: hysteria2
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: BxceQaOe
   port: 3893
@@ -81,25 +32,75 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 09'
+  name: '[F] 🇯🇵 日本 05'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 10'
+  name: '[F] 🇯🇵 日本 06'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[I] 🇯🇵 日本 11'
-  network: ws
-  port: 2095
-  server: www.csgo.net
-  tls: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇯🇵 日本 07'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ImUbTZ1OKgAaiNlCf8zkeO5NnbAdKHdm2fhphvEZNxY
+    short-id: '!!str 56'
+  server: 1-jp.ap.ku-ke.cc
+  servername: cdn.jsdelivr.net
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇯🇵 日本 08'
+  network: ws
+  port: 443
+  server: 108.160.136.71
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: pornbitches.asshole.us.ci
-    path: /
+      Host: cdn8848.776676.xyz
+    path: /doc/products/view?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇯🇵 日本 09'
+  network: ws
+  port: 443
+  server: 167.179.111.237
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /act/player/search?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 10'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zcB60qKELnjt8HqO_3lAE2qV1d-C8aZ7NXNSHv_iDV8
+    short-id: '!!str 1f763fda79312e53'
+  server: 46.8.103.64
+  servername: reserve-1.lunoa.ru
+  tls: false
+  type: vless
+  uuid: 8f67e374-53d9-43bb-85c9-a459a959cd1b

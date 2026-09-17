@@ -33,16 +33,6 @@ proxies:
   type: hysteria2
 - name: '[D] 🇩🇪 德国 04'
   obfs: salamander
-  obfs-password: V2RayyNGvpn&Telegram
-  password: Ur0okuRxze
-  port: 443
-  server: 91.107.140.154
-  skip-cert-verify: false
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 05'
-  obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
@@ -51,7 +41,7 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 06'
+- name: '[D] 🇩🇪 德国 05'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 64.188.98.171
@@ -62,7 +52,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -71,7 +61,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
+- name: '[D] 🇩🇪 德国 07'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -81,36 +71,133 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
+- alpn:
+  - h3
+  name: '[E] 🇩🇪 德国 08'
+  password: f89c89df-905c-4df3-ab07-4f1a37a81005
+  port: 443
+  server: api.fastline-labs.com
+  sni: api.fastline-labs.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
   name: '[E] 🇩🇪 德国 09'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: se.xiaoliyu.cyou
-  skip-cert-verify: true
+  password: f89c89df-905c-4df3-ab07-4f1a37a81005
+  port: 443
+  server: git.fastline-labs.com
+  sni: git.fastline-labs.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 10'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: se.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: se.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 11'
-  password: amazonskr05
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  name: '[H] 🇩🇪 德国 10'
+  network: ws
   port: '443'
-  server: 18.194.210.177
-  type: ss
+  server: 199.232.237.79
+  servername: turboo-server.com
+  tls: true
+  type: vless
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 12'
-  network: tcp
-  port: '2086'
-  server: 91.107.146.97
-  servername: ''
+  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
+  ws-opts:
+    headers:
+      Host: turboo-server.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- name: '[H] 🇩🇪 德国 11'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 12'
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇩🇪 德国 13'
+  network: ws
+  port: 443
+  server: 138.124.25.250
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /team/index?ed=2560
+- name: '[H] 🇩🇪 德国 14'
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 15'
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 16'
+  port: 6444
+  reality-opts:
+    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
+    short-id: '!!str a1b2c3d4'
+  server: 31.56.189.224
+  servername: capture.aeternavpn.space
   tls: false
-  type: vmess
-  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+  type: vless
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 17'
+  port: 443
+  reality-opts:
+    public-key: 5USjl6vRG3X4bxVWL9oZ7eUpyr-N3kezxnUi14WOrlY
+    short-id: '!!str 3d475d331e49eee8'
+  server: de1-web.mysoyka.online
+  servername: de1-web.mysoyka.online
+  tls: false
+  type: vless
+  uuid: 2ac46dc3-0593-4898-bd52-42a7d5a8f2e2
+- name: '[I] 🇩🇪 德国 18'
+  network: ws
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[I] 🇩🇪 德国 19'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

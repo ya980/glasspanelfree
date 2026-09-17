@@ -1,18 +1,19 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 11'
-  password: amazonskr05
-  port: '443'
-  server: 18.194.210.177
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 12'
-  network: tcp
-  port: '2086'
-  server: 91.107.146.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+- name: '[I] 🇩🇪 德国 18'
+  network: ws
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[I] 🇩🇪 德国 19'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

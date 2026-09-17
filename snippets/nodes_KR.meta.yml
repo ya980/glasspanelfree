@@ -1,25 +1,23 @@
 proxies:
 - name: '[E] 🇰🇷 韩国 01'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
+  password: maintell
+  port: 2053
+  server: 152.70.237.123
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇰🇷 韩国 02'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 02'
+  network: ws
+  port: '80'
+  server: 132.145.80.230
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[E] 🇰🇷 韩国 03'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8

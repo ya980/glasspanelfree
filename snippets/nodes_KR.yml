@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 02'
+  network: ws
+  port: '80'
+  server: 132.145.80.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8

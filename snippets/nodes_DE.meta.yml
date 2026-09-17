@@ -1,8 +1,16 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.7
+  skip-cert-verify: true
+  sni: hopp-germany-new.ddnsguru.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -14,7 +22,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -23,20 +31,10 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: V2RayyNGvpn&Telegram
-  password: Ur0okuRxze
-  port: 443
-  server: 91.107.140.154
-  skip-cert-verify: false
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '[D] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: V2RayyNGvpn&Telegram
-  password: V2RayyNGvpn
+  password: Ur0okuRxze
   port: 443
   server: 91.107.140.154
   skip-cert-verify: false
@@ -53,10 +51,18 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
+- name: '[D] 🇩🇪 德国 06'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 64.188.98.171
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 07'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -65,7 +71,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 07'
+- name: '[D] 🇩🇪 德国 08'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -75,24 +81,32 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 08'
-  password: None
-  port: 443
-  server: 149.36.50.157
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: '[E] 🇩🇪 德国 09'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 10'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: se.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 11'
   password: amazonskr05
   port: '443'
-  server: 52.28.158.0
+  server: 18.194.210.177
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 12'
   network: tcp
   port: '2086'
   server: 91.107.146.97

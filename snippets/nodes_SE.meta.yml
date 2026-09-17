@@ -1,9 +1,11 @@
 proxies:
-- name: '[H] SE 01'
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+- name: '[D] SE 01'
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: xbr3ppxk7rv068c4
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2

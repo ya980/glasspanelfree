@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 17'
+  name: '[E] 🇩🇪 德国 08'
   network: tcp
   port: '2086'
   server: 91.107.146.97
@@ -9,3 +9,10 @@ proxies:
   tls: false
   type: vmess
   uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 10'
+  password: amazonskr05
+  port: 443
+  server: 3.75.89.244
+  type: ss
+  udp: true

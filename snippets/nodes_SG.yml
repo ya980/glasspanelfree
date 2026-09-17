@@ -1,5 +1,19 @@
 proxies:
-- name: '[F] 🇸🇬 新加坡 03'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '443'
+  server: sg-edge.xn--kivt58h.lol
+  servername: sg-edge.xn--kivt58h.lol
+  tls: true
+  type: vmess
+  uuid: 902ccf29-d9be-475f-92d9-05902544d911
+  ws-opts:
+    headers:
+      Host: sg-edge.xn--kivt58h.lol
+    path: /sg-edge-vm02-859c3a8d7341c647
+- name: '[F] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 41142

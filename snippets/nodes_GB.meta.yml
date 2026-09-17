@@ -1,29 +1,31 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 02'
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇬🇧 英国 01'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52033
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: '[H] 🇬🇧 英国 03'
-  password: None
   port: 443
-  server: 37.120.233.18
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  password: None
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 04'
+- name: '[H] 🇬🇧 英国 05'
   password: None
   port: 443
   server: 185.235.0.66
@@ -31,22 +33,45 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: yMoulSTnxnbOfAjWPfB244a29ms9HUkjgA1zLZ65Nzw
-    short-id: '!!str '
-  server: 31.76.111.152
-  servername: ads.x5.ru
+- name: '[H] 🇬🇧 英国 07'
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
-  xudp: true
-- name: '[H] 🇬🇧 英国 06'
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 08'
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 09'
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 10'
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 11'
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 12'
   password: ''
   port: '443'
   server: 185.235.0.2

@@ -59,16 +59,10 @@ proxies:
   udp: true
   uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 07'
+- name: '[I] 🇯🇵 日本 07'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: zcB60qKELnjt8HqO_3lAE2qV1d-C8aZ7NXNSHv_iDV8
-    short-id: '!!str 1f763fda79312e53'
-  server: 46.8.103.64
-  servername: reserve-1.lunoa.ru
+  port: 52683
+  server: jp.sofast.live
   tls: false
   type: vless
-  uuid: 8f67e374-53d9-43bb-85c9-a459a959cd1b
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133

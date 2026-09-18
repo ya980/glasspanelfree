@@ -1,13 +1,5 @@
 proxies:
-- name: '[D] 🇬🇧 英国 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[H] 🇬🇧 英国 02'
+- name: '[H] 🇬🇧 英国 01'
   password: ''
   port: 443
   server: 185.235.0.2
@@ -15,7 +7,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇬🇧 英国 03'
+- name: '[H] 🇬🇧 英国 02'
   password: None
   port: 443
   server: 37.120.233.50
@@ -23,7 +15,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 04'
+- name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
   server: 212.102.63.31
@@ -31,7 +23,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 05'
+- name: '[H] 🇬🇧 英国 04'
   password: None
   port: 443
   server: 185.235.0.66
@@ -39,7 +31,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 06'
+- name: '[H] 🇬🇧 英国 05'
   password: None
   port: 443
   server: 37.120.233.34
@@ -47,7 +39,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 07'
+- name: '[H] 🇬🇧 英国 06'
   password: None
   port: 443
   server: 37.120.233.18
@@ -55,7 +47,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 08'
+- name: '[H] 🇬🇧 英国 07'
   password: None
   port: 9443
   server: 37.120.233.34
@@ -63,7 +55,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 09'
+- name: '[H] 🇬🇧 英国 08'
   password: 'null'
   port: 1080
   server: 83.147.216.208
@@ -72,7 +64,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 10'
+  name: '[H] 🇬🇧 英国 09'
   network: tcp
   port: '12884'
   reality-opts:
@@ -85,7 +77,7 @@ proxies:
   udp: true
   uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
   xudp: true
-- name: '[H] 🇬🇧 英国 11'
+- name: '[H] 🇬🇧 英国 10'
   password: ''
   port: '443'
   server: 212.102.63.61
@@ -93,3 +85,15 @@ proxies:
   tls: true
   type: http
   username: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 11'
+  port: 443
+  reality-opts:
+    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
+    short-id: '!!str 4fa44664f6a566d3'
+  server: 31.76.39.141
+  servername: gb.superbuba.top
+  tls: false
+  type: vless
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3

@@ -11,21 +11,3 @@ proxies:
   udp: true
   uuid: 777c24bb-13ec-4c81-bb58-31344653e28c
   xudp: true
-- name: '[I] 🇩🇪 德国 13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 88.198.82.150
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇩🇪 德国 14'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'

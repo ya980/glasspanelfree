@@ -1,10 +1,10 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.126.7
+  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
+  port: 25443
+  server: de-node.rumedia-cdn.com
   skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
+  sni: cf6.rumedia-cdn.com
   tls: false
   type: hysteria2
 - alpn:
@@ -68,28 +68,55 @@ proxies:
   name: '[E] 🇩🇪 德国 07'
   password: f89c89df-905c-4df3-ab07-4f1a37a81005
   port: 443
-  server: api.fastline-labs.com
-  sni: api.fastline-labs.com
+  server: git.fastline-labs.com
+  sni: git.fastline-labs.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇩🇪 德国 08'
+- name: '[E] 🇩🇪 德国 08'
   password: f89c89df-905c-4df3-ab07-4f1a37a81005
   port: 443
   server: git.fastline-labs.com
   sni: git.fastline-labs.com
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 09'
+- name: '[E] 🇩🇪 德国 09'
+  password: 192776da-1743-4724-b342-96dafa2eb54e
+  port: 443
+  server: se2.belka.network
+  sni: se2.belka.network
+  tls: false
+  type: hysteria2
+- name: '[H] 🇩🇪 德国 10'
   password: None
   port: 443
-  server: 149.36.50.1
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 12'
+- name: '[H] 🇩🇪 德国 13'
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: '[H] 🇩🇪 德国 14'
+  obfs: ''
+  obfs-password: ''
+  password: f89c89df-905c-4df3-ab07-4f1a37a81005
+  port: 443
+  server: status.fastline-labs.com
+  skip-cert-verify: false
+  sni: status.fastline-labs.com
+  type: hysteria2
+  up: ''
+- name: '[H] 🇩🇪 德国 15'
   password: None
   port: 443
   server: 149.36.50.157
@@ -97,9 +124,17 @@ proxies:
   tls: true
   type: http
   username: null
+- name: '[H] 🇩🇪 德国 17'
+  password: ''
+  port: '443'
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 19'
   port: 6444
   reality-opts:
     public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
@@ -111,7 +146,7 @@ proxies:
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 20'
   port: 443
   reality-opts:
     public-key: 5USjl6vRG3X4bxVWL9oZ7eUpyr-N3kezxnUi14WOrlY
@@ -121,7 +156,7 @@ proxies:
   tls: false
   type: vless
   uuid: 2ac46dc3-0593-4898-bd52-42a7d5a8f2e2
-- name: '[I] 🇩🇪 德国 16'
+- name: '[I] 🇩🇪 德国 21'
   network: ws
   password: humanity
   port: 443
@@ -130,7 +165,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇩🇪 德国 17'
+- name: '[I] 🇩🇪 德国 22'
   network: ws
   password: humanity
   port: 443

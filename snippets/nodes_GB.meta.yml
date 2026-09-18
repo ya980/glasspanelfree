@@ -11,15 +11,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 04'
-  password: ''
+- name: '[H] 🇬🇧 英国 02'
+  password: None
   port: 443
-  server: 185.235.0.2
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: '[H] 🇬🇧 英国 05'
+  username: null
+- name: '[H] 🇬🇧 英国 04'
   password: None
   port: 443
   server: 37.120.233.50
@@ -27,7 +27,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 06'
+- name: '[H] 🇬🇧 英国 05'
   password: None
   port: 443
   server: 212.102.63.1
@@ -35,15 +35,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 07'
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 08'
+- name: '[H] 🇬🇧 英国 06'
   password: None
   port: 443
   server: 185.235.0.66

@@ -41,18 +41,10 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 05'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 64.188.98.171
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 05'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -61,7 +53,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 07'
+- name: '[D] 🇩🇪 德国 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -73,7 +65,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇩🇪 德国 08'
+  name: '[E] 🇩🇪 德国 07'
   password: f89c89df-905c-4df3-ab07-4f1a37a81005
   port: 443
   server: api.fastline-labs.com
@@ -82,37 +74,14 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇩🇪 德国 09'
+  name: '[E] 🇩🇪 德国 08'
   password: f89c89df-905c-4df3-ab07-4f1a37a81005
   port: 443
   server: git.fastline-labs.com
   sni: git.fastline-labs.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: '[H] 🇩🇪 德国 10'
-  network: ws
-  port: '443'
-  server: 199.232.237.79
-  servername: turboo-server.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
-  ws-opts:
-    headers:
-      Host: turboo-server.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- name: '[H] 🇩🇪 德国 11'
+- name: '[H] 🇩🇪 德国 09'
   password: None
   port: 443
   server: 149.36.50.1
@@ -123,45 +92,14 @@ proxies:
 - name: '[H] 🇩🇪 德国 12'
   password: None
   port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: '[H] 🇩🇪 德国 13'
-  network: ws
-  port: 443
-  server: 138.124.25.250
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /team/index?ed=2560
-- name: '[H] 🇩🇪 德国 14'
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 15'
-  password: None
-  port: 443
-  server: 141.17.83.78
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 14'
   port: 6444
   reality-opts:
     public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
@@ -173,7 +111,7 @@ proxies:
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 15'
   port: 443
   reality-opts:
     public-key: 5USjl6vRG3X4bxVWL9oZ7eUpyr-N3kezxnUi14WOrlY
@@ -183,7 +121,7 @@ proxies:
   tls: false
   type: vless
   uuid: 2ac46dc3-0593-4898-bd52-42a7d5a8f2e2
-- name: '[I] 🇩🇪 德国 18'
+- name: '[I] 🇩🇪 德国 16'
   network: ws
   password: humanity
   port: 443
@@ -192,7 +130,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇩🇪 德国 19'
+- name: '[I] 🇩🇪 德国 17'
   network: ws
   password: humanity
   port: 443

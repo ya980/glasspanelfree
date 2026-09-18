@@ -36,11 +36,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 2077
-  server: us2.xiaoliyu.us
+  password: CompanyHy2_2026!
+  port: 36712
+  server: 38.60.204.239
   skip-cert-verify: true
-  sni: us2.xiaoliyu.us
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
@@ -59,29 +58,31 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 07'
-  password: CompanyHy2_2026!
-  port: 36712
-  server: 38.60.204.239
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 08'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 09'
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 2077
+  server: us2.xiaoliyu.us
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.us
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 10'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -93,19 +94,47 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 11'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 12'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 13'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 11'
+  name: '[F] 🇺🇸 美国 14'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 12'
+- name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -116,7 +145,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 13'
+  name: '[H] 🇺🇸 美国 16'
   network: tcp
   port: '443'
   reality-opts:
@@ -129,7 +158,7 @@ proxies:
   udp: true
   uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
   xudp: true
-- name: '[H] 🇺🇸 美国 14'
+- name: '[H] 🇺🇸 美国 17'
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -138,14 +167,14 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: '[H] 🇺🇸 美国 15'
+- name: '[H] 🇺🇸 美国 18'
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 16'
+- name: '[H] 🇺🇸 美国 19'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -153,14 +182,14 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: '[H] 🇺🇸 美国 17'
+- name: '[H] 🇺🇸 美国 20'
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 18'
+- name: '[H] 🇺🇸 美国 21'
   password: ''
   port: 9002
   server: 138.199.35.210
@@ -168,14 +197,14 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 19'
+- name: '[H] 🇺🇸 美国 22'
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 20'
+- name: '[H] 🇺🇸 美国 23'
   password: ''
   port: 9002
   server: 138.199.35.219
@@ -183,7 +212,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 21'
+- name: '[H] 🇺🇸 美国 24'
   password: 'null'
   port: 443
   server: goedkoopgeluid.icu
@@ -191,11 +220,11 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 22'
+- name: '[H] 🇺🇸 美国 25'
   port: 1092
   server: 104.244.95.184
   type: http
-- name: '[H] 🇺🇸 美国 23'
+- name: '[H] 🇺🇸 美国 26'
   password: None
   port: 9002
   server: 138.199.35.204
@@ -203,20 +232,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 24'
+- name: '[H] 🇺🇸 美国 27'
   port: 9002
   server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 25'
+- name: '[H] 🇺🇸 美国 28'
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 26'
+- name: '[H] 🇺🇸 美国 29'
   password: None
   port: 443
   server: purecambogiasl.live
@@ -225,12 +254,12 @@ proxies:
   type: http
   username: null
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 27'
+  name: '[H] 🇺🇸 美国 30'
   password: amazonskr05
   port: 443
   server: 3.148.253.102
   type: ss
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 31'
   password: 'null'
   port: 9002
   server: 138.199.35.196
@@ -238,7 +267,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 29'
+- name: '[H] 🇺🇸 美国 32'
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -247,7 +276,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 30'
+- name: '[H] 🇺🇸 美国 33'
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -256,7 +285,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🇺🇸 美国 31'
+- name: '[H] 🇺🇸 美国 34'
   password: ''
   port: 9002
   server: 138.199.35.209
@@ -264,14 +293,14 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 32'
+- name: '[H] 🇺🇸 美国 35'
   port: 443
   server: fullmanfirm.icu
   skip-cert-verify: true
   sni: fullmanfirm.icu
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 33'
+- name: '[H] 🇺🇸 美国 36'
   password: None
   port: 9002
   server: 138.199.35.216
@@ -279,7 +308,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 34'
+- name: '[H] 🇺🇸 美国 37'
   password: None
   port: 9002
   server: 138.199.35.206
@@ -287,7 +316,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 35'
+- name: '[H] 🇺🇸 美国 38'
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
@@ -297,7 +326,7 @@ proxies:
   username: testuser1
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 36'
+  name: '[H] 🇺🇸 美国 39'
   network: xhttp
   port: '443'
   reality-opts:
@@ -315,7 +344,7 @@ proxies:
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 37'
+  name: '[H] 🇺🇸 美国 40'
   network: tcp
   port: '443'
   reality-opts:
@@ -328,7 +357,7 @@ proxies:
   udp: true
   uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
   xudp: true
-- name: '[H] 🇺🇸 美国 38'
+- name: '[H] 🇺🇸 美国 41'
   password: None
   port: '443'
   server: 52.55.81.168
@@ -336,7 +365,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 39'
+- name: '[H] 🇺🇸 美国 42'
   password: ''
   port: '9002'
   server: 138.199.35.216
@@ -344,7 +373,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[I] 🇺🇸 美国 40'
+- name: '[I] 🇺🇸 美国 43'
   network: ws
   password: humanity
   port: 443
@@ -353,7 +382,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 41'
+- name: '[I] 🇺🇸 美国 44'
   network: ws
   password: humanity
   port: 443

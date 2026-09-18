@@ -1,23 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
-  network: ws
-  port: '443'
-  server: 7dba81fc3a0b.oylfmxz.cn
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  ws-opts:
-    headers:
-      Host: 7dba81fc3a0b.oylfmxz.cn
-    path: /
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[E] 🇨🇳 台湾 02'
+  name: '[E] 🇨🇳 台湾 01'
   network: ws
   port: '443'
   server: 7dba81fc3a0b.oylfmxz.cn
@@ -31,6 +17,20 @@ proxies:
     headers: {}
     path: /
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 台湾 02'
+  network: ws
+  port: '443'
+  server: 7dba81fc3a0b.oylfmxz.cn
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: 7dba81fc3a0b.oylfmxz.cn
+    path: /
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 台湾 03'

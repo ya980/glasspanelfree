@@ -28,8 +28,40 @@ proxies:
   server: 103.236.66.4
   type: ss
 - client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇯🇵 日本 05'
+  network: ws
+  port: 8443
+  server: 206.251.53.91
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /settings?ed=2560
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 05'
+  name: '[H] 🇯🇵 日本 06'
+  network: tcp
+  port: '12887'
+  reality-opts:
+    public-key: a3H5ffQkcW4xELeJEGQ8FsaXLG4sGomkB7_ms0d5xzc
+    short-id: '!!str b48d22a492'
+  server: 36.151.187.225
+  servername: www.spotify.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 07'
   network: tcp
   port: 443
   reality-opts:

@@ -1,8 +1,15 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇩🇪 德国 03'
+  password: a1-hsiyxkoJ_4Zsszu66wA
+  port: '2060'
+  server: p1tun2.greewebservices.ir
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 11'
+  name: '[H] 🇩🇪 德国 07'
   password: amazonskr05
-  port: '443'
-  server: 35.159.113.215
+  port: 443
+  server: 63.181.79.8
   type: ss
   udp: true

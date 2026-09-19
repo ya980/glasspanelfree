@@ -1,36 +1,32 @@
 proxies:
+- fingerprint: random
+  name: '[E] EE 01'
+  password: 319ed24b1c7203aa
+  port: 8443
+  server: tishina-axe.dedyn.io
+  sni: tishina-axe.dedyn.io
+  tls: false
+  type: hysteria2
 - alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] EE 01'
-  network: xhttp
-  port: '443'
-  server: one.alpheratzz.org
-  servername: app-6aae70d4.adhil.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  xhttp-opts:
-    mode: stream-one
-    path: /
-    reuse-settings:
-      max-connections: '1'
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
+  - h3
+  fingerprint: random
+  name: '[E] EE 02'
+  password: 319ed24b1c7203aa
+  port: 8443
+  server: tishina-axe.dedyn.io
+  sni: tishina-axe.dedyn.io
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] EE 02'
+  name: '[I] EE 03'
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk
-    short-id: '!!str d98e7afec9c0c359'
-  server: 5.181.201.36
-  servername: estomin1.vodniki.monster
-  tls: true
+    public-key: FN-A-q17JHKav9ePOlPeQzdz16WkhFNMQVcWQ1AuPhU
+    short-id: '!!str d1023e'
+  server: 31.56.187.82
+  servername: timeline.www.cloudflare.com
+  tls: false
   type: vless
-  udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  xudp: true
+  uuid: 8917c433-eb10-4546-871b-ef9880f7a17e

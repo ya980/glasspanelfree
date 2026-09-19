@@ -69,21 +69,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[H] 🇨🇳 中国 08'
-  password: T2c9PTpPZz09
-  port: 1080
-  server: 103.210.161.8
-  type: socks5
-  udp: true
-  username: T2c9PTpPZz09
-- name: '[H] 🇨🇳 中国 09'
-  password: Og==
-  port: 1080
-  server: 103.210.161.8
-  type: socks5
-  udp: true
-  username: Og==
-- name: '[I] 🇨🇳 中国 10'
+- name: '[E] 🇨🇳 中国 08'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: xg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: hdlb1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[I] 🇨🇳 中国 09'
   port: 58011
   server: us22.sofast.live
   tls: false
@@ -91,7 +85,7 @@ proxies:
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇳 中国 11'
+  name: '[I] 🇨🇳 中国 10'
   network: tcp
   port: 38320
   server: 124.151.45.60

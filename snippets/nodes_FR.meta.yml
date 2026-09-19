@@ -10,55 +10,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 02'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
-  server: 162.249.126.8
-  sni: hopp-germany-new.ddnsguru.com
+  server: 85.204.107.187
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.126.9
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 04'
-  password: amazonskr05
-  port: '443'
-  server: 15.237.196.230
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 05'
-  password: amazonskr05
-  port: '443'
-  server: 13.36.169.164
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  encryption: none
-  name: '[H] 🇫🇷 法国 06'
-  network: xhttp
-  port: '443'
-  server: 147.45.42.218
-  servername: bz-fra-01.hello-there.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2
-  xhttp-opts:
-    host: bz-fra-01.hello-there.ru
-    path: /xh
-  xudp: true
-- name: '[I] 🇫🇷 法国 07'
+- name: '[I] 🇫🇷 法国 03'
   port: 22222
   server: 13.39.230.204
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 08'
+- name: '[I] 🇫🇷 法国 04'
   network: tcp
   port: 22224
   server: 13.39.230.204

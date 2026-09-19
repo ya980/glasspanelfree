@@ -7,6 +7,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: '[H] 🇸🇬 新加坡 02'
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '[H] 🇸🇬 新加坡 03'

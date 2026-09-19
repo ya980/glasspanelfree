@@ -1,39 +1,23 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 02'
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 03'
-  password: ''
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 01'
+  network: tcp
   port: '443'
-  server: 212.102.63.61
-  skip-cert-verify: true
+  reality-opts:
+    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
+    short-id: '!!str 2e124af254a65e7c'
+  server: 14ang88.snusoed.baby
+  servername: 14ang88.snusoed.baby
   tls: true
-  type: http
-  username: ''
-- name: '[H] 🇬🇧 英国 04'
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 05'
+  name: '[I] 🇬🇧 英国 02'
   port: 443
   reality-opts:
     public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw

@@ -23,33 +23,24 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 03'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  name: '[H] 🇩🇪 德国 03'
+  network: tcp
+  port: '2053'
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+    short-id: '!!str 4d14da19b19cfc8c'
+  server: 162.55.242.208
+  servername: www.cloudflare.com
   tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 04'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 05'
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  password: 'null'
+  type: vless
+  udp: true
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 04'
+  password: amazonskr05
   port: '443'
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  server: 3.70.156.210
+  type: ss
+  udp: true

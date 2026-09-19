@@ -1,8 +1,16 @@
 proxies:
+- fingerprint: random
+  name: '[E] EE 01'
+  password: 319ed24b1c7203aa
+  port: 8443
+  server: tishina-axe.dedyn.io
+  sni: tishina-axe.dedyn.io
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: random
-  name: '[E] EE 01'
+  name: '[E] EE 02'
   password: 319ed24b1c7203aa
   port: 8443
   server: tishina-axe.dedyn.io

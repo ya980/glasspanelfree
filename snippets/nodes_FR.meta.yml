@@ -16,13 +16,47 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[I] 🇫🇷 法国 03'
+- name: '[E] 🇫🇷 法国 03'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.47
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 04'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.67
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: '[H] 🇫🇷 法国 05'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 06'
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 07'
+  password: amazonskr05
+  port: '443'
+  server: 13.36.169.164
+  type: ss
+  udp: true
+- name: '[I] 🇫🇷 法国 08'
   port: 22222
   server: 13.39.230.204
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 04'
+- name: '[I] 🇫🇷 法国 09'
   network: tcp
   port: 22224
   server: 13.39.230.204

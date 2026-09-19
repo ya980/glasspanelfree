@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 11'
+  password: amazonskr05
+  port: '443'
+  server: 35.159.113.215
+  type: ss
+  udp: true

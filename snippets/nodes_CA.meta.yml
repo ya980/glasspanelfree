@@ -18,22 +18,29 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 03'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 04'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: fr.vpn.legendaah.xyz
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 05'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 06'
   password: 7302ad33229de166d393cd56143a1e4c
   port: 50160
   server: 131.186.19.174
@@ -41,43 +48,29 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇦 加拿大 06'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: mlxy2.mangshe.xyz
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '[E] 🇨🇦 加拿大 07'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: mlxy2.mangshe.xyz
+  password: 7302ad33229de166d393cd56143a1e4c
+  port: 50160
+  server: 131.186.19.174
   skip-cert-verify: true
-  sni: mlxy2.mangshe.xyz
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 08'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2056
-  server: els.mangshe.xyz
+  password: 7302ad33229de166d393cd56143a1e4c
+  port: 50160
+  server: 131.186.19.174
   skip-cert-verify: true
-  sni: els.mangshe.xyz
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇦 加拿大 09'
-  network: ws
-  port: '49667'
-  server: 118.193.57.167
-  servername: ''
+- name: '[E] 🇨🇦 加拿大 09'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 104.165.205.191
+  sni: onecloudstream.com
   tls: false
-  type: vmess
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /d46bf492
+  type: hysteria2
 - name: '[I] 🇨🇦 加拿大 10'
   network: ws
   password: humanity

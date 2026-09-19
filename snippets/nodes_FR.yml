@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 07'
+  password: amazonskr05
+  port: '443'
+  server: 13.36.169.164
+  type: ss
+  udp: true

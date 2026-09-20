@@ -9,7 +9,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
-- name: '[I] 🇩🇪 德国 07'
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 07'
+  password: amazonskr05
+  port: '443'
+  server: 63.176.107.205
+  type: ss
+  udp: true
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   password: humanity
   port: 443

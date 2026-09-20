@@ -1,34 +1,24 @@
 proxies:
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: '[H] SE 01'
-  network: ws
-  port: 443
-  server: 161.104.44.138
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /my/m/note?ed=2560
+- name: '[D] SE 01'
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: sxc15led4b0vp5fy
+  port: 8443
+  server: musicclips.videolinks.ru
+  sni: musicclips.videolinks.ru
+  tls: false
+  type: hysteria2
 - name: '[H] SE 02'
   password: None
   port: 443
-  server: 146.70.242.146
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] SE 03'
-  password: None
   port: 443
-  server: 79.142.77.63
+  server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
-  username: null

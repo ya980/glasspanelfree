@@ -33,8 +33,8 @@ proxies:
     query-server-name: cloudflare-ech.com
   name: '[H] 🇯🇵 日本 05'
   network: ws
-  port: 18443
-  server: 92.113.124.204
+  port: 443
+  server: 172.64.229.31
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -43,4 +43,16 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /directory/ads/news?ed=2560
+    path: /events/code/zh-cn?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 06'
+  port: 443
+  reality-opts:
+    public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
+    short-id: '!!str 9c2378562188c3cb'
+  server: pl.bubahero.com
+  servername: pl.bubahero.com
+  tls: false
+  type: vless
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3

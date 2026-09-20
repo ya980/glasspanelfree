@@ -11,15 +11,43 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
+      Host: ''
     path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: '[E] 🇭🇰 香港 02'
   network: ws
   port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: lcv8v9l7oyamxxfz.v.3dns.vip
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 04'
+  network: ws
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: wwafj5lhl6bi8au9.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
@@ -29,7 +57,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 03'
+  name: '[E] 🇭🇰 香港 05'
   network: ws
   port: '443'
   server: wwafj5lhl6bi8au9.v.3dns.vip
@@ -43,7 +71,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 04'
+  name: '[E] 🇭🇰 香港 06'
   network: ws
   port: '443'
   server: wwafj5lhl6bi8au9.v.3dns.vip
@@ -57,7 +85,21 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 05'
+  name: '[E] 🇭🇰 香港 07'
+  network: ws
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 08'
   network: ws
   port: '443'
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -67,25 +109,53 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 06'
+  name: '[E] 🇭🇰 香港 09'
   network: ws
   port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  server: 47.243.80.106
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 07'
+  name: '[E] 🇭🇰 香港 10'
+  network: ws
+  port: '443'
+  server: 47.76.102.39
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 11'
+  network: ws
+  port: '443'
+  server: 47.76.102.39
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 12'
   network: ws
   port: '443'
   server: 47.76.44.32
@@ -99,87 +169,17 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 08'
-  network: ws
-  port: '443'
-  server: 47.83.19.148
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 09'
-  network: ws
-  port: '443'
-  server: 47.83.19.148
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 10'
-  network: ws
-  port: '443'
-  server: 47.83.19.148
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 11'
-  network: ws
-  port: '443'
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 12'
-  network: ws
-  port: '443'
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: '[E] 🇭🇰 香港 13'
   network: ws
   port: '443'
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: ''
+  server: 47.83.207.148
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: ''
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -187,10 +187,10 @@ proxies:
   network: ws
   port: '443'
   server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  servername: ''
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: ''
@@ -204,7 +204,7 @@ proxies:
   servername: 93ucrn4i0pffuabk.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: 93ucrn4i0PffUAbk.v.3dns.vip
@@ -214,11 +214,11 @@ proxies:
   name: '[E] 🇭🇰 香港 16'
   network: ws
   port: '443'
-  server: 93ucrn4i0pffuabk.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
       Host: ''
@@ -228,21 +228,35 @@ proxies:
   name: '[E] 🇭🇰 香港 17'
   network: ws
   port: '443'
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: '[E] 🇭🇰 香港 18'
   network: ws
   port: '443'
-  server: ejomsxptp19apygl.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 19'
+  network: ws
+  port: '443'
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
@@ -253,21 +267,35 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 19'
+  name: '[E] 🇭🇰 香港 20'
   network: ws
   port: '443'
-  server: ejomsxptp19apygl.v.3dns.vip
-  servername: ejOMsxPtP19APyGL.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 20'
+  name: '[E] 🇭🇰 香港 21'
+  network: ws
+  port: '443'
+  server: 47.76.44.32
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 22'
   network: ws
   port: '443'
   server: 47.76.137.85
@@ -281,35 +309,35 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 21'
-  network: ws
-  port: '443'
-  server: 47.86.107.119
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 22'
-  network: ws
-  port: '443'
-  server: 47.242.79.198
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: '[E] 🇭🇰 香港 23'
+  network: ws
+  port: '443'
+  server: 47.243.80.106
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 24'
+  network: ws
+  port: '443'
+  server: 8.217.229.155
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 25'
   network: ws
   port: '443'
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -323,7 +351,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 24'
+  name: '[F] 🇭🇰 香港 26'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -331,18 +359,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 25'
+  name: '[F] 🇭🇰 香港 27'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 26'
+  name: '[F] 🇭🇰 香港 28'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[F] 🇭🇰 香港 27'
+- name: '[F] 🇭🇰 香港 29'
   network: tcp
   password: BxceQaOe
   port: 2716
@@ -350,7 +378,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 28'
+- name: '[F] 🇭🇰 香港 30'
   network: tcp
   password: BxceQaOe
   port: 51391
@@ -360,7 +388,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 29'
+  name: '[G] 🇭🇰 香港 31'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -368,3 +396,42 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- fingerprint: ''
+  name: '[H] 🇭🇰 香港 32'
+  password: 9sK2mP8xQ7vL3nZ6
+  port: '443'
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  type: anytls
+  udp: true
+  username: 9sK2mP8xQ7vL3nZ6
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇭🇰 香港 33'
+  network: ws
+  port: 443
+  server: 160.25.75.40
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /html?ed=2560
+- client-fingerprint: chrome
+  name: '[I] 🇭🇰 香港 35'
+  network: tcp
+  port: 15570
+  reality-opts:
+    public-key: 59-0Y1oblZGcZajVn0IAMba0RNh8yNv-jhvKni1eZDY
+    short-id: '!!str 945974883e'
+  server: 45.64.74.100
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 931220c8-15ac-41f4-ba7b-8736a82a3ba2

@@ -1,29 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇩🇪 德国 05'
-  network: tcp
-  port: '9022'
-  server: star.starnick2030.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 08'
-  password: amazonskr05
-  port: '443'
-  server: 3.120.158.57
-  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 07'
+  network: ws
+  password: Km/pIG4AGCjCOiGWj5FsWA==
+  port: '25040'
+  server: node8.quaxly.com
+  skip-cert-verify: true
+  sni: /gay-anal
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 09'
-  password: amazonskr05
-  port: '443'
-  server: 63.176.107.205
-  type: ss
-  udp: true
-- name: '[I] 🇩🇪 德国 19'
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /node8.quaxly.com
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   password: humanity
   port: 443

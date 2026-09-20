@@ -32,30 +32,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇰🇷 韩国 05'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇰🇷 韩国 06'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇰🇷 韩国 07'
-  password: 7302ad33229de166d393cd56143a1e4c
-  port: 50160
-  server: 131.186.19.174
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇰🇷 韩国 08'
   password: maintell
   port: 2053
   server: 152.70.237.123
@@ -63,35 +39,3 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇰🇷 韩国 09'
-  network: tcp
-  port: '61205'
-  reality-opts:
-    public-key: PhXLfJ4s8EPauWaeRpzAjSuZibhmMiZFEMr8h8qU6iI
-    short-id: '!!str d1f38c0f15ed22'
-  server: clhkzzzdbgwxxndnlm.cfooov.xyz
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17ab31f7-c021-4aec-83b2-ab48de8886bd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇰🇷 韩国 10'
-  network: tcp
-  port: '62638'
-  reality-opts:
-    public-key: PhXLfJ4s8EPauWaeRpzAjSuZibhmMiZFEMr8h8qU6iI
-    short-id: '!!str d1f38c0f15ed22'
-  server: sczznmbbbzgwlwzdhsql.jiedddym.com
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17ab31f7-c021-4aec-83b2-ab48de8886bd
-  xudp: true

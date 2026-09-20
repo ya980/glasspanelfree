@@ -74,3 +74,10 @@ proxies:
   server: 103.210.161.8
   type: socks5
   udp: true
+- name: '[I] 🇨🇳 中国 09'
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133

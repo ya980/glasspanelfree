@@ -1,1 +1,98 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇬🇧 英国 01'
+  network: tcp
+  port: '443'
+  server: test-tun.armtech.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c4e24fd0-2194-44f5-a058-69df3dc035a0
+- name: '[H] 🇬🇧 英国 02'
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 06'
+  password: None
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 07'
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 08'
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 09'
+  password: ''
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc_common1
+  name: '[H] 🇬🇧 英国 10'
+  network: grpc
+  port: 30963
+  reality-opts:
+    public-key: XxNAqnYJDizM_4_ycJxyaa9xbx29hpDfwAtCv1Wga1M
+    short-id: '!!str c776352067'
+  server: 57.128.177.218
+  servername: us.vrzn.download.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: aabcb69e-9f17-44bd-aaac-552dd23e9691
+- name: '[H] 🇬🇧 英国 11'
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 12'
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

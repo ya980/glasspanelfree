@@ -8,6 +8,21 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   port: 2056
   server: els.mangshe.xyz
@@ -15,15 +30,17 @@ proxies:
   sni: els.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 05'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
+  skip-cert-verify: true
   tls: false
   type: hysteria2
+  udp: true
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 04'
+  name: '[E] 🇺🇸 美国 06'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -32,7 +49,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 05'
+  name: '[E] 🇺🇸 美国 07'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -40,7 +57,7 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 08'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -48,19 +65,47 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 09'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 10'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 11'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 12'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -68,22 +113,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 10'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 14'
   network: ws
   port: 443
-  server: 162.159.237.99
+  server: 172.64.79.241
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -92,17 +129,10 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /files/doc?ed=2560
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 12'
-  password: amazonskr05
-  port: 443
-  server: 3.21.98.132
-  type: ss
-  udp: true
+    path: /pics?ed=2560
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 15'
   port: 443
   reality-opts:
     public-key: CRh0VOb2qvDm4H89m6qiHg_9M6nnJ0f_h0kpPitA6hw
@@ -112,7 +142,7 @@ proxies:
   tls: false
   type: vless
   uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
-- name: '[I] 🇺🇸 美国 14'
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443
@@ -123,7 +153,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443

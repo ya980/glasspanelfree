@@ -97,26 +97,37 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 台湾 08'
+  network: ws
+  port: '443'
+  server: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  servername: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  tls: true
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 台湾 09'
+  network: ws
+  port: '443'
+  server: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  servername: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  tls: true
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+    path: /
 - cipher: aes-256-gcm
-  name: '[F] 🇨🇳 台湾 08'
+  name: '[F] 🇨🇳 台湾 10'
   password: Butterfly123@qwe9527
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: '[H] 🇨🇳 台湾 09'
-  network: ws
-  port: 443
-  server: 83.147.15.86
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /v/pic/archives?ed=2560

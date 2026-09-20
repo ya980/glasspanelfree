@@ -16,55 +16,38 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
-  password: fdd503fe-9cef-4c91-948a-8149a7c8a2d2
-  port: 4433
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
   name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
   name: '[E] 🇺🇸 美国 05'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 06'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
   name: '[F] 🇺🇸 美国 07'
   password: Butterfly123@qwe9527
@@ -85,70 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 10'
-  password: amazonskr05
-  port: 443
-  server: 3.148.195.154
-  type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 11'
-  network: ws
-  port: '443'
-  server: 69.46.46.43
-  servername: ezaccess1-slv-ezaccess1-54fc.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ezaccess1-slv-ezaccess1-54fc.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /ws/vless/Default?ed=2048
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 12'
-  network: ws
-  port: '443'
-  server: 69.46.46.47
-  servername: ezaccess1-slv-ezaccess1-0f2f.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ezaccess1-slv-ezaccess1-0f2f.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /ws/vless/Default?ed=2048
-  xudp: true
-- name: '[H] 🇺🇸 美国 13'
-  password: ''
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 14'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 15'
+- name: '[H] 🇺🇸 美国 10'
   password: 'null'
   port: 9002
   server: 138.199.35.206
@@ -156,126 +76,33 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 16'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 17'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 18'
-  password: None
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 19'
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 20'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 21'
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 22'
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 23'
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 24'
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: '[H] 🇺🇸 美国 25'
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 27'
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇺🇸 美国 11'
   network: ws
-  port: '443'
-  server: 104.21.49.165
-  servername: 8-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+  port: 443
+  server: 162.159.237.99
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: 8-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 28'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
-    short-id: '!!str c08efcd72d7e8389'
-  server: 34.85.179.6
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
+      Host: cdn8848.776676.xyz
+    path: /files/doc?ed=2560
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 12'
+  password: amazonskr05
+  port: 443
+  server: 3.21.98.132
+  type: ss
   udp: true
-  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
-  xudp: true
-- name: '[H] 🇺🇸 美国 29'
-  password: None
-  port: '9002'
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 30'
+  name: '[I] 🇺🇸 美国 13'
   port: 443
   reality-opts:
     public-key: CRh0VOb2qvDm4H89m6qiHg_9M6nnJ0f_h0kpPitA6hw
@@ -285,7 +112,7 @@ proxies:
   tls: false
   type: vless
   uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
-- name: '[I] 🇺🇸 美国 31'
+- name: '[I] 🇺🇸 美国 14'
   network: ws
   password: humanity
   port: 443
@@ -296,7 +123,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 32'
+- name: '[I] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443

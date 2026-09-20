@@ -1,46 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 05'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
   name: '[F] 🇺🇸 美国 07'
   password: Butterfly123@qwe9527
@@ -62,12 +20,13 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 12'
   password: amazonskr05
   port: 443
-  server: 3.148.195.154
+  server: 3.21.98.132
   type: ss
-- name: '[I] 🇺🇸 美国 31'
+  udp: true
+- name: '[I] 🇺🇸 美国 14'
   network: ws
   password: humanity
   port: 443
@@ -78,7 +37,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 32'
+- name: '[I] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443

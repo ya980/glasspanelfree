@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇩🇪 德国 03'
-  network: raw
+  network: tcp
   port: '9022'
   server: star.starnick2030.ir
   servername: ''
@@ -14,29 +14,22 @@ proxies:
   name: '[E] 🇩🇪 德国 04'
   network: tcp
   port: '9022'
+  server: 5.160.131.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 05'
+  network: raw
+  port: '9022'
   server: star.starnick2030.ir
   servername: ''
   tls: false
   type: vmess
   uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 09'
-  network: ws
-  password: Km/pIG4AGCjCOiGWj5FsWA==
-  port: '25040'
-  server: node8.quaxly.com
-  skip-cert-verify: true
-  sni: /gay-anal
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /node8.quaxly.com
-- name: '[I] 🇩🇪 德国 11'
+- name: '[I] 🇩🇪 德国 17'
   network: ws
   password: humanity
   port: 443

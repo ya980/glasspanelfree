@@ -17,3 +17,19 @@ proxies:
     mode: stream-one
     path: /assets/v2/pkg
   xudp: true
+- name: '[H] CH 02'
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] CH 03'
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

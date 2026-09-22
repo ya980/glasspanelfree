@@ -19,16 +19,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 04'
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: '!!str ee33'
-  server: lyra.yokkastars.com
-  servername: deepl.com
-  tls: false
-  type: vless
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- name: '[I] 🇯🇵 日本 04'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

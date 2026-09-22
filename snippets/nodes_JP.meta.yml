@@ -19,90 +19,23 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: '[H] 🇯🇵 日本 04'
-  network: ws
+  password: amazonskr05
   port: 443
-  server: 35.72.179.15
-  servername: shuma.ccwu.cc
-  tls: true
-  type: vless
+  server: 18.181.165.254
+  type: ss
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 05'
-  network: ws
-  port: 443
-  server: 161.33.29.51
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 06'
-  network: ws
-  port: 8443
-  server: 46.250.250.48
-  servername: shuma.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: '[H] 🇯🇵 日本 07'
-  network: ws
-  port: 443
-  server: 45.77.180.114
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /intro/mall?ed=2560
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 05'
   network: tcp
-  port: '443'
+  port: 40443
   reality-opts:
-    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
-    short-id: '!!str 6d962e8d8a0dce'
-  server: jumpernode.online
-  servername: amazon.com
-  tls: true
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: '!!str ee33'
+  server: lyra.yokkastars.com
+  servername: deepl.com
+  tls: false
   type: vless
-  udp: true
-  uuid: e4cd263b-c5c7-4410-bf61-8893179ec429
-  xudp: true
-- name: '[I] 🇯🇵 日本 09'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420

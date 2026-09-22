@@ -19,14 +19,10 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[I] 🇯🇵 日本 09'
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 04'
+  password: amazonskr05
   port: 443
-  server: 104.18.152.152
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+  server: 18.181.165.254
+  type: ss
+  udp: true

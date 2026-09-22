@@ -1,18 +1,23 @@
 proxies:
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
   name: '[E] 🇨🇳 台湾 01'
   network: ws
   port: '443'
   server: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
   servername: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   ws-opts:
     headers:
       Host: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
     path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 台湾 02'
@@ -25,8 +30,8 @@ proxies:
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 台湾 03'
@@ -34,13 +39,14 @@ proxies:
   port: '443'
   server: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
   servername: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   ws-opts:
-    headers:
-      Host: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
-    path: ''
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 台湾 04'

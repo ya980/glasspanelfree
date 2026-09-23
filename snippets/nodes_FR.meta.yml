@@ -9,21 +9,13 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 02'
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[I] 🇫🇷 法国 03'
+- name: '[I] 🇫🇷 法国 02'
   port: 22222
   server: 15.188.230.69
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 04'
+- name: '[I] 🇫🇷 法国 03'
   port: 22222
   server: 15.188.95.192
   tls: false

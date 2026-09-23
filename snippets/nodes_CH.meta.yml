@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: '[E] CH 01'
+  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
+  port: 443
+  server: cze-01.node.lumixnet.com
+  skip-cert-verify: false
+  sni: cze-01.node.lumixnet.com
+  tls: false
+  type: hysteria2

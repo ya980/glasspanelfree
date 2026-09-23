@@ -29,16 +29,14 @@ proxies:
   server: 62.210.114.42
   type: http
 - name: '[I] 🇫🇷 法国 05'
-  network: tcp
-  port: 22223
+  port: 22222
   server: 15.188.230.69
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '[I] 🇫🇷 法国 06'
-  network: tcp
   port: 22222
-  server: 15.188.230.69
+  server: 15.188.95.192
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e

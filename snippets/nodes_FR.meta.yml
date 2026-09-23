@@ -9,15 +9,40 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[I] 🇫🇷 法国 02'
-  port: 22222
-  server: 15.188.230.69
-  tls: false
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: '[H] 🇫🇷 法国 02'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.3NgXzjNikp-mZfb6hJKXw2AkXkg4ep5CCmvVdxOaWho
+  name: '[H] 🇫🇷 法国 03'
+  network: tcp
+  port: '21757'
+  reality-opts:
+    public-key: bfW8vPp9BnvyXWe-fGIZrDifaSNxLXKfd1bNnyOLO04
+    short-id: '!!str 1656aa5eae8ba05c'
+  server: fr.gmail.com.vipneninet.ir
+  servername: Devrelate.io
+  tls: true
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 03'
-  port: 22222
-  server: 15.188.95.192
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
+  xudp: true
+- name: '[H] 🇫🇷 法国 04'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 05'
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

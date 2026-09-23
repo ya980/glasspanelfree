@@ -1,31 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNJey
-  port: 37003
-  server: 1.1.1.1
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
 - down: ''
   fingerprint: 8b5ac8eb1c23f208cb6e92bd41407d32994b0668d3ba2b0cd56400dca8c0b843
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: v2rayyngvpn
@@ -36,15 +12,80 @@ proxies:
   tls: false
   type: hysteria2
   up: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
-  network: tcp
+- name: '[H] 🇩🇪 德国 03'
   port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 04'
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 05'
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 06'
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 07'
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 08'
+  password: ''
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
-  server: 46.247.108.200
-  servername: modx-au.bachidze.com
-  tls: false
+    public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
+    short-id: '!!str 0c13e8822e7f58aa'
+  server: gerwai1488.vvzzkontaktezzvv.garden
+  servername: gerwai1488.vvzzkontaktezzvv.garden
+  tls: true
   type: vless
-  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
+  udp: true
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 65er4qqKykhPqDu-01d2-rKHffO86Q-NnlYAQ28hDF0
+    short-id: '!!str d3a788d813cb2050'
+  server: sfert.mervi.icu
+  servername: sfert.mervi.icu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+  xudp: true

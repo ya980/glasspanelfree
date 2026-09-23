@@ -19,25 +19,38 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- auth: my_super_password_123
+- client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 04'
+  network: ws
+  port: 443
+  server: cn.uxuan.cfd
+  servername: digjp.murphyweb.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+  ws-opts:
+    headers:
+      Host: digjp.murphyweb.top
+    path: /9b8cb96f0fdf/57654fd6b8b4n2M4bV6cC8xX0zZ1aQ3w/e532fbf9-cc5f-4da4-9bb1-66c16ec49137
+- auth: my_super_password_123
+  name: '[H] 🇯🇵 日本 05'
   password: my_super_password_123
-  port: 5443
+  port: 443
   server: open.w2m.ink
   skip-cert-verify: true
   sni: open.w2m.ink
   type: hysteria2
   udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '[I] 🇯🇵 日本 05'
-  network: ws
-  password: humanity
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 06'
+  network: tcp
   port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+  reality-opts:
+    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
+    short-id: '!!str f1955f72763eb2fb'
+  server: 136.117.218.86
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003

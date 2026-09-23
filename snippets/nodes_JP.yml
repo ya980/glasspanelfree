@@ -1,26 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 04'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: '0'
-  cipher: auto
-  name: '[E] 🇯🇵 日本 10'
-  network: ws
-  port: 17577
-  server: 206.190.237.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
-  ws-opts:
-    path: /3ceb8486
-- name: '[F] 🇯🇵 日本 11'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 3893
@@ -29,26 +8,19 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 12'
+  name: '[F] 🇯🇵 日本 02'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 13'
+  name: '[F] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-cfb
-  name: '[H] 🇯🇵 日本 14'
-  password: amazonskr05
-  port: 443
-  server: 18.179.111.96
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇯🇵 日本 15'
+  name: '[H] 🇯🇵 日本 04'
   password: amazonskr05
   port: '443'
   server: 3.112.209.209
@@ -58,7 +30,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '[I] 🇯🇵 日本 16'
+  name: '[I] 🇯🇵 日本 05'
   network: ws
   password: humanity
   port: 443

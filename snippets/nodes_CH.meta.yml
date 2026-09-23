@@ -1,9 +1,17 @@
 proxies:
-- name: '[E] CH 01'
-  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
+- name: '[H] CH 01'
+  password: None
   port: 443
-  server: cze-01.node.lumixnet.com
-  skip-cert-verify: false
-  sni: cze-01.node.lumixnet.com
-  tls: false
-  type: hysteria2
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] CH 02'
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

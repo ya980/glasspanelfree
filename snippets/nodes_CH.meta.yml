@@ -1,17 +1,32 @@
 proxies:
-- name: '[H] CH 01'
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
+- fingerprint: random
+  name: '[E] CH 01'
+  password: 3a92b39a-5f02-415e-a908-783ec320e83f
+  port: 8443
+  server: 153.76.190.41
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 02'
+  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
+  port: 8443
+  server: 82.38.64.237
+  sni: hopp-swizland-new.mysynology.net
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] CH 03'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
+    short-id: '!!str c6ff7424cb12c5ed'
+  server: 84.75.255.140
+  servername: ch2.responsiblecare.uk
   tls: true
-  type: http
-  username: null
-- name: '[H] CH 02'
-  password: None
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 6c49576d-ea4a-4441-b8ef-ba78f11694d4
+  xudp: true

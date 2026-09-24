@@ -69,19 +69,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[H] 🇨🇳 中国 08'
-  password: T2c9PTpPZz09
-  port: '1080'
-  server: 103.210.161.8
-  skip-cert-verify: true
-  type: socks5
-  username: T2c9PTpPZz09
-- name: '[H] 🇨🇳 中国 09'
-  port: 1080
-  server: 103.210.161.8
-  skip-cert-verify: false
-  type: socks5
-- name: '[I] 🇨🇳 中国 10'
+- name: '[I] 🇨🇳 中国 08'
   network: tcp
   port: 58011
   server: us22.sofast.live

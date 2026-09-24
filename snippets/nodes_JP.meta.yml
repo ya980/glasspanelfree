@@ -19,7 +19,14 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[I] 🇯🇵 日本 04'
+- name: '[H] 🇯🇵 日本 04'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+- name: '[I] 🇯🇵 日本 05'
   network: ws
   password: humanity
   port: 443

@@ -1,7 +1,5 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 01'
+- name: '[E] 🇺🇸 美国 01'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -24,7 +22,9 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -52,151 +52,46 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.random.0rtt.100-111-1111.75-0-111.50-0-3333.ujGwPjrSYI7GdKHFCqCefmLjOscWkoX4m_3s_1yZrEo
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 08'
-  network: tcp
+- name: '[H] 🇺🇸 美国 08'
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+    path: /
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇺🇸 美国 09'
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  password: 5fa748137b6d822308eea4611f474ad5
   port: '443'
-  reality-opts:
-    public-key: lsDSttIgw1roTVhNzcliywH74lXtRShbmMOoxUjQtkw
-    short-id: '!!str b684d13617792bb2'
-  server: cb7144e9e019ff74.us-1.globalmymusic.com
-  servername: thestraightpath.ca
-  tls: true
+  server: 155.117.19.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- name: '[H] 🇺🇸 美国 10'
+  network: ws
+  port: '2095'
+  server: www.temu.com
   type: vless
   udp: true
-  uuid: fcc64e6f-bdcd-471a-a2d4-27c757578070
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: llm-api.sofurry.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /
   xudp: true
-- name: '[H] 🇺🇸 美国 09'
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 10'
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 11'
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 12'
-  password: None
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 13'
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 14'
-  password: None
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 15'
-  password: ''
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 16'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 17'
-  password: amazonskr05
-  port: 443
-  server: 54.147.191.121
-  type: ss
-  udp: true
-- name: '[H] 🇺🇸 美国 18'
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 19'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-- name: '[H] 🇺🇸 美国 20'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 21'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 22'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 23'
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 24'
-  password: None
-  port: '9002'
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 11'
   network: tcp
   port: 44444
   reality-opts:
@@ -206,7 +101,7 @@ proxies:
   tls: false
   type: vless
   uuid: ae2368cc-0fbe-4a06-a23e-fb73a4ac025a
-- name: '[I] 🇺🇸 美国 26'
+- name: '[I] 🇺🇸 美国 12'
   network: tcp
   password: 600421cf-11d7-429f-a65b-c30397f1bc03
   port: 443
@@ -214,7 +109,7 @@ proxies:
   skip-cert-verify: false
   sni: ca.freeguard.org
   type: trojan
-- name: '[I] 🇺🇸 美国 27'
+- name: '[I] 🇺🇸 美国 13'
   network: ws
   port: 8880
   server: 45.40.151.30
@@ -225,7 +120,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 14'
   network: ws
   port: 80
   server: 50.62.195.4
@@ -236,7 +131,7 @@ proxies:
     headers:
       Host: raspy-feather-12ec.137-257.workers.dev
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 15'
   network: ws
   port: 80
   server: 45.40.150.4

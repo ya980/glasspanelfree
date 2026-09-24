@@ -18,81 +18,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- fingerprint: random
-  name: '[E] 🇩🇪 德国 03'
-  password: 3a92b39a-5f02-415e-a908-783ec320e83f
-  port: 8443
-  server: 140.225.208.100
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
-- encryption: none
-  name: '[H] 🇩🇪 德国 04'
-  network: ws
-  port: '80'
-  server: 188.114.97.6
-  type: vless
-  udp: true
-  uuid: 44594ef3-f732-4e88-b4ae-8583ce21e6b8
-  ws-opts:
-    headers:
-      Host: msjsi.azazilvpn.sbs.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - edgedl.me.gvt1.com
-    path:
-    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
-  name: '[H] 🇩🇪 德国 05'
-  network: http
-  port: '21349'
-  server: 5.75.202.116
-  type: vless
-  udp: true
-  uuid: 2789c2ec-d860-4b75-a614-49e8ab65f7bc
-  xudp: true
-- name: '[H] 🇩🇪 德国 06'
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 07'
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 08'
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 09'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 10'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 11'
+- name: '[H] 🇩🇪 德国 03'
   password: V2RayyNGvpn
   port: '8443'
   server: 168.222.43.35
@@ -100,7 +26,7 @@ proxies:
   type: socks5
   username: S8WJyKys
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 04'
   network: ws
   port: 2096
   server: 167.172.183.195

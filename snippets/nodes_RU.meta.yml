@@ -1,7 +1,27 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 01'
-  password: hF-qqin2wYhP7zS47SyR0Q
-  port: 888
-  server: 62.113.41.165
-  type: ss
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sS3x_ZygtA9uZ5WaYm7pHjy0_lPNUUK7kOSLz0BNhCs
+    short-id: '!!str 54ac91da'
+  server: 188.225.42.6
+  servername: app6.betust.net
+  tls: false
+  type: vless
+  uuid: 7cde4592-4758-415f-8b97-c188faa4d1c9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YczbievYAOeZIypa58aRpil6XbfdyifK_0cFJWn8-yg
+    short-id: '!!str d6c172d3'
+  server: 188.225.77.241
+  servername: api.betust.net
+  tls: false
+  type: vless
+  uuid: 7cde4592-4758-415f-8b97-c188faa4d1c9

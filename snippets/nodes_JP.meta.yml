@@ -19,21 +19,57 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[H] 🇯🇵 日本 04'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: msjp.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-- name: '[I] 🇯🇵 日本 05'
+- cipher: aes-256-gcm
+  name: '[H] 🇯🇵 日本 04'
+  password: 665e00335bb2fb5f7ee8243952205e5e
+  port: 2087
+  server: 74.222.12.141
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[H] 🇯🇵 日本 05'
   network: ws
-  password: humanity
+  port: '23462'
+  server: 64.176.51.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
+  ws-opts:
+    headers: {}
+    path: /a15206
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+    short-id: '!!str 780152c21e234b5a'
+  server: 34.84.126.188
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 07'
+  network: ws
   port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 69.46.46.63
+  servername: soli-production-108a.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6fda20dc-ef11-4889-a4d3-3e889418d893
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+      Host: soli-production-108a.up.railway.app
+    path: /SideRail/ws-zzU4KLWG

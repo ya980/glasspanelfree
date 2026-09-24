@@ -9,3 +9,88 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: '[E] 🇫🇷 法国 02'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.189
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 03'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.13
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: '[H] 🇫🇷 法国 04'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- encryption: mlkem768x25519plus.random.0rtt.4ZiK3Dv6QqgU4hTboAe80H0CPJ6KV_GUdsjOCLY3UlA
+  name: '[H] 🇫🇷 法国 05'
+  network: xhttp
+  port: 6010
+  server: fr.masterpgd.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: d2bf8658-06dc-4462-80d4-39c5c3bb0dd8
+  xhttp-opts:
+    host: myket.ir
+    mode: stream-up
+    path: /assets
+- name: '[H] 🇫🇷 法国 06'
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[I] 🇫🇷 法国 07'
+  network: tcp
+  port: 22223
+  server: 35.180.76.27
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇫🇷 法国 08'
+  network: tcp
+  port: 22223
+  server: 15.188.167.181
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇫🇷 法国 09'
+  network: tcp
+  port: 22222
+  server: 35.180.76.27
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇫🇷 法国 10'
+  network: tcp
+  port: 22222
+  server: 15.188.167.181
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇫🇷 法国 11'
+  network: tcp
+  port: 22224
+  server: 35.180.76.27
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇫🇷 法国 12'
+  network: tcp
+  port: 22224
+  server: 15.188.167.181
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e

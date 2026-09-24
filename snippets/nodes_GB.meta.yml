@@ -1,5 +1,52 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
+- name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[B] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[B] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[B] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[H] 🇬🇧 英国 06'
   password: None
   port: 443
   server: 37.120.233.50
@@ -7,39 +54,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 02'
-  port: 443
-  server: 185.235.0.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 03'
+- name: '[H] 🇬🇧 英国 07'
   password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 06'
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 07'
+  username: null
+- name: '[H] 🇬🇧 英国 08'
   password: ''
   port: 443
   server: 185.235.0.2
@@ -47,16 +70,18 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇬🇧 英国 08'
-  port: 443
-  server: 212.102.63.31
+- name: '[H] 🇬🇧 英国 09'
+  password: None
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 09'
+  username: null
+- name: '[H] 🇬🇧 英国 10'
   password: None
   port: 443
-  server: 212.102.63.61
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http

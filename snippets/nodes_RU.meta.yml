@@ -1,17 +1,24 @@
 proxies:
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: j4M7_0Tl0UdSe4zYziALrPp_4F-QiSkyrUnOS6saQ1g
-    short-id: '!!str a7162d100ab90645'
-  server: ruffia2.thewalkingded.life
-  servername: ruffia2.thewalkingded.life
-  tls: true
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
   type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- cipher: aes-256-gcm
+  name: '[H] 🇷🇺 俄罗斯 02'
+  password: 81a20429165df87e
+  port: '10081'
+  server: 195.133.23.200
+  type: ss
   udp: true
-  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇷🇺 俄罗斯 03'
+  password: hF-qqin2wYhP7zS47SyR0Q
+  port: 888
+  server: 62.113.41.165
+  type: ss

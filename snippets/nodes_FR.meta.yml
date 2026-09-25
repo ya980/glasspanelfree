@@ -10,13 +10,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] 🇫🇷 法国 02'
-  password: None
-  port: 443
-  server: 149.102.245.65
+  port: 6103
+  server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: '[I] 🇫🇷 法国 03'
   network: tcp
   port: 22223

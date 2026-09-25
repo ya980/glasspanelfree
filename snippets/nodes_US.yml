@@ -1,5 +1,19 @@
 proxies:
-- name: '[F] 🇺🇸 美国 03'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 05'
+  network: ws
+  port: '2095'
+  server: 45.32.128.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -9,7 +23,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 04'
+  name: '[F] 🇺🇸 美国 07'
   network: ws
   port: '443'
   server: 24864168545164.oylfmxz.cn
@@ -23,7 +37,7 @@ proxies:
       Host: 24864168545164.oylfmxz.cn
     path: /
 - cipher: aes-128-gcm
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 08'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -33,7 +47,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: '[F] 🇺🇸 美国 06'
+  name: '[F] 🇺🇸 美国 09'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -42,14 +56,7 @@ proxies:
   port: 36608
   server: gd.bjnet2.com
   type: ss
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 11'
-  password: amazonskr05
-  port: 443
-  server: 54.162.206.255
-  type: ss
-  udp: true
-- name: '[I] 🇺🇸 美国 19'
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443
@@ -58,7 +65,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 20'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443

@@ -1,19 +1,17 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
-  password: None
+- name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: V2RayyNGvpn
   port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 02'
-  port: 11111
-  server: 103.237.102.191
-  type: http
+  server: 91.107.150.74
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 03'
+  name: '[I] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -24,7 +22,7 @@ proxies:
   tls: false
   type: vless
   uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- name: '[I] 🇩🇪 德国 04'
+- name: '[I] 🇩🇪 德国 03'
   network: ws
   password: humanity
   port: 443

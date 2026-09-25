@@ -5,11 +5,26 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -17,7 +32,21 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 03'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 05'
+  network: ws
+  port: '2095'
+  server: 45.32.128.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -27,7 +56,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 04'
+  name: '[F] 🇺🇸 美国 07'
   network: ws
   port: '443'
   server: 24864168545164.oylfmxz.cn
@@ -41,7 +70,7 @@ proxies:
       Host: 24864168545164.oylfmxz.cn
     path: /
 - cipher: aes-128-gcm
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 08'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -51,7 +80,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: '[F] 🇺🇸 美国 06'
+  name: '[F] 🇺🇸 美国 09'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -60,132 +89,54 @@ proxies:
   port: 36608
   server: gd.bjnet2.com
   type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 07'
-  network: ws
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 10'
   port: 443
-  server: 172.67.142.235
-  servername: 1.I0-4.de5.Net
+  reality-opts:
+    public-key: NB_j6YyAs0xI5881v6cfx2jGUKb065ErIrHdOf8ZhVU
+    short-id: '!!str 1ac9bcc4e8fd'
+  server: 154.9.241.28
+  servername: www.amazon.com
   tls: true
   type: vless
-  udp: true
-  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
-  ws-opts:
-    headers:
-      Host: 1.i0-4.De5.nEt
-    path: /FbLtzaav4GSW7GPL6LUGsEkZ
-- http-opts:
-    headers:
-      Host:
-      - az.khamenei.ir
-    method: GET
-    path:
-    - /
-  name: '[H] 🇺🇸 美国 08'
-  network: http
-  port: 11186
-  server: 146.190.72.139
-  tls: false
-  type: vless
-  udp: true
-  uuid: fd4b654f-9ae2-42c5-977b-6aa54e8e9a83
-- name: '[H] 🇺🇸 美国 09'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+- name: '[H] 🇺🇸 美国 11'
+  password: af24a0e4-f5a2-4b97-a678-992d45346147
+  port: 18634
+  server: 108.186.180.148
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
+  sni: www.bing.com
   type: anytls
-- name: '[H] 🇺🇸 美国 10'
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 11'
-  password: amazonskr05
-  port: 443
-  server: 54.162.206.255
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- fingerprint: ''
   name: '[H] 🇺🇸 美国 12'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: yEpPLsSy8aCXkQ4wzc9t38gQACipc_k54upD9fJj5y4
-    short-id: '!!str 4679f07417e9feb4'
-  server: 47.253.144.114
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: a4c6bab6-bd83-4b72-8c78-99e96f40cde3
-- name: '[H] 🇺🇸 美国 13'
-  password: ''
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
+  password: 1095c731-affa-4f85-a9c8-61e495e56aca
+  port: '51043'
+  server: 03-e0.37662006-19e6-4858-ace1-df9d1a149332.abccba.top
+  skip-cert-verify: false
+  sni: dl.hu-yunpan.top
+  type: anytls
   udp: true
-  username: ''
+  username: 1095c731-affa-4f85-a9c8-61e495e56aca
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 14'
+  name: '[H] 🇺🇸 美国 13'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: '!!str '
-  server: 193.239.179.15
-  servername: worldoftanks.asia
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: '!!str 051f20c2344a2dfd'
+  server: c10s3.portablesubmarines.com
+  servername: portal.citygrainla.com
   tls: true
   type: vless
   udp: true
-  uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 15'
-  network: ws
-  port: '443'
-  server: ghosts-spasm.quick-cdn.net
-  servername: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9d50fde6-7e89-4dee-9fee-17a77046604c
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /ws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 16'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: '!!str '
-  server: 193.239.179.15
-  servername: worldoftanks.eu
-  tls: true
-  type: vless
-  udp: true
-  uuid: df08fd27-d7c2-4cd2-8a79-a32287682a79
+  uuid: 88882ac2-0f7c-4907-9605-b847f79ec9d3
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 14'
   network: ws
   port: 443
   server: 199.232.78.170
@@ -201,7 +152,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 18'
+  name: '[I] 🇺🇸 美国 15'
   network: ws
   port: 443
   server: 199.232.78.160
@@ -214,7 +165,7 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: '[I] 🇺🇸 美国 19'
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443
@@ -223,7 +174,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 20'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443

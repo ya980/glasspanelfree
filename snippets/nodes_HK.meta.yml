@@ -1,27 +1,5 @@
 proxies:
 - name: '[E] 🇭🇰 香港 01'
-  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-  port: 443
-  server: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 02'
-  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  port: 443
-  server: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 03'
-  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  port: 443
-  server: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 04'
   password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
   port: 443
   server: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
@@ -31,7 +9,7 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -39,7 +17,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-128-gcm
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 03'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -49,7 +27,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 04'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -60,7 +38,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com

@@ -1,15 +1,46 @@
 proxies:
-- name: '[E] 🇩🇪 德国 01'
-  password: 1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a
-  port: 443
-  server: idontknow.whit3.net
-  sni: idontknow.whit3.net
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xOJ3INBNzRKOKYGQZmSYczgTjTKwdYQ4BFfc75wVazw
+    short-id: '!!str 73c9e31ccafda20e'
+  server: 185.249.153.108
+  servername: www.nordivablog.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4cf9c712-11c4-47d8-aa31-a1693a1aa4e5
+- name: '[H] 🇩🇪 德国 02'
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 03'
+  network: ws
+  password: 95xjvytiw5l1jln5
+  port: '2087'
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: false
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -19,63 +50,8 @@ proxies:
   servername: gerwai1488.vvzzkontaktezzvv.garden
   tls: false
   type: vless
-  udp: true
   uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  xudp: true
-- name: '[H] 🇩🇪 德国 03'
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 04'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 05'
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 06'
-  password: None
-  port: 443
-  server: 141.17.83.73
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 08'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- encryption: none
-  name: '[H] 🇩🇪 德国 10'
-  network: ws
-  port: '2052'
-  server: cctvhikvision.center
-  type: vless
-  udp: true
-  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net
-  xudp: true
-- name: '[I] 🇩🇪 德国 11'
+- name: '[I] 🇩🇪 德国 05'
   network: ws
   password: humanity
   port: 443

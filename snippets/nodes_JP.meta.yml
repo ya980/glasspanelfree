@@ -16,33 +16,30 @@ proxies:
   port: 36609
   server: gd.bjnet2.com
   type: ss
-- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+- cipher: aes-256-cfb
   name: '[H] 🇯🇵 日本 03'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: msjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 04'
-  network: ws
+  password: amazonskr05
   port: 443
-  server: 69.46.46.63
-  servername: soli-production-108a.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6fda20dc-ef11-4889-a4d3-3e889418d893
-  ws-opts:
-    headers:
-      Host: soli-production-108a.up.railway.app
-    path: /SideRail/ws-zzU4KLWG
-- cipher: aes-256-gcm
-  name: '[I] 🇯🇵 日本 05'
-  password: 665e00335bb2fb5f7ee8243952205e5e
-  port: 2087
-  server: 74.222.12.141
+  server: 3.112.209.209
   type: ss
+  udp: true
+- name: '[I] 🇯🇵 日本 04'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.188.109
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇯🇵 日本 05'
+  network: ws
+  port: 81
+  server: 147.78.242.19
+  tls: false
+  type: vmess
+  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
+  ws-opts:
+    path: /

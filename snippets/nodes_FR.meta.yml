@@ -9,51 +9,81 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 02'
-  port: 6103
-  server: 87.98.174.157
+- name: '[E] 🇫🇷 法国 02'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.190
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 03'
+  network: ws
+  password: humanity
+  port: '443'
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 04'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.33
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: '[H] 🇫🇷 法国 05'
+  port: 443
+  server: 103.82.101.43
   skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
-- name: '[I] 🇫🇷 法国 03'
-  network: tcp
-  port: 22223
-  server: 35.180.76.27
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 04'
-  network: tcp
-  port: 22223
-  server: 15.188.167.181
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 05'
-  network: tcp
-  port: 22222
-  server: 35.180.76.27
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '[I] 🇫🇷 法国 06'
-  network: tcp
   port: 22222
-  server: 15.188.167.181
+  server: 15.224.68.85
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '[I] 🇫🇷 法国 07'
-  network: tcp
-  port: 22224
-  server: 35.180.76.27
+  port: 22222
+  server: 13.39.231.13
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '[I] 🇫🇷 法国 08'
   network: tcp
+  port: 22223
+  server: 13.39.231.13
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇫🇷 法国 09'
+  network: tcp
+  port: 22223
+  server: 15.224.68.85
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇫🇷 法国 10'
+  network: tcp
   port: 22224
-  server: 15.188.167.181
+  server: 15.224.68.85
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e

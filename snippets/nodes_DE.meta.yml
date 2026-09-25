@@ -1,6 +1,26 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
   obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  skip-cert-verify: false
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: Telegram=V2RayyNGvpn
+  port: 443
+  server: 91.107.150.74
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 03'
+  obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
   port: 443
@@ -9,25 +29,39 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 02'
-  network: tcp
+- name: '[H] 🇩🇪 德国 04'
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 05'
+  password: None
   port: 443
-  reality-opts:
-    public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
-    short-id: '!!str 0c13e8822e7f58aa'
-  server: 87.120.216.144
-  servername: gerwai1488.vvzzkontaktezzvv.garden
-  tls: false
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 06'
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '[H] 🇩🇪 德国 07'
+  network: grpc
+  port: '443'
+  server: assets-de2.pleiades.codes
+  servername: assets-de2.pleiades.codes
+  tls: true
   type: vless
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- name: '[I] 🇩🇪 德国 03'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
+  udp: true
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  xudp: true

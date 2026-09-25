@@ -3,7 +3,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.233
+  server: 104.16.174.101
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -14,7 +14,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
+  server: 104.18.152.204
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -23,11 +23,11 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.22.63
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /assignment
 - name: '[I] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
@@ -41,42 +41,38 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.50
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '[I] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: www.speedtest.net
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: '[I] 🇨🇦 加拿大 07'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.109
+  server: 104.18.152.179
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '[I] 🇨🇦 加拿大 08'
+- name: '[I] 🇨🇦 加拿大 08'
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
+  server: 104.18.152.50
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -85,7 +81,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.37
+  server: 104.18.152.152
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -94,18 +90,16 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.219
+  server: 104.18.152.207
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '[I] 🇨🇦 加拿大 11'
   network: ws
   password: humanity
   port: 443
-  server: 172.67.149.60
+  server: 104.16.174.121
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -114,7 +108,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.18.152.161
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -123,7 +117,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.179
+  server: 172.67.221.242
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -132,103 +126,19 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 15'
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.136.234
+  server: 172.67.149.60
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 16'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 17'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 18'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: '[I] 🇨🇦 加拿大 19'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.148.22
-  sni: www.ignitelimit.com
+  server: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 20'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 21'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 22'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 23'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 24'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'

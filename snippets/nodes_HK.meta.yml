@@ -1,44 +1,44 @@
 proxies:
+- name: '[E] 🇭🇰 香港 01'
+  password: b0917015b656b3dd2286b5633af0c5c1
+  port: 50160
+  server: 31.57.248.176
+  skip-cert-verify: true
+  sni: www.bing.com%23%E9%A6%83%E5%9A%9F%E9%A6%83%E5%9A%A2%7Chk%7C%40wxgqlfx%7C147
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 01'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 02'
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   name: '[F] 🇭🇰 香港 03'
-  password: Butterfly123@qwe9527
-  port: 10006
-  server: 112.28.141.77
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd.bjnet2.com
   type: ss
-- name: '[F] 🇭🇰 香港 04'
-  network: tcp
-  password: BxceQaOe
-  port: 2716
-  server: 43.199.146.46
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '[F] 🇭🇰 香港 05'
-  network: tcp
-  password: BxceQaOe
-  port: 51391
-  server: 13.215.162.132
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- cipher: aes-128-gcm
+  name: '[F] 🇭🇰 香港 04'
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd2.bjnet2.com
+  type: ss
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 06'
+  name: '[G] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -47,7 +47,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - fingerprint: ''
-  name: '[H] 🇭🇰 香港 07'
+  name: '[H] 🇭🇰 香港 06'
   password: 9sK2mP8xQ7vL3nZ6
   port: '443'
   server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -56,3 +56,19 @@ proxies:
   type: anytls
   udp: true
   username: 9sK2mP8xQ7vL3nZ6
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 07'
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: uWffyYV5PSa38qThOfFUG_9aHyV4ZbKJ0xc1UK79NUg
+    short-id: '!!str 44'
+  server: 200.165.236.184
+  servername: api.bitrix24.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82e57623-bf39-454c-8b35-218085c536f3
+  xudp: true

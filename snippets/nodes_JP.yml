@@ -9,7 +9,13 @@ proxies:
   port: 36609
   server: gd.bjnet2.com
   type: ss
-- name: '[I] 🇯🇵 日本 04'
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 09'
+  password: amazonskr05
+  port: 443
+  server: 18.179.37.17
+  type: ss
+- name: '[I] 🇯🇵 日本 12'
   network: ws
   password: humanity
   port: 443

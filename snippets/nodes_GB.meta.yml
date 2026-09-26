@@ -1,27 +1,7 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
-  port: 443
-  server: 185.235.0.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 02'
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 03'
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 04'
+  name: '[I] 🇬🇧 英国 01'
   port: 443
   server: hub-mori-new.failspace.top
   tls: true

@@ -1,12 +1,11 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
   obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: 162.249.125.133
-  skip-cert-verify: false
-  sni: hy2-new.aspidnet.xyz
+  obfs-password: SalamanderKey1
+  password: HystPass2026!
+  port: 8443
+  server: 2.26.54.174
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 02'
@@ -29,18 +28,11 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  encryption: none
-  name: '[H] 🇩🇪 德国 04'
-  network: xhttp
-  port: '443'
-  server: 31.70.64.90
-  servername: cdn-3123.spliceflowtech.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
-  xhttp-opts:
-    mode: auto
-    path: /api
-  xudp: true
+- name: '[D] 🇩🇪 德国 04'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2

@@ -1,5 +1,23 @@
 proxies:
-- name: '[I] 🇩🇪 德国 13'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[H] 🇩🇪 德国 10'
+  network: http
+  port: '10803'
+  server: 5.45.97.147
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 018fbfb7-721a-49a9-b9f5-fb55d92592b6
+  xudp: true
+- name: '[I] 🇩🇪 德国 15'
   network: ws
   password: humanity
   port: 443

@@ -1,6 +1,15 @@
 proxies:
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: '[E] 🇸🇬 新加坡 01'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - cipher: aes-128-gcm
-  name: '[F] 🇸🇬 新加坡 01'
+  name: '[F] 🇸🇬 新加坡 02'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:

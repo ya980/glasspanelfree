@@ -16,36 +16,17 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- fingerprint: firefox
+- alpn:
+  - h3
   name: '[E] 🇫🇷 法国 03'
-  password: d97255e6-31b0-423f-ba40-689d9ebadce2
-  port: 8444
-  server: france.stinpuls1.ru
-  sni: france.stinpuls1.ru
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.190
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 95.85.252.59
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 95.85.252.78
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 95.85.252.80
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: '[I] 🇫🇷 法国 07'
+- name: '[I] 🇫🇷 法国 04'
   port: 22222
   server: 35.180.175.72
   tls: false

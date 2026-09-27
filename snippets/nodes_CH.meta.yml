@@ -1,16 +1,25 @@
 proxies:
-- name: '[E] CH 01'
+- name: '[D] CH 01'
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  password: 3a702d4d1de4949005d8431220e040fb
+  port: 443
+  server: 152.67.75.161
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 02'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.134
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 03'
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: rou0001ntrhy01.tcp-reset-club.net
   sni: tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: '[H] CH 02'
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null

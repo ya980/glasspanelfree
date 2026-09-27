@@ -2,37 +2,8 @@ proxies:
 - name: '[H] SE 01'
   password: None
   port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] SE 02'
-  password: None
-  port: 443
   server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] SE 03'
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] SE 04'
-  network: tcp
-  port: '2083'
-  reality-opts:
-    public-key: wJgBZNx487TIQivnqGuyDyyN6iKcFTy64khGSOFbeyo
-    short-id: '!!str 4d123bebfae16562'
-  server: 130.49.190.43
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25284368-40d5-4abe-9f56-54a07e88a7af
-  xudp: true

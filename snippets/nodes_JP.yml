@@ -1,15 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 04'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - cipher: aes-128-gcm
-  name: '[F] 🇯🇵 日本 10'
+  name: '[F] 🇯🇵 日本 01'
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -18,7 +9,7 @@ proxies:
   port: 36609
   server: gd.bjnet2.com
   type: ss
-- name: '[I] 🇯🇵 日本 11'
+- name: '[I] 🇯🇵 日本 02'
   network: ws
   password: humanity
   port: 443

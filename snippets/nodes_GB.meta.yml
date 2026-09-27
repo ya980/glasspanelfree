@@ -2,18 +2,25 @@ proxies:
 - name: '[E] 🇬🇧 英国 01'
   password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
   port: 2056
-  server: uk1.xiaoliyu.us
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 2056
   server: uk2.xiaoliyu.us
   skip-cert-verify: true
   sni: uk2.xiaoliyu.us
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇬🇧 英国 02'
+  network: ws
+  port: '80'
+  server: 188.114.96.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: af4be52a-aab3-4db1-a6bb-c23700dcb9c2
+  ws-opts:
+    headers:
+      Host: https.http.www.net.com.ramseyv2.ir.
+    path: /d3d3LmlyYW5ob3N0LmNvbQ==
 - name: '[I] 🇬🇧 英国 03'
   port: 22222
   server: 18.169.206.105

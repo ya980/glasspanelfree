@@ -1,5 +1,24 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- fingerprint: chrome
+  name: '[D] 🇩🇪 德国 01'
+  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+  port: 443
+  server: covers.pantera-radio.ru
+  skip-cert-verify: true
+  sni: covers.pantera-radio.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -9,7 +28,28 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 04'
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇩🇪 德国 05'
+  obfs: ''
+  obfs-password: ''
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: '8443'
+  server: 162.249.127.133
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+  up: ''
+- name: '[I] 🇩🇪 德国 06'
   network: ws
   password: humanity
   port: 443

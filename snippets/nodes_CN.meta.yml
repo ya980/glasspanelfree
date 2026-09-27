@@ -76,3 +76,17 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: T2c9PTpPZz09
+- name: '[H] 🇨🇳 中国 09'
+  password: Og
+  port: 1080
+  server: 103.210.161.8
+  type: socks5
+  udp: true
+  username: Og
+- name: '[I] 🇨🇳 中国 10'
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133

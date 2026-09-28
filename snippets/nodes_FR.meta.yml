@@ -9,30 +9,15 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- fingerprint: firefox
-  name: '[E] 🇫🇷 法国 02'
-  password: d97255e6-31b0-423f-ba40-689d9ebadce2
-  port: 8444
-  server: france.stinpuls1.ru
-  sni: france.stinpuls1.ru
-  tls: false
-  type: hysteria2
 - down: ''
   fingerprint: ''
-  name: '[H] 🇫🇷 法国 03'
+  name: '[H] 🇫🇷 法国 02'
   obfs: ''
   obfs-password: ''
-  password: gf1:gfhysteria2024
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: '443'
-  server: 173.212.201.85
+  server: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
-  sni: www.docker.com
+  sni: 127.0.0.1
   type: hysteria2
   up: ''
-- name: '[H] 🇫🇷 法国 04'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true

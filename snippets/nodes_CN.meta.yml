@@ -69,13 +69,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '[H] 🇨🇳 中国 08'
+  password: Og
+  port: 1080
+  server: 103.210.161.8
+  type: socks5
+  udp: true
+  username: Og
 - cipher: aes-128-gcm
-  name: '[I] 🇨🇳 中国 08'
+  name: '[I] 🇨🇳 中国 09'
   password: 2wsxcde4
   port: 8024
   server: 124.151.25.50
   type: ss
-- name: '[I] 🇨🇳 中国 09'
+- name: '[I] 🇨🇳 中国 10'
   network: tcp
   port: 52683
   server: jp.sofast.live

@@ -1,1 +1,62 @@
-proxies: []
+proxies:
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
+    short-id: '!!str 8ba6e72ee60667f6'
+  server: 161.104.38.98
+  servername: donatov.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 553d8193-d897-0032-bb46-f075b670f22a
+  xhttp-opts:
+    host: 161.104.38.98
+    mode: packet-up
+    path: /assets
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '2'
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇷🇺 俄罗斯 03'
+  obfs: ''
+  obfs-password: ''
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: '22443'
+  server: 91.240.86.70
+  skip-cert-verify: true
+  sni: 91.240.86.70
+  type: hysteria2
+  up: ''
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 04'
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  ws-opts:
+    path: /ws

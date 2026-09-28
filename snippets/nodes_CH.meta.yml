@@ -14,9 +14,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] CH 03'
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel_nl
+  name: '[H] CH 03'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: 20kKpOl77grCupOod4O_X1u74fJT38yc2Nhxy8enywc
+    short-id: '!!str fd4f9db207ff64db'
+  server: 45.90.57.251
+  servername: dl.google.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 10b78ac4-d4ce-43d2-98c4-c62c96fcbdc2
+  xudp: true

@@ -1,25 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 06'
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 16'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇸🇬 新加坡 19'
+  name: '[F] 🇸🇬 新加坡 02'
   network: ws
   port: '443'
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -34,7 +16,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 20'
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: '443'
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip

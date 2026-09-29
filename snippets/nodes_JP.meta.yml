@@ -1,30 +1,14 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
-  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
+- name: '[D] 🇯🇵 日本 01'
+  password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
-  server: 43.167.208.94
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
-  port: 443
-  server: 43.167.208.94
-  skip-cert-verify: true
-  sni: 43.167.208.94%23%E9%A6%83%E5%9A%A1%E9%A6%83%E5%9A%A8%7Cjp%7C%40wxgqlfx%7C97
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 03'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
-  skip-cert-verify: true
-  sni: rb.mangshe.xyz
+  server: vp3.yysyy.online
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 02'
   network: ws
   port: '443'
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -39,7 +23,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 03'
   network: ws
   port: '443'
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -54,7 +38,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 06'
+  name: '[F] 🇯🇵 日本 04'
   network: ws
   port: '443'
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -67,22 +51,15 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- auth: 96ab5cd282733fd4c312a61f972f330a
-  name: '[H] 🇯🇵 日本 07'
-  password: 96ab5cd282733fd4c312a61f972f330a
-  port: 443
-  server: vp3.yysyy.online
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 05'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.35
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 09'
+  name: '[I] 🇯🇵 日本 06'
   network: tcp
   port: 33561
   reality-opts:

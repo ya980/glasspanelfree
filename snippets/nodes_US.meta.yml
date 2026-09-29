@@ -8,14 +8,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  port: 443
-  server: d758db8f-tmeqo0-0-1jcwu.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: d758db8f-tmeqo0-0-1jcwu.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
   password: 0db8b567-77f3-4698-80c7-4d7889be8f02
   port: 50524
   server: 108.181.6.53
@@ -23,14 +15,14 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 03'
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 18333
   server: us3.xiaoliyu.cyou
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 04'
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 18333
   server: us3.xiaoliyu.cyou
@@ -38,47 +30,22 @@ proxies:
   sni: us3.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ru.xiaoliyu.cyou
+- name: '[E] 🇺🇸 美国 05'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 06'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 07'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 08'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 09'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 10'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
   password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
   port: 55000
   server: 156.229.160.253
@@ -86,31 +53,9 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 13'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 14'
+  name: '[E] 🇺🇸 美国 08'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -120,39 +65,11 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 15'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 16'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇺🇸 美国 17'
+  name: '[F] 🇺🇸 美国 09'
   network: ws
   port: '443'
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -167,7 +84,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 18'
+  name: '[F] 🇺🇸 美国 10'
   network: ws
   port: '443'
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -180,71 +97,64 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[H] 🇺🇸 美国 19'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: mg.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg.mangshe.xyz
-  type: hysteria2
-- name: '[H] 🇺🇸 美国 20'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 11'
+  network: tcp
   port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
+  reality-opts:
+    public-key: 8i7j9_b2KyQC8iR-jEMGl-d2whPkeKt36mutUkZr9ng
+    short-id: '!!str 3477a74403cf4af9'
+  server: 154.64.235.117
+  servername: gateway.icloud.com
   tls: true
+  type: vless
+  udp: true
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
+- name: '[H] 🇺🇸 美国 12'
+  port: 443
+  server: 107.167.18.122
   type: http
-- name: '[H] 🇺🇸 美国 21'
+- name: '[H] 🇺🇸 美国 13'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+- name: '[H] 🇺🇸 美国 14'
   port: 443
   server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 22'
-  password: e4b72b531a2d10900519
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇺🇸 美国 15'
+  network: ws
   port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: '[H] 🇺🇸 美国 23'
-  port: 443
-  server: 52.15.98.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 24'
-  port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 25'
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: '[H] 🇺🇸 美国 26'
-  network: xhttp
-  port: '443'
-  server: victoryprovpn-production-d0b8.up.railway.app
+  server: cdn.8211992.xyz
+  servername: mao.mao114514.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 79367d62-aaa2-3a71-42cf-9ffe1f04e9b1
-  xhttp-opts:
-    mode: packet-up
-    path: /xhttp-siz10/packet-up/79367d62-aaa2-3a71-42cf-9ffe1f04e9b1
-  xudp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.mao114514.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇺🇸 美国 16'
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 27'
+  name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443
@@ -253,7 +163,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -262,7 +172,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   password: humanity
   port: 443

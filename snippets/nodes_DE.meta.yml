@@ -9,60 +9,46 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- encryption: none
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
   name: '[H] 🇩🇪 德国 02'
-  network: ws
-  port: '8880'
-  server: 104.24.152.211
+  network: grpc
+  port: '443'
+  server: 72.4.65.116
+  servername: assets-de2.pleiades.codes
+  tls: true
   type: vless
   udp: true
-  uuid: 34ce8760-24ed-41e7-a1f5-aa6c2660a53c
-  ws-opts:
-    headers:
-      Host: quiet-frost-ac61.333-07d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   xudp: true
 - name: '[H] 🇩🇪 德国 03'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 05'
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 07'
   port: 443
   server: 87.106.223.158
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 08'
-  port: 443
-  server: 212.132.126.182
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: '[H] 🇩🇪 德国 04'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.135
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇩🇪 德国 09'
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇩🇪 德国 07'
+  obfs: ''
+  obfs-password: ''
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: '8443'
+  server: 162.249.127.136
+  skip-cert-verify: false
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+  up: ''
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   password: humanity
   port: 443

@@ -1,7 +1,15 @@
 proxies:
+- name: '[E] 🇭🇰 香港 01'
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  port: 443
+  server: fa86aac8-tmeqo0-0-1imi4.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: fa86aac8-tmeqo0-0-1imi4.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 01'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -10,7 +18,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 03'
   network: ws
   port: '443'
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -25,7 +33,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 04'
   network: ws
   port: '443'
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -40,7 +48,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 05'
   network: ws
   port: '443'
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -55,7 +63,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 06'
   network: ws
   port: '443'
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -70,7 +78,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 06'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -78,3 +86,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇭🇰 香港 08'
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: vk.com
+  type: hysteria2
+  up: ''
+- auth: HysTeria2026!Proxy
+  name: '[H] 🇭🇰 香港 09'
+  password: HysTeria2026!Proxy
+  port: 8443
+  server: mz.hkychina.com
+  sni: mz.hkychina.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Y9TEgB_8YVWzv8-wblXBjeX2t7IAtQhtQ3pE08gfNWw
+    short-id: '!!str 862266ae05b7a62f'
+  server: 47.83.143.75
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1658f804-41bf-4b7c-a0be-ba01097e0f41
+  xudp: true

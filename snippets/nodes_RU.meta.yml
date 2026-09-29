@@ -1,1 +1,45 @@
-proxies: []
+proxies:
+- name: '[D] 🇷🇺 俄罗斯 01'
+  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
+  port: 443
+  server: 46.254.18.107
+  skip-cert-verify: false
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
+  tls: false
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇷🇺 俄罗斯 02'
+  obfs: ''
+  obfs-password: ''
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: '22443'
+  server: 91.240.86.70
+  skip-cert-verify: false
+  sni: hy.quattro-tech.ru
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇷🇺 俄罗斯 03'
+  obfs: ''
+  obfs-password: ''
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: '22443'
+  server: 91.240.86.70
+  skip-cert-verify: true
+  sni: 91.240.86.70
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇷🇺 俄罗斯 04'
+  obfs: ''
+  obfs-password: ''
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: '22443'
+  server: 91.240.86.70
+  skip-cert-verify: false
+  sni: itsallproxy.quattro-tech.ru
+  type: hysteria2
+  up: ''

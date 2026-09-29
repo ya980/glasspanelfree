@@ -7,20 +7,19 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpce5bb9e71
-  name: '[H] SE 02'
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
-    short-id: '!!str d0ea1847066af5a6'
-  server: 62.60.159.81
-  servername: www.samsung.com
+- name: '[H] SE 02'
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: fc00adfb-232a-46ce-8b93-0c70e516aa8a
-  xudp: true
+  type: http
+  username: null
+- name: '[H] SE 03'
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

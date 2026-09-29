@@ -7,16 +7,8 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] CH 02'
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] CH 03'
   port: 443
-  server: 31.7.62.50
+  server: 199.68.196.153
   skip-cert-verify: true
   tls: true
   type: http

@@ -70,18 +70,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] 🇨🇳 中国 08'
-  password: Og
-  port: 1080
+  password: Og==
+  port: '1080'
   server: 103.210.161.8
+  skip-cert-verify: true
   type: socks5
-  udp: true
-  username: Og
-- cipher: aes-128-gcm
-  name: '[I] 🇨🇳 中国 09'
-  password: 2wsxcde4
-  port: 8024
-  server: 124.151.25.50
-  type: ss
+  username: Og==
+- name: '[H] 🇨🇳 中国 09'
+  password: T2c9PTpPZz09
+  port: '1080'
+  server: 103.210.161.8
+  skip-cert-verify: true
+  type: socks5
+  username: T2c9PTpPZz09
 - name: '[I] 🇨🇳 中国 10'
   network: tcp
   port: 52683

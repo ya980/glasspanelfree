@@ -1,9 +1,65 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[E] 🇺🇸 美国 08'
   network: ws
-  port: '443'
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 09'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 10'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 11'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 12'
+  network: ws
+  port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
   servername: 53vXOVarmgcreAsv.v.3dns.vip
   skip-cert-verify: false
@@ -16,9 +72,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 13'
   network: ws
-  port: '443'
+  port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
   servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
   skip-cert-verify: false
@@ -29,39 +85,58 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[H] 🇺🇸 美国 10'
-  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
-  port: 443
-  server: 192.236.151.43
+- name: '[G] 🇺🇸 美国 14'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10155
+  server: 63182sh8-4d7b.aws-agent.net
   skip-cert-verify: true
-  sni: 192.236.151.43
+  sni: m.ctrip.com
   type: trojan
+- name: '[G] 🇺🇸 美国 15'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12122
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇺🇸 美国 21'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: '2377'
+  server: 134.195.101.117
+  type: ss
   udp: true
-- alpn:
-  - http/1.1
-  name: '[I] 🇺🇸 美国 30'
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇺🇸 美国 22'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
+    mode: tls
+  port: '2377'
+  server: 134.195.101.118
+  type: ss
+  udp: true
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.7
+  server: 159.112.235.52
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 31'
+    path: /assignment
+- name: '[I] 🇺🇸 美国 27'
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 32'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
+  server: 130.250.137.171
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:

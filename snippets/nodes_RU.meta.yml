@@ -27,19 +27,19 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   port: '22443'
   server: 91.240.86.70
-  skip-cert-verify: true
-  sni: 91.240.86.70
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇷🇺 俄罗斯 04'
-  obfs: ''
-  obfs-password: ''
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: '22443'
-  server: 91.240.86.70
   skip-cert-verify: false
   sni: itsallproxy.quattro-tech.ru
   type: hysteria2
   up: ''
+- flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 04'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: yyH7Fyfh1ULPH4L5mFVtqPf_rB1IY6jwDgOuIRY7-wA
+    short-id: '!!str 9409a3561ba49f30'
+  server: ru-test.omuservice.tech
+  servername: ozone.nl
+  tls: false
+  type: vless
+  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5

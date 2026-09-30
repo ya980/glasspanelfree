@@ -1,17 +1,9 @@
 proxies:
-- name: '[E] 🇸🇬 新加坡 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 01'
   network: ws
-  port: '443'
+  port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
   servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
   skip-cert-verify: false
@@ -24,9 +16,9 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 03'
+  name: '[F] 🇸🇬 新加坡 02'
   network: ws
-  port: '443'
+  port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
   servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
   skip-cert-verify: false
@@ -37,47 +29,25 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇸🇬 新加坡 04'
-  obfs: ''
-  obfs-password: ''
-  password: f87376e17da040ed04c9665ce8972930
-  port: '50160'
-  server: 138.2.73.238
+- name: '[G] 🇸🇬 新加坡 03'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10135
+  server: 7d0a2gz0-7a0c.aws-agent.net
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 05'
-  network: tcp
-  port: 28243
-  reality-opts:
-    public-key: IXxfPvq2OkbSuA-ZTBFpMzkDU1uO8dEI1e7s9VfHh1Y
-    short-id: '!!str 7996bf4dcf194d18'
-  server: 18.139.227.162
-  servername: www.cloudflare.com
-  tls: false
+  sni: m.ctrip.com
+  type: trojan
+- name: '[H] 🇸🇬 新加坡 04'
+  network: ws
+  port: '8880'
+  server: themeforest.net
   type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇸🇬 新加坡 06'
-  password: 2db985f6-21bf-40c2-a4f1-4ce2cf90b1c2
-  port: 8443
-  server: 13.229.204.74
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 07'
-  network: tcp
-  port: 20975
-  reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: '!!str 2bb0dc48'
-  server: 18.136.119.69
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  udp: true
+  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
+  ws-opts:
+    headers:
+      Host: silent-union-ac36.315-33d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true

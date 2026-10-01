@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: '[I] 🇬🇧 英国 01'
+  network: ws
+  port: 80
+  server: 194.36.55.146
+  servername: 194.36.55.146
+  tls: false
+  type: vless
+  uuid: 964e6322-afad-4594-8508-86d634d732e6
+  ws-opts:
+    headers:
+      Host: blacklegends.umc-mansur13.workers.dev
+    path: '%2F'
+- client-fingerprint: ios
+  name: '[I] 🇬🇧 英国 02'
+  network: tcp
+  port: 1340
+  reality-opts:
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: '!!str 9b60d3'
+  server: p2real4.greewebservices.ir
+  servername: play.googleapis.com
+  tls: false
+  type: vless
+  uuid: da803bc9-ec45-4c72-b81f-15ad8dd02eaa

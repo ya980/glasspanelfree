@@ -1,13 +1,8 @@
 proxies:
-- client-fingerprint: ios
-  name: '[I] CH 01'
-  network: tcp
-  port: 1350
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-    short-id: '!!str 9b60d3'
-  server: p2real5.greewebservices.ir
-  servername: play.googleapis.com
+- name: '[E] CH 01'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.146
+  sni: hop-germany-september.dynuddns.com
   tls: false
-  type: vless
-  uuid: da803bc9-ec45-4c72-b81f-15ad8dd02eaa
+  type: hysteria2

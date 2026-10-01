@@ -1,5 +1,13 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.181.166.40
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world#🪐33@oneclickvpnkeys
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -9,7 +17,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 02'
+- name: '[E] 🇫🇷 法国 03'
   password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
   port: 443
   server: 2.27.29.120

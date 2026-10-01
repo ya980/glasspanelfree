@@ -1,23 +1,31 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 95.85.252.78
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-  sni: onecloudstream.com
+  sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.102
-  skip-cert-verify: false
-  sni: grape-test-italy.dynuddns.net
+- name: '[E] 🇩🇪 德国 02'
+  password: c2f5e996-9fe3-4c98-8d42-69cdef945d72
+  port: 10808
+  server: nl6.meshbeat.online
+  sni: nl6.meshbeat.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇩🇪 德国 03'
+  password: c2f5e996-9fe3-4c98-8d42-69cdef945d72
+  port: 10808
+  server: nl6.meshbeat.online
+  sni: nl6.meshbeat.online
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -31,7 +39,7 @@ proxies:
   uuid: 129e26fe-cee2-4786-9261-b29668337829
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 05'
   network: ws
   port: '443'
   server: 104.21.69.30
@@ -47,41 +55,28 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /?ed=2560
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: uLuPk7Ee7W9BcvjgM2FJHYG2NJxEeEkP7QVL8jYudhI
-    short-id: '!!str aa9bfaebd76d8b95'
-  server: germ2.serverslocal.ru
-  servername: germ2.serverslocal.ru
-  tls: false
-  type: vless
-  uuid: 80f72027-2201-4541-9abb-7070c9b0869e
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 06'
+- name: '[I] 🇩🇪 德国 06'
   network: ws
-  port: 2083
-  server: 45.88.12.119
-  servername: crt.dodopanel.biz
-  skip-cert-verify: false
+  port: 8444
+  server: germany.tofreedom.ru
+  servername: germany.tofreedom.ru
   tls: true
   type: vless
-  uuid: 8dd437e1-5f3f-446e-98fe-aa29b80057fb
-  ws-opts:
-    path: /vless-ws
-- name: '[I] 🇩🇪 德国 07'
-  network: ws
-  port: 8080
-  server: 0cf703b86ea5a239.ravenlo.ir
-  tls: false
-  type: vless
-  uuid: 50d10e6c-37e1-4512-b35a-2d4e0adfd079
+  uuid: 9cb2520c-148b-4bbc-a149-9d5a43ff0db3
   ws-opts:
     headers:
-      Host: play.google.com
-    path: /
+      Host: germany.tofreedom.ru
+    path: /c7f5317cd04691bc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 07'
+  network: tcp
+  port: 8545
+  reality-opts:
+    public-key: VpalqjubUqVrLmgjSjR6lKVXDierUncli66LeIyIO0M
+    short-id: '!!str e98c63b3c1a5d204'
+  server: 193.222.99.226
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 4dc73b6c-ed9e-4d40-8f3f-ebd15d8e702e

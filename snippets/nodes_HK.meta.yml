@@ -14,23 +14,165 @@ proxies:
   sni: db1b2f3b-tly2o0-tn3jhp-1qthu.nw4.hyhuawei.com
   tls: false
   type: hysteria2
+- name: '[E] 🇭🇰 香港 03'
+  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  port: 443
+  server: 251c04d2-tm96o0-0-1rnrp.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 251c04d2-tm96o0-0-1rnrp.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 04'
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: e4e38271-tly2o0-tqbai3-1hpo0.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: e4e38271-tly2o0-tqbai3-1hpo0.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 03'
+  name: '[E] 🇭🇰 香港 05'
   network: ws
   port: '443'
-  server: 20.235.220.189
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: wwafj5lhl6bi8au9.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 06'
+  network: ws
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: wwafj5lhl6bi8au9.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 07'
+  network: ws
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 08'
+  network: ws
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: ''
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 09'
+  network: ws
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 10'
+  network: ws
+  port: '443'
+  server: yg1.ygkkk.dpdns.org
+  servername: jmp1.907737.xyz
+  tls: true
+  type: vmess
+  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  ws-opts:
+    headers:
+      Host: jmp1.907737.xyz
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 11'
+  network: ws
+  port: '443'
+  server: 47.243.80.106
+  servername: wwafj5lhl6bi8au9.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 12'
+  network: ws
+  port: '443'
+  server: 47.243.80.106
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 13'
+  network: ws
+  port: '443'
+  server: 47.243.80.106
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 14'
+  network: ws
+  port: '443'
+  server: cu.877774.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
+  ws-opts:
+    headers:
+      Host: balanced-minds-carrier-demanding.trycloudflare.com
+    path: /vmess-argo
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 15'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -39,7 +181,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 16'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -54,7 +196,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 17'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -69,7 +211,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 18'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -84,7 +226,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 19'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -99,7 +241,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 09'
+  name: '[G] 🇭🇰 香港 20'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -107,7 +249,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 21'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -115,7 +257,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 22'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -123,7 +265,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 12'
+- name: '[G] 🇭🇰 香港 23'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -131,7 +273,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 13'
+- name: '[G] 🇭🇰 香港 24'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -139,7 +281,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇭🇰 香港 14'
+- name: '[H] 🇭🇰 香港 25'
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
   port: 56726
   server: test01.y1static-content-distribution.shop
@@ -147,7 +289,7 @@ proxies:
   sni: hk11.pulsarcore.site
   type: anytls
   udp: true
-- name: '[H] 🇭🇰 香港 15'
+- name: '[H] 🇭🇰 香港 26'
   password: admin
   port: 8899
   server: 47.242.19.215

@@ -1,20 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: yaruss.stopingiphatered.shop
-  servername: yaruss.stopingiphatered.shop
-  tls: false
-  type: vless
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 443
   reality-opts:

@@ -1,48 +1,8 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: '[B] 🇬🇧 英国 02'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: '[B] 🇬🇧 英国 03'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: '[B] 🇬🇧 英国 04'
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: '[B] 🇬🇧 英国 05'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
+- name: '[D] 🇬🇧 英国 01'
+  password: 8b60d570-cbce-4791-b3e8-bcb80dd12ac0
+  port: 19443
+  server: uk-002.xiaoxiaobujidao.xyz
+  sni: uk-002.xiaoxiaobujidao.xyz
+  tls: false
+  type: hysteria2

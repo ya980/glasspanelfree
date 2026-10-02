@@ -1,7 +1,25 @@
 proxies:
+- name: '[B] 🇰🇷 韩国 01'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
 - alterId: 0
   cipher: auto
-  name: '[F] 🇰🇷 韩国 01'
+  name: '[F] 🇰🇷 韩国 03'
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -14,7 +32,7 @@ proxies:
     headers:
       Host: 8nTzyR5KNivfabaT.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇰🇷 韩国 02'
+- name: '[G] 🇰🇷 韩国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171

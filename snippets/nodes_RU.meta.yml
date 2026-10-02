@@ -1,7 +1,17 @@
 proxies:
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +24,7 @@ proxies:
   uuid: ff65fb9b-552f-426f-8321-4c85024377e6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 443
   reality-opts:
@@ -27,7 +37,7 @@ proxies:
   uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 04'
   network: tcp
   port: 443
   reality-opts:
@@ -43,7 +53,7 @@ proxies:
       Host: /?TELEGRAM--MARAMBASHI--MARAMBASHI
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: tcp
   port: 443
   reality-opts:

@@ -1,7 +1,42 @@
 proxies:
+- insecure: '1'
+  mport: 40000-49999
+  name: '[B] 🇨🇳 台湾 01'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
+  name: '[B] 🇨🇳 台湾 02'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- name: '[G] 🇨🇳 台湾 03'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12142
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇨🇳 台湾 04'
   network: ws
   port: '52300'
   server: hi.northcluster.info
@@ -13,25 +48,3 @@ proxies:
     headers:
       Host: hi.northcluster.info
     path: /video
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 02'
-  network: ws
-  port: '52300'
-  server: hi.northcluster.info
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6e571484-4166-4699-8f58-b34a1823691f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /video
-- name: '[G] 🇨🇳 台湾 03'
-  network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 12142
-  server: 7d0a2gz0-7a0c.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan

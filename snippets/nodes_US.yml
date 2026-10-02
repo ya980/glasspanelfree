@@ -19,6 +19,20 @@ proxies:
   network: ws
   port: '8443'
   server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 14'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
   servername: ''
   tls: true
   type: vmess
@@ -29,7 +43,21 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 14'
+  name: '[E] 🇺🇸 美国 15'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 16'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -44,7 +72,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 15'
+  name: '[F] 🇺🇸 美国 17'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -57,7 +85,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 16'
+- name: '[G] 🇺🇸 美国 18'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -65,7 +93,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 17'
+- name: '[G] 🇺🇸 美国 19'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -73,3 +101,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: '[I] 🇺🇸 美国 23'
+  network: ws
+  password: 8GXLP3dEzm7T8wP5Jx0Ufg
+  port: 443
+  server: 199.107.164.105
+  sni: quictest.burncommunity.ru
+  type: trojan
+  ws-opts:
+    headers:
+      Host: quictest.burncommunity.ru
+    path: '%2F'

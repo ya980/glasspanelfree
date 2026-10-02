@@ -22,16 +22,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  name: '[I] 🇰🇷 韩国 03'
-  network: ws
-  port: 30021
-  server: 211.229.56.86
-  servername: 123.714541.xyz
-  tls: true
-  type: vless
-  uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
-  ws-opts:
-    headers:
-      Host: 123.714541.xyz
-    path: '%2FRa-vl'

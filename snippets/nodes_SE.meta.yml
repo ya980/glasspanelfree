@@ -7,15 +7,3 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
-- name: '[I] SE 02'
-  network: ws
-  port: 2083
-  server: 103.177.249.40
-  servername: qcswhj2.edge-cache.danfeng4.xyz
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qcswhj2.edge-cache.danfeng4.xyz
-    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560fp=chrome

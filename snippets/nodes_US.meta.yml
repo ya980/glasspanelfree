@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
+- name: '[D] 🇺🇸 美国 01'
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 51285
   server: 108.181.5.106
@@ -8,9 +8,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  port: 35013
+  server: 129.213.91.185
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - alpn:
@@ -56,21 +58,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -85,7 +73,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -98,7 +86,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 11'
+- name: '[G] 🇺🇸 美国 10'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -106,7 +94,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 12'
+- name: '[G] 🇺🇸 美国 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -114,7 +102,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 13'
+- name: '[H] 🇺🇸 美国 12'
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
   port: 443
   server: as-us73.y1static-content-distribution.shop
@@ -124,7 +112,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 14'
+  name: '[H] 🇺🇸 美国 13'
   network: ws
   port: '443'
   server: 104.18.10.110
@@ -140,7 +128,7 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 14'
   network: xhttp
   port: 443
   server: 151.101.215.69
@@ -153,7 +141,7 @@ proxies:
     headers:
       Host: oh3.global.ssl.fastly.net
     path: /
-- name: '[I] 🇺🇸 美国 16'
+- name: '[I] 🇺🇸 美国 15'
   network: ws
   password: 8GXLP3dEzm7T8wP5Jx0Ufg
   port: 443

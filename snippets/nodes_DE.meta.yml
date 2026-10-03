@@ -1,12 +1,12 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  obfs: salamander
-  obfs-password: 6ccfcef2e116b03ce9047333
-  password: vN1VQF6w2zHxSokgJcaUyUL52yRMzUB7
-  port: 5443
-  server: fastly.vexogf.ir
-  skip-cert-verify: false
-  sni: tun-a-1.bexait.ir
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[E] 🇩🇪 德国 01'
+  password: e0bee894-1ece-44e1-a3c7-e07a9da102bf
+  port: 443
+  server: scania.ehorizon.cc
+  sni: scania.ehorizon.cc
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -41,16 +41,25 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /?ed=2560
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: firefox
   name: '[I] 🇩🇪 德国 04'
   network: tcp
-  port: 8545
+  port: 443
   reality-opts:
-    public-key: VpalqjubUqVrLmgjSjR6lKVXDierUncli66LeIyIO0M
-    short-id: '!!str e98c63b3c1a5d204'
-  server: 193.222.99.226
-  servername: www.cloudflare.com
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  server: 31.76.119.17
+  servername: example.org
   tls: false
   type: vless
-  uuid: 4dc73b6c-ed9e-4d40-8f3f-ebd15d8e702e
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+- client-fingerprint: firefox
+  name: '[I] 🇩🇪 德国 05'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  server: 62.192.153.132
+  servername: example.org
+  tls: false
+  type: vless
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a

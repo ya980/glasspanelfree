@@ -7,17 +7,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇨🇳 台湾 02'
-  network: ws
-  port: '52300'
-  server: hi.northcluster.info
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6e571484-4166-4699-8f58-b34a1823691f
-  ws-opts:
-    headers:
-      Host: hi.northcluster.info
-    path: /video

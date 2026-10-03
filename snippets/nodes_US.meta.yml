@@ -1,8 +1,8 @@
 proxies:
 - name: '[E] 🇺🇸 美国 01'
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -17,13 +17,10 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 03'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
@@ -34,25 +31,9 @@ proxies:
   sni: els.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
-  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
-  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -67,7 +48,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -80,7 +61,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 09'
+- name: '[G] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -88,7 +69,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 10'
+- name: '[G] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -96,7 +77,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 11'
+- name: '[H] 🇺🇸 美国 09'
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
   port: 443
   server: as-us73.y1static-content-distribution.shop
@@ -106,7 +87,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 12'
+  name: '[H] 🇺🇸 美国 10'
   network: ws
   port: '443'
   server: 104.18.10.110
@@ -122,7 +103,7 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: '[I] 🇺🇸 美国 13'
+- name: '[I] 🇺🇸 美国 11'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -133,7 +114,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 14'
+- name: '[I] 🇺🇸 美国 12'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -144,7 +125,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 13'
   network: ws
   port: 8880
   server: 80.93.202.40
@@ -155,7 +136,7 @@ proxies:
     headers:
       Host: vms.lifetime02.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 16'
+- name: '[I] 🇺🇸 美国 14'
   network: xhttp
   port: 443
   server: 151.101.215.97

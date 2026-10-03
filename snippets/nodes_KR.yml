@@ -1,7 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇰🇷 韩国 01'
+  name: '[E] 🇰🇷 韩国 01'
+  network: ws
+  port: '443'
+  server: 4BTe8SMVUw8Wk3lN.v.3dns.vip
+  servername: 4BTe8SMVUw8Wk3lN.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  ws-opts:
+    headers:
+      Host: 4BTe8SMVUw8Wk3lN.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇰🇷 韩国 02'
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -14,7 +28,7 @@ proxies:
     headers:
       Host: 8nTzyR5KNivfabaT.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇰🇷 韩国 02'
+- name: '[G] 🇰🇷 韩国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171

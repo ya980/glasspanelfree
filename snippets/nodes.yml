@@ -1,41 +1,41 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
+  name: '[E] 🇸🇬 新加坡 01'
   network: ws
   port: '443'
-  server: yg1.ygkkk.dpdns.org
-  servername: jmp1.907737.xyz
+  server: HZXqDslAN243deQ7.v.3dns.vip
+  servername: HZXqDslAN243deQ7.v.3dns.vip
   tls: true
   type: vmess
-  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: jmp1.907737.xyz
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+      Host: HZXqDslAN243deQ7.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇰🇷 韩国 01'
   network: ws
   port: '443'
-  server: cu.877774.xyz
-  servername: ''
+  server: 4BTe8SMVUw8Wk3lN.v.3dns.vip
+  servername: 4BTe8SMVUw8Wk3lN.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
   ws-opts:
     headers:
-      Host: balanced-minds-carrier-demanding.trycloudflare.com
-    path: /vmess-argo
+      Host: 4BTe8SMVUw8Wk3lN.v.3dns.vip
+    path: /ws-vmess
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 24'
+  name: '[F] 🌍 其它地区 30'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 01'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -44,7 +44,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 02'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -59,7 +59,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 03'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -74,7 +74,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 04'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -89,7 +89,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 05'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -149,7 +149,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 01'
+  name: '[F] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -164,7 +164,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -179,7 +179,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇰🇷 韩国 01'
+  name: '[F] 🇰🇷 韩国 02'
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -194,7 +194,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -209,7 +209,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -224,7 +224,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -232,7 +232,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 09'
+- name: '[G] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -240,7 +240,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -248,7 +248,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -256,7 +256,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 12'
+- name: '[G] 🇭🇰 香港 10'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -272,7 +272,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇸🇬 新加坡 03'
+- name: '[G] 🇸🇬 新加坡 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -280,7 +280,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 09'
+- name: '[G] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -288,7 +288,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 10'
+- name: '[G] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -304,7 +304,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇰🇷 韩国 02'
+- name: '[G] 🇰🇷 韩国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171

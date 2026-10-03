@@ -8,54 +8,36 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: ru.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: mg.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg.mangshe.xyz
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 04'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 05'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
   skip-cert-verify: true
   sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 05'
+  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
+  port: 55000
+  server: 156.229.160.253
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 06'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 08'
   password: fe552e75-4ffd-4e1a-984c-44e71c746c15
   port: 55000
   server: 156.229.160.253
@@ -63,6 +45,34 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 07'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 08'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 09'
@@ -82,14 +92,14 @@ proxies:
   name: '[E] 🇺🇸 美国 10'
   network: ws
   port: '8443'
-  server: 172.64.80.1
-  servername: ''
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: ''
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
@@ -163,49 +173,3 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: '[I] 🇺🇸 美国 17'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 18'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 19'
-  network: ws
-  port: 8880
-  server: 80.93.202.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 20'
-  network: xhttp
-  port: 443
-  server: 151.101.215.97
-  servername: accounts.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26becb32-3d57-4b59-9252-3b046768b1ea
-  ws-opts:
-    headers:
-      Host: ovd13.global.ssl.fastly.net
-    path: /

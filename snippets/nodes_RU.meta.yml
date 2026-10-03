@@ -7,35 +7,23 @@ proxies:
   sni: els.mangshe.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: firefox
   name: '[I] 🇷🇺 俄罗斯 02'
-  network: tcp
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: 31.76.84.174
-  servername: yaruss.stopingiphatered.shop
+    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
+    short-id: '!!str 8ba6e72ee60667f6'
+  server: 161.104.38.98
+  servername: donatov.net
   tls: false
   type: vless
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: yaruss.stopingiphatered.shop
-  servername: yaruss.stopingiphatered.shop
-  tls: false
-  type: vless
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  uuid: bcd297ab-f064-0031-a659-5d7f90075fa8
+  ws-opts:
+    path: /assets
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 443
   reality-opts:

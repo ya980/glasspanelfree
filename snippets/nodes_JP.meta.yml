@@ -60,9 +60,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[I] 🇯🇵 日本 06'
-  port: 49433
-  server: 31.14.123.220
-  tls: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 06'
+  port: 14343
+  server: 27.44.143.169
+  servername: thuk.huaweiyouxuan.com
+  tls: true
   type: vless
-  uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158

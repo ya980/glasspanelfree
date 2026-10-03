@@ -1,18 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 01'
-  network: ws
-  port: '443'
-  server: HZXqDslAN243deQ7.v.3dns.vip
-  servername: HZXqDslAN243deQ7.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: HZXqDslAN243deQ7.v.3dns.vip
-    path: /ws-vmess
+- name: '[E] 🇸🇬 新加坡 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-hk-004.fastervpn.world
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[F] 🇸🇬 新加坡 02'

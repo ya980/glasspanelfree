@@ -1,25 +1,141 @@
 proxies:
+- name: '[E] 🇭🇰 香港 01'
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  port: 443
+  server: 283aa14b-tmm5c0-tzkd63-1jr1u.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 283aa14b-tmm5c0-tzkd63-1jr1u.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 02'
+  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: ba139335-tmm5c0-tnsc3a-1f0gu.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: ba139335-tmm5c0-tnsc3a-1f0gu.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 03'
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 04'
+  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  port: 443
+  server: b349b298-tmm5c0-tpda83-1lkbs.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: b349b298-tmm5c0-tpda83-1lkbs.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 05'
+  password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  port: 443
+  server: a4c15874-tmm5c0-tvvhcz-tl32.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: a4c15874-tmm5c0-tvvhcz-tl32.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 06'
+  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 07'
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 443
+  server: 6a3b19cf-tmm5c0-tpv2b9-1o8ak.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 6a3b19cf-tmm5c0-tpv2b9-1o8ak.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 08'
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: ca9daafc-tmm5c0-u5ip77-duku.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: ca9daafc-tmm5c0-u5ip77-duku.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 09'
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  port: 443
+  server: 0fd83b77-tmm5c0-tuklme-ueq.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 0fd83b77-tmm5c0-tuklme-ueq.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 10'
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 443
+  server: 818667a4-tmm5c0-tpsg94-1jbj0.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 818667a4-tmm5c0-tpsg94-1jbj0.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 11'
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: e4e38271-tly2o0-tqbai3-1hpo0.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: e4e38271-tly2o0-tqbai3-1hpo0.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
+  name: '[E] 🇭🇰 香港 12'
   network: ws
   port: '443'
-  server: nycqg19zkwacpm1b.v.3dns.vip
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 13'
+  network: ws
+  port: '443'
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 14'
+  network: ws
+  port: '443'
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+      Host: ''
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇭🇰 香港 15'
   network: ws
   port: '443'
   server: yg1.ygkkk.dpdns.org
-  servername: ''
+  servername: jmp1.907737.xyz
   tls: true
   type: vmess
   uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
@@ -29,7 +145,7 @@ proxies:
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 03'
+  name: '[E] 🇭🇰 香港 16'
   network: ws
   port: '443'
   server: cu.877774.xyz
@@ -40,24 +156,24 @@ proxies:
   ws-opts:
     headers:
       Host: balanced-minds-carrier-demanding.trycloudflare.com
-    path: /vmess-argo?ed=2560
+    path: /vmess-argo
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 04'
+  name: '[E] 🇭🇰 香港 17'
   network: ws
   port: '443'
-  server: cu.877774.xyz
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
-  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: balanced-minds-carrier-demanding.trycloudflare.com
-    path: /vmess-argo
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 18'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -66,7 +182,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 19'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -81,7 +197,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 20'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -96,7 +212,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 21'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -111,7 +227,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 22'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -126,7 +242,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 10'
+  name: '[G] 🇭🇰 香港 23'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -134,7 +250,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 24'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -142,7 +258,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 12'
+- name: '[G] 🇭🇰 香港 25'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -150,7 +266,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 13'
+- name: '[G] 🇭🇰 香港 26'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -158,7 +274,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 14'
+- name: '[G] 🇭🇰 香港 27'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -166,7 +282,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇭🇰 香港 15'
+- name: '[H] 🇭🇰 香港 28'
   password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
   port: 56726
   server: test01.y1static-content-distribution.shop
@@ -174,7 +290,7 @@ proxies:
   sni: hk11.pulsarcore.site
   type: anytls
   udp: true
-- name: '[H] 🇭🇰 香港 16'
+- name: '[H] 🇭🇰 香港 29'
   password: admin
   port: 8899
   server: 47.242.19.215

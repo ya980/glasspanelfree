@@ -82,16 +82,9 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- name: '[I] 🇨🇳 中国 09'
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+    path: /
 - client-fingerprint: unsafe
-  name: '[I] 🇨🇳 中国 10'
+  name: '[I] 🇨🇳 中国 09'
   network: ws
   port: 8443
   server: 129.211.188.184
@@ -103,12 +96,28 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: '%2Ftyxyws'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
+  name: '[I] 🇨🇳 中国 10'
+  network: tcp
+  port: 14343
+  server: 27.155.117.209
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- flow: xtls-rprx-vision
   name: '[I] 🇨🇳 中国 11'
+  network: tcp
   port: 14343
   server: 27.44.143.169
   servername: thuk.huaweiyouxuan.com
   tls: true
   type: vless
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- name: '[I] 🇨🇳 中国 12'
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133

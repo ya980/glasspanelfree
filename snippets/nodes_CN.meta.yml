@@ -69,7 +69,21 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[I] 🇨🇳 中国 08'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 08'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- name: '[I] 🇨🇳 中国 09'
   network: tcp
   port: 52683
   server: jp.sofast.live
@@ -77,7 +91,7 @@ proxies:
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - client-fingerprint: unsafe
-  name: '[I] 🇨🇳 中国 09'
+  name: '[I] 🇨🇳 中国 10'
   network: ws
   port: 8443
   server: 129.211.188.184
@@ -91,7 +105,7 @@ proxies:
     path: '%2Ftyxyws'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 中国 10'
+  name: '[I] 🇨🇳 中国 11'
   port: 14343
   server: 27.44.143.169
   servername: thuk.huaweiyouxuan.com

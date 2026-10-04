@@ -1,15 +1,14 @@
 proxies:
 - alpn:
   - h2
-  client-fingerprint: edge
   grpc-opts:
     grpc-service-name: ajv
-  name: '[H] 🇩🇪 德国 13'
+  name: '[H] 🇩🇪 德国 04'
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: '443'
-  server: 31.77.168.33
-  skip-cert-verify: false
+  port: 443
+  server: 31.77.168.21
+  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
   udp: true

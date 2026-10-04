@@ -60,12 +60,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 06'
-  port: 14343
-  server: 27.44.143.169
-  servername: thuk.huaweiyouxuan.com
-  tls: true
+- name: '[I] 🇯🇵 日本 06'
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  servername: fdjl8sdmc774ru70b3a45lv4w8.akbar1sale6.workers.dev
+  tls: false
   type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  uuid: 8ccb3a94-9e3c-45d0-a280-850faea6bbff
+  ws-opts:
+    headers:
+      Host: fdjl8sdmc774ru70b3a45lv4w8.akbar1sale6.workers.dev
+    path: /vl/EpnESUGGdoM40CHmsDT%3Fed

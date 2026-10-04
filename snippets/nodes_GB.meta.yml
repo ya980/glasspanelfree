@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: '[I] 🇬🇧 英国 01'
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  sni: jiangjc.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jiangjc.pages.dev
+    path: '%2F'

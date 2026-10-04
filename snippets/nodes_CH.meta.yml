@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- name: '[D] CH 01'
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  password: capadm96216165
+  port: 443
+  server: 208.69.78.217
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2

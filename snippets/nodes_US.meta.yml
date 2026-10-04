@@ -1,10 +1,9 @@
 proxies:
-- name: '[D] 🇺🇸 美国 01'
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
+- name: '[E] 🇺🇸 美国 01'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
@@ -23,10 +22,14 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'

@@ -1,32 +1,5 @@
 proxies:
-- insecure: '1'
-  mport: 40000-49999
-  name: '[B] 🇨🇳 台湾 01'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- name: '[G] 🇨🇳 台湾 03'
+- name: '[G] 🇨🇳 台湾 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -34,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇨🇳 台湾 04'
+- name: '[H] 🇨🇳 台湾 02'
   network: ws
   port: 443
   server: argo6.5671234.xyz
@@ -49,7 +22,7 @@ proxies:
       Host: argo6.5671234.xyz
     path: /e8e2cecb6188f7fb
 - client-fingerprint: chrome
-  name: '[H] 🇨🇳 台湾 05'
+  name: '[H] 🇨🇳 台湾 03'
   network: tcp
   port: '443'
   reality-opts:
@@ -62,3 +35,15 @@ proxies:
   udp: true
   uuid: 31a40f42-4ad6-4a32-a760-71102b459584
   xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇨🇳 台湾 04'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0
+    short-id: '!!str 32f66f37df3f58d2'
+  server: 35.201.197.4
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2

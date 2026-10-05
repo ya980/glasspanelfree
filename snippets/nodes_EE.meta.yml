@@ -1,11 +1,14 @@
 proxies:
-- name: '[B] EE 01'
-  network: ws
-  port: 8880
-  server: 45.80.110.50
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[I] EE 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: '!!str ad6e08b22389abd2'
+  server: 163.245.52.91
+  servername: d3-ee1.cloud-cdn.xyz
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910

@@ -1,31 +1,18 @@
 proxies:
-- name: '[E] 🇨🇦 加拿大 01'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.106
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
+- name: '[H] 🇨🇦 加拿大 01'
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: '[H] 🇨🇦 加拿大 02'
   port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 03'
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 04'
-  port: 443
-  server: 206.223.183.13
+  server: 23.169.224.34
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 05'
+  name: '[I] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: cf.130519.xyz
@@ -38,7 +25,7 @@ proxies:
       Host: 819.18827466.bot.cd
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 06'
+  name: '[I] 🇨🇦 加拿大 04'
   network: ws
   port: 8880
   server: 172.67.207.26
@@ -50,7 +37,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: '%2Fpyip%3DProxyIP.JP.CMLiussss.net'
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: 443
   server: liang92.dpdns.org
@@ -59,7 +46,7 @@ proxies:
   uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
   ws-opts:
     path: '%2F'
-- name: '[I] 🇨🇦 加拿大 08'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 2052
   server: 172.67.134.7
@@ -70,7 +57,7 @@ proxies:
     headers:
       Host: a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev
     path: '%2Fvl%2Fu3oMYZoYUAozPFEA8UhR%3Fed%3D2560'
-- name: '[I] 🇨🇦 加拿大 09'
+- name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 8880
   server: envato.com
@@ -82,7 +69,7 @@ proxies:
       Host: blue-water-924c.174-235.workers.dev
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 10'
+  name: '[I] 🇨🇦 加拿大 08'
   network: ws
   port: 443
   server: 188.114.96.9
@@ -92,7 +79,7 @@ proxies:
   uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
   ws-opts:
     path: '%2Fvl%2F9yvcoLdzdOXLUYfH7r5gwJhu1CHrj'
-- name: '[I] 🇨🇦 加拿大 11'
+- name: '[I] 🇨🇦 加拿大 09'
   network: ws
   port: 80
   server: 104.21.56.90
@@ -104,7 +91,7 @@ proxies:
     headers:
       Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
     path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
-- name: '[I] 🇨🇦 加拿大 12'
+- name: '[I] 🇨🇦 加拿大 10'
   network: ws
   port: 80
   server: 188.114.98.112
@@ -116,7 +103,7 @@ proxies:
       Host: elenaaaaaaaaaa.cloudns.pro.
     path: '%2FELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY%3Fed%3D2560'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 13'
+  name: '[I] 🇨🇦 加拿大 11'
   network: ws
   port: 2087
   server: 172.67.79.160
@@ -129,7 +116,7 @@ proxies:
       Host: cvhpyn.pages.dev
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 14'
+  name: '[I] 🇨🇦 加拿大 12'
   network: ws
   port: 80
   server: 172.67.183.52
@@ -141,7 +128,7 @@ proxies:
     headers:
       Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
     path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
-- name: '[I] 🇨🇦 加拿大 15'
+- name: '[I] 🇨🇦 加拿大 13'
   network: ws
   port: 8880
   server: cf3.466688.xyz
@@ -152,7 +139,7 @@ proxies:
     headers:
       Host: shrill-fog-67af.235-e6a.workers.dev
     path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net%40xijinpingdashabi'
-- name: '[I] 🇨🇦 加拿大 16'
+- name: '[I] 🇨🇦 加拿大 14'
   network: ws
   port: 443
   server: cf.090227.xyz

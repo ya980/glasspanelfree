@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
+  name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '443'
   server: yg1.ygkkk.dpdns.org
@@ -15,7 +15,49 @@ proxies:
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇭🇰 香港 04'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 05'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 06'
+  network: ws
+  port: '443'
+  server: cu.877774.xyz
+  servername: balanced-minds-carrier-demanding.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
+  ws-opts:
+    headers:
+      Host: balanced-minds-carrier-demanding.trycloudflare.com
+    path: /vmess-argo?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 07'
   network: ws
   port: '443'
   server: cu.877774.xyz
@@ -29,27 +71,27 @@ proxies:
     path: /vmess-argo
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 02'
+  name: '[E] 🇭🇰 香港 08'
   network: ws
-  port: '55002'
-  server: 45.127.32.220
-  servername: ''
-  tls: false
+  port: '443'
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 24'
+  name: '[F] 🌍 其它地区 30'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 09'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -58,7 +100,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 10'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -73,7 +115,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 11'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -88,7 +130,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 12'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -103,7 +145,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 13'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -118,7 +160,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 01'
+  name: '[F] 🇯🇵 日本 02'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -133,7 +175,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 02'
+  name: '[F] 🇯🇵 日本 03'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -148,7 +190,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 04'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -163,7 +205,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 03'
+  name: '[F] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -178,7 +220,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 04'
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -208,7 +250,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -223,7 +265,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 11'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -238,7 +280,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 14'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -246,7 +288,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 09'
+- name: '[G] 🇭🇰 香港 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -254,7 +296,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 16'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -262,7 +304,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 17'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -270,7 +312,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 12'
+- name: '[G] 🇭🇰 香港 18'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -278,7 +320,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇯🇵 日本 04'
+- name: '[G] 🇯🇵 日本 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -286,7 +328,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇸🇬 新加坡 05'
+- name: '[G] 🇸🇬 新加坡 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -294,7 +336,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 11'
+- name: '[G] 🇺🇸 美国 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -302,7 +344,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 12'
+- name: '[G] 🇺🇸 美国 13'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -327,60 +369,95 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 16'
+  name: '[H] 🇫🇷 法国 06'
   password: amazonskr05
   port: 443
-  server: 98.88.252.127
+  server: 15.224.203.210
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 07'
+  password: amazonskr05
+  port: 443
+  server: 35.180.75.226
+  type: ss
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 08'
+  password: amazonskr05
+  port: '443'
+  server: 13.36.167.227
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 09'
+  password: amazonskr05
+  port: '443'
+  server: 13.36.178.160
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 16'
+  password: amazonskr05
+  port: '443'
+  server: 23.22.158.187
+  type: ss
+  udp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - tms.dingtalk.com
-    path:
-    - /
-  name: '[H] 🌍 其它地区 36'
-  network: http
-  port: '29825'
-  server: 94.177.9.66
+  name: '[H] 🇩🇪 德国 05'
+  network: tcp
+  port: '8080'
+  server: 143.14.59.99
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 1933a425-2842-4d2b-8589-9ca2242d7415
+  uuid: 8035e2a4-34d4-4521-9c12-3a8474355735
   xudp: true
-- name: '[I] 🇯🇵 日本 06'
+- alterId: 99999
+  cipher: auto
+  name: '[H] 🇯🇵 日本 06'
+  network: tcp
+  port: '28785'
+  server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  servername: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
+  xudp: true
+- name: '[I] 🇯🇵 日本 08'
   network: tcp
   password: UX82473651
   port: 443
   server: prime-corgi.rooster465.autos
   sni: prime-corgi.rooster465.autos
   type: trojan
-- name: '[I] 🇸🇬 新加坡 06'
+- name: '[I] 🇸🇬 新加坡 05'
   network: tcp
   password: UX82473651
   port: 443
   server: inviting-ferret.rooster465.autos
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- name: '[I] 🌍 其它地区 42'
+- name: '[I] 🌍 其它地区 37'
   network: tcp
   password: UX82473651
   port: 443
   server: sacred-anemone.rooster465.autos
   sni: sacred-anemone.rooster465.autos
   type: trojan
-- name: '[I] 🇰🇷 韩国 04'
+- name: '[I] 🇰🇷 韩国 03'
   network: tcp
   password: 178c178666bb4ae5
   port: 20007
   server: ikr100b.zxom.eu.org
   sni: ikr100b.zxom.eu.org
   type: trojan
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: mitivpn
   port: 443
@@ -391,7 +468,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FD-e1i%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   password: mitivpn
   port: 443
@@ -402,7 +479,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-1.global.ssl.fastly.net
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   password: mitivpn
   port: 443
@@ -413,7 +490,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSs---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[I] 🇺🇸 美国 25'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   password: mitivpn
   port: 443
@@ -426,7 +503,7 @@ proxies:
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
 - alterId: 0
   cipher: auto
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: '443'
   server: renderer-stream-1-832.mirra.now

@@ -1,29 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
-    short-id: '!!str ba4b2afa9e7193ea'
-  server: 50.7.157.235
-  servername: edge-fr.extazy.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b812a4e0-c90a-4864-8ffb-2af71d69d4f4
-  xudp: true
-- name: '[H] 🇷🇺 俄罗斯 02'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
 - alterId: 0
   cipher: auto
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: '443'
   server: renderer-stream-1-832.mirra.now
@@ -36,7 +14,7 @@ proxies:
       Host: renderer-stream-1-832.mirra.now
     path: /api/v1/gpu-stream/socket
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 443
   server: fbsv6.guardora.pro

@@ -1,24 +1,8 @@
 proxies:
-- name: '[E] CH 01'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.154
-  sni: hop-germany-september.dynuddns.com
-  tls: false
-  type: hysteria2
-- name: '[H] CH 02'
+- name: '[H] CH 01'
   password: None
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] CH 03'
-  password: None
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null

@@ -1,15 +1,83 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.KmObJcXK-X9Zx5HMeSkn-zchyyWJR3U2XMJDtWK2QEw
+  name: '[H] 🇩🇪 德国 01'
+  network: xhttp
   port: 8443
-  server: 77.74.123.98
+  reality-opts:
+    public-key: GB3bGUtRma7-14YH-WK--1CR9GXXPHNqFUQz8v0YLBk
+    short-id: '!!str 1a4e3e64b9a568c5'
+  server: 2.28.142.170
+  servername: germanytest.tulnaro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
+  xhttp-opts:
+    host: germanytest.tulnaro.ir
+    mode: auto
+    path: /
+- encryption: mlkem768x25519plus.native.0rtt.bq1M9Mo7StSetydCuYnVBzGMeKNBRamRZfzcZEiulEY
+  http-opts:
+    headers:
+      Host:
+      - testspeed-foreign.tci.ir
+    path:
+    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
+  name: '[H] 🇩🇪 德国 02'
+  network: http
+  port: '7070'
+  server: 91.107.240.245
+  type: vless
+  udp: true
+  uuid: 9804f109-f750-4dec-9c3a-091982320501
+  xudp: true
+- name: '[H] 🇩🇪 德国 03'
+  port: 443
+  server: 87.249.132.97
   skip-cert-verify: true
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 04'
+  password: amazonskr05
+  port: 443
+  server: 3.67.197.81
+  type: ss
+  udp: true
+- name: '[H] 🇩🇪 德国 05'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 06'
+  port: 443
+  server: 37.203.35.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 08'
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 02'
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 443
   reality-opts:
@@ -22,7 +90,7 @@ proxies:
   uuid: 596086c9-3167-0004-97a1-c04311039e06
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 03'
+  name: '[I] 🇩🇪 德国 10'
   network: tcp
   port: 443
   reality-opts:
@@ -33,7 +101,7 @@ proxies:
   tls: false
   type: vless
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- name: '[I] 🇩🇪 德国 04'
+- name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -49,7 +117,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 12'
   network: tcp
   port: 443
   server: 179.61.138.177
@@ -65,7 +133,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 13'
   network: tcp
   port: 443
   server: s251.wagahaha.xyz
@@ -81,7 +149,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 07'
+  name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 443
   server: s249.freessr.bid

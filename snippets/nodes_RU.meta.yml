@@ -1,7 +1,17 @@
 proxies:
+- name: '[H] 🇷🇺 俄罗斯 01'
+  port: 443
+  server: 82.147.71.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇷🇺 俄罗斯 02'
+  port: 1080
+  server: 81.195.131.20
+  type: socks5
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 443
   reality-opts:

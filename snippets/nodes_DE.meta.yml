@@ -1,79 +1,7 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: '!!str a8'
-  server: 189.74.106.53
-  servername: api.setevoyprostor.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '[H] 🇩🇪 德国 02'
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 03'
-  network: ws
-  port: 443
-  server: 144.31.192.167
-  servername: s4ws.ragingbull.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 04'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: '!!str a8'
-  server: 189.74.106.116
-  servername: api.setevoyprostor.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: RTG-xTU5UuKTRrkk8_COe04GiUWrqrSdt9mqSak_XEc
-    short-id: '!!str e696e744'
-  server: 2.27.35.55
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:
@@ -83,95 +11,10 @@ proxies:
   servername: diffoscope.com
   tls: false
   type: vless
-  udp: true
   uuid: 596086c9-3167-0004-97a1-c04311039e06
-  xudp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: grpcbeast
-  name: '[H] 🇩🇪 德国 07'
-  network: grpc
-  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
-  port: 443
-  server: cz-musicc.moritech.net
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 08'
-  network: ws
-  port: 2083
-  server: 172.67.69.86
-  servername: helloapps.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 09'
-  network: raw
-  port: '4040'
-  reality-opts:
-    public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
-    short-id: '!!str 73693dea6faae051'
-  server: lv1d.lynch.ir
-  servername: www.actionvfx.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 10'
-  network: xhttp
-  port: '11888'
-  reality-opts:
-    public-key: EIVAlBAmThw5_pZ4Vqim-jaNaSXYcL9x9WwAzj5yyDE
-    short-id: '!!str bd47be887ad09611'
-  server: tun5.radvin1.ir
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6acbfd38-2332-4ef5-a09b-fdd74508ef76
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: '!!str a8'
-  server: 189.74.106.85
-  servername: api.setevoyprostor.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
-  xudp: true
-- name: '[H] 🇩🇪 德国 12'
-  password: ''
-  port: '443'
-  server: 159.69.94.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 13'
+  name: '[I] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -182,7 +25,7 @@ proxies:
   tls: false
   type: vless
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- name: '[I] 🇩🇪 德国 14'
+- name: '[I] 🇩🇪 德国 03'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -198,7 +41,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 04'
   network: tcp
   port: 443
   server: 179.61.138.177
@@ -214,7 +57,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 05'
   network: tcp
   port: 443
   server: s251.wagahaha.xyz
@@ -230,7 +73,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 06'
   network: tcp
   port: 443
   server: s249.freessr.bid

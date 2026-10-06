@@ -7,6 +7,20 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
+  password: 4ffc5c57-3242-4422-88de-25fb0f7e97bc
+  port: 443
+  server: media.pantera-radio.ru
+  sni: media.pantera-radio.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
+  password: Hd7N0TU7Ow5ZqaIx
+  port: 25172
+  server: us5.h1cloud.net
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   port: 2060
   server: mg.mangshe.xyz
@@ -14,43 +28,28 @@ proxies:
   sni: mg.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru.xiaoliyu.cyou
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 06'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 06'
+  name: '[E] 🇺🇸 美国 07'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  sni: msk.frkn.org
   tls: false
   type: hysteria2
 - alpn:
@@ -64,31 +63,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 09'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: els.mangshe.xyz
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
   skip-cert-verify: true
-  sni: els.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 10'
-  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
   password: f9e76796-72ba-4af1-9435-a556bd81c140
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
   port: 55000
   server: 156.229.160.253
   skip-cert-verify: true
@@ -97,7 +79,21 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 13'
+  name: '[E] 🇺🇸 美国 11'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 029b530f-80a6-4ce6-9220-7ea98259bb23
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 12'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -112,7 +108,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 14'
+  name: '[F] 🇺🇸 美国 13'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -125,7 +121,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 15'
+- name: '[G] 🇺🇸 美国 14'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -133,7 +129,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 16'
+- name: '[G] 🇺🇸 美国 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -141,281 +137,86 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: '2'
-  cipher: auto
-  name: '[H] 🇺🇸 美国 17'
-  network: tcp
-  port: '30829'
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 18'
-  network: ws
-  port: '80'
-  server: 91.206.71.8
-  type: vless
-  udp: true
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  ws-opts:
-    headers:
-      Host: round-haze-8783.294.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /pyip=Telegram🇨🇳+@WangCai2
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 19'
-  network: ws
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 16'
+  network: tcp
   port: '443'
-  server: 43.174.195.1
-  servername: kv.074167.xyz
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: '!!str 21270a66'
+  server: tk1.high-speed-test-56424.me
+  servername: aws.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
   xudp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 20'
-  network: ws
-  port: '8880'
-  server: 80.93.202.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /
-  xudp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 21'
-  network: ws
-  port: '8880'
-  server: 104.16.98.215
-  type: vless
-  udp: true
-  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
-  ws-opts:
-    headers:
-      Host: super-sunset-010c.24-43d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: '[H] 🇺🇸 美国 22'
-  port: 443
-  server: 167.88.60.242
+- name: '[H] 🇺🇸 美国 17'
+  port: 8443
+  server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 23'
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 24'
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 25'
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 26'
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 27'
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 28'
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 29'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: '[H] 🇺🇸 美国 30'
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 31'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 32'
-  network: ws
-  port: 443
-  server: 209.206.51.240
-  servername: and-75r.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  ws-opts:
-    headers:
-      Host: and-75r.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 33'
-  network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 34'
-  network: ws
-  port: 2083
-  server: 172.66.0.230
-  servername: helloapps.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 35'
-  network: ws
-  port: 2083
-  server: 27.50.48.142
-  servername: and-75r.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  ws-opts:
-    headers:
-      Host: and-75r.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 36'
-  network: ws
-  port: 2096
-  server: 49.238.238.156
-  servername: and-75r.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  ws-opts:
-    headers:
-      Host: and-75r.pages.dev
-    path: /
-- name: '[H] 🇺🇸 美国 37'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 38'
-  network: ws
-  port: '2083'
-  server: 104.19.55.204
-  servername: helloapps.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- name: '[H] 🇺🇸 美国 39'
-  password: ''
-  port: '9002'
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 40'
-  password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-  port: '443'
-  server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-- name: '[H] 🇺🇸 美国 41'
-  password: ''
-  port: '8443'
+- name: '[H] 🇺🇸 美国 18'
+  port: 8443
   server: 45.150.164.18
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 19'
+  network: none
+  port: 57933
+  server: 72.249.206.49
+  tls: false
+  type: vmess
+  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
+- name: '[H] 🇺🇸 美国 20'
+  password: None
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 21'
+  password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+  port: '443'
+  server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
+  skip-cert-verify: true
+  sni: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
+  tls: true
+  type: http
+  username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+- name: '[H] 🇺🇸 美国 22'
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 23'
+  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  port: 443
+  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
+  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+- name: '[H] 🇺🇸 美国 24'
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 25'
+  port: 2020
+  server: 154.51.41.113
+  type: socks5
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 42'
+  name: '[I] 🇺🇸 美国 26'
   network: ws
   port: 443
   server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
@@ -432,7 +233,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 43'
+  name: '[I] 🇺🇸 美国 27'
   network: tcp
   port: 443
   server: s880.gogocs.xyz
@@ -448,7 +249,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 44'
+  name: '[I] 🇺🇸 美国 28'
   network: tcp
   port: 443
   server: s881.wagahaha.xyz
@@ -464,7 +265,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 45'
+  name: '[I] 🇺🇸 美国 29'
   network: tcp
   port: 443
   server: 23.166.40.27
@@ -480,7 +281,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 46'
+  name: '[I] 🇺🇸 美国 30'
   network: tcp
   port: 10829
   server: 198.12.124.74

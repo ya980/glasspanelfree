@@ -7,18 +7,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 02'
+  password: d2c658d5-2502-441c-b750-d1452277ddb1
+  port: 4443
+  server: trunk-nl.cvedcdigital.vip
+  sni: trunk-nl.cvedcdigital.vip
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 03'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 77.74.123.107
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
-- name: '[H] 🇨🇦 加拿大 03'
-  port: 9443
-  server: 23.169.224.34
-  skip-cert-verify: true
-  tls: true
-  type: http
 - alpn:
   - h3
   - h2

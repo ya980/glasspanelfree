@@ -1,68 +1,14 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: astracat
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: grpc
-  port: 2088
-  reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: '!!str b1ad165f903c62fe'
-  server: 31.59.210.26
-  servername: www.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-- name: '[H] 🇷🇺 俄罗斯 02'
-  port: 443
-  server: 82.147.71.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇷🇺 俄罗斯 03'
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇷🇺 俄罗斯 04'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 05'
-  network: raw
-  port: '443'
+  name: '[I] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 45.151.71.63
-  servername: abuse.sellflow.org
-  tls: true
+    public-key: M7yPV6xLi9h6EevpqZfXLZBuxoey8kz1c6Bh0pK5fho
+    short-id: '!!str 170ab9ced015571f'
+  server: 188.130.209.216
+  servername: emaar.ru
+  tls: false
   type: vless
-  udp: true
-  uuid: 3984a6ee-9fc6-4219-93fd-706c59e02171
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: astracat
-  name: '[H] 🇷🇺 俄罗斯 06'
-  network: grpc
-  port: '2087'
-  reality-opts:
-    public-key: KDBhxT2YMtMjDEC9VdoDEISdCwxd6KFrSE8uyUaHcTY
-    short-id: '!!str ed435c242097fd05'
-  server: 31.59.210.25
-  servername: www.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  xudp: true
+  uuid: 444623e9-f27d-487c-b7cc-436931967e79

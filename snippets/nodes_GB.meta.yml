@@ -17,7 +17,21 @@ proxies:
 - name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
-  server: 37.120.233.34
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http

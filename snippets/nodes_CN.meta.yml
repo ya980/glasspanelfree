@@ -69,15 +69,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: '[I] 🇨🇳 中国 08'
-  port: 14343
+  port: 33102
   server: 27.44.143.169
-  servername: thuk.huaweiyouxuan.com
+  servername: sgg.knhqf.com
   tls: true
   type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - client-fingerprint: unsafe
   name: '[I] 🇨🇳 中国 09'
   network: ws
@@ -91,39 +90,28 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: '%2Ftyxyws'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 中国 10'
-  network: tcp
-  port: 33102
-  server: 112.49.63.11
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 中国 11'
-  network: tcp
-  port: 14343
-  server: 27.155.117.209
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 中国 12'
-  network: tcp
-  port: 14343
-  server: 14.17.78.146
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: '[I] 🇨🇳 中国 13'
+- name: '[I] 🇨🇳 中国 10'
   network: tcp
   port: 52683
   server: jp.sofast.live
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇨🇳 中国 11'
+  port: 14343
+  server: 36.248.14.90
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- flow: xtls-rprx-vision
+  name: '[I] 🇨🇳 中国 12'
+  network: tcp
+  port: 33102
+  server: 27.155.117.209
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01

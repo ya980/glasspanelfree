@@ -22,10 +22,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[I] 🇰🇷 韩国 03'
-  network: tcp
-  password: 178c178666bb4ae5
-  port: 20007
-  server: ikr100b.zxom.eu.org
-  sni: ikr100b.zxom.eu.org
-  type: trojan
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇰🇷 韩国 03'
+  obfs: ''
+  obfs-password: ''
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: '50160'
+  server: 152-69-231-175.liao.kdns.fr
+  skip-cert-verify: false
+  sni: 152-69-231-175.liao.kdns.fr
+  type: hysteria2
+  up: ''

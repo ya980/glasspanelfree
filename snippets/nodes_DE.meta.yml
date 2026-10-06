@@ -1,9 +1,36 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 189.74.106.53
+  servername: api.setevoyprostor.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: '[H] 🇩🇪 德国 02'
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 03'
   network: ws
   port: 443
-  server: 188.114.96.3
+  server: 144.31.192.167
   servername: s4ws.ragingbull.de5.net
   tls: true
   type: vless
@@ -13,30 +40,30 @@ proxies:
     headers:
       Host: s4ws.ragingbull.de5.net
     path: /wsrb7k2m
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
-    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
-    short-id: '!!str 6e5f2a3b'
-  server: 91.233.8.141
-  servername: tnt-cloud.ru
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 189.74.106.116
+  servername: api.setevoyprostor.cc
   tls: true
   type: vless
   udp: true
-  uuid: 81d8f575-a9c3-03e7-be6b-c0e1dc1d2e20
+  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 05'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: zAmNLsLPizp96b55zNe2kJ3zXBdpuNY0olnRaOpluks
-    short-id: '!!str 34e797af'
-  server: 2.27.69.157
+    public-key: RTG-xTU5UuKTRrkk8_COe04GiUWrqrSdt9mqSak_XEc
+    short-id: '!!str e696e744'
+  server: 2.27.35.55
   servername: addons.mozilla.org
   tls: true
   type: vless
@@ -44,56 +71,173 @@ proxies:
   uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
   xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 04'
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 06'
   network: tcp
-  port: '8443'
+  port: 443
   reality-opts:
-    public-key: 2jUsxVyWXcNXhksgk-MuwLHt4VUCoeqZQj0fDEvFuR8
-    short-id: '!!str 19afd0ac7f6310'
-  server: de247.fillmoo.info
-  servername: yahoo.com
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: '!!str 1c3e8241a8743df9'
+  server: 195.252.179.1
+  servername: diffoscope.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 596086c9-3167-0004-97a1-c04311039e06
+  xudp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: '[H] 🇩🇪 德国 07'
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 08'
+  network: ws
+  port: 2083
+  server: 172.67.69.86
+  servername: helloapps.cc.cd
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9ef782e0-25d5-42e8-8ecd-02522d0c745b
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[H] 🇩🇪 德国 05'
-  network: tcp
-  port: '8080'
-  server: 143.14.59.99
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: helloapps.cc.cd
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 09'
+  network: raw
+  port: '4040'
+  reality-opts:
+    public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
+    short-id: '!!str 73693dea6faae051'
+  server: lv1d.lynch.ir
+  servername: www.actionvfx.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 8035e2a4-34d4-4521-9c12-3a8474355735
+  uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
   xudp: true
 - client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 10'
+  network: xhttp
+  port: '11888'
+  reality-opts:
+    public-key: EIVAlBAmThw5_pZ4Vqim-jaNaSXYcL9x9WwAzj5yyDE
+    short-id: '!!str bd47be887ad09611'
+  server: tun5.radvin1.ir
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6acbfd38-2332-4ef5-a09b-fdd74508ef76
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 11'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 189.74.106.85
+  servername: api.setevoyprostor.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
+  xudp: true
+- name: '[H] 🇩🇪 德国 12'
+  password: ''
+  port: '443'
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 13'
   network: tcp
   port: 443
   reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: '!!str 494afdc75f8c2fa8'
-  server: 31.77.109.35
-  servername: d3-de1.cloud-cdn.xyz
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '!!str 4be4110078ebed4a'
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
   tls: false
   type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-- client-fingerprint: firefox
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: '[I] 🇩🇪 德国 14'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: e8fecdc4-ac32-444e-8058-5dadd749fac0
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 07'
+  name: '[I] 🇩🇪 德国 15'
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 9OV_GN4lgwY_4llPfYCGev-PPXLMj-hfYnveKF4tjws
-    short-id: '!!str f8'
-  server: 31.76.64.248
-  servername: blog.api.www.cloudflare.com
-  tls: false
+  server: 179.61.138.177
+  servername: u695098u47d2e9bes71.gogocs.xyz
+  tls: true
   type: vless
-  uuid: 0a322246-8c1a-47cd-9865-cccebbb2e5c1
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 47d2e9bes71.gogocs.xyz
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 16'
+  network: tcp
+  port: 443
+  server: s251.wagahaha.xyz
+  servername: u695098u47d2e9bes71.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 47d2e9bes71.gogocs.xyz
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 17'
+  network: tcp
+  port: 443
+  server: s249.freessr.bid
+  servername: u695098u47d2e9bes71.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 47d2e9bes71.gogocs.xyz

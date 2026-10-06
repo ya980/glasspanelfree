@@ -60,32 +60,41 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 99999
-  cipher: auto
+- client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 06'
-  network: tcp
-  port: '28785'
-  server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  servername: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: false
+  network: ws
+  port: 443
+  server: 141.11.138.167
+  servername: vlso5.1d.mom
+  skip-cert-verify: true
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-  xudp: true
-- flow: xtls-rprx-vision
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso5.1d.mom
+    path: /socks5=888:888@hkip.1d.mom:1080
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[I] 🇯🇵 日本 07'
   network: tcp
   port: 33102
-  server: 27.44.143.169
+  server: 112.49.63.11
   servername: sgg.knhqf.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - name: '[I] 🇯🇵 日本 08'
-  network: tcp
-  password: UX82473651
-  port: 443
-  server: prime-corgi.rooster465.autos
-  sni: prime-corgi.rooster465.autos
-  type: trojan
+  network: ws
+  port: 30718
+  server: 216.23.123.64
+  servername: qqyst.sfht.kdns.fr
+  tls: true
+  type: vless
+  uuid: 33e87cba-907f-4990-8dbd-a9d14e5d17e1
+  ws-opts:
+    headers:
+      Host: qqyst.sfht.kdns.fr
+    path: /?ed=2048fp=chrome

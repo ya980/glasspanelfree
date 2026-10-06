@@ -7,15 +7,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: '[I] 🇨🇳 台湾 02'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0
-    short-id: '!!str 32f66f37df3f58d2'
-  server: 35.201.197.4
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2

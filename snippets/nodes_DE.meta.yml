@@ -1,7 +1,15 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.98
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 01'
+  name: '[I] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +22,7 @@ proxies:
   uuid: 596086c9-3167-0004-97a1-c04311039e06
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 02'
+  name: '[I] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:
@@ -25,7 +33,7 @@ proxies:
   tls: false
   type: vless
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- name: '[I] 🇩🇪 德国 03'
+- name: '[I] 🇩🇪 德国 04'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -41,7 +49,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 05'
   network: tcp
   port: 443
   server: 179.61.138.177
@@ -57,7 +65,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 06'
   network: tcp
   port: 443
   server: s251.wagahaha.xyz
@@ -73,7 +81,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 07'
   network: tcp
   port: 443
   server: s249.freessr.bid

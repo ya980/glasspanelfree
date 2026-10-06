@@ -1,22 +1,8 @@
 proxies:
 - name: '[E] 🇨🇦 加拿大 01'
-  password: d2c658d5-2502-441c-b750-d1452277ddb1
-  port: 4443
-  server: 217.60.34.78
-  sni: trunk-nl.cvedcdigital.vip
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 02'
-  password: d2c658d5-2502-441c-b750-d1452277ddb1
-  port: 4443
-  server: trunk-nl.cvedcdigital.vip
-  sni: trunk-nl.cvedcdigital.vip
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 03'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
-  server: 77.74.123.107
+  server: 77.74.123.108
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
@@ -24,7 +10,7 @@ proxies:
   - h3
   - h2
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 04'
+  name: '[I] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -36,7 +22,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-- name: '[I] 🇨🇦 加拿大 05'
+- name: '[I] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: 172.67.76.40
@@ -48,7 +34,7 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /fp=chrome
-- name: '[I] 🇨🇦 加拿大 06'
+- name: '[I] 🇨🇦 加拿大 04'
   network: ws
   port: 443
   server: www.5199dy.com
@@ -60,7 +46,7 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /fp=chrome
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: 8080
   server: 172.67.171.191
@@ -71,7 +57,7 @@ proxies:
     headers:
       Host: server18.peekconfig2.workers.dev
     path: /eyJqdW5rIjoiT3FNeW1sMVdGVHlvNTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-- name: '[I] 🇨🇦 加拿大 08'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 8080
   server: 172.67.210.250

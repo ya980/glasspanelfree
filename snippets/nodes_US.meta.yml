@@ -1,99 +1,40 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
-  password: 4ffc5c57-3242-4422-88de-25fb0f7e97bc
-  port: 443
-  server: 13.143.232.86
-  sni: media.pantera-radio.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
-  password: 4ffc5c57-3242-4422-88de-25fb0f7e97bc
-  port: 443
-  server: media.pantera-radio.ru
-  sni: media.pantera-radio.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: Hd7N0TU7Ow5ZqaIx
-  port: 25172
-  server: us5.h1cloud.net
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: mg.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 01'
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 18333
   server: ru.xiaoliyu.cyou
   skip-cert-verify: true
+  sni: ru.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: els.mangshe.xyz
+- name: '[E] 🇺🇸 美国 02'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: els.mangshe.xyz
+  sni: ru.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 03'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 08'
+- name: '[E] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 09'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 10'
-  password: f9e76796-72ba-4af1-9435-a556bd81c140
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 11'
-  network: ws
-  port: '28167'
-  server: 142.171.48.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 029b530f-80a6-4ce6-9220-7ea98259bb23
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇺🇸 美国 12'
+  name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -108,7 +49,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 13'
+  name: '[F] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -121,7 +62,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 14'
+- name: '[G] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -129,7 +70,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 15'
+- name: '[G] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -137,52 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 16'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '!!str 21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  xudp: true
-- name: '[H] 🇺🇸 美国 17'
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 18'
-  port: 8443
-  server: 45.150.164.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇺🇸 美国 19'
-  network: none
-  port: 57933
-  server: 72.249.206.49
-  tls: false
-  type: vmess
-  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
-- name: '[H] 🇺🇸 美国 20'
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 21'
+- name: '[H] 🇺🇸 美国 09'
   password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
   port: '443'
   server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
@@ -191,32 +87,8 @@ proxies:
   tls: true
   type: http
   username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-- name: '[H] 🇺🇸 美国 22'
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 23'
-  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-  port: 443
-  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-- name: '[H] 🇺🇸 美国 24'
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 25'
-  port: 2020
-  server: 154.51.41.113
-  type: socks5
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 26'
+  name: '[I] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
@@ -233,7 +105,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 27'
+  name: '[I] 🇺🇸 美国 11'
   network: tcp
   port: 443
   server: s880.gogocs.xyz
@@ -249,7 +121,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 28'
+  name: '[I] 🇺🇸 美国 12'
   network: tcp
   port: 443
   server: s881.wagahaha.xyz
@@ -265,7 +137,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 29'
+  name: '[I] 🇺🇸 美国 13'
   network: tcp
   port: 443
   server: 23.166.40.27
@@ -281,7 +153,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 30'
+  name: '[I] 🇺🇸 美国 14'
   network: tcp
   port: 10829
   server: 198.12.124.74

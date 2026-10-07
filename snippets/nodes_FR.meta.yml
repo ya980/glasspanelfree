@@ -9,8 +9,60 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: '[E] 🇫🇷 法国 02'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.39
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- fingerprint: random
+  name: '[E] 🇫🇷 法国 03'
+  password: d402d4c0b8354a90b70bb2566dce9a08
+  port: 8444
+  server: i.wareznet.ru
+  sni: i.wareznet.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 04'
+  password: UfRjQpXI5OzVXsOy
+  port: 25096
+  server: de12.h1cloud.net
+  skip-cert-verify: true
+  sni: www.chip.de
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 05'
+  network: ws
+  port: 443
+  server: 149.50.105.60
+  servername: bab-6.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇫🇷 法国 06'
+  network: tcp
+  port: '4040'
+  reality-opts:
+    public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
+    short-id: '!!str 73693dea6faae051'
+  server: rkiioxth.asrarshimi.ir
+  servername: www.actionvfx.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
+  xudp: true
 - auth: github.com/Alvin9999-newpac/fanqiang
-  name: '[H] 🇫🇷 法国 02'
+  name: '[H] 🇫🇷 法国 07'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 43115
   server: 62.210.147.2
@@ -18,28 +70,54 @@ proxies:
   sni: www.microsoft.com
   type: hysteria2
   udp: true
-- name: '[H] 🇫🇷 法国 03'
-  port: 6103
-  server: 87.98.174.157
+- name: '[H] 🇫🇷 法国 08'
+  port: 443
+  server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 04'
-  password: amazonskr05
-  port: 443
-  server: 13.36.178.160
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 09'
+  network: tcp
+  port: 8451
+  reality-opts:
+    public-key: 4q8nqNb-0c-akP3XqVmen67BLXJVlx48a_GDRw16nVg
+    short-id: '!!str 5ea112e8'
+  server: 155.212.187.222
+  servername: addons.mozilla.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
   udp: true
-- name: '[H] 🇫🇷 法国 05'
-  port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 06'
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- name: '[H] 🇫🇷 法国 10'
   port: 443
   server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] 🇫🇷 法国 11'
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇫🇷 法国 12'
+  network: ws
+  port: '2053'
+  server: 8.47.69.0
+  servername: vless.api-music-fa.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  ws-opts:
+    headers:
+      Host: fr.api-music-fa.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /api/voip/updates/static/fr2035
+  xudp: true

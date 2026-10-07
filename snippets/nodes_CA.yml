@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: '[I] 🇨🇦 加拿大 08'
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  sni: jiangjc.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F'

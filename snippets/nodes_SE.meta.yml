@@ -10,21 +10,20 @@ proxies:
 - name: '[H] SE 02'
   password: None
   port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 03'
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 04'
+  port: 443
   server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[I] SE 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qmfrMwVYth3lsYuv7qfr22YlTIlNtVjMl0v4Z5pX7hM
-    short-id: '!!str 87cc0414902bee2d'
-  server: 150.241.80.113
-  servername: nl.skfv-mirror.ru
-  tls: false
-  type: vless
-  uuid: 86037609-3790-4901-bd2f-c698092fb1fc

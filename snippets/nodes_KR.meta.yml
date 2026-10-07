@@ -22,3 +22,29 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: '[I] 🇰🇷 韩国 03'
+  network: ws
+  port: 2053
+  server: 49.238.238.154
+  servername: and-75r.pages.dev
+  tls: true
+  type: vless
+  uuid: 573c6482-37db-454a-8c31-5b45a338a580
+  ws-opts:
+    headers:
+      Host: and-75r.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[I] 🇰🇷 韩国 04'
+  network: ws
+  port: 2096
+  server: 49.238.238.156
+  servername: and-75r.pages.dev
+  tls: true
+  type: vless
+  uuid: 573c6482-37db-454a-8c31-5b45a338a580
+  ws-opts:
+    headers:
+      Host: and-75r.pages.dev
+    path: '%2F'

@@ -1,24 +1,8 @@
 proxies:
 - name: '[H] 🇷🇺 俄罗斯 01'
-  port: 443
-  server: 82.147.71.46
+  password: BugFreeNet_BugFreeShell
+  port: '1081'
+  server: 188.127.251.1
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇷🇺 俄罗斯 02'
-  port: 1080
-  server: 81.195.131.20
   type: socks5
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M7yPV6xLi9h6EevpqZfXLZBuxoey8kz1c6Bh0pK5fho
-    short-id: '!!str 170ab9ced015571f'
-  server: 188.130.209.216
-  servername: emaar.ru
-  tls: false
-  type: vless
-  uuid: 444623e9-f27d-487c-b7cc-436931967e79
+  username: BugFreeNet_BugFreeShell

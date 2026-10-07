@@ -82,29 +82,15 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 09'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
     path: /
-- name: '[I] 🇨🇳 中国 10'
+- name: '[I] 🇨🇳 中国 09'
   network: tcp
   port: 52683
   server: jp.sofast.live
   tls: false
   type: vless
   uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: '[I] 🇨🇳 中国 11'
+- name: '[I] 🇨🇳 中国 10'
   network: tcp
   port: 58011
   server: us22.sofast.live
@@ -112,7 +98,7 @@ proxies:
   type: vless
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - client-fingerprint: unsafe
-  name: '[I] 🇨🇳 中国 12'
+  name: '[I] 🇨🇳 中国 11'
   network: ws
   port: 8443
   server: 129.211.188.184

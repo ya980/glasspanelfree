@@ -1,39 +1,88 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4433
-  server: de1.xiaoliyu.cyou
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 02'
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: '[H] 🇩🇪 德国 02'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.39
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Obr5RkpXcciyoYhSOWoBu-rPy23XTh96VbZGM95Lpic
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 03'
+  network: tcp
+  port: 59719
+  reality-opts:
+    public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ
+    short-id: '!!str 6e6f9fa5decc02'
+  server: 189.24.108.152
+  servername: www.sony.lu
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd55b3ae-6833-4eff-be18-55bd92164071
+- name: '[H] 🇩🇪 德国 04'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 03'
+- name: '[H] 🇩🇪 德国 05'
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 06'
   password: amazonskr05
   port: 443
-  server: 63.177.230.112
+  server: 3.67.197.81
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 07'
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
+  udp: true
+- name: '[H] 🇩🇪 德国 08'
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 10'
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 11'
   network: tcp
   port: 443
   server: s249.freessr.bid
@@ -46,7 +95,7 @@ proxies:
       Host: 47d2e9bes71.gogocs.xyz
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 12'
   network: tcp
   port: 443
   reality-opts:
@@ -62,7 +111,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 07'
+  name: '[I] 🇩🇪 德国 13'
   network: tcp
   port: 443
   server: s251.wagahaha.xyz
@@ -78,7 +127,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 08'
+  name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 443
   server: 179.61.138.177

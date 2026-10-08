@@ -1,27 +1,26 @@
 proxies:
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: astracat
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: grpc
-  port: 2088
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: '!!str b1ad165f903c62fe'
-  server: 31.59.210.26
-  servername: www.yandex.ru
-  tls: true
+    public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
+  server: 159.194.250.154
+  servername: api-maps.yandex.ru
+  tls: false
   type: vless
-  udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-- name: '[H] 🇷🇺 俄罗斯 02'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇷🇺 俄罗斯 03'
-  port: 1080
-  server: 176.195.18.41
-  type: socks5
+  uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: '%2F'

@@ -13,38 +13,25 @@ proxies:
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 03'
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 04'
   password: None
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🇬🇧 英国 05'
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 06'
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 07'
+- name: '[H] 🇬🇧 英国 04'
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 05'
+  network: tcp
+  port: 10829
+  server: s1243.sspcccdn.xyz
+  servername: u695098ueb8953b4s861.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3

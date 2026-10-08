@@ -7,16 +7,9 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
-- name: '[H] SE 02'
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] SE 03'
+  name: '[I] SE 02'
   network: tcp
   port: 443
   reality-opts:

@@ -17,68 +17,15 @@ proxies:
   sni: ip5.934618.xyz
   type: anytls
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 03'
-  network: tcp
-  port: 443
-  server: tyxyrytyro-51255165170-direct.araghchy.com
-  servername: tyxyrytyro-51255165170-direct.araghchy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 04'
-  password: amazonskr05
-  port: 443
-  server: 13.36.178.160
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: '[H] 🇫🇷 法国 05'
+- name: '[H] 🇫🇷 法国 03'
   port: 443
   server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 06'
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 07'
-  port: 443
-  server: 13.37.239.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 08'
-  port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 09'
+- name: '[H] 🇫🇷 法国 04'
   port: 443
   server: 13.37.228.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 10'
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 11'
-  password: ''
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''

@@ -1,7 +1,14 @@
 proxies:
+- name: '[D] 🇷🇺 俄罗斯 01'
+  password: 41edb44c8e
+  port: 11592
+  server: 103.88.243.142
+  sni: srv-17e124.21freedom.net
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
   port: 443
   reality-opts:
@@ -12,7 +19,7 @@ proxies:
   type: vless
   uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 03'
   network: ws
   port: 8880
   server: 185.148.104.30

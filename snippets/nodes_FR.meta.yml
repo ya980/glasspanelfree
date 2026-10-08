@@ -9,20 +9,24 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 02'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: '[H] 🇫🇷 法国 03'
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 02'
+  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
   port: 443
-  server: 13.37.226.59
+  server: dehy.bbobr.win
+  skip-cert-verify: false
+  sni: dehy.bbobr.win
+  tls: false
+  type: hysteria2
+- fingerprint: chrome
+  name: '[E] 🇫🇷 法国 03'
+  password: 83rwy5zazcx1f4i6
+  port: 443
+  server: top.bostnet.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
+  tls: false
+  type: hysteria2
 - name: '[H] 🇫🇷 法国 04'
   port: 443
   server: 13.37.228.51

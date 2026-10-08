@@ -1,7 +1,14 @@
 proxies:
+- name: '[E] 🇺🇸 美国 01'
+  password: Hd7N0TU7Ow5ZqaIx
+  port: 25172
+  server: us5.h1cloud.net
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 01'
+  name: '[E] 🇺🇸 美国 02'
   password: Hd7N0TU7Ow5ZqaIx
   port: 25172
   server: us5.h1cloud.net
@@ -11,31 +18,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 02'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 05'
+  name: '[E] 🇺🇸 美国 03'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -43,49 +26,68 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
-  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 07'
-  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
-  port: 55000
-  server: 156.229.160.253
+  name: '[E] 🇺🇸 美国 04'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 08'
-  password: f9e76796-72ba-4af1-9435-a556bd81c140
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
+- name: '[E] 🇺🇸 美国 05'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 06'
   network: ws
   port: '443'
-  server: 173.249.198.111
-  servername: ''
-  tls: false
+  server: us5-1.998998.best
+  servername: server4.9966338.xyz
+  tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: ''
-    path: /tel=@user_xexevil
+      Host: server4.9966338.xyz
+    path: /androirfdsreoightrjh?ed=2560
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[E] 🇺🇸 美国 07'
+  network: ws
+  port: '443'
+  server: us16-4.998998.best
+  servername: server1.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server1.9966338.xyz
+    path: /efrsdioy98wert
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 08'
+  network: ws
+  port: '443'
+  server: us16-4.998998.best
+  servername: server1.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server1.9966338.xyz
+    path: /efrsdioy98wert?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -100,7 +102,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 11'
+  name: '[F] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -113,7 +115,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 12'
+- name: '[G] 🇺🇸 美国 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -121,7 +123,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 13'
+- name: '[G] 🇺🇸 美国 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -129,42 +131,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 14'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-  port: 2377
-  server: 88.210.36.107
-  type: ss
-  udp: true
-- name: '[H] 🇺🇸 美国 15'
+- name: '[H] 🇺🇸 美国 13'
+  port: 8443
+  server: 45.145.73.240
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 14'
   port: 443
-  server: 12.202.180.118
+  server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 16'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: '!!str '
-  server: 193.239.179.15
-  servername: worldoftanks.asia
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 15'
   network: tcp
   port: 443
   reality-opts:
@@ -177,7 +158,7 @@ proxies:
   uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 18'
+  name: '[I] 🇺🇸 美国 16'
   network: tcp
   port: 443
   reality-opts:
@@ -190,7 +171,7 @@ proxies:
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 19'
+  name: '[I] 🇺🇸 美国 17'
   network: tcp
   port: 443
   reality-opts:
@@ -202,7 +183,7 @@ proxies:
   type: vless
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 20'
+  name: '[I] 🇺🇸 美国 18'
   network: ws
   port: 443
   server: 209.206.51.240
@@ -215,7 +196,7 @@ proxies:
       Host: and-75r.pages.dev
     path: '%2F'
 - client-fingerprint: android
-  name: '[I] 🇺🇸 美国 21'
+  name: '[I] 🇺🇸 美国 19'
   network: ws
   port: 2087
   server: 103.116.7.100
@@ -227,7 +208,7 @@ proxies:
     headers:
       Host: proxy-1cu.pages.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   port: 2053
   server: 8.47.69.0
@@ -239,7 +220,7 @@ proxies:
     headers:
       Host: fr.api-music-fa.com
     path: '%2Fapi%2Fvoip%2Fupdates%2Fstatic%2Ffr2035'
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -250,7 +231,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   port: 8880
   server: 155.46.213.30
@@ -261,7 +242,7 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 25'
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   port: 8880
   server: 80.93.202.40
@@ -272,7 +253,7 @@ proxies:
     headers:
       Host: vms.lifetime02.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 26'
+- name: '[I] 🇺🇸 美国 24'
   network: ws
   port: 8880
   server: 155.46.167.30

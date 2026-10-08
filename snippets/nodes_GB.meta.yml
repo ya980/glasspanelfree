@@ -1,33 +1,21 @@
 proxies:
-- name: '[E] 🇬🇧 英国 01'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 103.126.51.55
-  sni: ocober-romania-new.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[H] 🇬🇧 英国 02'
+- name: '[H] 🇬🇧 英国 01'
   port: 443
-  server: 212.102.63.1
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 03'
+- name: '[H] 🇬🇧 英国 02'
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 05'
+  name: '[I] 🇬🇧 英国 03'
   network: tcp
   port: 10829
   server: s1243.sspcccdn.xyz

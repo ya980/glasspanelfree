@@ -1,14 +1,27 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: 8451
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: astracat
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: grpc
+  port: 2088
   reality-opts:
-    public-key: 4q8nqNb-0c-akP3XqVmen67BLXJVlx48a_GDRw16nVg
-    short-id: '!!str 5ea112e8'
-  server: 155.212.187.222
-  servername: addons.mozilla.org
-  tls: false
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: '!!str b1ad165f903c62fe'
+  server: 31.59.210.26
+  servername: www.yandex.ru
+  tls: true
   type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  udp: true
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+- name: '[H] 🇷🇺 俄罗斯 02'
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇷🇺 俄罗斯 03'
+  port: 1080
+  server: 176.195.18.41
+  type: socks5

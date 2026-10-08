@@ -1,23 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 03'
+  name: '[H] 🇫🇷 法国 04'
   password: amazonskr05
   port: 443
   server: 13.36.178.160
   skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 07'
-  password: amazonskr05
-  port: 443
-  server: 15.237.53.180
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 08'
-  password: amazonskr05
-  port: 443
-  server: 13.36.241.80
   type: ss
   udp: true

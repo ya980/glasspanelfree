@@ -1,83 +1,223 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇨🇳 中国 08'
   network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 03'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: 2b9hwy8ocx7q74nm.v.3dns.vip
+  port: '10086'
+  server: 39.108.113.127
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
   ws-opts:
     headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
-    path: /ws-vmess
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 09'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: uk2-2.998998.best
+  servername: server3.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server3.9966338.xyz
+    path: /waetasiuofguiwer?ed=2560
 - alterId: 0
   cipher: auto
   name: '[E] 🇭🇰 香港 05'
   network: ws
   port: '443'
-  server: 8.217.254.88
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+  server: hk2.998998.best
+  servername: server15.9966338.xyz
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
-    path: /ws-vmess
+      Host: server15.9966338.xyz
+    path: /asivewritten?ed=2560
 - alterId: 0
   cipher: auto
   name: '[E] 🇭🇰 香港 06'
   network: ws
   port: '443'
-  server: 8.217.254.88
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+  server: yg1.ygkkk.dpdns.org
+  servername: ''
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
   ws-opts:
     headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
-    path: /ws-vmess
+      Host: jmp1.907737.xyz
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 07'
+  network: ws
+  port: '443'
+  server: cu.877774.xyz
+  servername: balanced-minds-carrier-demanding.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
+  ws-opts:
+    headers:
+      Host: balanced-minds-carrier-demanding.trycloudflare.com
+    path: /vmess-argo?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 08'
+  network: ws
+  port: '443'
+  server: cu.877774.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
+  ws-opts:
+    headers:
+      Host: balanced-minds-carrier-demanding.trycloudflare.com
+    path: /vmess-argo
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 32'
+  network: ws
+  port: '443'
+  server: mix2.998998.best
+  servername: server10.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: ''
+    path: /rthiugoyretdsuigg?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 33'
+  network: ws
+  port: '443'
+  server: mix2.998998.best
+  servername: server10.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server10.9966338.xyz
+    path: /rthiugoyretdsuigg?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 34'
+  network: ws
+  port: '443'
+  server: uk3-2.998998.best
+  servername: server22.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server22.9966338.xyz
+    path: /serhrdftshg
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 35'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 36'
+  network: ws
+  port: '443'
+  server: uk3-2.998998.best
+  servername: server22.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: ''
+    path: /serhrdftshg
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 14'
+  network: ws
+  port: '443'
+  server: us16-4.998998.best
+  servername: server1.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server1.9966338.xyz
+    path: /efrsdioy98wert
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 03'
+  network: ws
+  port: '2083'
+  server: 162.159.130.234
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 04'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 28'
+  name: '[F] 🌍 其它地区 37'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 09'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -86,7 +226,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 10'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -101,7 +241,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 11'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -116,7 +256,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 10'
+  name: '[F] 🇭🇰 香港 12'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -131,7 +271,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 11'
+  name: '[F] 🇭🇰 香港 13'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -146,7 +286,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 05'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -161,7 +301,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -176,7 +316,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -191,7 +331,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 05'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -206,7 +346,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 03'
+  name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -236,7 +376,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 15'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -251,7 +391,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 16'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -266,7 +406,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 12'
+  name: '[G] 🇭🇰 香港 14'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -274,7 +414,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 13'
+- name: '[G] 🇭🇰 香港 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -282,7 +422,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 14'
+- name: '[G] 🇭🇰 香港 16'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -290,7 +430,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 15'
+- name: '[G] 🇭🇰 香港 17'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -298,7 +438,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 16'
+- name: '[G] 🇭🇰 香港 18'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -306,7 +446,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇯🇵 日本 06'
+- name: '[G] 🇯🇵 日本 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -314,7 +454,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇸🇬 新加坡 04'
+- name: '[G] 🇸🇬 新加坡 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -322,7 +462,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 09'
+- name: '[G] 🇺🇸 美国 17'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -330,7 +470,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 10'
+- name: '[G] 🇺🇸 美国 18'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -354,8 +494,37 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇺🇸 美国 19'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 03'
+  name: '[H] 🇺🇸 美国 20'
+  password: amazonskr05
+  port: '443'
+  server: 107.21.80.138
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇺🇸 美国 21'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 04'
   password: amazonskr05
   port: 443
   server: 13.36.178.160
@@ -363,103 +532,25 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 06'
+  name: '[H] 🇺🇸 美国 23'
   password: amazonskr05
   port: 443
-  server: 3.67.197.81
+  server: 98.91.210.43
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 07'
-  password: amazonskr05
-  port: 443
-  server: 15.237.53.180
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 07'
-  password: amazonskr05
-  port: 443
-  server: 18.196.88.40
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 08'
-  password: amazonskr05
-  port: 443
-  server: 13.36.241.80
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 13'
-  password: amazonskr05
-  port: 443
-  server: 34.228.79.192
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 21'
-  password: amazonskr05
-  port: 443
-  server: 54.221.120.243
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 29'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: '20006'
-  server: ss.042.node-for-bigairport.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 30'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
-    mode: tls
-  port: '2377'
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 31'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-  port: '2377'
-  server: 88.210.36.107
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 32'
-  password: amazonskr05
-  port: '443'
-  server: 18.208.223.39
-  type: ss
-  udp: true
-- name: '[I] 🇨🇦 加拿大 09'
-  network: ws
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  port: 8443
-  server: www.wto.org
-  sni: jiangjc.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 71'
-  network: ws
-  port: '2083'
-  server: cdn.sfacg.uk
-  servername: ''
+  name: '[I] 🇯🇵 日本 09'
+  network: tcp
+  port: '33445'
+  server: 87.120.106.133
+  servername: es3siwxee705.dx4x.com
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
+  uuid: d9fbf9a7-1f88-428b-bb3e-3074681e44c9
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇯🇵 日本 10'
+  password: 4c8fced0-8987-4504-b8cf-15aca9cbb82e
+  port: 35601
+  server: gw.lydwan.com
+  type: ss

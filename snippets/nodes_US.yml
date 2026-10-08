@@ -1,7 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[E] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: uk2-2.998998.best
+  servername: server3.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server3.9966338.xyz
+    path: /waetasiuofguiwer?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 14'
+  network: ws
+  port: '443'
+  server: us16-4.998998.best
+  servername: server1.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server1.9966338.xyz
+    path: /efrsdioy98wert
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 15'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -16,7 +44,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 16'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -29,7 +57,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 09'
+- name: '[G] 🇺🇸 美国 17'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -37,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 10'
+- name: '[G] 🇺🇸 美国 18'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -45,53 +73,39 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 13'
-  password: amazonskr05
-  port: 443
-  server: 34.228.79.192
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇺🇸 美国 19'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 20'
+  password: amazonskr05
+  port: '443'
+  server: 107.21.80.138
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: '[H] 🇺🇸 美国 21'
-  password: amazonskr05
-  port: 443
-  server: 54.221.120.243
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 29'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: '20006'
-  server: ss.042.node-for-bigairport.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 30'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
     mode: tls
-  port: '2377'
+  port: 2377
   server: 88.210.36.106
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 31'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-  port: '2377'
-  server: 88.210.36.107
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 32'
+  name: '[H] 🇺🇸 美国 23'
   password: amazonskr05
-  port: '443'
-  server: 18.208.223.39
+  port: 443
+  server: 98.91.210.43
   type: ss
   udp: true

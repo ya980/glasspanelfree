@@ -1,11 +1,40 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
+- name: '[E] 🇬🇧 英国 01'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 103.126.51.55
+  sni: ocober-romania-new.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[H] 🇬🇧 英国 02'
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 02'
+- name: '[H] 🇬🇧 英国 03'
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 06'
   password: None
   port: 443
   server: 212.102.63.61
@@ -13,13 +42,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 03'
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 04'
+- name: '[H] 🇬🇧 英国 07'
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true

@@ -5,31 +5,3 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] EE 02'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0
-    short-id: '!!str ae64c9b46bff174a'
-  server: 5.175.178.30
-  servername: ee1.sky-vault.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fc806fa-350b-4548-937a-2bf35f7fe7eb
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] EE 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: '!!str ad6e08b22389abd2'
-  server: 163.245.52.91
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: false
-  type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910

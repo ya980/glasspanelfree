@@ -1,25 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 33'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 34'
+  name: '[E] 🌍 其它地区 56'
   network: ws
   port: '2083'
   server: cdn.sfacg.uk
-  servername: or3.sfacg.uk
+  servername: ''
   tls: true
   type: vmess
   uuid: ac251237-576f-40c8-a543-554960c958b1
@@ -29,18 +15,18 @@ proxies:
     path: /or3
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 08'
+  name: '[E] 🇺🇸 美国 07'
   network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
+  port: '443'
+  server: uk2-2.998998.best
+  servername: server3.9966338.xyz
+  tls: true
   type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: server3.9966338.xyz
+    path: /waetasiuofguiwer?ed=2560
 - alterId: 0
   cipher: auto
   name: '[E] 🇭🇰 香港 01'
@@ -74,6 +60,62 @@ proxies:
   name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 04'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 05'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 06'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 07'
+  network: ws
+  port: '443'
   server: hk2.998998.best
   servername: server15.9966338.xyz
   tls: true
@@ -85,7 +127,35 @@ proxies:
     path: /asivewritten?ed=2560
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 01'
+  name: '[E] 🇯🇵 日本 03'
+  network: ws
+  port: '443'
+  server: JP032005.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1e2bb223-450c-4b89-95d5-11269115affa
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 04'
+  network: ws
+  port: '443'
+  server: JP032007.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 33387c30-5f6e-4e72-941b-0c1b599a80dc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 05'
   network: ws
   port: '55002'
   server: 45.127.32.220
@@ -96,48 +166,10 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 02'
-  network: ws
-  port: '55002'
-  server: 45.127.32.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
-  port: '55002'
-  server: 45.127.32.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
-  ws-opts:
-    headers:
-      Host: www.bing.com
     path: b25731af-0428-4274-be5d-31a273a8d632-vm
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
-  network: tcp
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 35'
+  name: '[E] 🌍 其它地区 57'
   network: ws
   port: '443'
   server: uk3-2.998998.best
@@ -151,11 +183,11 @@ proxies:
     path: /serhrdftshg
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 36'
+  name: '[E] 🌍 其它地区 58'
   network: ws
   port: '443'
   server: uk3-2.998998.best
-  servername: ''
+  servername: server22.9966338.xyz
   tls: true
   type: vmess
   uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
@@ -165,7 +197,217 @@ proxies:
     path: /serhrdftshg
 - alterId: 0
   cipher: auto
+  name: '[E] 🌍 其它地区 59'
+  network: ws
+  port: '443'
+  server: uk3-2.998998.best
+  servername: server22.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server22.9966338.xyz
+    path: /serhrdftshg?ed=2560
+- alterId: 0
+  cipher: auto
   name: '[E] 🇺🇸 美国 08'
+  network: ws
+  port: '443'
+  server: us5-1.998998.best
+  servername: server4.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server4.9966338.xyz
+    path: /androirfdsreoightrjh?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 09'
+  network: ws
+  port: '443'
+  server: US032017.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a8311605-579c-47ba-9a98-23dd271a3e66
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 10'
+  network: ws
+  port: '443'
+  server: US032018.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d6004915-9588-4633-8ab1-eebf9deab0e1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 11'
+  network: ws
+  port: '443'
+  server: US032019.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 54c17074-24e2-4620-ab58-308b356bfd6b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 12'
+  network: ws
+  port: '443'
+  server: US032011.westmgreen.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c563570b-159f-4e3c-afa0-646f623f7244
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: US032012.westmgreen.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cb2c5205-95a3-4563-b86b-2918b084f724
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 14'
+  network: ws
+  port: '443'
+  server: US032013.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c52af617-e321-43d1-9c54-20591c0d4ce8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 15'
+  network: ws
+  port: '443'
+  server: US032021.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4440f2be-dc30-4483-b1eb-9e90462b7078
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 16'
+  network: ws
+  port: '443'
+  server: US032022.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 43541874-c5ba-4f0e-bee0-b55008f118de
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 17'
+  network: ws
+  port: '443'
+  server: US032023.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d59856de-fa14-40d5-ba93-e7bf62b10bb3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 18'
+  network: ws
+  port: '443'
+  server: US122205.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a11ecae8-d273-4b54-8751-a8a9eee0fb26
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 19'
+  network: ws
+  port: '443'
+  server: US122206.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a835a12e-ba92-45b6-9f81-a6092a85eab3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 20'
+  network: ws
+  port: '443'
+  server: US122208.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a7dd5d64-87a0-4b50-8759-4966cf9d2c9f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 21'
+  network: ws
+  port: '443'
+  server: US122201.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2c80086c-6985-4757-b5eb-fe160a88e732
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 22'
   network: ws
   port: '443'
   server: us16-4.998998.best
@@ -179,7 +421,7 @@ proxies:
     path: /efrsdioy98wert?ed=2560
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 23'
   network: ws
   port: '443'
   server: us16-4.998998.best
@@ -193,21 +435,49 @@ proxies:
     path: /efrsdioy98wert
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 01'
+  name: '[E] 🇺🇸 美国 24'
   network: ws
-  port: '2083'
-  server: 162.159.130.234
+  port: '443'
+  server: US122204.ssgreen.org
   servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: bce7e76c-584c-4cff-b1e4-6ee76ef801dd
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
+      Host: ''
+    path: /wes
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 02'
+  name: '[E] 🇺🇸 美国 25'
+  network: ws
+  port: '443'
+  server: US122209.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e18561fd-6ab5-43dd-b33b-34ed10df5fe1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 26'
+  network: ws
+  port: '443'
+  server: 173.249.198.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /tel=@user_xexevil
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 05'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
@@ -220,14 +490,14 @@ proxies:
       Host: or3.sfacg.uk
     path: /or3
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 37'
+  name: '[F] 🌍 其它地区 60'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 08'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -236,7 +506,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 09'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -251,7 +521,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 10'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -266,7 +536,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 11'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -281,7 +551,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 12'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -296,7 +566,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -311,7 +581,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -326,7 +596,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 08'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -341,7 +611,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 04'
+  name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -356,7 +626,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 05'
+  name: '[F] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -386,7 +656,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 27'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -401,7 +671,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 11'
+  name: '[F] 🇺🇸 美国 28'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -416,7 +686,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 09'
+  name: '[G] 🇭🇰 香港 13'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -424,7 +694,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 14'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -432,7 +702,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -440,7 +710,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 12'
+- name: '[G] 🇭🇰 香港 16'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -448,7 +718,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 13'
+- name: '[G] 🇭🇰 香港 17'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -456,7 +726,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇯🇵 日本 06'
+- name: '[G] 🇯🇵 日本 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -464,7 +734,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇸🇬 新加坡 06'
+- name: '[G] 🇸🇬 新加坡 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -472,7 +742,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 12'
+- name: '[G] 🇺🇸 美国 29'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -480,7 +750,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 13'
+- name: '[G] 🇺🇸 美国 30'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -488,7 +758,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇨🇳 台湾 02'
+- name: '[G] 🇨🇳 台湾 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -504,20 +774,22 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇯🇵 日本 07'
-  network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+- name: '[H] 🇯🇵 日本 11'
+  password: UX82473651
   port: 443
-  server: jp3.998998.best
+  server: legible-ram.rooster465.autos
   skip-cert-verify: true
-  sni: nat11.outsidemyheart.space
+  sni: legible-ram.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: nat11.outsidemyheart.space
-    path: /w4e5yh0p945y3?ed=2560
-- name: '[I] 🇨🇦 加拿大 06'
+- cipher: aes-128-gcm
+  name: '[H] 🇸🇬 新加坡 09'
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
+  port: '40022'
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- name: '[I] 🇨🇦 加拿大 09'
   network: ws
   password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
   port: 8443

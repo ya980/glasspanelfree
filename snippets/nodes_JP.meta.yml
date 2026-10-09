@@ -1,21 +1,53 @@
 proxies:
+- alpn:
+  - h3
+  name: '[E] 🇯🇵 日本 01'
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  port: 8443
+  server: 8.211.175.236
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 02'
+  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+  port: 8080
+  server: 139.28.168.126
+  skip-cert-verify: true
+  sni: hopp-honkong-new.roxa.org
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 01'
+  name: '[E] 🇯🇵 日本 03'
   network: ws
-  port: '2083'
-  server: 162.159.130.234
+  port: '443'
+  server: JP032005.ssgreen.org
   servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 1e2bb223-450c-4b89-95d5-11269115affa
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
+      Host: ''
+    path: /wes
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 02'
+  name: '[E] 🇯🇵 日本 04'
+  network: ws
+  port: '443'
+  server: JP032007.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 33387c30-5f6e-4e72-941b-0c1b599a80dc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 05'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
@@ -29,7 +61,7 @@ proxies:
     path: /or3
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -44,7 +76,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -59,7 +91,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 08'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -72,7 +104,7 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇯🇵 日本 06'
+- name: '[G] 🇯🇵 日本 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -80,22 +112,41 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇯🇵 日本 07'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇯🇵 日本 10'
   network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  port: 443
-  server: jp3.998998.best
-  skip-cert-verify: true
-  sni: nat11.outsidemyheart.space
-  type: trojan
+  port: '443'
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
   udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: nat11.outsidemyheart.space
-    path: /w4e5yh0p945y3?ed=2560
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
+  xudp: true
+- name: '[H] 🇯🇵 日本 11'
+  password: UX82473651
+  port: 443
+  server: legible-ram.rooster465.autos
+  skip-cert-verify: true
+  sni: legible-ram.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 12'
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 13'
   network: tcp
   port: 57233
   server: 198.98.48.110

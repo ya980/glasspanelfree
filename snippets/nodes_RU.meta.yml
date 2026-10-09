@@ -1,29 +1,6 @@
 proxies:
-- name: '[H] 🇷🇺 俄罗斯 01'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: astracat
-  name: '[H] 🇷🇺 俄罗斯 02'
-  network: grpc
-  port: '2088'
-  reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: '!!str b1ad165f903c62fe'
-  server: 31.59.210.26
-  servername: www.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: 8880
   server: 185.148.104.30

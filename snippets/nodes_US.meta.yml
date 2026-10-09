@@ -1,9 +1,9 @@
 proxies:
 - name: '[E] 🇺🇸 美国 01'
-  password: Hd7N0TU7Ow5ZqaIx
-  port: 25172
-  server: us5.h1cloud.net
-  skip-cert-verify: true
+  password: Hc9_NX924RE_Mn948rgrwiub_m93V84nll
+  port: 9443
+  server: 5.254.51.109
+  sni: keyhop-voxility-at.dynuddns.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
@@ -11,29 +11,18 @@ proxies:
   port: 25172
   server: us5.h1cloud.net
   skip-cert-verify: true
-  sni: us5.h1cloud.net
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[E] 🇺🇸 美国 03'
-  password: Hd7N0TU7Ow5ZqaIx
-  port: 25172
-  server: us5.h1cloud.net
-  skip-cert-verify: true
-  sni: us5.h1cloud.net
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -42,7 +31,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 06'
+  name: '[E] 🇺🇸 美国 05'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -50,7 +39,7 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 06'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -59,7 +48,217 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
+  name: '[E] 🇺🇸 美国 07'
+  network: ws
+  port: '443'
+  server: uk2-2.998998.best
+  servername: server3.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server3.9966338.xyz
+    path: /waetasiuofguiwer?ed=2560
+- alterId: 0
+  cipher: auto
   name: '[E] 🇺🇸 美国 08'
+  network: ws
+  port: '443'
+  server: us5-1.998998.best
+  servername: server4.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: server4.9966338.xyz
+    path: /androirfdsreoightrjh?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 09'
+  network: ws
+  port: '443'
+  server: US032017.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a8311605-579c-47ba-9a98-23dd271a3e66
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 10'
+  network: ws
+  port: '443'
+  server: US032018.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d6004915-9588-4633-8ab1-eebf9deab0e1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 11'
+  network: ws
+  port: '443'
+  server: US032019.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 54c17074-24e2-4620-ab58-308b356bfd6b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 12'
+  network: ws
+  port: '443'
+  server: US032011.westmgreen.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c563570b-159f-4e3c-afa0-646f623f7244
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: US032012.westmgreen.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cb2c5205-95a3-4563-b86b-2918b084f724
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 14'
+  network: ws
+  port: '443'
+  server: US032013.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c52af617-e321-43d1-9c54-20591c0d4ce8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 15'
+  network: ws
+  port: '443'
+  server: US032021.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4440f2be-dc30-4483-b1eb-9e90462b7078
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 16'
+  network: ws
+  port: '443'
+  server: US032022.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 43541874-c5ba-4f0e-bee0-b55008f118de
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 17'
+  network: ws
+  port: '443'
+  server: US032023.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d59856de-fa14-40d5-ba93-e7bf62b10bb3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 18'
+  network: ws
+  port: '443'
+  server: US122205.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a11ecae8-d273-4b54-8751-a8a9eee0fb26
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 19'
+  network: ws
+  port: '443'
+  server: US122206.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a835a12e-ba92-45b6-9f81-a6092a85eab3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 20'
+  network: ws
+  port: '443'
+  server: US122208.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a7dd5d64-87a0-4b50-8759-4966cf9d2c9f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 21'
+  network: ws
+  port: '443'
+  server: US122201.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2c80086c-6985-4757-b5eb-fe160a88e732
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 22'
   network: ws
   port: '443'
   server: us16-4.998998.best
@@ -73,7 +272,7 @@ proxies:
     path: /efrsdioy98wert?ed=2560
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 23'
   network: ws
   port: '443'
   server: us16-4.998998.best
@@ -87,7 +286,49 @@ proxies:
     path: /efrsdioy98wert
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[E] 🇺🇸 美国 24'
+  network: ws
+  port: '443'
+  server: US122204.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bce7e76c-584c-4cff-b1e4-6ee76ef801dd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 25'
+  network: ws
+  port: '443'
+  server: US122209.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e18561fd-6ab5-43dd-b33b-34ed10df5fe1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 26'
+  network: ws
+  port: '443'
+  server: 173.249.198.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /tel=@user_xexevil
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 27'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -102,7 +343,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 11'
+  name: '[F] 🇺🇸 美国 28'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -115,7 +356,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 12'
+- name: '[G] 🇺🇸 美国 29'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -123,7 +364,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 13'
+- name: '[G] 🇺🇸 美国 30'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -131,77 +372,44 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 14'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 15'
-  port: 8443
-  server: 45.145.73.240
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 16'
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 17'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 18'
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 19'
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 20'
+- name: '[H] 🇺🇸 美国 31'
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 21'
-  port: 443
-  server: 68.235.56.59
+- name: '[H] 🇺🇸 美国 32'
+  port: 9443
+  server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 22'
-  network: xhttp
-  port: '8443'
-  server: 104.16.14.137
-  servername: api-v2.wordfreetop.com
+- name: '[H] 🇺🇸 美国 33'
+  port: 443
+  server: 45.63.38.134
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 58350a5f-96da-47e4-9eab-6250226a8c0d
-  xhttp-opts:
-    host: api-v2.wordfreetop.com
-    mode: auto
-    path: /cdn/v2/media
-    x-padding-bytes: 100-1000
-  xudp: true
+  type: http
+- name: '[H] 🇺🇸 美国 34'
+  password: None
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 35'
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 36'
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h2
   - http/1.1
@@ -209,7 +417,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 37'
   network: tcp
   port: 57233
   server: s554.csgfw.top
@@ -223,7 +431,7 @@ proxies:
     path: ''
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 39'
   network: tcp
   port: 443
   reality-opts:
@@ -236,7 +444,7 @@ proxies:
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 26'
+  name: '[I] 🇺🇸 美国 40'
   network: tcp
   port: 443
   reality-opts:
@@ -248,7 +456,7 @@ proxies:
   type: vless
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 27'
+  name: '[I] 🇺🇸 美国 41'
   network: ws
   port: 443
   server: 162.159.249.175
@@ -259,7 +467,7 @@ proxies:
   ws-opts:
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 28'
+  name: '[I] 🇺🇸 美国 42'
   network: ws
   port: 443
   server: 162.159.251.165
@@ -270,7 +478,7 @@ proxies:
   ws-opts:
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 29'
+  name: '[I] 🇺🇸 美国 43'
   network: ws
   port: 443
   server: 209.206.51.240
@@ -282,7 +490,7 @@ proxies:
     headers:
       Host: and-75r.pages.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 30'
+- name: '[I] 🇺🇸 美国 44'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -293,7 +501,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 31'
+- name: '[I] 🇺🇸 美国 45'
   network: ws
   port: 443
   server: 216.24.57.1

@@ -1,33 +1,20 @@
 proxies:
-- name: '[D] 🇷🇺 俄罗斯 01'
-  password: 41edb44c8e
-  port: 11592
-  server: 103.88.243.142
-  sni: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
+- name: '[H] 🇷🇺 俄罗斯 01'
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
   port: 443
   reality-opts:
-    public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
-  server: 159.194.250.154
-  servername: api-maps.yandex.ru
+    public-key: QJzo15K3EUtRdJwrkaGRjHdKLyl-WUiEzQTTMsHm8y4
+    short-id: '!!str b716462f7ff12219'
+  server: 109.120.152.26
+  servername: www.samsung.com
   tls: false
   type: vless
-  uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
-- client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 03'
-  network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: '%2F'
+  uuid: 95621b8e-5cf7-4123-9df4-38d903054a1b

@@ -1,7 +1,57 @@
 proxies:
+- name: '[D] 🇸🇬 新加坡 01'
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: 138.2.73.238
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 01'
+  name: '[E] 🇸🇬 新加坡 02'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: ''
+    path: b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 04'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇸🇬 新加坡 05'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -16,7 +66,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -29,7 +79,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 03'
+- name: '[G] 🇸🇬 新加坡 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -37,17 +87,16 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  name: '[H] 🇸🇬 新加坡 04'
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇸🇬 新加坡 08'
+  network: tcp
   port: 443
-  server: ct.877774.xyz
-  servername: ap-south.862400.xyz
-  tls: true
+  reality-opts:
+    public-key: 4tYZTzPnpJQQiG3bExrmT1TBzRMuaBWhFssBRNqrDVU
+    short-id: '!!str b1a9832f489b'
+  server: vl.033.node-for-bigairport.com
+  servername: ap-southeast-1.console.aws.amazon.com
+  tls: false
   type: vless
-  udp: true
-  uuid: f57dfd20-fdf4-4967-9599-aca8433ebd5c
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement?ed=2048
+  uuid: 11bce34b-e248-4af5-a0f1-951c4c5ece45

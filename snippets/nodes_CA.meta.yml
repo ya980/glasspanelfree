@@ -1,19 +1,57 @@
 proxies:
-- name: '[I] 🇨🇦 加拿大 01'
-  network: ws
-  port: 8080
-  server: 172.67.210.250
-  tls: false
+- name: '[H] 🇨🇦 加拿大 01'
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 02'
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 03'
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 04'
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 05'
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇨🇦 加拿大 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: NO3w10fOUvwK8L7vzCVPDLWIKYCHDaB6ealdMnv4jS4
+    short-id: '!!str e287e3906e3c'
+  server: 209.200.246.61
+  servername: ca.vpnskyline.com
+  tls: true
   type: vless
-  uuid: f85183cf-af02-4656-b1e9-3a61dced201f
-  ws-opts:
-    headers:
-      Host: freeworld.aliaicode47649.workers.dev
-    path: '%2Fvl%2FuyXT65o0H9U3hDBrVjJ9E%3Fed%3D2560'
-- name: '[I] 🇨🇦 加拿大 02'
+  udp: true
+  uuid: ab9929fd-ab22-48e3-8723-480733c0eca9
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 443
-  server: saas.sin.fan
+  server: 162.159.130.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -21,87 +59,3 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
-- client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 03'
-  network: ws
-  port: 2083
-  server: 172.67.69.86
-  servername: helloapps.cc.cd
-  tls: true
-  type: vless
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: '%2F'
-- name: '[I] 🇨🇦 加拿大 04'
-  network: ws
-  port: 8880
-  server: 104.16.72.41
-  servername: summer-butterfly-cbc8.26-971.workers.dev
-  tls: false
-  type: vless
-  uuid: 28201cd6-c2a9-4703-a31b-eaf31ecb18fd
-  ws-opts:
-    headers:
-      Host: summer-butterfly-cbc8.26-971.workers.dev
-    path: '%2Fpyip'
-- name: '[I] 🇨🇦 加拿大 05'
-  network: ws
-  port: 8880
-  server: 104.21.0.115
-  tls: false
-  type: vless
-  uuid: 8995976a-1c81-4b44-a414-d3bc71058a21
-  ws-opts:
-    headers:
-      Host: muddy-queen-cdda.181-cf9.workers.dev
-    path: '%2F'
-- name: '[I] 🇨🇦 加拿大 06'
-  network: ws
-  port: 80
-  server: 104.21.56.90
-  servername: 104.21.56.90
-  tls: false
-  type: vless
-  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
-  ws-opts:
-    headers:
-      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
-    path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
-- client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 07'
-  network: ws
-  port: 80
-  server: 172.67.183.52
-  servername: 172.67.183.52
-  tls: false
-  type: vless
-  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
-  ws-opts:
-    headers:
-      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
-    path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
-- name: '[I] 🇨🇦 加拿大 08'
-  network: ws
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  port: 8443
-  server: www.wto.org
-  sni: jiangjc.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 09'
-  network: ws
-  port: 2087
-  server: 172.67.79.160
-  servername: cvhpyn.pages.dev
-  tls: true
-  type: vless
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  ws-opts:
-    headers:
-      Host: cvhpyn.pages.dev
-    path: '%2F'

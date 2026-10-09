@@ -1,72 +1,142 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
+  password: 81d953a0-f0cf-4452-a669-747d32efd6c1
+  port: 24000
+  server: 177.1.195.242
+  skip-cert-verify: false
+  sni: hy.kirian.su
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 02'
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 03'
+  password: amazonskr05
+  port: 443
+  server: 3.79.59.187
+  type: ss
+  udp: true
+- name: '[H] 🇩🇪 德国 04'
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 05'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 06'
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 08'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 09'
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 10'
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 11'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 12'
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 13'
+  port: 443
+  server: 79.76.126.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 14'
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  port: '443'
+  server: ger2.fytpn.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 15'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: l9b1AQuRbk4WA3hUVHI3mGBW-X5gNKFF72fWvismAS0
+    short-id: '!!str '
+  server: ru-001.zapretu.net
+  servername: ru-001.zapretu.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: eac04622-531b-0007-b85f-3c2ee67565c6
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 01'
+  name: '[I] 🇩🇪 德国 16'
   network: tcp
   port: 443
   reality-opts:
-    public-key: f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE
-    short-id: '!!str c8621ebb1e56abb3'
-  server: pa6r26.eu-cdn539.com
-  servername: zsde.eu-cdn294.com
+    public-key: 9J5SrrBYJ4Tz_zpSM3n-EWuin5jmUqEI8LJ5htsGZy8
+  server: 147.45.63.64
+  servername: cloudflare.com
   tls: false
   type: vless
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 02'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '!!str 4be4110078ebed4a'
-  server: 177.1.187.251
-  servername: de2.srv.vbuste.ru
-  tls: false
-  type: vless
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 03'
-  network: tcp
-  port: 443
-  server: s249.freessr.bid
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 47d2e9bes71.gogocs.xyz
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
-  network: tcp
-  port: 443
-  server: 179.61.138.177
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 47d2e9bes71.gogocs.xyz
+  uuid: 579b72a5-785a-4fb6-ac64-1de2f8c49601
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 17'
   network: tcp
   port: 443
   reality-opts:
-    public-key: f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE
-    short-id: '!!str c8621ebb1e56abb3'
-  server: 103.244.145.144
-  servername: zsde.eu-cdn294.com
+    public-key: XW-uVSKkZJB14OFKOePhEE4UnrAOI4VfuAQQZ_gI3E0
+    short-id: '!!str 848eb46fd7a0e43d'
+  server: g1.coconutsvpn.com
+  servername: g1.coconutsvpn.com
   tls: false
   type: vless
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  uuid: 8d790ba0-5407-441b-b545-8ab369c591ce
+  ws-opts:
+    headers:
+      Host: /?Telegram---vpnv2r4y---vpnv2r4y---vpnv2r4y---vpnv2r4y

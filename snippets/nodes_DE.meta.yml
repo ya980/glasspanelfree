@@ -1,29 +1,71 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  obfs: salamander
-  obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
-  password: 81d953a0-f0cf-4452-a669-747d32efd6c1
-  port: 24000
-  server: 177.1.195.242
-  skip-cert-verify: false
-  sni: hy.kirian.su
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '[H] 🇩🇪 德国 01'
+  network: xhttp
+  port: 2083
+  server: 104.16.14.245
+  servername: nanegaeidamakhond.kirpeople2sepahkosnaneh.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 602e8e0a-8334-4e23-a5e8-bdb089656236
+  xhttp-opts:
+    host: nanegaeidamakhond.kirpeople2sepahkosnaneh.info
+    mode: auto
+    path: /images/avatar/load
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇩🇪 德国 02'
-  password: amazonskr05
-  port: 443
-  server: 18.196.88.40
-  type: ss
+  network: ws
+  port: '443'
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-cfb
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇩🇪 德国 03'
-  password: amazonskr05
-  port: 443
-  server: 3.79.59.187
-  type: ss
+  network: xhttp
+  port: '8443'
+  server: 104.16.242.93
+  servername: api-v2.wordfreetop.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 47291692-a740-475f-984b-0e84f20d1d87
+  xhttp-opts:
+    host: api-v2.wordfreetop.com
+    mode: auto
+    path: /cdn/v2/media
+    x-padding-bytes: 100-1000
+  xudp: true
 - name: '[H] 🇩🇪 德国 04'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 05'
+  port: 443
+  server: 31.77.19.92
+  skip-cert-verify: true
+  type: socks5
+- name: '[H] 🇩🇪 德国 06'
   password: None
   port: 443
   server: 87.249.132.97
@@ -31,112 +73,49 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 05'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '[H] 🇩🇪 德国 07'
   port: 443
-  server: 87.106.223.158
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 08'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 09'
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 10'
   port: 9443
-  server: 79.127.156.177
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 11'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 12'
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 13'
+- name: '[H] 🇩🇪 德国 09'
   port: 443
   server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 14'
-  network: tcp
-  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
-  port: '443'
-  server: ger2.fytpn.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: qq
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 15'
+  name: '[H] 🇩🇪 德国 10'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: l9b1AQuRbk4WA3hUVHI3mGBW-X5gNKFF72fWvismAS0
-    short-id: '!!str '
-  server: ru-001.zapretu.net
-  servername: ru-001.zapretu.net
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: '!!str 0fa4a0e2493392'
+  server: defrnode.xyy123.bid
+  servername: p-y3-www-amazon-com-kalias.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: eac04622-531b-0007-b85f-3c2ee67565c6
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 11'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 9J5SrrBYJ4Tz_zpSM3n-EWuin5jmUqEI8LJ5htsGZy8
-  server: 147.45.63.64
-  servername: cloudflare.com
+    public-key: f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE
+    short-id: '!!str c8621ebb1e56abb3'
+  server: 103.244.145.138
+  servername: zsde.eu-cdn294.com
   tls: false
   type: vless
-  uuid: 579b72a5-785a-4fb6-ac64-1de2f8c49601
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 17'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XW-uVSKkZJB14OFKOePhEE4UnrAOI4VfuAQQZ_gI3E0
-    short-id: '!!str 848eb46fd7a0e43d'
-  server: g1.coconutsvpn.com
-  servername: g1.coconutsvpn.com
-  tls: false
-  type: vless
-  uuid: 8d790ba0-5407-441b-b545-8ab369c591ce
-  ws-opts:
-    headers:
-      Host: /?Telegram---vpnv2r4y---vpnv2r4y---vpnv2r4y---vpnv2r4y
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66

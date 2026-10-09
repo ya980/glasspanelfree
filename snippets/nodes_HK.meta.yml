@@ -4,6 +4,20 @@ proxies:
   name: '[E] 🇭🇰 香港 01'
   network: ws
   port: '443'
+  server: hk2.998998.best
+  servername: server15.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: ''
+    path: /asivewritten?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
   server: yg1.ygkkk.dpdns.org
   servername: jmp1.907737.xyz
   tls: true
@@ -13,20 +27,6 @@ proxies:
     headers:
       Host: jmp1.907737.xyz
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: cu.877774.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
-  ws-opts:
-    headers:
-      Host: balanced-minds-carrier-demanding.trycloudflare.com
-    path: /vmess-argo
 - alterId: 0
   cipher: auto
   name: '[E] 🇭🇰 香港 03'
@@ -152,16 +152,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 14'
-  network: tcp
-  port: 32134
-  reality-opts:
-    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-    short-id: '!!str 6c6c7c97'
-  server: 3696b38bsg.murphyweb.sbs
-  servername: buylite.music.apple.com
-  tls: false
+- name: '[H] 🇭🇰 香港 14'
+  password: ''
+  port: '5555'
+  server: 49.0.245.175
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: '[I] 🇭🇰 香港 15'
+  network: ws
+  port: 8443
+  server: 103.253.42.37
+  servername: vlso5.1d.mom
+  tls: true
   type: vless
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso5.1d.mom
+    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'

@@ -1,35 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 03'
-  network: ws
-  port: '443'
-  server: JP032005.ssgreen.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1e2bb223-450c-4b89-95d5-11269115affa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 04'
-  network: ws
-  port: '443'
-  server: JP032007.ssgreen.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 33387c30-5f6e-4e72-941b-0c1b599a80dc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /wes
-- alterId: 0
-  cipher: auto
   name: '[E] 🇯🇵 日本 05'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 06'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
@@ -43,7 +29,7 @@ proxies:
     path: /or3
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 06'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -58,7 +44,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 07'
+  name: '[F] 🇯🇵 日本 08'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -73,7 +59,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 08'
+  name: '[F] 🇯🇵 日本 09'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -86,7 +72,7 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇯🇵 日本 09'
+- name: '[G] 🇯🇵 日本 10'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -94,11 +80,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇯🇵 日本 11'
-  password: UX82473651
-  port: 443
-  server: legible-ram.rooster465.autos
-  skip-cert-verify: true
-  sni: legible-ram.rooster465.autos
-  type: trojan
-  udp: true

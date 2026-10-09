@@ -79,7 +79,33 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
+  fingerprint: firefox
   name: '[E] 🇫🇷 法国 10'
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- fingerprint: chrome
+  name: '[E] 🇫🇷 法国 11'
+  password: 83rwy5zazcx1f4i6
+  port: 443
+  server: top.bostnet.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 12'
+  password: 83rwy5zazcx1f4i6
+  port: 443
+  server: top.bostnet.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 13'
   password: 83rwy5zazcx1f4i6
   port: 443
   server: top.bostnet.xyz
@@ -87,23 +113,37 @@ proxies:
   sni: top.bostnet.xyz
   tls: false
   type: hysteria2
+- name: '[E] 🇫🇷 法国 14'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: 177.3.216.217
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 11'
+  name: '[E] 🇫🇷 法国 15'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 12'
+- name: '[E] 🇫🇷 法国 16'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 17'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 13'
+- name: '[E] 🇫🇷 法国 18'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -111,7 +151,7 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 14'
+- name: '[E] 🇫🇷 法国 19'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -121,7 +161,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 15'
+  name: '[E] 🇫🇷 法国 20'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -129,7 +169,7 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 16'
+- name: '[E] 🇫🇷 法国 21'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: 108.165.164.118
@@ -138,16 +178,56 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 17'
+  name: '[E] 🇫🇷 法国 22'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: mai.song69.fun
   sni: mai.song69.fun
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 18'
+- name: '[E] 🇫🇷 法国 23'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: mai.song69.fun
+  sni: ''
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  name: '[H] 🇫🇷 法国 24'
+  network: ws
+  port: 995
+  server: 95.133.247.98
+  servername: love-paris.roxa.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: df275727-c25a-450b-99c3-29e4e6b0b6b9
+  ws-opts:
+    headers:
+      Host: love-paris.roxa.org
+    path: /api/v1
+    v2ray-http-upgrade: true
+- name: '[H] 🇫🇷 法国 25'
   port: 9443
-  server: 138.199.47.247
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 26'
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 27'
+  port: 443
+  server: 82.64.255.151
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 28'
+  port: 8081
+  server: 31.32.19.111
   skip-cert-verify: true
   tls: true
   type: http

@@ -1,5 +1,5 @@
 proxies:
-- name: '[I] 🇨🇦 加拿大 13'
+- name: '[I] 🇨🇦 加拿大 15'
   network: ws
   password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
   port: 8443
@@ -7,4 +7,6 @@ proxies:
   sni: jiangjc.pages.dev
   type: trojan
   ws-opts:
+    headers:
+      Host: jiangjc.pages.dev
     path: '%2F'

@@ -69,24 +69,10 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: '[I] 🇨🇳 中国 09'
+- name: '[I] 🇨🇳 中国 08'
   network: tcp
-  port: 58011
-  server: us22.sofast.live
+  port: 52683
+  server: jp.sofast.live
   tls: false
   type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc

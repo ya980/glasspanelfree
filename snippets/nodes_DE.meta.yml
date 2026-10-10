@@ -1,11 +1,38 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 01'
+  network: ws
   port: 443
-  server: 79.76.126.155
+  server: 61.18.134.10
+  servername: mswo-gy191m.zhiyuantech.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
+  ws-opts:
+    headers:
+      Host: mswo-gy191m.zhiyuantech.cloud
+    path: /e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
+- name: '[H] 🇩🇪 德国 02'
+  port: 443
+  server: 31.77.19.92
+  skip-cert-verify: true
+  type: socks5
+- name: '[H] 🇩🇪 德国 03'
+  port: 443
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 02'
+- name: '[H] 🇩🇪 德国 04'
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 05'
   password: None
   port: 443
   server: 149.36.50.157
@@ -13,46 +40,76 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 03'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 04'
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 05'
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '[H] 🇩🇪 德国 06'
-  port: 9002
-  server: 158.173.154.5
+  port: 9443
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 07'
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 07'
+  password: amazonskr05
+  port: '443'
+  server: 3.67.197.81
+  type: ss
+  udp: true
+- client-fingerprint: edge
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 08'
+  name: '[H] 🇩🇪 德国 08'
+  network: tcp
+  port: '2080'
+  reality-opts:
+    public-key: A2-_TVXJkWh9CZ7aD4NT9CsfAalIAn9r3BYXNJ3vhlc
+    short-id: '!!str 6ee75d75c8607846'
+  server: 13.143.174.146
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0783c6fc-16a8-46ff-a408-a099d2f6f3ac
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: '!!str d2061bb1'
+  server: gw1.edgemedia.lol
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: WrqktJc0i6tesi_bVc6WS1mYM0yxhbriI4jrU_butSA
+    short-id: '!!str cd529c087b552f2f'
+  server: 95.85.238.142
+  servername: bobr.puffixhosting.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e937b92c-701f-420e-a621-3eb3b75de467
+  xudp: true
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 11'
   network: tcp
   port: 443
   reality-opts:
-    public-key: f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE
-    short-id: '!!str c8621ebb1e56abb3'
-  server: 103.244.145.138
-  servername: zsde.eu-cdn294.com
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '!!str 4be4110078ebed4a'
+  server: 177.1.187.251
+  servername: de2.srv.vbuste.ru
   tls: false
   type: vless
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386

@@ -1,16 +1,8 @@
 proxies:
-- name: '[H] 🇷🇺 俄罗斯 01'
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 02'
+- name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: 8880
   server: 185.148.104.30
-  servername: 185.148.104.30
   tls: false
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d

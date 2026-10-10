@@ -1,5 +1,20 @@
 proxies:
 - name: '[E] 🇸🇬 新加坡 01'
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10004
+  server: sy.australiacaregroup.site
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 02'
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10004
+  server: sy.australiacaregroup.site
+  skip-cert-verify: true
+  sni: sy.australiacaregroup.site
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-hk-004.fastervpn.world
@@ -7,7 +22,32 @@ proxies:
   sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[E] 🇸🇬 新加坡 04'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 05'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 06'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇸🇬 新加坡 07'
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   port: 18642
   server: s3.huhiuh.space
@@ -17,7 +57,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇸🇬 新加坡 03'
+  name: '[E] 🇸🇬 新加坡 08'
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   port: 18642
   server: s3.huhiuh.space
@@ -27,21 +67,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 04'
-  network: ws
-  port: '55002'
-  server: 45.127.32.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 05'
+  name: '[E] 🇸🇬 新加坡 09'
   network: ws
   port: '55002'
   server: 45.127.32.220
@@ -55,7 +81,49 @@ proxies:
     path: b25731af-0428-4274-be5d-31a273a8d632-vm
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 06'
+  name: '[E] 🇸🇬 新加坡 10'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 11'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 12'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: ''
+    path: b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇸🇬 新加坡 13'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -70,7 +138,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 07'
+  name: '[F] 🇸🇬 新加坡 14'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -83,7 +151,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 08'
+- name: '[G] 🇸🇬 新加坡 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -91,21 +159,24 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇸🇬 新加坡 09'
-  password: '!!str 1234'
-  port: '2080'
-  server: 54.251.149.207
-  skip-cert-verify: true
+- name: '[H] 🇸🇬 新加坡 16'
+  port: 9090
+  server: 128.199.121.61
   type: http
-  username: '1234'
-- name: '[I] 🇸🇬 新加坡 10'
+- name: '[H] 🇸🇬 新加坡 17'
+  port: 9443
+  server: 152.233.9.239
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[I] 🇸🇬 新加坡 18'
   password: UX82473651
   port: 443
   server: musical-mouse.rooster465.autos
   sni: musical-mouse.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 11'
+  name: '[I] 🇸🇬 新加坡 19'
   network: ws
   port: 443
   server: 43.174.195.1

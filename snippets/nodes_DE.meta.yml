@@ -1,15 +1,7 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 02'
+  name: '[I] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:

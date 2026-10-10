@@ -1,15 +1,22 @@
 proxies:
 - name: '[E] 🇯🇵 日本 01'
-  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
-  port: 8080
-  server: 139.28.168.126
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  port: 8443
+  server: 8.211.175.236
   skip-cert-verify: true
-  sni: hopp-honkong-new.roxa.org
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[E] 🇯🇵 日本 02'
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  port: 8443
+  server: 8.211.175.236
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 03'
   password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
   port: 8080
   server: 139.28.168.126
@@ -17,25 +24,6 @@ proxies:
   sni: hopp-honkong-new.roxa.org
   tls: false
   type: hysteria2
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[E] 🇯🇵 日本 03'
-  network: ws
-  port: '2083'
-  server: cdn.sfacg.uk
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
 - alterId: 0
   cipher: auto
   name: '[F] 🇯🇵 日本 04'

@@ -12,27 +12,12 @@ proxies:
   port: 18642
   server: s3.huhiuh.space
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇸🇬 新加坡 03'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
   sni: s3.huhiuh.space
-  tls: false
-  type: hysteria2
-- name: '[E] 🇸🇬 新加坡 04'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇸🇬 新加坡 05'
+  name: '[E] 🇸🇬 新加坡 03'
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   port: 18642
   server: s3.huhiuh.space
@@ -42,7 +27,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 06'
+  name: '[E] 🇸🇬 新加坡 04'
   network: ws
   port: '55002'
   server: 45.127.32.220
@@ -56,7 +41,7 @@ proxies:
     path: /b25731af-0428-4274-be5d-31a273a8d632-vm
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 07'
+  name: '[E] 🇸🇬 新加坡 05'
   network: ws
   port: '55002'
   server: 45.127.32.220
@@ -70,7 +55,7 @@ proxies:
     path: b25731af-0428-4274-be5d-31a273a8d632-vm
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 08'
+  name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -85,7 +70,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 09'
+  name: '[F] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -98,7 +83,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 10'
+- name: '[G] 🇸🇬 新加坡 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -106,14 +91,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[I] 🇸🇬 新加坡 11'
+- name: '[H] 🇸🇬 新加坡 09'
+  password: '!!str 1234'
+  port: '2080'
+  server: 54.251.149.207
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[I] 🇸🇬 新加坡 10'
   password: UX82473651
   port: 443
   server: musical-mouse.rooster465.autos
   sni: musical-mouse.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 12'
+  name: '[I] 🇸🇬 新加坡 11'
   network: ws
   port: 443
   server: 43.174.195.1

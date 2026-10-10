@@ -69,21 +69,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10001'
-  server: cn42.vatilon.cc
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  ws-opts:
-    headers:
-      Host: cn42.vatilon.cc
-    path: /vmess
-- name: '[I] 🇨🇳 中国 09'
+- name: '[I] 🇨🇳 中国 08'
   network: tcp
   port: 52683
   server: jp.sofast.live

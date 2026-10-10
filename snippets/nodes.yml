@@ -1,21 +1,77 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 08'
+  name: '[E] 🌍 其它地区 60'
   network: ws
-  port: '10001'
-  server: cn42.vatilon.cc
+  port: '10086'
+  server: 120.48.133.162
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
   ws-opts:
     headers:
-      Host: cn42.vatilon.cc
-    path: /vmess
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 06'
+  name: '[E] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 04'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 04'
   network: ws
   port: '55002'
   server: 45.127.32.220
@@ -29,7 +85,7 @@ proxies:
     path: /b25731af-0428-4274-be5d-31a273a8d632-vm
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 07'
+  name: '[E] 🇸🇬 新加坡 05'
   network: ws
   port: '55002'
   server: 45.127.32.220
@@ -43,27 +99,21 @@ proxies:
     path: b25731af-0428-4274-be5d-31a273a8d632-vm
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
-  network: tcp
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
+  name: '[E] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: nl-2a972c8052.shamanapp.online
   tls: false
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: nl-2a972c8052.shamanapp.online
+    path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 台湾 02'
-  network: raw
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 56'
+  name: '[E] 🇷🇺 俄罗斯 02'
   network: ws
   port: '33736'
   server: nl-2a972c8052.shamanapp.online
@@ -75,34 +125,39 @@ proxies:
     headers:
       Host: ''
     path: /vmess-ws
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 03'
-  network: ws
-  port: '2083'
-  server: cdn.sfacg.uk
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
+  name: '[E] 🇺🇸 美国 07'
+  network: tcp
+  port: '23201'
+  server: gz2.vatilon.cc
+  servername: ''
+  tls: false
   type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 08'
+  network: ws
+  port: '443'
+  server: 173.249.198.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
+      Host: ''
+    path: /tel=@user_xexevil
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 57'
+  name: '[F] 🌍 其它地区 61'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 05'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -111,7 +166,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 06'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -126,7 +181,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 07'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -141,7 +196,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 08'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -156,7 +211,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 09'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -216,7 +271,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 08'
+  name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -231,7 +286,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 09'
+  name: '[F] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -261,7 +316,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 11'
+  name: '[F] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -276,7 +331,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 12'
+  name: '[F] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -291,7 +346,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 10'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -299,7 +354,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 09'
+- name: '[G] 🇭🇰 香港 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -307,7 +362,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -315,7 +370,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 13'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -323,7 +378,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 12'
+- name: '[G] 🇭🇰 香港 14'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -339,7 +394,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇸🇬 新加坡 10'
+- name: '[G] 🇸🇬 新加坡 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -347,7 +402,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 13'
+- name: '[G] 🇺🇸 美国 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -355,7 +410,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 14'
+- name: '[G] 🇺🇸 美国 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -363,7 +418,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇨🇳 台湾 03'
+- name: '[G] 🇨🇳 台湾 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -379,13 +434,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[I] 🇸🇬 新加坡 11'
+- name: '[I] 🇸🇬 新加坡 10'
   password: UX82473651
   port: 443
   server: musical-mouse.rooster465.autos
   sni: musical-mouse.rooster465.autos
   type: trojan
-- name: '[I] 🇨🇦 加拿大 15'
+- name: '[I] 🇨🇦 加拿大 12'
   network: ws
   password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
   port: 8443
@@ -397,7 +452,7 @@ proxies:
       Host: jiangjc.pages.dev
     path: '%2F'
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 81'
+  name: '[I] 🌍 其它地区 79'
   password: 2581cebb-e452-4ee3-8849-3cd358bf9394
   port: 35193
   server: ruot.ayucloudservices.nl

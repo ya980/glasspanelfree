@@ -1,25 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
-  network: tcp
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
+- name: '[E] 🇨🇳 台湾 01'
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 20004
+  server: sg.australiacaregroup.site
+  sni: tw.australiacaregroup.site
   tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 02'
-  network: raw
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- name: '[G] 🇨🇳 台湾 03'
+  type: hysteria2
+- name: '[G] 🇨🇳 台湾 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142

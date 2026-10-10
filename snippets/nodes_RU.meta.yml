@@ -1,5 +1,33 @@
 proxies:
-- name: '[I] 🇷🇺 俄罗斯 01'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: nl-2a972c8052.shamanapp.online
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: nl-2a972c8052.shamanapp.online
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess-ws
+- name: '[I] 🇷🇺 俄罗斯 03'
   network: ws
   port: 8880
   server: 185.148.104.30

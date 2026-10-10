@@ -27,55 +27,32 @@ proxies:
     headers:
       Host: ''
     path: /vmess-ws
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: xhttp
-  port: '8468'
-  reality-opts:
-    public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 188.225.77.143
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
-  xhttp-opts:
-    mode: auto
-    path: /xh
-  xudp: true
-- name: '[H] 🇷🇺 俄罗斯 04'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: random
-  encryption: none
+- client-fingerprint: firefox
   grpc-opts:
-    grpc-service-name: ru-api
-  name: '[H] 🇷🇺 俄罗斯 05'
+    grpc-service-name: astracat
+  name: '[H] 🇷🇺 俄罗斯 03'
   network: grpc
-  port: '443'
+  port: 2088
   reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-    short-id: '!!str '
-  server: 93.188.184.150
-  servername: ru-1-2.unturned-rust-dead.lol
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: '!!str b1ad165f903c62fe'
+  server: 31.59.210.26
+  servername: www.yandex.ru
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-  xudp: true
-- name: '[I] 🇷🇺 俄罗斯 06'
-  network: ws
-  port: 8880
-  server: 185.148.104.30
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+- flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 04'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: '!!str d2061bb1'
+  server: 13.143.137.206
+  servername: ya.ru
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: '%2F'
+  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a

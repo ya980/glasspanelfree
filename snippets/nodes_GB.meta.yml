@@ -24,38 +24,22 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 06'
+- name: '[H] 🇬🇧 英国 05'
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 07'
+- name: '[H] 🇬🇧 英国 06'
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇬🇧 英国 08'
-  network: ws
-  port: 8880
-  server: cf7.466688.xyz
-  tls: false
-  type: vless
-  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
-  ws-opts:
-    headers:
-      Host: nameless-tree-08b8.352.workers.dev
-    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net%40https%3A%2F%2Ft.me%2FQiangLieTuiJian'
+  username: null

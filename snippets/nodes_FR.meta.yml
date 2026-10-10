@@ -25,12 +25,15 @@ proxies:
   sni: 'off'
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 151.247.197.253
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[E] 🇫🇷 法国 04'
+  password: 077d2648-b995-4512-a018-2d1e0f79629a
+  port: 1443
+  server: hy9.shamanfun.ru
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: hy9.shamanfun.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -50,9 +53,26 @@ proxies:
   sni: dehy.bbobr.win
   tls: false
   type: hysteria2
+- name: '[E] 🇫🇷 法国 07'
+  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
+  port: 443
+  server: 188.241.241.33
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 07'
+  name: '[E] 🇫🇷 法国 08'
+  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
+  port: 443
+  server: 188.241.241.33
+  skip-cert-verify: false
+  sni: dehy.bbobr.win
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 09'
   password: 267b3a79-81f2-42ac-a409-c23b05b6329d
   port: 443
   server: dehy.bbobr.win
@@ -60,25 +80,42 @@ proxies:
   sni: dehy.bbobr.win
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 08'
+- name: '[E] 🇫🇷 法国 10'
   password: 267b3a79-81f2-42ac-a409-c23b05b6329d
   port: 443
   server: dehy.bbobr.win
   sni: dehy.bbobr.win
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 09'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+- fingerprint: firefox
+  name: '[E] 🇫🇷 法国 11'
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
+  skip-cert-verify: true
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 10'
+  fingerprint: firefox
+  name: '[E] 🇫🇷 法国 12'
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 13'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: 177.3.216.217
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 14'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -86,14 +123,14 @@ proxies:
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 11'
+- name: '[E] 🇫🇷 法国 15'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 12'
+- name: '[E] 🇫🇷 法国 16'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -101,7 +138,7 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 13'
+- name: '[E] 🇫🇷 法国 17'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -111,7 +148,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 14'
+  name: '[E] 🇫🇷 法国 18'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -119,58 +156,9 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 15'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: 108.165.164.118
-  sni: mai.song69.fun
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 16'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: mai.song69.fun
-  sni: mai.song69.fun
-  tls: false
-  type: hysteria2
-- name: '[H] 🇫🇷 法国 17'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: '[H] 🇫🇷 法国 18'
-  network: ws
-  port: '443'
-  server: 199.232.78.170
-  servername: Speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
 - name: '[H] 🇫🇷 法国 19'
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 20'
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1012
+  server: k5f00f9s.zf-mix.9999231.xyz
+  sni: fr-house.9999231.xyz
+  type: anytls

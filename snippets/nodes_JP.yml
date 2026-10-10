@@ -1,59 +1,26 @@
 proxies:
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: '[E] 🇯🇵 日本 04'
-  network: tcp
-  port: '3141'
-  server: sh.australiacaregroup.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 05'
+  name: '[E] 🇯🇵 日本 03'
   network: ws
   port: '2083'
   server: cdn.sfacg.uk
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 06'
-  network: ws
-  port: '2083'
-  server: 162.159.130.234
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 07'
-  network: ws
-  port: '2083'
-  server: or3.sfacg.uk
   servername: cdn.sfacg.uk
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
       Host: or3.sfacg.uk
     path: /or3
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 08'
+  name: '[F] 🇯🇵 日本 04'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -68,7 +35,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 09'
+  name: '[F] 🇯🇵 日本 05'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -83,7 +50,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 10'
+  name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -96,7 +63,7 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇯🇵 日本 11'
+- name: '[G] 🇯🇵 日本 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125

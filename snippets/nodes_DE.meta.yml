@@ -7,73 +7,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 02'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 03'
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 05'
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  password: ''
-  port: 443
-  server: 31.77.19.92
-  skip-cert-verify: true
-  sub_tag: A001-260618
-  type: socks5
-  udp: true
-  username: ''
-- name: '[H] 🇩🇪 德国 07'
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 08'
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 09'
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 10'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 11'
-  password: '!!str 1234'
-  port: '2080'
-  server: 63.176.160.240
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[I] 🇩🇪 德国 12'
+- name: '[I] 🇩🇪 德国 02'
   network: tcp
   port: 2053
   server: test.keoplentuio.xyz
@@ -82,7 +16,7 @@ proxies:
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 13'
+  name: '[I] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:
@@ -95,7 +29,7 @@ proxies:
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:

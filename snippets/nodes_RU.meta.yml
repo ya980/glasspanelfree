@@ -27,32 +27,81 @@ proxies:
     headers:
       Host: ''
     path: /vmess-ws
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: astracat
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇷🇺 俄罗斯 03'
-  network: grpc
-  port: 2088
-  reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: '!!str b1ad165f903c62fe'
-  server: 31.59.210.26
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tfo: false
+  network: xhttp
+  port: '2053'
+  server: fitindoor.net
+  servername: fitindoor.net
   tls: true
   type: vless
   udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-- flow: xtls-rprx-vision
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: fitindoor.net
+    mode: auto
+    path: /api/v1/upload
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      max-concurrency: 16-32
+      max-connections: '0'
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 04'
   network: tcp
-  port: 8443
+  port: 13443
   reality-opts:
     public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
     short-id: '!!str d2061bb1'
-  server: 13.143.137.206
+  server: gw1.edgemedia.lol
   servername: ya.ru
   tls: false
   type: vless
   uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 05'
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: '%2F'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
+    short-id: '!!str a9dc98a7dc87a7dc'
+  server: kozyavka.yandex-api.com
+  servername: kozyavka.yandex-api.com
+  tls: false
+  type: vless
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 07'
+  network: ws
+  port: 443
+  server: cloud.korroh.com
+  servername: cloud.korroh.com
+  tls: true
+  type: vless
+  uuid: ec6f8131-7a5d-4117-9627-6fb2b39ae0da
+  ws-opts:
+    headers:
+      Host: cloud.korroh.com
+    path: /remote.php/dav/89f7661a0011ce46

@@ -30,40 +30,72 @@ proxies:
   sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: '[H] 🇨🇦 加拿大 05'
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇨🇦 加拿大 05'
+  network: ws
+  port: '443'
+  server: 104.21.70.22
+  servername: brightlux.forum
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
+  ws-opts:
+    headers:
+      Host: brightlux.forum
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /raccoonwsvless
+  xudp: true
 - name: '[H] 🇨🇦 加拿大 06'
   port: 443
   server: 206.223.183.21
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 07'
-  port: 443
-  server: 35.183.131.26
+- encryption: none
+  name: '[H] 🇨🇦 加拿大 07'
+  network: tcp
+  port: 8080
+  server: milo.rubinaz.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 08'
-  port: 443
-  server: 206.223.183.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 09'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+  xudp: true
+- name: '[H] 🇨🇦 加拿大 08'
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[I] 🇨🇦 加拿大 09'
+  network: ws
+  port: 8880
+  server: 92.53.189.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
+      Host: vms.lifetime19.workers.dev
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: '[I] 🇨🇦 加拿大 10'
+  network: ws
+  port: 443
+  server: 188.114.96.9
+  servername: IdB8ONMVbntuYT5t7t6cEJfw8vLrb.paGEs.DeV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
+  ws-opts:
+    headers:
+      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrjfp=chrome

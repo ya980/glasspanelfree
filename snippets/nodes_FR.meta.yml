@@ -118,24 +118,36 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
+  down: ''
+  fingerprint: ''
   name: '[E] 🇫🇷 法国 15'
+  obfs: ''
+  obfs-password: ''
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20326
+  port: '20326'
   server: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
   sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
+  up: ''
+- name: '[E] 🇫🇷 法国 16'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 16'
+  name: '[E] 🇫🇷 法国 17'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 17'
+- name: '[E] 🇫🇷 法国 18'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -144,7 +156,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 18'
+  name: '[E] 🇫🇷 法国 19'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -152,18 +164,11 @@ proxies:
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 19'
+- name: '[E] 🇫🇷 法国 20'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 20'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 21'
@@ -171,7 +176,6 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: 91.196.32.163
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 22'
@@ -192,42 +196,30 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- encryption: mlkem768x25519plus.native.0rtt.3yYZRBUbOREiit9nPAtdnx2rzs0sFb9skBmEh09XfVo
-  http-opts:
-    headers:
-      Host:
-      - connectivitycheck.android.com
-    path:
-    - /
-  name: '[H] 🇫🇷 法国 24'
-  network: http
-  port: '20018'
-  server: fr-store.rovilo.ir
-  type: vless
-  udp: true
-  uuid: 5ea90a32-909e-45d2-8525-7e19c0f9d854
-  xudp: true
+- name: '[E] 🇫🇷 法国 24'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
 - name: '[H] 🇫🇷 法国 25'
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇫🇷 法国 26'
+  network: tcp
   port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 26'
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 27'
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 28'
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
+  reality-opts:
+    public-key: INbgA5nXpjZ2P1f6lY7sMBlDM3ZMV8RX3cw-RRGM0mM
+    short-id: '!!str f22e97cfd4d9'
+  server: 31.76.68.245
+  servername: fra01.deflink.net
+  tls: false
+  type: vless
+  uuid: f9cb2991-ad4a-4a54-aeb3-55d56ac02a8e

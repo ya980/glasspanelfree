@@ -10,9 +10,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] CH 02'
-  password: None
-  port: 443
-  server: 31.7.62.50
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1024
+  server: sj8aycl6.zf-mix.9999231.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: ch-wy.9999231.xyz
+  type: anytls
+  udp: true

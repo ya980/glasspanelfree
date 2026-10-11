@@ -9,7 +9,22 @@ proxies:
   type: hysteria2
 - name: '[H] SE 02'
   port: 443
-  server: 217.210.129.243
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[I] SE 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0eWdILjmoRVSJFDMiQskgkKG2Fc4TEMZ3XEPJ8ez9Hw
+  server: 2.26.55.163
+  servername: specific3.kandnet.com
+  tls: false
+  type: vless
+  uuid: 621bcb9e-7df5-427b-a9d4-6e87223c8bca
+  ws-opts:
+    headers:
+      Host: /?telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI

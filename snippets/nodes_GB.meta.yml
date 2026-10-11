@@ -1,113 +1,47 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇬🇧 英国 01'
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  skip-cert-verify: false
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 03'
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  port: 21223
-  server: 13.143.174.151
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇬🇧 英国 04'
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  skip-cert-verify: false
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇬🇧 英国 05'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  skip-cert-verify: false
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇬🇧 英国 06'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 21223
-  server: 13.143.174.151
-  skip-cert-verify: false
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 07'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 21223
-  server: 13.143.174.151
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇬🇧 英国 08'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  skip-cert-verify: false
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 09'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 10'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 21223
-  server: 13.143.174.151
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇬🇧 英国 11'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  skip-cert-verify: false
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 12'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 21223
-  server: sweedenqfds777.qcloud.surf
-  sni: sweedenqfds777.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[H] 🇬🇧 英国 13'
+- name: '[H] 🇬🇧 英国 01'
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 02'
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇬🇧 英国 03'
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇬🇧 英国 04'
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇬🇧 英国 14'
+- name: '[H] 🇬🇧 英国 05'
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 06'
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[I] 🇬🇧 英国 07'
   network: tcp
   port: 8080
   server: milo.rubinaz.xyz

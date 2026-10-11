@@ -9,10 +9,19 @@ proxies:
   sni: hy.kirian.su
   tls: false
   type: hysteria2
-- name: '[H] CH 02'
-  password: None
+- name: '[D] CH 02'
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  password: capadm96216165
   port: 443
-  server: 31.7.62.50
+  server: 208.69.78.217
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- name: '[H] CH 03'
+  port: 9443
+  server: 149.88.27.46
   skip-cert-verify: true
   tls: true
   type: http

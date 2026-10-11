@@ -1,7 +1,13 @@
 proxies:
+- name: '[H] EE 01'
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] EE 01'
+  name: '[I] EE 02'
   network: tcp
   port: 443
   reality-opts:

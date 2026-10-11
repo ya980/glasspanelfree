@@ -1,13 +1,5 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.178
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[I] 🇩🇪 德国 02'
+- name: '[I] 🇩🇪 德国 01'
   network: tcp
   port: 2053
   server: test.keoplentuio.xyz
@@ -16,7 +8,7 @@ proxies:
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 03'
+  name: '[I] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -29,7 +21,7 @@ proxies:
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:

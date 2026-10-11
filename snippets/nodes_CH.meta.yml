@@ -1,11 +1,18 @@
 proxies:
 - name: '[D] CH 01'
   obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-  password: capadm96216165
-  port: 443
-  server: 208.69.78.217
-  skip-cert-verify: true
-  sni: vpn.local
+  obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
+  password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4
+  port: 24000
+  server: 177.1.195.242
+  skip-cert-verify: false
+  sni: hy.kirian.su
   tls: false
   type: hysteria2
+- name: '[H] CH 02'
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -9,84 +9,49 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 02'
-  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
-  port: 443
-  server: 188.241.241.181
-  skip-cert-verify: false
-  sni: dehy.bbobr.win
+- name: '[E] 🇫🇷 法国 02'
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
-  port: 443
-  server: 188.241.241.181
-  sni: dehy.bbobr.win
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 03'
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  skip-cert-verify: false
+  sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 04'
-  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
-  port: 443
-  server: 188.241.241.33
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
-  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
-  port: 443
-  server: 188.241.241.33
-  skip-cert-verify: true
-  sni: dehy.bbobr.win
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 06'
-  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
-  port: 443
-  server: 188.241.241.33
-  skip-cert-verify: false
-  sni: dehy.bbobr.win
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 07'
-  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
-  port: 443
-  server: dehy.bbobr.win
-  skip-cert-verify: false
-  sni: dehy.bbobr.win
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 08'
-  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
-  port: 443
-  server: dehy.bbobr.win
-  sni: dehy.bbobr.win
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 09'
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  skip-cert-verify: false
-  sni: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 10'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 05'
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 06'
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - fingerprint: firefox
-  name: '[E] 🇫🇷 法国 11'
+  name: '[E] 🇫🇷 法国 07'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -97,7 +62,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: firefox
-  name: '[E] 🇫🇷 法国 12'
+  name: '[E] 🇫🇷 法国 08'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -106,7 +71,17 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 13'
+  name: '[E] 🇫🇷 法国 09'
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 10'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -114,7 +89,7 @@ proxies:
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 14'
+- name: '[E] 🇫🇷 法国 11'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -123,7 +98,31 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 15'
+  name: '[E] 🇫🇷 法国 12'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 13'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 14'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 15'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -131,10 +130,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 16'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  sni: qcloudge1.exitvpn.shop
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - alpn:
@@ -168,9 +167,12 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 21'
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 21'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -178,55 +180,34 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 22'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+- name: '[H] 🇫🇷 法国 22'
   port: 443
-  server: 91.196.32.163
+  server: 82.66.235.221
   skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 23'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 23'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 24'
   port: 443
-  server: 91.196.32.163
+  server: 103.82.101.44
   skip-cert-verify: true
-  sni: 91.196.32.163
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 24'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 25'
   port: 443
-  server: 91.196.32.163
+  server: 51.210.167.149
   skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 25'
-  password: 43212c32-01f2-4356-b216-67dc1c178262
-  port: 3218
-  server: pbf5bif5gkg.vpvr4ib84nuv6hdkt.ru
-  skip-cert-verify: false
-  sni: pbf5bif5gkg.vpvr4ib84nuv6hdkt.ru
-  tls: false
-  type: hysteria2
+  tls: true
+  type: http
 - name: '[H] 🇫🇷 法国 26'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: '[H] 🇫🇷 法国 27'
-  port: 9443
-  server: 213.139.9.142
+  port: 8090
+  server: 82.96.128.175
   skip-cert-verify: true
   tls: true
   type: http

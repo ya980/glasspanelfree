@@ -1,16 +1,6 @@
 proxies:
 - name: '[D] CH 01'
   obfs: salamander
-  obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5
-  password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4
-  port: 24000
-  server: 177.1.195.242
-  skip-cert-verify: false
-  sni: hy.kirian.su
-  tls: false
-  type: hysteria2
-- name: '[D] CH 02'
-  obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
   password: capadm96216165
   port: 443
@@ -19,19 +9,3 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] CH 03'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-    short-id: '!!str '
-  server: 179.237.69.151
-  servername: yloyqo0gfsqm.edgepop.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
-  xudp: true

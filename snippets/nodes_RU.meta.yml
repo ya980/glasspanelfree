@@ -1,29 +1,54 @@
 proxies:
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: astracat
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: grpc
-  port: 2088
+- name: '[D] 🇷🇺 俄罗斯 01'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  sni: match-stream.lovkisport.blog
+  tls: false
+  type: hysteria2
+- name: '[D] 🇷🇺 俄罗斯 02'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: 94.198.54.132
+  skip-cert-verify: true
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: '!!str b1ad165f903c62fe'
-  server: 31.59.210.26
-  servername: www.yandex.ru
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+    short-id: '!!str '
+  server: 72.56.9.187
+  servername: ylkagc7brk.bytecourier.cyou
   tls: true
   type: vless
   udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-- name: '[H] 🇷🇺 俄罗斯 02'
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
+  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 04'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+    short-id: '!!str '
+  server: 194.87.201.174
+  servername: g8f3wr6nlwbs.static-edge.site
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: c9c219dc-50da-4135-8e5b-67020291f0ec
+  xudp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: tcp
   port: 443
   reality-opts:

@@ -82,29 +82,15 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 09'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
     path: /
-- name: '[I] 🇨🇳 中国 10'
+- name: '[I] 🇨🇳 中国 09'
   network: tcp
   port: 52683
   server: jp.sofast.live
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: '[I] 🇨🇳 中国 11'
+- name: '[I] 🇨🇳 中国 10'
   network: tcp
   port: 58011
   server: us22.sofast.live

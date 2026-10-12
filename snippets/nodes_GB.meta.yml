@@ -1,50 +1,27 @@
 proxies:
 - name: '[H] 🇬🇧 英国 01'
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 02'
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
   server: 37.120.233.34
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
-  udp: true
-- name: '[H] 🇬🇧 英国 04'
+  username: null
+- name: '[H] 🇬🇧 英国 02'
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 05'
+- name: '[H] 🇬🇧 英国 03'
   port: 443
-  server: 212.102.63.31
+  server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 06'
-  port: 9443
-  server: 84.233.178.33
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇬🇧 英国 07'
-  network: tcp
-  port: 8080
-  server: milo.rubinaz.xyz
-  tls: false
-  type: vless
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8

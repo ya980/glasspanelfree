@@ -1,15 +1,30 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇯🇵 日本 01'
+- name: '[E] 🇯🇵 日本 01'
   password: usqmqUKJFIlCmvkCNSY64L3k
   port: 443
   server: 8.209.247.109
   skip-cert-verify: true
-  sni: 8.209.247.109
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇯🇵 日本 02'
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  port: 443
+  server: 8.209.247.109
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇯🇵 日本 03'
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  port: 443
+  server: 8.209.247.109
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 04'
   password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
   port: 8080
   server: 139.28.168.126
@@ -19,7 +34,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇯🇵 日本 03'
+  name: '[E] 🇯🇵 日本 05'
   password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
   port: 8080
   server: 139.28.168.126
@@ -29,7 +44,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -44,7 +59,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -59,7 +74,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 06'
+  name: '[F] 🇯🇵 日本 08'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -72,7 +87,7 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇯🇵 日本 07'
+- name: '[G] 🇯🇵 日本 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -80,16 +95,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-gcm
+  name: '[H] 🇯🇵 日本 10'
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+  port: 22073
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 11'
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: '!!str d2061bb1'
-  server: 13.143.137.206
-  servername: ya.ru
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '!!str 4be4110078ebed4a'
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
   tls: false
   type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386

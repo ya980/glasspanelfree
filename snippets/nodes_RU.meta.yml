@@ -1,14 +1,62 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: xhttp
+  port: '2053'
+  server: 78.159.246.179
+  servername: randomquaint.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
+  xudp: true
+- client-fingerprint: firefox
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
-    short-id: '!!str a9dc98a7dc87a7dc'
-  server: kozyavka.yandex-api.com
-  servername: kozyavka.yandex-api.com
+    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
+    short-id: '!!str 187eea0acfb7f778'
+  server: 185.22.152.49
+  servername: x5club.ru
   tls: false
   type: vless
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  uuid: c96f941e-dd8a-0082-89d5-740b79202ed0
+  ws-opts:
+    headers:
+      Host: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇷🇺 俄罗斯 03'
+  network: ws
+  port: 443
+  server: renderer-stream-2-114.mirra.now
+  servername: renderer-stream-2-114.mirra.now
+  tls: true
+  type: vmess
+  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-114.mirra.now
+    path: /api/v1/gpu-stream/socket
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 04'
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: '%2F'

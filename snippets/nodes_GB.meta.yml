@@ -1,32 +1,5 @@
 proxies:
 - name: '[H] 🇬🇧 英国 01'
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 02'
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 03'
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
   password: None
   port: 443
   server: 37.120.233.34
@@ -35,15 +8,29 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '[H] 🇬🇧 英国 06'
-  port: 9443
-  server: 84.17.50.129
+- name: '[H] 🇬🇧 英国 02'
+  password: None
+  port: 443
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 07'
+  username: null
+- name: '[H] 🇬🇧 英国 03'
   port: 443
-  server: 212.102.63.61
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  port: 9443
+  server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http

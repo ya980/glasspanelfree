@@ -7,25 +7,25 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
-- name: '[H] SE 02'
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] SE 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ftglT-Ghp2FPiPlwyEAldfiAE1IL_AJ9UCkfCj0zk2I
+    short-id: '!!str a83b77e064761e3c'
+  server: 46.246.125.153
+  servername: res.cdn.office.net
   tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: a16a3e32-8d63-4dec-8c67-1361388a64ca
+  xudp: true
 - name: '[H] SE 03'
   port: 443
-  server: 217.210.129.243
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] SE 04'
-  password: None
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null

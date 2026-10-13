@@ -1,81 +1,100 @@
 proxies:
-- name: '[H] 🇨🇦 加拿大 01'
+- name: '[E] 🇨🇦 加拿大 01'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 02'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: false
+  sni: match-stream.lovkisport.blog
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 03'
+  password: f7f971ce-6171-4498-9737-23b037cc11f2
+  port: 443
+  server: usa0001hy-noru.packet-drop-society.net
+  sni: packet-drop-society.net
+  tls: false
+  type: hysteria2
+- name: '[H] 🇨🇦 加拿大 04'
   port: 443
   server: 206.223.183.13
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: '[H] 🇨🇦 加拿大 02'
-  password: amazonskr05
-  port: 443
-  server: 3.99.191.16
-  type: ss
-  udp: true
-- name: '[H] 🇨🇦 加拿大 03'
+- name: '[H] 🇨🇦 加拿大 05'
   port: 9443
   server: 198.44.157.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 04'
+- name: '[H] 🇨🇦 加拿大 06'
   port: 443
   server: 35.183.131.26
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 05'
+- name: '[H] 🇨🇦 加拿大 07'
   port: 9443
   server: 149.88.98.81
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 06'
+- name: '[H] 🇨🇦 加拿大 08'
   port: 443
   server: 206.223.161.47
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[H] 🇨🇦 加拿大 09'
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 10'
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 11'
+  port: 9443
+  server: 23.169.224.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[I] 🇨🇦 加拿大 12'
   network: ws
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
+  server: epam.com
+  servername: wallweb-4r0.pages.dev
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🇨🇦 加拿大 08'
+      Host: wallweb-4r0.pages.dev
+    path: /
+- name: '[I] 🇨🇦 加拿大 13'
   network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  port: 8880
+  server: 172.64.88.168
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 2e55e846-7737-4c07-af67-191e2727513c
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[I] 🇨🇦 加拿大 09'
-  network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[I] 🇨🇦 加拿大 10'
+      Host: weathered-sunset-be54.407-d9d.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: '[I] 🇨🇦 加拿大 14'
   network: ws
   port: 8880
   server: 92.53.189.40
@@ -86,14 +105,3 @@ proxies:
     headers:
       Host: vms.lifetime19.workers.dev
     path: '%2F'
-- name: '[I] 🇨🇦 加拿大 11'
-  network: ws
-  port: 8080
-  server: 172.67.171.191
-  tls: false
-  type: vless
-  uuid: 0b2ea024-3ffd-46a7-87ce-86cbb79d7a48
-  ws-opts:
-    headers:
-      Host: server18.peekconfig2.workers.dev
-    path: '%2FeyJqdW5rIjoiT3FNeW1sMVdGVHlvNTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ%3D%3D'

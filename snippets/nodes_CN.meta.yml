@@ -69,35 +69,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?TELEGRAM--BYA--@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 09'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: '[I] 🇨🇳 中国 10'
+- name: '[I] 🇨🇳 中国 08'
   network: tcp
   port: 52683
   server: jp.sofast.live
@@ -105,7 +77,7 @@ proxies:
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - client-fingerprint: chrome
-  name: '[I] 🇨🇳 中国 11'
+  name: '[I] 🇨🇳 中国 09'
   port: 58011
   server: us22.sofast.live
   tls: false

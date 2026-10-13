@@ -6,9 +6,16 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[E] 🇨🇦 加拿大 02'
+  password: f7f971ce-6171-4498-9737-23b037cc11f2
+  port: 443
+  server: usa0001hy-noru.packet-drop-society.net
+  sni: packet-drop-society.net
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇨🇦 加拿大 02'
+  name: '[E] 🇨🇦 加拿大 03'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
@@ -16,62 +23,19 @@ proxies:
   sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇦 加拿大 03'
-  password: f7f971ce-6171-4498-9737-23b037cc11f2
-  port: 443
-  server: usa0001hy-noru.packet-drop-society.net
-  sni: packet-drop-society.net
-  tls: false
-  type: hysteria2
 - name: '[H] 🇨🇦 加拿大 04'
-  port: 443
-  server: 206.223.183.13
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 05'
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 06'
   port: 443
   server: 35.183.131.26
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 07'
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 08'
+- name: '[H] 🇨🇦 加拿大 05'
   port: 443
-  server: 206.223.161.47
+  server: 206.223.183.16
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 09'
-  port: 9443
-  server: 198.44.157.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 10'
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 11'
-  port: 9443
-  server: 23.169.224.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇨🇦 加拿大 12'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: epam.com
@@ -83,7 +47,7 @@ proxies:
     headers:
       Host: wallweb-4r0.pages.dev
     path: /
-- name: '[I] 🇨🇦 加拿大 13'
+- name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 8880
   server: 172.64.88.168
@@ -94,7 +58,7 @@ proxies:
     headers:
       Host: weathered-sunset-be54.407-d9d.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '[I] 🇨🇦 加拿大 14'
+- name: '[I] 🇨🇦 加拿大 08'
   network: ws
   port: 8880
   server: 92.53.189.40

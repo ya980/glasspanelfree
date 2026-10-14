@@ -1,42 +1,38 @@
 proxies:
 - name: '[E] 🇺🇸 美国 01'
-  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
-  port: 1443
-  server: hy11.shamanfun.ru
-  sni: hy11.shamanfun.ru
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 02'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: 194.87.118.184
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: match-stream.lovkisport.blog
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: 'off'
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 02'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 03'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇺🇸 美国 04'
+  name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -51,7 +47,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -64,7 +60,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 06'
+- name: '[G] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -72,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 07'
+- name: '[G] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -80,56 +76,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 08'
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 09'
-  port: 443
-  server: s880.gogocs.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- name: '[H] 🇺🇸 美国 10'
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 11'
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 12'
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 13'
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 14'
-  password: ''
-  port: '443'
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -141,7 +88,7 @@ proxies:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 16'
+  name: '[I] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 209.206.51.240
@@ -153,7 +100,7 @@ proxies:
     headers:
       Host: and-75r.pages.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 17'
+- name: '[I] 🇺🇸 美国 11'
   network: ws
   port: 443
   server: 216.24.57.1
@@ -163,7 +110,7 @@ proxies:
   uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
   ws-opts:
     path: '%2Fid-amz'
-- name: '[I] 🇺🇸 美国 18'
+- name: '[I] 🇺🇸 美国 12'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -174,7 +121,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 19'
+- name: '[I] 🇺🇸 美国 13'
   network: ws
   port: 8880
   server: 80.93.202.40

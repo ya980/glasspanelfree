@@ -56,28 +56,7 @@ proxies:
   - h3
   - h2
   client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇯🇵 日本 05'
-  network: ws
-  port: '443'
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 06'
+  name: '[I] 🇯🇵 日本 05'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -90,7 +69,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 06'
   network: tcp
   port: 57541
   reality-opts:

@@ -1,25 +1,32 @@
 proxies:
-- name: '[H] 🇨🇦 加拿大 01'
-  port: 443
-  server: 35.183.131.26
+- name: '[E] 🇨🇦 加拿大 01'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 02'
-  port: 443
-  server: 206.223.183.13
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 02'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 03'
+  sni: 194.87.118.184
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 03'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: false
+  sni: match-stream.lovkisport.blog
+  tls: false
+  type: hysteria2
+- name: '[H] 🇨🇦 加拿大 04'
   port: 443
   server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 04'
-  port: 9443
-  server: 149.88.98.81
   skip-cert-verify: true
   tls: true
   type: http
@@ -29,43 +36,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 06'
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 443
-  server: epam.com
-  servername: wallweb-4r0.pages.dev
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: wallweb-4r0.pages.dev
-    path: /
-- name: '[I] 🇨🇦 加拿大 08'
-  network: ws
-  port: 8880
-  server: 172.64.88.168
-  tls: false
-  type: vless
-  uuid: 2e55e846-7737-4c07-af67-191e2727513c
-  ws-opts:
-    headers:
-      Host: weathered-sunset-be54.407-d9d.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '[I] 🇨🇦 加拿大 09'
-  network: ws
-  port: 8880
-  server: 92.53.189.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime19.workers.dev
+      Host: snip.edgeoneai.cc.cd
     path: '%2F'

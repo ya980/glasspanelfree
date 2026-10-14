@@ -1,7 +1,50 @@
 proxies:
+- name: '[E] 🇸🇬 新加坡 01'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 02'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 03'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇸🇬 新加坡 04'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇸🇬 新加坡 05'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 01'
+  name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -16,7 +59,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -29,7 +72,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 03'
+- name: '[G] 🇸🇬 新加坡 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -37,29 +80,16 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇸🇬 新加坡 04'
-  password: None
-  port: 9090
-  server: 104.248.151.93
-  type: http
-  username: null
-- name: '[H] 🇸🇬 新加坡 05'
-  password: '!!str 8888'
-  port: '1080'
-  server: 47.236.168.243
+- name: '[H] 🇸🇬 新加坡 09'
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
-  type: socks5
-  username: '8888'
-- client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 06'
-  network: ws
-  port: 443
-  server: 43.174.195.1
-  servername: kv.074167.xyz
   tls: true
-  type: vless
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-    path: '%2F'
+  type: http
+  udp: true
+- name: '[H] 🇸🇬 新加坡 10'
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
+  tls: true
+  type: http

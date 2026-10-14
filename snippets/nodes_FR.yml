@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 34'
+  network: ws
+  port: '33744'
+  server: de-d21e56c13c.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: de-d21e56c13c.shamanapp.online
+    path: /ShamanVMESS2026
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 35'
+  network: ws
+  port: '33744'
+  server: de-d21e56c13c.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: de-d21e56c13c.shamanapp.online:33744
+    path: /ShamanVMESS2026
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 36'
+  network: ws
+  port: '33744'
+  server: de-d21e56c13c.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ShamanVMESS2026

@@ -52,21 +52,29 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: firefox
+- alpn:
+  - http/1.1
+  client-fingerprint: random
   name: '[I] 🇯🇵 日本 05'
+  network: ws
+  port: 2083
+  server: 140.225.208.50
+  servername: speedtestmark.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    path: '%2Fvless-ws'
+- flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 06'
   network: tcp
-  port: 8443
+  port: 57541
   reality-opts:
-    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
-    short-id: '!!str 187eea0acfb7f778'
-  server: 185.22.153.40
-  servername: x5club.ru
+    public-key: hAtfAzXQrbxyqiK3b2XrsxZ35sWiN8iqp0LvjKr9_DE
+    short-id: '!!str 22b19630280c3f'
+  server: funagfrdfs.alixxplay.com
+  servername: www.lamer.com.sg
   tls: false
   type: vless
-  uuid: c96f941e-dd8a-006e-89d5-740b79202ed0
-- name: '[I] 🇯🇵 日本 06'
-  password: Trojan@82164024
-  port: 443
-  server: jp.tronsg.com
-  sni: jp.tronsg.com
-  type: trojan
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134

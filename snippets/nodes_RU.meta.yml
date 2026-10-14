@@ -1,14 +1,20 @@
 proxies:
-- name: '[B] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: jOfry9bT2Z21ZiI_PvTqEgovPtqYu905diSA6J1OOlU
+    short-id: '!!str c96601c4976f71be'
+  server: app-ss-103.deep-aispb-analytics.com
+  servername: assets-ss-103.deep-aispb-analytics.com
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+  udp: true
+  uuid: 090da6a8-69f7-4b49-8af9-a8f8bfb07f17
+  xudp: true
 - client-fingerprint: chrome
   name: '[I] 🇷🇺 俄罗斯 02'
   network: ws

@@ -1,5 +1,38 @@
 proxies:
-- name: '[D] 🇫🇷 法国 01'
+- name: '[B] 🇫🇷 法国 01'
+  network: ws
+  port: 8880
+  server: 45.85.119.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+- name: '[B] 🇫🇷 法国 02'
+  network: ws
+  port: 8880
+  server: 66.81.247.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇫🇷 法国 03'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+  security: reality
+  server: 152.89.253.239
+  servername: ya.ru
+  tls: true
+  type: vless
+  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
+- name: '[D] 🇫🇷 法国 04'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -11,39 +44,39 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 02'
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   name: '[E] 🇫🇷 法国 05'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 20270
-  server: qcloudge1.exitvpn.shop
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
-  sni: qcloudge1.exitvpn.shop
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 06'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 07'
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 08'
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  skip-cert-verify: false
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 09'
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
@@ -51,7 +84,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 07'
+  name: '[E] 🇫🇷 法国 10'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20326
   server: finkawwwbroy5.qcloud.surf
@@ -59,7 +92,7 @@ proxies:
   sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 08'
+- name: '[E] 🇫🇷 法国 11'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20326
   server: finkawwwbroy5.qcloud.surf
@@ -67,7 +100,7 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: firefox
-  name: '[E] 🇫🇷 法国 09'
+  name: '[E] 🇫🇷 法国 12'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -78,7 +111,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: firefox
-  name: '[E] 🇫🇷 法国 10'
+  name: '[E] 🇫🇷 法国 13'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -87,93 +120,93 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 11'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 12'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 13'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   name: '[E] 🇫🇷 法国 14'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20270
-  server: qcloudge1.exitvpn.shop
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
-  sni: qcloudge1.exitvpn.shop
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 15'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  sni: qcloudge1.exitvpn.shop
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 16'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 20270
+  server: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[E] 🇫🇷 法国 17'
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  skip-cert-verify: false
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 18'
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 19'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20326
   server: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
   sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 18'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 19'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[E] 🇫🇷 法国 20'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  sni: qcloudge1.exitvpn.shop
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 21'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 22'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 23'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 22'
+- name: '[E] 🇫🇷 法国 24'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 25'
   password: c635b5f6-b5ea-4e57-927f-75860b0cb984
   port: 1443
   server: hy9.shamanfun.ru
@@ -182,39 +215,39 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 23'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 24'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 25'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   name: '[E] 🇫🇷 法国 26'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20270
-  server: qcloudge1.exitvpn.shop
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
-  sni: qcloudge1.exitvpn.shop
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 27'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 28'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 29'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  skip-cert-verify: false
+  sni: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 30'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
@@ -222,21 +255,21 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 28'
+  name: '[E] 🇫🇷 法国 31'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 29'
+- name: '[E] 🇫🇷 法国 32'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 30'
+- name: '[E] 🇫🇷 法国 33'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -244,7 +277,7 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 31'
+- name: '[E] 🇫🇷 法国 34'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -254,7 +287,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 32'
+  name: '[E] 🇫🇷 法国 35'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -264,7 +297,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 33'
+  name: '[E] 🇫🇷 法国 36'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -274,7 +307,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 34'
+  name: '[E] 🇫🇷 法国 37'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -288,7 +321,7 @@ proxies:
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 35'
+  name: '[E] 🇫🇷 法国 38'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -302,7 +335,7 @@ proxies:
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 36'
+  name: '[E] 🇫🇷 法国 39'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -314,29 +347,21 @@ proxies:
     headers:
       Host: ''
     path: /ShamanVMESS2026
-- name: '[H] 🇫🇷 法国 37'
-  port: 9443
-  server: 138.199.47.247
+- name: '[H] 🇫🇷 法国 40'
+  port: 8081
+  server: 31.32.19.111
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 38'
-  port: 443
-  server: 82.65.162.76
+- name: '[H] 🇫🇷 法国 41'
+  port: 8090
+  server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 39'
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 40'
+  name: '[I] 🇫🇷 法国 42'
   network: tcp
   port: 28150
   reality-opts:

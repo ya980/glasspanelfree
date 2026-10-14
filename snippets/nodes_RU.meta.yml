@@ -1,28 +1,24 @@
 proxies:
-- name: '[H] 🇷🇺 俄罗斯 01'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇷🇺 俄罗斯 02'
-  password: ''
-  port: '443'
-  server: 31.129.107.119
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇷🇺 俄罗斯 03'
+- name: '[B] 🇷🇺 俄罗斯 01'
   network: ws
-  port: '443'
-  server: renderer-stream-2-114.mirra.now
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: renderer-stream-2-114.mirra.now
-    path: /api/v1/gpu-stream/socket
+      Host: vms.lifetime48.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: '%2F'

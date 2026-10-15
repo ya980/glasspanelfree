@@ -1,1 +1,47 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] EE 01'
+  network: xhttp
+  port: '8448'
+  reality-opts:
+    public-key: 5a7gJ2ukZ5NPECAks1GHvsg-lVDXVp0W6mCHQ00_cVw
+    short-id: '!!str e02b44b0419d931c'
+  server: 13.143.182.99
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4dcfe8ff-b24c-4241-96a2-31fac7c87ad8
+  xhttp-opts:
+    host: 13.143.182.99
+    mode: stream-one
+    path: /assets/v2
+  xudp: true
+- name: '[H] EE 02'
+  password: 9jkvAVV-9ufV6IGd
+  port: 36774
+  server: chalo-ru.nexorcdn.com
+  skip-cert-verify: true
+  sni: chalo-ru.nexorcdn.com
+  tls: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: '[H] EE 03'
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] EE 04'
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] EE 05'
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  tls: true
+  type: http

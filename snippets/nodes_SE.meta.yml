@@ -20,39 +20,22 @@ proxies:
 - name: '[H] SE 03'
   password: None
   port: 443
-  server: 146.70.242.146
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] SE 04'
+  password: None
   port: 443
-  server: 146.70.242.146
+  server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - name: '[H] SE 05'
-  port: 443
-  server: 217.210.129.243
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] SE 06'
   port: 443
   server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] SE 07'
-  network: tcp
-  port: 21221
-  reality-opts:
-    public-key: RtxGqCtQJeOyUwSe7k6oZOrQWV1hPbC-TMqqgxl9fn4
-    short-id: '!!str c430045c'
-  server: sweedenqfds777.qcloud.surf
-  servername: metrika.yandex.ru
-  tls: false
-  type: vless
-  uuid: 6656cc0a-5908-4d04-a436-64f5843c0c7a

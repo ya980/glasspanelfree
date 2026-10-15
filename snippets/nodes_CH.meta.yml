@@ -11,15 +11,21 @@ proxies:
   type: hysteria2
 - name: '[H] CH 02'
   port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] CH 03'
+  port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: '[H] CH 03'
-  port: 9443
-  server: 149.88.27.46
+- name: '[H] CH 04'
+  port: 443
+  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http

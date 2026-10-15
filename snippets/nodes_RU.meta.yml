@@ -1,14 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: '%2F'
+- name: '[H] 🇷🇺 俄罗斯 01'
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  tls: true
+  type: http

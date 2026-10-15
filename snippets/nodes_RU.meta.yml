@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: '[H] 🇷🇺 俄罗斯 01'
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http

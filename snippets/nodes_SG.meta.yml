@@ -1,24 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇸🇬 新加坡 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[E] 🇸🇬 新加坡 02'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 03'
+  name: '[F] 🇸🇬 新加坡 01'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -33,7 +16,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 04'
+  name: '[F] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -46,7 +29,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 05'
+- name: '[G] 🇸🇬 新加坡 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -55,7 +38,8 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: unsafe
-  name: '[H] 🇸🇬 新加坡 06'
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 04'
   network: ws
   port: '443'
   server: 172.64.150.43
@@ -67,23 +51,23 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇸🇬 新加坡 07'
+  name: '[H] 🇸🇬 新加坡 05'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
-    short-id: '!!str 1dd8558159ecd0'
-  server: sg4.oh-node.com
-  servername: www.changiairport.com
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '!!str 868419504747f6de'
+  server: 88.216.191.10
+  servername: si1.lazeroe.com
   tls: true
   type: vless
   udp: true
-  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
   xudp: true

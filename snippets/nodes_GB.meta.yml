@@ -1,23 +1,31 @@
 proxies:
 - name: '[H] 🇬🇧 英国 01'
   port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 02'
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 03'
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 02'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-    short-id: '!!str 20'
-  server: uk2.oh-node.com
-  servername: www.bp.com
+- name: '[H] 🇬🇧 英国 05'
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
-  xudp: true
+  type: http

@@ -1,17 +1,19 @@
 proxies:
-- name: '[D] 🇺🇸 美国 01'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  sni: finkawwwbroy5.qcloud.surf
+- auth: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
+  name: '[E] 🇺🇸 美国 01'
+  password: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
+  port: 443
+  server: 179.255.104.98
+  skip-cert-verify: true
+  sni: dl1.yuanshicheng.com
   tls: false
   type: hysteria2
+  udp: true
 - name: '[E] 🇺🇸 美国 02'
-  password: 64c05afc-ce81-4ba0-b697-afa04da1427e
-  port: 44443
-  server: 104.168.6.236
-  skip-cert-verify: true
-  sni: bing.com
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 19512
+  server: us1.xiaoliyu.us
+  sni: us1.xiaoliyu.us
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
@@ -28,6 +30,20 @@ proxies:
   network: ws
   port: '8443'
   server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 05'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
   servername: ''
   tls: true
   type: vmess
@@ -38,7 +54,7 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -53,7 +69,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 06'
+  name: '[F] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -66,7 +82,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 07'
+- name: '[G] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -74,7 +90,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 08'
+- name: '[G] 🇺🇸 美国 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -82,103 +98,150 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 09'
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '[H] 🇺🇸 美国 10'
   port: 443
-  server: 12.202.180.10
+  server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇺🇸 美国 11'
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 12'
   password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 12'
-  port: 443
-  server: 129.153.93.183
+- name: '[H] 🇺🇸 美国 13'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 13'
+  username: 'null'
+- name: '[H] 🇺🇸 美国 14'
   password: None
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 14'
+- name: '[H] 🇺🇸 美国 15'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 16'
+  password: ''
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 17'
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 18'
+  password: ''
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 19'
+  password: ''
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 20'
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 21'
   port: 443
   server: 149.22.88.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 15'
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 16'
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 17'
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 18'
+- name: '[H] 🇺🇸 美国 22'
   port: 443
-  server: 149.88.21.140
+  server: 45.63.38.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 19'
+- name: '[H] 🇺🇸 美国 23'
+  password: None
   port: 443
-  server: 66.64.100.66
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 20'
+  username: null
+- name: '[H] 🇺🇸 美国 24'
   port: 443
-  server: 148.135.10.80
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 21'
+- name: '[H] 🇺🇸 美国 25'
   port: 8443
   server: 129.212.181.253
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 22'
-  port: 8090
-  server: 184.188.139.2
+- name: '[H] 🇺🇸 美国 26'
+  port: 443
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: '[H] 🇺🇸 美国 23'
-  network: tcp
-  password: ae7eb4dwyaz25pxwgq59
-  port: '59689'
-  server: 66.23.203.21
+- name: '[H] 🇺🇸 美国 27'
+  password: ''
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
-  type: trojan
-  udp: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 28'
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: '[I] 🇺🇸 美国 29'
+  network: ws
+  port: 443
+  server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+  servername: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+  tls: true
+  type: vless
+  uuid: 996d5cc2-defd-b038-4728-6a450d1c373a
+  ws-opts:
+    headers:
+      Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+    path: '%2Fws%2F996d5cc2-defd-b038-4728-6a450d1c373a'

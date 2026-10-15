@@ -1,68 +1,51 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇬🇧 英国 01'
+- name: '[B] 🇬🇧 英国 01'
   network: ws
-  port: '443'
-  server: 172.67.137.209
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  ws-opts:
-    headers:
-      Host: ukl.lovehk.xyz
-    path: /London31
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇬🇧 英国 02'
-  network: ws
-  port: '443'
-  server: 172.67.142.142
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  ws-opts:
-    headers:
-      Host: ukl.lovehk.xyz
-    path: /London31
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇬🇧 英国 03'
-  network: xhttp
-  port: '443'
-  server: sync.happ-soft.com
-  servername: sync.happ-soft.com
-  tls: true
+  port: 8880
+  server: 185.193.30.30
   type: vless
-  udp: true
-  uuid: 88081ee0-d46a-4913-acdc-5c78e018c44d
-  xhttp-opts:
-    mode: stream-up
-    path: /files/v1/ingest/DqcuXcZgzt
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-concurrency: '0'
-      max-connections: '2'
-  xudp: true
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[B] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[B] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[B] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
 - name: '[H] 🇬🇧 英国 06'
   password: None
   port: 443
@@ -73,15 +56,13 @@ proxies:
   username: null
 - name: '[H] 🇬🇧 英国 07'
   port: 9443
-  server: 84.17.50.214
+  server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 08'
-  password: None
-  port: 443
-  server: 212.102.63.61
+  port: 9443
+  server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-  username: null

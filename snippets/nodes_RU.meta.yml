@@ -1,7 +1,11 @@
 proxies:
-- name: '[H] 🇷🇺 俄罗斯 01'
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /

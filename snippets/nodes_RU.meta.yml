@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 01'
@@ -15,3 +15,15 @@ proxies:
   udp: true
   uuid: 4599572f-bcfa-461e-bc73-d80e1ea65aa6
   xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
+    short-id: '!!str 187eea0acfb7f778'
+  server: 95.181.170.27
+  servername: x5club.ru
+  tls: false
+  type: vless
+  uuid: c96f941e-dd8a-00aa-89d5-740b79202ed0

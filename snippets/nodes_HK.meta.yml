@@ -140,24 +140,9 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇭🇰 香港 15'
-  password: 0324fbc29561
-  port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: '[H] 🇭🇰 香港 16'
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  skip-cert-verify: true
-  type: socks5
-  username: '111'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 17'
+  name: '[I] 🇭🇰 香港 15'
   network: tcp
   port: 2061
   reality-opts:
@@ -170,7 +155,7 @@ proxies:
   uuid: 9c2888cf-99f8-4c04-ac07-c033359ff975
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 18'
+  name: '[I] 🇭🇰 香港 16'
   network: tcp
   port: 2062
   reality-opts:
@@ -181,3 +166,16 @@ proxies:
   tls: false
   type: vless
   uuid: d83592a3-a94f-4f7e-b105-b3deedde2a7a
+- client-fingerprint: chrome
+  name: '[I] 🇭🇰 香港 17'
+  network: ws
+  port: 8443
+  server: 38.207.184.103
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'

@@ -1,17 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[E] 🇩🇪 德国 01'
-  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
-  port: 443
-  server: hy-se.bypassme.online
-  sni: hy-se.bypassme.online
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 02'
+  name: '[E] 🇩🇪 德国 01'
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
@@ -19,71 +9,50 @@ proxies:
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- name: '[H] 🇩🇪 德国 03'
-  port: 443
+- name: '[H] 🇩🇪 德国 02'
+  port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 04'
-  password: None
+- name: '[H] 🇩🇪 德国 03'
   port: 443
-  server: 149.36.50.129
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 04'
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 05'
   port: 443
-  server: 87.106.223.158
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 06'
   port: 443
-  server: 193.233.75.115
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 07'
   port: 443
-  server: 185.232.70.11
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 08'
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 09'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 10'
-  port: 8443
-  server: 188.120.225.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 11'
-  port: 443
   server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇩🇪 德国 12'
+- name: '[I] 🇩🇪 德国 08'
   port: 10443
   server: 77.221.157.213
   servername: 77.221.157.213
   tls: false
   type: vless
   uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-- name: '[I] 🇩🇪 德国 13'
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 14430
   server: 77.221.157.213
@@ -97,7 +66,7 @@ proxies:
     path: /vless
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 10'
   network: tcp
   port: 443
   reality-opts:
@@ -109,7 +78,7 @@ proxies:
   type: vless
   uuid: 3d1752a5-2832-4981-878d-f4aca87d6f86
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 8443
   server: 2.28.42.209

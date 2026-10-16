@@ -1,9 +1,9 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 01'
-  network: tcp
+  network: raw
   port: '443'
   reality-opts:
     public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA

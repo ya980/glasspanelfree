@@ -14,24 +14,9 @@ proxies:
   sni: 34.150.46.137
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 03'
-  password: 8b64b840-a48d-4ac0-b10f-8f7d7081a0f1
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 04'
-  password: 8b64b840-a48d-4ac0-b10f-8f7d7081a0f1
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: hk2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 03'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -40,7 +25,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 04'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -55,7 +40,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 05'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -70,7 +55,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 06'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -85,7 +70,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 07'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -100,7 +85,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 10'
+  name: '[G] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -108,7 +93,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -116,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 12'
+- name: '[G] 🇭🇰 香港 10'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -124,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 13'
+- name: '[G] 🇭🇰 香港 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -132,7 +117,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 14'
+- name: '[G] 🇭🇰 香港 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -140,9 +125,29 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: random
+  encryption: none
+  name: '[H] 🇭🇰 香港 13'
+  network: ws
+  port: '443'
+  server: 43.175.131.30
+  servername: node.kyma.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99ea2764-f1df-4aa8-b01d-0adb42cc2f77
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: node.kyma.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 15'
+  name: '[I] 🇭🇰 香港 14'
   network: tcp
   port: 2061
   reality-opts:
@@ -155,7 +160,7 @@ proxies:
   uuid: 9c2888cf-99f8-4c04-ac07-c033359ff975
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 16'
+  name: '[I] 🇭🇰 香港 15'
   network: tcp
   port: 2062
   reality-opts:
@@ -167,7 +172,7 @@ proxies:
   type: vless
   uuid: d83592a3-a94f-4f7e-b105-b3deedde2a7a
 - client-fingerprint: chrome
-  name: '[I] 🇭🇰 香港 17'
+  name: '[I] 🇭🇰 香港 16'
   network: ws
   port: 8443
   server: 38.207.184.103

@@ -52,7 +52,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[I] 🇯🇵 日本 05'
+- cipher: aes-128-gcm
+  name: '[H] 🇯🇵 日本 05'
+  password: c855b71e-f3c2-442a-9429-0844eb4346c5
+  port: 40018
+  server: ruot.ayucloudservices.nl
+  type: ss
+- name: '[H] 🇯🇵 日本 06'
+  port: 49467
+  server: 103.85.27.30
+  type: vless
+  uuid: 44059c36-91ab-47f4-d8ca-a43dafd788b2
+- name: '[I] 🇯🇵 日本 07'
   network: ws
   port: 14430
   server: 5.253.29.254
@@ -66,7 +77,7 @@ proxies:
     path: /vless
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 06'
+  name: '[I] 🇯🇵 日本 08'
   network: tcp
   port: 9443
   reality-opts:
@@ -78,7 +89,7 @@ proxies:
   type: vless
   uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 09'
   network: ws
   port: 443
   server: 45.8.173.99
@@ -91,7 +102,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 10'
   network: ws
   port: 443
   server: 154.19.187.190

@@ -1,14 +1,10 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[E] 🇬🇧 英国 01'
-  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
+- name: '[H] 🇬🇧 英国 01'
   port: 443
-  server: hy-fi.bypassme.online
-  sni: hy-fi.bypassme.online
-  tls: false
-  type: hysteria2
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: '[I] 🇬🇧 英国 02'

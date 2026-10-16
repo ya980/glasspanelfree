@@ -1,57 +1,18 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[E] 🇩🇪 德国 01'
-  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
+- name: '[H] 🇩🇪 德国 01'
   port: 443
-  server: hy-se.bypassme.online
-  sni: hy-se.bypassme.online
-  tls: false
-  type: hysteria2
-- name: '[H] 🇩🇪 德国 02'
-  port: 443
-  server: 87.249.132.97
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 03'
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 05'
-  network: xhttp
-  port: '443'
-  server: tamiiiiz.aryan-sport.ir
-  servername: s20.aryan-sport.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f9a0bdf-fa7b-4cdc-a8a3-44578cb5054b
-  xhttp-opts:
-    host: s16.aryan-sport.ir.
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: '[I] 🇩🇪 德国 06'
+- name: '[I] 🇩🇪 德国 02'
   port: 10443
   server: 77.221.157.213
   servername: 77.221.157.213
   tls: false
   type: vless
   uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-- name: '[I] 🇩🇪 德国 07'
+- name: '[I] 🇩🇪 德国 03'
   network: ws
   port: 14430
   server: 77.221.157.213
@@ -65,7 +26,7 @@ proxies:
     path: /vless
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 08'
+  name: '[I] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -77,7 +38,7 @@ proxies:
   type: vless
   uuid: 3d1752a5-2832-4981-878d-f4aca87d6f86
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 09'
+  name: '[I] 🇩🇪 德国 05'
   network: ws
   port: 8443
   server: 2.28.42.209

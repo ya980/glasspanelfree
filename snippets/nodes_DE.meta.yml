@@ -5,40 +5,46 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇩🇪 德国 02'
-  port: 10443
-  server: 77.221.157.213
-  servername: 77.221.157.213
-  tls: false
-  type: vless
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-- name: '[I] 🇩🇪 德国 03'
-  network: ws
-  port: 14430
-  server: 77.221.157.213
-  servername: 77.221.157.213
-  tls: false
-  type: vless
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  ws-opts:
-    headers:
-      Host: 77.221.157.213
-    path: /vless
+- name: '[H] 🇩🇪 德国 02'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 03'
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 04'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 05'
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 06'
   network: tcp
   port: 443
   reality-opts:
-    public-key: zvLIiZsAqG2Uz9FEBPJ1q2P6lUmG4SBv-M7vlDuqEFo
-    short-id: '!!str 421880b82d'
-  server: 64.188.119.73
-  servername: ocd1.global-media-cache.com
+    public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE
+    short-id: '!!str e0215064d8d1fd7c'
+  server: 78.17.178.125
+  servername: cdn.tbank.ru
   tls: false
   type: vless
-  uuid: 3d1752a5-2832-4981-878d-f4aca87d6f86
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 8443
   server: 2.28.42.209

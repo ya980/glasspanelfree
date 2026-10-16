@@ -1,7 +1,23 @@
 proxies:
+- name: '[E] 🇸🇬 新加坡 01'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 02'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 01'
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -16,7 +32,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -29,7 +45,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 03'
+- name: '[G] 🇸🇬 新加坡 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -37,81 +53,33 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 04'
-  network: ws
-  port: '8443'
-  server: news.zoom.us
-  servername: u.srilankangrill.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 05'
-  network: ws
-  port: '8443'
-  server: 141.193.213.20
-  servername: u.srilankangrill.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 06'
-  network: ws
-  port: '8443'
-  server: 141.193.213.21
-  servername: u.srilankangrill.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- name: '[H] 🇸🇬 新加坡 07'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.250.6.200
+- name: '[H] 🇸🇬 新加坡 06'
+  port: 9443
+  server: 152.233.9.239
   skip-cert-verify: true
+  tls: true
   type: http
-  username: '1234'
+- name: '[H] 🇸🇬 新加坡 07'
+  port: 9090
+  server: 167.99.74.174
+  type: http
 - name: '[H] 🇸🇬 新加坡 08'
   password: '!!str 1234'
   port: '2080'
-  server: 47.129.200.52
+  server: 54.151.156.21
   skip-cert-verify: true
   type: http
   username: '1234'
-- client-fingerprint: safari
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[I] 🇸🇬 新加坡 09'
   network: tcp
-  port: 10444
+  port: 34379
   reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: '!!str 8debcf36f1cc69ff'
-  server: 147.93.173.45
-  servername: video.yandex.ru
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: '!!str e51285e3'
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
   tls: false
   type: vless
-  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134

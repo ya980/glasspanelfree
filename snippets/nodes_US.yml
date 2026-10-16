@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '[E] 🇺🇸 美国 02'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
   name: '[E] 🇺🇸 美国 03'
   network: ws
   port: '8443'

@@ -52,27 +52,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  encryption: none
-  name: '[H] 🇯🇵 日本 05'
-  network: ws
-  port: '443'
-  server: 43.168.16.67
-  servername: node.kyma.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99ea2764-f1df-4aa8-b01d-0adb42cc2f77
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: node.kyma.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- name: '[I] 🇯🇵 日本 06'
+- name: '[I] 🇯🇵 日本 05'
   network: ws
   port: 14430
   server: 5.253.29.254
@@ -86,7 +66,7 @@ proxies:
     path: /vless
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 06'
   network: tcp
   port: 9443
   reality-opts:
@@ -98,7 +78,7 @@ proxies:
   type: vless
   uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: 45.8.173.99
@@ -111,7 +91,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 09'
+  name: '[I] 🇯🇵 日本 08'
   network: ws
   port: 443
   server: 154.19.187.190

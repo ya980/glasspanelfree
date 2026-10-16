@@ -1,22 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-    short-id: '!!str 111111'
-  server: 37.143.15.206
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4599572f-bcfa-461e-bc73-d80e1ea65aa6
-  xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 8443
   reality-opts:

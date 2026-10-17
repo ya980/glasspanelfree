@@ -28,6 +28,29 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 04'
+  password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
+  port: 8443
+  server: de1server2.rabstvo.shop
+  sni: de1server2.rabstvo.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 05'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 06'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 07'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -35,21 +58,67 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 08'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: 51.210.167.149
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 09'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 10'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: '[H] 🇫🇷 法国 11'
+  port: 9443
+  server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 06'
-  port: 443
-  server: 82.65.162.76
+- name: '[H] 🇫🇷 法国 12'
+  port: 9443
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 07'
+- name: '[H] 🇫🇷 法国 13'
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 14'
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[I] 🇫🇷 法国 15'
+  network: ws
+  port: 8443
+  server: 104.252.111.38
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome

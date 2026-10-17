@@ -52,9 +52,16 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: '[H] 🇯🇵 日本 05'
+  password: '!!str 123456'
+  port: '1080'
+  server: 8.209.236.192
+  skip-cert-verify: true
+  type: socks5
+  username: '123456'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 05'
+  name: '[I] 🇯🇵 日本 06'
   network: tcp
   port: 47672
   reality-opts:

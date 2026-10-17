@@ -1,25 +1,14 @@
 proxies:
 - name: '[H] 🇩🇪 德国 01'
-  port: 443
-  server: 87.249.132.97
+  password: ''
+  port: '12345'
+  server: 141.147.19.47
   skip-cert-verify: true
-  tls: true
   type: http
-- name: '[H] 🇩🇪 德国 02'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 03'
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -31,7 +20,7 @@ proxies:
   type: vless
   uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 03'
   network: ws
   port: 8443
   server: 2.28.42.209

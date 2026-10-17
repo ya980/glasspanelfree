@@ -27,7 +27,24 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 04'
+  password: gf1
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: www.docker.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 05'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 06'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -35,27 +52,7 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 06'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: 91.196.32.163
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 07'
+- name: '[E] 🇫🇷 法国 07'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -70,23 +67,6 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 09'
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 10'
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 11'
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http

@@ -3,7 +3,7 @@ proxies:
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
-  sni: match-stream.lovkisport.blog
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 02'
@@ -11,17 +11,10 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 03'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
   sni: 194.87.118.184
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇦 加拿大 04'
+- name: '[E] 🇨🇦 加拿大 03'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
@@ -31,7 +24,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇨🇦 加拿大 05'
+  name: '[E] 🇨🇦 加拿大 04'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
@@ -39,32 +32,20 @@ proxies:
   sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
+- name: '[E] 🇨🇦 加拿大 05'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  sni: match-stream.lovkisport.blog
+  tls: false
+  type: hysteria2
 - name: '[H] 🇨🇦 加拿大 06'
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 07'
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 08'
   port: 443
-  server: 23.169.224.34
+  server: 206.223.183.13
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 09'
-  password: ''
-  port: '1081'
-  server: 149.248.18.106
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[I] 🇨🇦 加拿大 10'
+- name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 8880
   server: 92.53.189.40

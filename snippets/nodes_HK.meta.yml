@@ -110,9 +110,17 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: '[H] 🇭🇰 香港 11'
+  password: ''
+  port: '3128'
+  server: 119.28.24.235
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 11'
+  name: '[I] 🇭🇰 香港 12'
   network: tcp
   port: 2062
   reality-opts:

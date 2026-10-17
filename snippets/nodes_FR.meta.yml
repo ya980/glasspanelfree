@@ -27,29 +27,27 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
+- name: '[E] 🇫🇷 法国 04'
+  password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
+  port: 8443
+  server: 144.31.167.161
+  sni: de1server2.rabstvo.shop
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 05'
+  password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
+  port: 8443
+  server: de1server2.rabstvo.shop
+  sni: de1server2.rabstvo.shop
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 05'
+  name: '[E] 🇫🇷 法国 06'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: 91.196.32.163
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 07'
@@ -57,12 +55,20 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: germany3.h2corp.local
+  sni: 91.196.32.163
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[E] 🇫🇷 法国 08'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 09'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163

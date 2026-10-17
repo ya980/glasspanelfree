@@ -1,5 +1,11 @@
 proxies:
 - name: '[H] 🇬🇧 英国 01'
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 02'
   password: None
   port: 443
   server: 37.120.233.50
@@ -7,3 +13,9 @@ proxies:
   tls: true
   type: http
   username: null
+- name: '[H] 🇬🇧 英国 03'
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http

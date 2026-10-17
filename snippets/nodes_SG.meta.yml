@@ -4,27 +4,10 @@ proxies:
   port: 18642
   server: s3.huhiuh.space
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇸🇬 新加坡 02'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
   sni: s3.huhiuh.space
   tls: false
   type: hysteria2
-- name: '[E] 🇸🇬 新加坡 03'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇸🇬 新加坡 04'
+- name: '[E] 🇸🇬 新加坡 02'
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   port: 18642
   server: s3.huhiuh.space
@@ -34,7 +17,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 05'
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -49,7 +32,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 06'
+  name: '[F] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -62,7 +45,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 07'
+- name: '[G] 🇸🇬 新加坡 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -71,64 +54,37 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 08'
-  network: ws
-  port: 8443
-  server: news.zoom.us
-  servername: u.srilankangrill.online
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 06'
+  network: tcp
+  port: '2053'
+  reality-opts:
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+    short-id: '!!str cd7e85995ae2afc9'
+  server: 45.132.75.213
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-    path: /
-- name: '[H] 🇸🇬 新加坡 09'
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  xudp: true
+- name: '[H] 🇸🇬 新加坡 07'
   password: '!!str 1234'
   port: '2080'
-  server: 13.229.54.109
+  server: 18.143.176.211
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: '[H] 🇸🇬 新加坡 10'
+- name: '[H] 🇸🇬 新加坡 08'
   password: '!!str 1234'
   port: '2080'
   server: 13.212.90.38
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: '[H] 🇸🇬 新加坡 11'
-  password: '!!str 1234'
-  port: '2080'
-  server: 54.151.242.187
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 12'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.14.88
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 13'
-  password: ''
-  port: '1083'
-  server: 222.71.205.37
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[H] 🇸🇬 新加坡 14'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.186.198
-  skip-cert-verify: true
-  type: http
-  username: '1234'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 15'
+  name: '[I] 🇸🇬 新加坡 09'
   network: tcp
   port: 34379
   reality-opts:
@@ -140,7 +96,7 @@ proxies:
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 16'
+  name: '[I] 🇸🇬 新加坡 10'
   network: ws
   port: 443
   server: 43.174.195.1

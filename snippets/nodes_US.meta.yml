@@ -1,18 +1,18 @@
 proxies:
 - name: '[E] 🇺🇸 美国 01'
-  password: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
-  port: 443
-  server: 179.255.104.98
-  skip-cert-verify: true
-  sni: dl1.yuanshicheng.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
   password: 64c05afc-ce81-4ba0-b697-afa04da1427e
   port: 44443
   server: 104.168.6.236
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 02'
+  password: pbgLTkd5276SN1sZ
+  port: 8443
+  server: 144.24.46.175
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 0
@@ -27,7 +27,7 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
@@ -35,13 +35,13 @@ proxies:
   network: ws
   port: '8443'
   server: 172.64.80.1
-  servername: ''
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: ''
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
@@ -91,7 +91,7 @@ proxies:
   type: trojan
 - name: '[H] 🇺🇸 美国 09'
   port: 443
-  server: 167.88.60.242
+  server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http

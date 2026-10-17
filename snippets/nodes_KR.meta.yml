@@ -15,21 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇰🇷 韩国 02'
-  network: ws
-  port: '20086'
-  server: 183.109.131.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇰🇷 韩国 03'
+  name: '[F] 🇰🇷 韩国 02'
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -42,7 +28,7 @@ proxies:
     headers:
       Host: 8nTzyR5KNivfabaT.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇰🇷 韩国 04'
+- name: '[G] 🇰🇷 韩国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
@@ -50,3 +36,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇰🇷 韩国 04'
+  obfs: ''
+  obfs-password: ''
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  port: '50160'
+  server: 150-230-252-217.liao.kdns.fr
+  skip-cert-verify: false
+  sni: 150-230-252-217.liao.kdns.fr
+  type: hysteria2
+  up: ''

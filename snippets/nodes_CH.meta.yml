@@ -1,16 +1,6 @@
 proxies:
 - name: '[D] CH 01'
   obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-  password: 3a702d4d1de4949005d8431220e040fb
-  port: 443
-  server: 152.67.75.161
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[D] CH 02'
-  obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
   password: capadm96216165
   port: 443
@@ -19,3 +9,17 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
+- name: '[H] CH 02'
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] CH 03'
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

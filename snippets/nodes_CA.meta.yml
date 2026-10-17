@@ -1,5 +1,23 @@
 proxies:
-- name: '[I] 🇨🇦 加拿大 01'
+- name: '[H] 🇨🇦 加拿大 01'
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 02'
+  port: 443
+  server: 23.169.224.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 03'
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[I] 🇨🇦 加拿大 04'
   network: ws
   port: 8880
   server: 92.53.189.40

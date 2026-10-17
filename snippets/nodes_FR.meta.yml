@@ -27,20 +27,29 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 04'
+- name: '[E] 🇫🇷 法国 04'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+- name: '[H] 🇫🇷 法国 05'
   port: 443
-  server: 91.196.32.163
+  server: 51.210.167.149
   skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 06'
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 07'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http

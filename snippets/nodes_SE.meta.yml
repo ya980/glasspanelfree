@@ -9,10 +9,24 @@ proxies:
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
-- name: '[D] SE 02'
-  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
+- name: '[H] SE 02'
+  password: None
   port: 443
-  server: 177.3.209.226
-  sni: hy-se.bypassme.online
-  tls: false
-  type: hysteria2
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] SE 03'
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 04'
+  password: ''
+  port: '10809'
+  server: 46.161.49.174
+  skip-cert-verify: true
+  type: http
+  username: ''

@@ -1,20 +1,10 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: 162.249.125.133
-  skip-cert-verify: false
-  sni: hy2-new.aspidnet.xyz
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 01'
   network: ws
   port: '443'
   server: 162.159.135.234
@@ -26,35 +16,67 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /
   xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[H] 🇩🇪 德国 02'
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: de7.dedushka.top
+  skip-cert-verify: false
+  sni: de7.dedushka.top
+  type: trojan
+  udp: true
 - name: '[H] 🇩🇪 德国 03'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 04'
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 05'
   port: 9002
   server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 05'
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '[H] 🇩🇪 德国 06'
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 08'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 09'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 07'
+- name: '[H] 🇩🇪 德国 10'
   password: None
   port: 9443
   server: 87.249.132.97
@@ -62,95 +84,81 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 08'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 09'
+- name: '[H] 🇩🇪 德国 11'
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 10'
-  port: 443
+- name: '[H] 🇩🇪 德国 12'
+  port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[H] 🇩🇪 德国 11'
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: '443'
-  server: de7.dedushka.top
-  skip-cert-verify: false
-  sni: de7.dedushka.top
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 12'
-  network: raw
+  name: '[H] 🇩🇪 德国 13'
+  network: tcp
   port: '443'
   reality-opts:
     public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
     short-id: '!!str 2c9a2790ad5900b2'
-  server: ge-s-1.pythonmakemigreat.wiki
+  server: 64.188.66.181
   servername: ge-s-1.pythonmakemigreat.wiki
   tls: true
   type: vless
   udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 13'
-  password: Pzlcb_PeV3uRgiC2NNoNKw
-  port: 39221
-  server: b2a2.velqixa.ir
-  type: ss
-- name: '[I] 🇩🇪 德国 14'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: studiofeed
+  name: '[H] 🇩🇪 德国 14'
+  network: grpc
+  port: '443'
+  server: studio.10media.top
+  servername: studio.10media.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
+  xudp: true
+- name: '[H] 🇩🇪 德国 15'
+  password: ''
+  port: '3129'
+  server: 89.58.42.118
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 16'
   network: ws
+  port: 8443
+  server: 2.28.42.209
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 17'
+  network: tcp
   port: 443
-  server: 82.39.212.230
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '!!str 4be4110078ebed4a'
+  server: 177.1.186.43
+  servername: de5.srv.vbuste-bot.com
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[I] 🇩🇪 德国 15'
-  network: ws
-  port: 8443
-  server: 152.89.254.48
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- name: '[I] 🇩🇪 德国 16'
-  network: ws
-  port: 8443
-  server: 195.66.24.121
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[I] 🇩🇪 德国 17'
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: '[I] 🇩🇪 德国 18'
   network: ws
   port: 443
   server: 103.160.59.198
@@ -162,28 +170,3 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 18'
-  network: ws
-  port: 8443
-  server: 2.28.42.209
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 19'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE
-    short-id: '!!str e0215064d8d1fd7c'
-  server: 78.17.178.125
-  servername: cdn.tbank.ru
-  tls: false
-  type: vless
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03

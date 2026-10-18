@@ -7,18 +7,62 @@ proxies:
   sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
+- name: '[E] 🇸🇬 新加坡 02'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 03'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇸🇬 新加坡 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  sni: vpn-hk-004.fastervpn.world
+  name: '[E] 🇸🇬 新加坡 04'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 03'
+  name: '[E] 🇸🇬 新加坡 05'
+  network: ws
+  port: '443'
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 06'
+  network: ws
+  port: '443'
+  server: wjofhsqteueywxeq.v.3dns.vip
+  servername: wjofhsqteueywxeq.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -33,7 +77,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 04'
+  name: '[F] 🇸🇬 新加坡 08'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -46,7 +90,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 05'
+- name: '[G] 🇸🇬 新加坡 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -54,74 +98,10 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: unsafe
-  encryption: none
-  name: '[H] 🇸🇬 新加坡 06'
-  network: ws
-  port: '443'
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- name: '[H] 🇸🇬 新加坡 07'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.144.250
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 08'
-  port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇸🇬 新加坡 09'
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - name: '[I] 🇸🇬 新加坡 10'
   network: ws
   port: 443
-  server: 54.179.212.2
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[I] 🇸🇬 新加坡 11'
-  network: ws
-  port: 443
-  server: 128.1.186.63
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- name: '[I] 🇸🇬 新加坡 12'
-  network: ws
-  port: 8443
-  server: 103.167.151.85
+  server: 43.174.195.1
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -131,10 +111,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 13'
+  name: '[I] 🇸🇬 新加坡 11'
   network: ws
-  port: 8443
-  server: 109.176.19.244
+  port: 443
+  server: 161.118.219.229
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -143,3 +123,42 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- client-fingerprint: chrome
+  name: '[I] 🇸🇬 新加坡 12'
+  network: ws
+  port: 443
+  server: 157.245.50.181
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- client-fingerprint: chrome
+  name: '[I] 🇸🇬 新加坡 13'
+  network: ws
+  port: 443
+  server: 129.212.232.171
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- client-fingerprint: chrome
+  name: '[I] 🇸🇬 新加坡 14'
+  network: ws
+  port: 443
+  server: 178.93.160.236
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'

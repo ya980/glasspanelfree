@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 02'
+  name: '[F] 🇯🇵 日本 05'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -16,7 +16,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -31,7 +31,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -44,17 +44,11 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇯🇵 日本 05'
+- name: '[G] 🇯🇵 日本 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
   server: 63182sh8-4d7b.aws-agent.net
   skip-cert-verify: true
   sni: m.ctrip.com
-  type: trojan
-- name: '[I] 🇯🇵 日本 06'
-  password: u93yPGuY2zgIsisJZKS2QzJzg
-  port: 443
-  server: 78.17.171.62
-  sni: FREETOPLAY-2.TETRIS-GAME.WORLD
   type: trojan

@@ -1,42 +1,7 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇯🇵 日本 03'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: 8.209.247.109
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇯🇵 日本 04'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 01'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -51,7 +16,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 06'
+  name: '[F] 🇯🇵 日本 02'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -66,7 +31,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 07'
+  name: '[F] 🇯🇵 日本 03'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -79,7 +44,7 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇯🇵 日本 08'
+- name: '[G] 🇯🇵 日本 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -87,13 +52,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[I] 🇯🇵 日本 09'
+- name: '[I] 🇯🇵 日本 05'
   password: u93yPGuY2zgIsisJZKS2QzJzg
   port: 443
   server: 78.17.171.62
   sni: FREETOPLAY-2.TETRIS-GAME.WORLD
   type: trojan
-- name: '[I] 🇯🇵 日本 10'
+- name: '[I] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: 45.92.159.236
@@ -105,7 +70,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[I] 🇯🇵 日本 11'
+- name: '[I] 🇯🇵 日本 07'
   network: ws
   port: 443
   server: 103.27.187.148
@@ -117,7 +82,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇯🇵 日本 12'
+- name: '[I] 🇯🇵 日本 08'
   network: ws
   port: 443
   server: 60.130.209.253
@@ -129,7 +94,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇯🇵 日本 13'
+- name: '[I] 🇯🇵 日本 09'
   network: ws
   port: 443
   server: 101.142.129.72
@@ -142,7 +107,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 14'
+  name: '[I] 🇯🇵 日本 10'
   network: ws
   port: 8443
   server: 103.27.187.45

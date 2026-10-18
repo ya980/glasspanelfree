@@ -45,173 +45,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: '!!str a8'
-  server: 152.232.57.10
-  servername: api.videobereg.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  xudp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 06'
-  network: ws
-  port: '8080'
-  server: usandvipnewpnlsz.mamadhpbot.ir
-  type: vless
-  udp: true
-  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
-  ws-opts:
-    headers:
-      Host: www.goo.gl
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /real
-  xudp: true
-- name: '[H] 🇺🇸 美国 07'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 08'
+- name: '[H] 🇺🇸 美国 05'
   port: 443
-  server: 129.153.93.183
+  server: 149.22.88.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 09'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 10'
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 11'
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 12'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 13'
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 14'
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 15'
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 16'
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 17'
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 18'
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 19'
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 20'
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 21'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: '!!str a8'
-  server: api.videobereg.cc
-  servername: api.videobereg.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  xudp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 22'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: '!!str 1a'
-  server: t12.qifei.app
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-  xudp: true
-- name: '[H] 🇺🇸 美国 23'
-  password: ''
-  port: '1082'
-  server: 155.138.221.32
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 179.255.140.146
@@ -223,7 +63,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇺🇸 美国 25'
+- name: '[I] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: 179.255.99.75
@@ -235,7 +75,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[I] 🇺🇸 美国 26'
+- name: '[I] 🇺🇸 美国 08'
   network: ws
   port: 8443
   server: 179.255.125.93
@@ -248,7 +88,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 27'
+  name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 8443
   server: 198.2.237.25
@@ -261,7 +101,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 28'
+  name: '[I] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 23.246.154.243

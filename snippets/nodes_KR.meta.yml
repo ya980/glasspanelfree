@@ -22,7 +22,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[I] 🇰🇷 韩国 03'
+- name: '[H] 🇰🇷 韩国 03'
+  password: ''
+  port: '1080'
+  server: 14.36.232.55
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[I] 🇰🇷 韩国 04'
   network: ws
   port: 443
   server: 152.67.198.36

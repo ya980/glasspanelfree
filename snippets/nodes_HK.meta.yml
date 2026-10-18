@@ -110,13 +110,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇭🇰 香港 11'
-  port: 3128
-  server: 119.28.24.235
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇭🇰 香港 12'
+- name: '[I] 🇭🇰 香港 11'
   network: ws
   port: 443
   server: 209.33.161.104
@@ -128,7 +122,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇭🇰 香港 13'
+- name: '[I] 🇭🇰 香港 12'
   network: ws
   port: 2053
   server: 185.206.171.43
@@ -140,7 +134,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇭🇰 香港 14'
+- name: '[I] 🇭🇰 香港 13'
   network: ws
   port: 8443
   server: 191.223.210.79
@@ -152,7 +146,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[I] 🇭🇰 香港 15'
+- name: '[I] 🇭🇰 香港 14'
   network: ws
   port: 443
   server: 38.55.199.128

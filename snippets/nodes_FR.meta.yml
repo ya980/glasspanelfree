@@ -93,24 +93,19 @@ proxies:
   tls: true
   type: http
 - name: '[H] 🇫🇷 法国 12'
-  port: 9443
-  server: 213.139.9.142
+  port: 8081
+  server: 31.32.19.111
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇫🇷 法国 13'
-  port: 443
-  server: 82.66.235.221
+  password: ''
+  port: '1080'
+  server: 173.249.24.121
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 14'
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇫🇷 法国 15'
+  type: socks5
+  username: ''
+- name: '[I] 🇫🇷 法国 14'
   network: ws
   port: 8443
   server: 104.252.111.38

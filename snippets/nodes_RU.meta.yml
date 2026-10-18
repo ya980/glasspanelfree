@@ -1,11 +1,30 @@
 proxies:
-- name: '[H] 🇷🇺 俄罗斯 01'
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: firefox
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: xhttp
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
+- name: '[H] 🇷🇺 俄罗斯 02'
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇷🇺 俄罗斯 02'
+- name: '[I] 🇷🇺 俄罗斯 03'
   network: ws
   port: 443
   server: 121.127.37.211

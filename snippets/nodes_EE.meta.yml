@@ -1,25 +1,7 @@
 proxies:
-- name: '[B] EE 01'
-  network: ws
-  port: 8880
-  server: 45.80.110.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560
-- name: '[E] EE 02'
-  password: dd1b14f6-d290-428b-8d22-12105541c4c9
-  port: 443
-  server: 45.141.202.174
-  sni: ne45174.cdn-video.pro
-  tls: false
-  type: hysteria2
-- name: '[E] EE 03'
-  password: dd1b14f6-d290-428b-8d22-12105541c4c9
-  port: 443
-  server: ne45174.cdn-video.pro
-  sni: ne45174.cdn-video.pro
-  tls: false
-  type: hysteria2
+- name: '[H] EE 01'
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  tls: true
+  type: http

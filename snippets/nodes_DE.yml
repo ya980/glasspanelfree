@@ -1,6 +1,18 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[H] 🇩🇪 德国 11'
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: '443'
+  server: de7.dedushka.top
+  skip-cert-verify: false
+  sni: de7.dedushka.top
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 13'
   password: Pzlcb_PeV3uRgiC2NNoNKw
   port: 39221
   server: b2a2.velqixa.ir

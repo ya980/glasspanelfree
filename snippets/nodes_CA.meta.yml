@@ -4,39 +4,24 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  sni: 194.87.118.184
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 02'
-  password: 4ec98327-3e7d-4eca-8485-92f22ef766d4
-  port: 443
-  server: 82.47.22.174
-  sni: ee.cdn.f0rtuna.fast
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: 194.87.118.184
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 03'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 04'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
-  sni: 'off'
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 05'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
   sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
-- name: '[I] 🇨🇦 加拿大 06'
+- name: '[I] 🇨🇦 加拿大 04'
   network: ws
   port: 2053
   server: 104.248.107.186
@@ -51,7 +36,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🇨🇦 加拿大 07'
+  name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -63,7 +48,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
-- name: '[I] 🇨🇦 加拿大 08'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: 172.64.150.43
@@ -75,7 +60,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=unsafe
-- name: '[I] 🇨🇦 加拿大 09'
+- name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 8443
   server: centurylink.es

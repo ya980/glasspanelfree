@@ -28,10 +28,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 04'
-  password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
-  port: 8443
-  server: de1server2.rabstvo.shop
-  sni: de1server2.rabstvo.shop
+  password: dd1b14f6-d290-428b-8d22-12105541c4c9
+  port: 443
+  server: fr167230.cdn-video.pro
+  sni: fr167230.cdn-video.pro
   tls: false
   type: hysteria2
 - alpn:
@@ -48,6 +48,7 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: 91.196.32.163
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 07'
@@ -55,15 +56,17 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: 91.196.32.163
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 08'
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: germany3.h2corp.local
+  sni: 91.196.32.163
   tls: false
   type: hysteria2
 - alpn:
@@ -73,26 +76,16 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: 91.196.32.163
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 10'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 11'
+- name: '[H] 🇫🇷 法国 10'
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇫🇷 法国 12'
+- name: '[I] 🇫🇷 法国 11'
   network: ws
   port: 8443
   server: 104.252.111.38

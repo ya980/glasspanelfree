@@ -3,16 +3,16 @@ proxies:
   cipher: auto
   name: '[E] 🌍 其它地区 29'
   network: ws
-  port: '33736'
-  server: 168.113.215.6
+  port: '10086'
+  server: 120.48.133.162
   servername: ''
   tls: false
   type: vmess
-  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
   ws-opts:
     headers:
       Host: ''
-    path: /vmess-ws
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[E] 🌍 其它地区 30'
@@ -25,7 +25,7 @@ proxies:
   uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
   ws-opts:
     headers:
-      Host: nl-2a972c8052.shamanapp.online
+      Host: ''
     path: /vmess-ws
 - alterId: 0
   cipher: auto
@@ -43,7 +43,7 @@ proxies:
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 08'
+  name: '[E] 🌍 其它地区 32'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -55,39 +55,39 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 33'
+  network: ws
+  port: '33736'
+  server: 168.113.215.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: nl-2a972c8052.shamanapp.online
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 08'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 中国 09'
   network: ws
   port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 10'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 11'
-  network: ws
-  port: '10086'
   server: 39.108.113.127
   servername: ''
   tls: false
@@ -99,21 +99,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 05'
+  name: '[E] 🇭🇰 香港 01'
   network: ws
-  port: '443'
-  server: wjofHsQtEuEywxEq.v.3dns.vip
+  port: '35043'
+  server: 156.245.232.239
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
-      Host: wjofHsQtEuEywxEq.v.3dns.vip
-    path: /ws-vmess
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 06'
+  name: '[E] 🇸🇬 新加坡 08'
   network: ws
   port: '443'
   server: wjofhsqteueywxeq.v.3dns.vip
@@ -123,7 +123,7 @@ proxies:
   uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   ws-opts:
     headers:
-      Host: ''
+      Host: wjofhsqteueywxeq.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -138,7 +138,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[E] 🇰🇷 韩国 02'
@@ -152,7 +152,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
 - alterId: 0
   cipher: auto
   name: '[E] 🇰🇷 韩国 03'
@@ -166,20 +166,10 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+    path: /
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 台湾 01'
-  network: raw
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 02'
   network: tcp
   port: '35034'
   server: 165.154.195.38
@@ -189,7 +179,17 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 07'
+  name: '[E] 🇨🇳 台湾 02'
+  network: raw
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 03'
   network: ws
   port: '443'
   server: rib9jxayoqjgn2kw.v.3dns.vip
@@ -201,15 +201,29 @@ proxies:
     headers:
       Host: Rib9JXAYoqjGN2KW.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  servername: rib9jxayoqjgn2kw.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 32'
+  name: '[F] 🌍 其它地区 34'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 01'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -218,7 +232,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 03'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -233,7 +247,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 04'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -248,7 +262,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 05'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -263,7 +277,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 06'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -278,7 +292,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 01'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -293,7 +307,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 06'
+  name: '[F] 🇯🇵 日本 02'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -308,7 +322,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 07'
+  name: '[F] 🇯🇵 日本 03'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -323,7 +337,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 07'
+  name: '[F] 🇸🇬 新加坡 09'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -338,7 +352,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 08'
+  name: '[F] 🇸🇬 新加坡 10'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -368,7 +382,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -383,7 +397,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -398,7 +412,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 06'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -406,7 +420,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 07'
+- name: '[G] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -414,7 +428,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 08'
+- name: '[G] 🇭🇰 香港 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -422,7 +436,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 09'
+- name: '[G] 🇭🇰 香港 10'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -430,7 +444,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -438,7 +452,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇯🇵 日本 08'
+- name: '[G] 🇯🇵 日本 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -446,7 +460,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇸🇬 新加坡 09'
+- name: '[G] 🇸🇬 新加坡 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -454,7 +468,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 10'
+- name: '[G] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -462,7 +476,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 11'
+- name: '[G] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -486,15 +500,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[H] 🇩🇪 德国 02'
-  network: tcp
+- name: '[H] 🇩🇪 德国 01'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de7.dedushka.top
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: de7.dedushka.top
   type: trojan
   udp: true
+- alterId: '2'
+  cipher: auto
+  name: '[H] 🇺🇸 美国 09'
+  network: tcp
+  port: '30829'
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true

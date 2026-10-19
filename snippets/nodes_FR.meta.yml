@@ -27,16 +27,16 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 04'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
+- name: '[E] 🇫🇷 法国 04'
+  password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
+  port: 23661
+  server: fr.verymad.net
+  sni: fr.verymad.net
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 05'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -62,6 +62,16 @@ proxies:
 - alpn:
   - h3
   name: '[E] 🇫🇷 法国 08'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 09'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163

@@ -52,22 +52,25 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 05'
   network: ws
   port: '443'
-  server: cf85.mylastfree.ggff.net
-  servername: cf85.mylastfree.ggff.net
-  skip-cert-verify: false
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 7d8cede9-629b-4e7b-be78-fb5519eb115c
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: cf85.mylastfree.ggff.net
-    path: /dfbcd80b40c61c3e6009
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

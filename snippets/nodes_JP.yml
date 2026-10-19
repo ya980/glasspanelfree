@@ -52,20 +52,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇯🇵 日本 05'
-  network: ws
-  port: '443'
-  server: cf85.mylastfree.ggff.net
-  servername: cf85.mylastfree.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7d8cede9-629b-4e7b-be78-fb5519eb115c
-  ws-opts:
-    headers:
-      Host: cf85.mylastfree.ggff.net
-    path: /dfbcd80b40c61c3e6009
-  xudp: true

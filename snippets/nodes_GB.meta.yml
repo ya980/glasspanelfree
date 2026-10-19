@@ -2,7 +2,8 @@ proxies:
 - name: '[E] 🇬🇧 英国 01'
   password: b3a11068-1a7e-4643-85de-7c82cce46943
   port: 443
-  server: uk-d9ca48498a.shamanapp.online
+  server: 191.215.46.37
+  sni: uk-d9ca48498a.shamanapp.online
   tls: false
   type: hysteria2
 - alpn:
@@ -18,35 +19,18 @@ proxies:
   password: b3a11068-1a7e-4643-85de-7c82cce46943
   port: 443
   server: uk-d9ca48498a.shamanapp.online
-  skip-cert-verify: true
-  sni: uk.shamanapp.online
+  sni: uk-d9ca48498a.shamanapp.online
   tls: false
   type: hysteria2
 - name: '[H] 🇬🇧 英国 04'
+  password: None
   port: 443
-  server: 37.120.233.50
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - name: '[H] 🇬🇧 英国 05'
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 06'
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 07'
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 08'
   password: None
   port: 443
   server: 212.102.63.61
@@ -54,14 +38,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[I] 🇬🇧 英国 09'
+- name: '[I] 🇬🇧 英国 06'
   network: tcp
   port: 22223
   server: 35.178.165.98
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇬🇧 英国 10'
+- name: '[I] 🇬🇧 英国 07'
   network: tcp
   port: 22224
   server: 35.178.165.98

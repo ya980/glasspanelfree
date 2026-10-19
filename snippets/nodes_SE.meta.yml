@@ -9,3 +9,9 @@ proxies:
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
+- name: '[H] SE 02'
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http

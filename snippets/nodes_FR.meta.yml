@@ -9,61 +9,41 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
+- alterId: 0
+  cipher: auto
   name: '[E] 🇫🇷 法国 02'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: 91.196.32.163
-  tls: false
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 05'
   network: ws
-  port: 8443
-  server: speedtest.org
-  servername: pbsjv.megalionzone-vexina.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: c3571d81-38bd-44a8-9b75-5af8a125fc42
+  port: '33744'
+  server: 217.60.183.95
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
   ws-opts:
     headers:
-      Host: pbsjv.megalionzone-vexina.sbs
-    path: /bala
-- name: '[H] 🇫🇷 法国 06'
+      Host: ''
+    path: /ShamanVMESS2026
+- name: '[H] 🇫🇷 法国 03'
   port: 9443
-  server: 138.199.47.247
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 07'
+- name: '[H] 🇫🇷 法国 04'
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 08'
-  port: 443
-  server: 82.66.235.221
+- name: '[H] 🇫🇷 法国 05'
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 06'
+  port: 8090
+  server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http

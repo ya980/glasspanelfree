@@ -9,9 +9,33 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 02'
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 02'
+  network: ws
+  port: '33744'
+  server: 217.60.183.95
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ShamanVMESS2026
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 03'
+  network: ws
+  port: 443
+  server: redrocketnode-bidarbash.sbs
+  servername: redrocketnode-bidarbash.sbs
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
+  ws-opts:
+    headers:
+      Host: redrocketnode-bidarbash.sbs
+    path: /zoodi

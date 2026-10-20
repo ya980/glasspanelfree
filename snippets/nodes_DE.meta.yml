@@ -1,13 +1,38 @@
 proxies:
 - name: '[H] 🇩🇪 德国 01'
-  port: 443
-  server: 149.36.50.129
+  port: 9443
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] 🇩🇪 德国 02'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 43f41cd7fee0
+  name: '[H] 🇩🇪 德国 03'
+  network: grpc
+  port: '25363'
+  reality-opts:
+    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
+    short-id: '!!str 7a8e24da4eb2c1b5'
+  server: 193.148.253.239
+  servername: www.chip.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 02'
+  name: '[I] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -22,7 +47,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 03'
+  name: '[I] 🇩🇪 德国 05'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -34,7 +59,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🇩🇪 德国 04'
+- name: '[I] 🇩🇪 德国 06'
   network: ws
   port: 443
   server: 103.160.59.198

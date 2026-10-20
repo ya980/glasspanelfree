@@ -1,11 +1,19 @@
 proxies:
 - name: '[H] 🇬🇧 英国 01'
   port: 9443
-  server: 84.17.50.214
+  server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇬🇧 英国 02'
+- name: '[H] 🇬🇧 英国 02'
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[I] 🇬🇧 英国 03'
   network: tcp
   port: 22224
   server: 16.61.117.36

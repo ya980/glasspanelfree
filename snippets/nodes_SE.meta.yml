@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: '[H] SE 01'
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http

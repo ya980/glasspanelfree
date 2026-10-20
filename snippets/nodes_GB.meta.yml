@@ -1,36 +1,11 @@
 proxies:
 - name: '[H] 🇬🇧 英国 01'
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 02'
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 03'
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 04'
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
-  password: ''
-  port: '1080'
-  server: 57.129.182.181
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[I] 🇬🇧 英国 06'
+- name: '[I] 🇬🇧 英国 02'
   network: tcp
   port: 22224
   server: 16.61.117.36

@@ -1,38 +1,79 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 02'
-  password: None
+- encryption: none
+  name: '[B] 🇩🇪 德国 01'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: '[B] 🇩🇪 德国 02'
+  network: tcp
   port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-service-name: 43f41cd7fee0
-  name: '[H] 🇩🇪 德国 03'
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: '[B] 🇩🇪 德国 03'
   network: grpc
-  port: '25363'
+  port: 443
   reality-opts:
-    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
-    short-id: '!!str 7a8e24da4eb2c1b5'
-  server: 193.148.253.239
-  servername: www.chip.de
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
   tls: true
   type: vless
-  udp: true
-  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-  xudp: true
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: '[B] 🇩🇪 德国 04'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: '[B] 🇩🇪 德国 05'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇩🇪 德国 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 07'
   network: tcp
   port: 443
   reality-opts:
@@ -47,7 +88,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -59,7 +100,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🇩🇪 德国 06'
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 443
   server: 103.160.59.198

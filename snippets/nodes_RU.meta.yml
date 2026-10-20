@@ -1,12 +1,14 @@
 proxies:
-- name: '[D] 🇷🇺 俄罗斯 01'
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: 443
-  server: 144.31.49.47
-  skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - client-fingerprint: random
   name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp

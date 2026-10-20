@@ -1,22 +1,32 @@
 proxies:
-- name: '[B] 🇰🇷 韩国 01'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 01'
   network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
   ws-opts:
     headers:
-      Host: vms.lifetime59.workers.dev
-- name: '[B] 🇰🇷 韩国 02'
+      Host: ''
+    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 02'
   network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
   ws-opts:
     headers:
-      Host: vms.lifetime51.workers.dev
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[E] 🇰🇷 韩国 03'
@@ -30,7 +40,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+    path: /
 - alterId: 0
   cipher: auto
   name: '[F] 🇰🇷 韩国 04'
@@ -65,4 +75,42 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
+- name: '[I] 🇰🇷 韩国 07'
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- client-fingerprint: chrome
+  name: '[I] 🇰🇷 韩国 08'
+  network: ws
+  port: 443
+  server: 141.164.34.193
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[I] 🇰🇷 韩国 09'
+  network: ws
+  port: 443
+  server: 43.202.32.50
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇰🇷 韩国 03'
+  name: '[E] 🇰🇷 韩国 01'
   network: ws
   port: '20086'
   server: 183.109.131.75
@@ -13,6 +13,34 @@ proxies:
     headers:
       Host: ''
     path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 02'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 03'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '[F] 🇰🇷 韩国 04'

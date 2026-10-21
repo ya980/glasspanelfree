@@ -46,45 +46,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 05'
-  network: ws
-  port: '443'
-  server: 141.98.41.80
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-  xudp: true
-- name: '[H] 🇺🇸 美国 06'
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 07'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 8-tz1FBA5y6CcLp0NogIY4-x6pxkFBZ_HWSOXEioWho
-    short-id: '!!str dc286495'
-  server: 172.96.192.167
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38a9c88a-14c7-49e4-841d-bdb78fbb9529
-  xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 08'
+  name: '[I] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 208.68.180.204
@@ -96,7 +58,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🇺🇸 美国 09'
+- name: '[I] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -109,7 +71,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 10'
+  name: '[I] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: 141.148.186.22
@@ -121,7 +83,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[I] 🇺🇸 美国 11'
+- name: '[I] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -134,7 +96,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 12'
+  name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 166.88.33.135

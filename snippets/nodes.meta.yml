@@ -240,7 +240,7 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 20'
+- name: '[D] SE 01'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -260,7 +260,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 21'
+- name: '[D] 🌍 其它地区 20'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -273,7 +273,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🌍 其它地区 22'
+  name: '[D] 🌍 其它地区 21'
   obfs: salamander
   obfs-password: 2gg0tx9d2etug8n9
   password: rjj39jg8iphgd06h
@@ -292,7 +292,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 23'
+- name: '[D] 🌍 其它地区 22'
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -322,24 +322,27 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 01'
-  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
+- name: '[E] 🌍 其它地区 23'
+  password: d5e2093f-7a12-4b93-9ace-bd95dc8de71a
+  port: 3006
+  server: nl4-gkivm5.vpvr4ib84nuv6hdkt.ru
+  sni: nl4-gkivm5.vpvr4ib84nuv6hdkt.ru
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[E] 🌍 其它地区 24'
-  network: tcp
-  port: '10000'
-  server: 47.250.135.244
-  servername: ''
+  network: ws
+  port: '33744'
+  server: de-d21e56c13c.shamanapp.online
+  servername: de-d21e56c13c.shamanapp.online
   tls: false
   type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: de-d21e56c13c.shamanapp.online:33744
+    path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
   name: '[E] 🌍 其它地区 25'
@@ -359,8 +362,8 @@ proxies:
   name: '[E] 🌍 其它地区 26'
   network: ws
   port: '33744'
-  server: de-d21e56c13c.shamanapp.online
-  servername: ''
+  server: 217.60.183.95
+  servername: de-d21e56c13c.shamanapp.online:33744
   tls: false
   type: vmess
   uuid: b3a11068-1a7e-4643-85de-7c82cce46943
@@ -368,47 +371,83 @@ proxies:
     headers:
       Host: de-d21e56c13c.shamanapp.online:33744
     path: /ShamanVMESS2026
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 08'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7547daaa-1577-49b0-9519-bd1823add1a7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 01'
+  network: ws
+  port: '17577'
+  server: 206.190.237.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /3ceb8486
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 01'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 02'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 03'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '[E] 🌍 其它地区 27'
   network: ws
-  port: '33744'
-  server: 217.60.183.95
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    headers:
-      Host: de-d21e56c13c.shamanapp.online:33744
-    path: /ShamanVMESS2026
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
-  network: raw
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 02'
-  network: tcp
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 28'
-  network: ws
   port: '33736'
   server: 168.113.215.6
-  servername: nl-2a972c8052.shamanapp.online
+  servername: ''
   tls: false
   type: vmess
   uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
@@ -417,14 +456,14 @@ proxies:
       Host: nl-2a972c8052.shamanapp.online
     path: /vmess-ws
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 29'
+  name: '[F] 🌍 其它地区 28'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 01'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -433,7 +472,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 02'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -448,7 +487,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 03'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -463,7 +502,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 04'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -478,7 +517,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 05'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -493,7 +532,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 01'
+  name: '[F] 🇯🇵 日本 02'
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -508,7 +547,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 02'
+  name: '[F] 🇯🇵 日本 03'
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -523,7 +562,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 04'
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -568,7 +607,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇰🇷 韩国 01'
+  name: '[F] 🇰🇷 韩国 04'
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -613,7 +652,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 07'
+  name: '[G] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -621,7 +660,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 08'
+- name: '[G] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -629,7 +668,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 09'
+- name: '[G] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -637,7 +676,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -645,7 +684,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 10'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -653,7 +692,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇯🇵 日本 04'
+- name: '[G] 🇯🇵 日本 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -685,7 +724,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇨🇳 台湾 03'
+- name: '[G] 🇨🇳 台湾 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -693,7 +732,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇰🇷 韩国 02'
+- name: '[G] 🇰🇷 韩国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
@@ -701,104 +740,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- encryption: none
-  name: '[H] 🌍 其它地区 30'
-  network: xhttp
-  port: '61374'
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-    short-id: ''
-  server: se-2.pythonsetupbib.online
-  servername: se-2.pythonsetupbib.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: se-2.pythonsetupbib.online
-    mode: packet-up
-    path: /
-    reuse-settings:
-      max-connections: '3'
-    x-padding-bytes: 100-500
-  xudp: true
-- name: '[H] 🌍 其它地区 31'
-  password: None
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🌍 其它地区 32'
-  password: None
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🌍 其它地区 33'
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇷🇺 俄罗斯 01'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 01'
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] SE 01'
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] SE 02'
-  port: 9443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 01'
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 02'
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 05'
-  network: ws
-  port: '443'
-  server: 141.98.41.80
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-  xudp: true
 - name: '[H] 🇸🇬 新加坡 04'
   password: '1234'
   port: 2080
@@ -806,70 +747,55 @@ proxies:
   skip-cert-verify: true
   type: http
   username: '1234'
+- name: '[H] 🌍 其它地区 29'
+  port: 443
+  server: 154.47.29.161
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: '[H] 🇸🇬 新加坡 05'
   password: '1234'
   port: 2080
-  server: 54.255.133.243
+  server: 47.129.155.166
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: '[H] CH 02'
-  password: None
-  port: 9443
-  server: 37.120.213.210
+- name: '[H] 🇸🇬 新加坡 06'
+  password: '1234'
+  port: 2080
+  server: 47.129.174.248
   skip-cert-verify: true
-  tls: true
   type: http
-  username: null
-- name: '[H] 🇺🇸 美国 06'
-  port: 9443
-  server: 198.44.138.27
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 07'
+  password: '1234'
+  port: 2080
+  server: 13.212.207.226
   skip-cert-verify: true
-  tls: true
   type: http
-- name: '[H] SE 03'
-  password: None
-  port: 443
-  server: 146.70.242.130
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 08'
+  password: '1234'
+  port: '2080'
+  server: 13.229.54.109
   skip-cert-verify: true
-  tls: true
   type: http
-  username: null
-- name: '[H] 🇬🇧 英国 02'
-  port: 9443
-  server: 84.17.50.129
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 09'
+  password: '1234'
+  port: '2080'
+  server: 18.143.176.211
   skip-cert-verify: true
-  tls: true
   type: http
-- name: '[H] 🇺🇸 美国 07'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 8-tz1FBA5y6CcLp0NogIY4-x6pxkFBZ_HWSOXEioWho
-    short-id: 'dc286495'
-  server: 172.96.192.167
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38a9c88a-14c7-49e4-841d-bdb78fbb9529
-  xudp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[H] 🇭🇰 香港 12'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 2gEyCa4p40rmut61LN-jwQDEOW5JZGZImU92WOXOcnQ
-    short-id: '2c5fd7abb0b7'
-  server: wafjapga1.xyy123.win
-  servername: intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5ed5cfbd-0456-410c-9939-c4bafc25b1bb
-  xudp: true
-- name: '[I] 🇨🇳 中国 08'
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 10'
+  password: '1234'
+  port: '2080'
+  server: 54.169.228.182
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[I] 🇨🇳 中国 09'
   network: tcp
   port: 58011
   server: us22.sofast.live
@@ -877,7 +803,7 @@ proxies:
   type: vless
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 02'
+  name: '[I] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:
@@ -892,7 +818,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 06'
+  name: '[I] 🇸🇬 新加坡 11'
   network: tcp
   port: 55069
   reality-opts:
@@ -903,7 +829,7 @@ proxies:
   tls: false
   type: vless
   uuid: b2332eff-b231-4c10-8552-5dfad84f5521
-- name: '[I] 🌍 其它地区 34'
+- name: '[I] 🌍 其它地区 30'
   network: tcp
   port: 2218
   reality-opts:
@@ -915,7 +841,7 @@ proxies:
   type: vless
   uuid: 4476ca08-bdb4-41c1-bae4-a960bdb28c19
 - flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 07'
+  name: '[I] 🇸🇬 新加坡 12'
   network: tcp
   port: 36000
   reality-opts:
@@ -967,7 +893,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip'
-- name: '[I] 🌍 其它地区 35'
+- name: '[I] 🌍 其它地区 31'
   network: ws
   port: 443
   server: 103.161.178.72
@@ -979,7 +905,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 36'
+- name: '[I] 🌍 其它地区 32'
   network: ws
   port: 443
   server: 103.161.178.215
@@ -991,7 +917,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 37'
+- name: '[I] 🌍 其它地区 33'
   network: ws
   port: 443
   server: 103.161.179.171
@@ -1003,7 +929,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 38'
+- name: '[I] 🌍 其它地区 34'
   network: ws
   port: 443
   server: 103.161.178.205
@@ -1015,7 +941,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 39'
+- name: '[I] 🌍 其它地区 35'
   network: ws
   port: 443
   server: 130.78.190.134
@@ -1027,7 +953,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇩🇪 德国 03'
+- name: '[I] 🇩🇪 德国 02'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -1067,7 +993,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560'
-- name: '[I] 🌍 其它地区 40'
+- name: '[I] 🌍 其它地区 36'
   network: ws
   port: 8443
   server: 104.245.245.16
@@ -1079,7 +1005,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 41'
+- name: '[I] 🌍 其它地区 37'
   network: ws
   port: 443
   server: 141.98.233.6
@@ -1117,7 +1043,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
-- name: '[I] 🇷🇺 俄罗斯 02'
+- name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: 8443
   server: 139.100.226.187
@@ -1141,7 +1067,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇯🇵 日本 05'
+- name: '[I] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: 60.130.209.253
@@ -1153,7 +1079,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇸🇬 新加坡 08'
+- name: '[I] 🇸🇬 新加坡 13'
   network: ws
   port: 443
   server: 149.104.5.126
@@ -1165,7 +1091,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 42'
+- name: '[I] 🌍 其它地区 38'
   network: ws
   port: 443
   server: 103.38.236.248
@@ -1177,7 +1103,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 43'
+- name: '[I] 🌍 其它地区 39'
   network: ws
   port: 8443
   server: 45.61.149.205
@@ -1201,7 +1127,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
-- name: '[I] 🌍 其它地区 44'
+- name: '[I] 🌍 其它地区 40'
   network: ws
   port: 443
   server: 178.93.160.236
@@ -1213,7 +1139,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 45'
+- name: '[I] 🌍 其它地区 41'
   network: ws
   port: 443
   server: 54.116.249.102
@@ -1225,7 +1151,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 46'
+- name: '[I] 🌍 其它地区 42'
   network: ws
   port: 443
   server: 212.135.212.211
@@ -1237,7 +1163,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[I] 🌍 其它地区 47'
+- name: '[I] 🌍 其它地区 43'
   network: ws
   port: 443
   server: 179.255.99.57
@@ -1249,7 +1175,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 48'
+- name: '[I] 🌍 其它地区 44'
   network: ws
   port: 443
   server: 139.84.236.69
@@ -1261,7 +1187,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 49'
+- name: '[I] 🌍 其它地区 45'
   network: ws
   port: 2053
   server: 57.131.153.153
@@ -1273,7 +1199,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 50'
+- name: '[I] 🌍 其它地区 46'
   network: ws
   port: 2053
   server: 154.17.6.42
@@ -1285,7 +1211,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 51'
+- name: '[I] 🌍 其它地区 47'
   network: ws
   port: 443
   server: 203.88.117.190
@@ -1297,7 +1223,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 52'
+- name: '[I] 🌍 其它地区 48'
   network: ws
   port: 443
   server: 172.104.77.231
@@ -1309,7 +1235,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 53'
+- name: '[I] 🌍 其它地区 49'
   network: ws
   port: 443
   server: 179.255.106.248
@@ -1321,7 +1247,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 54'
+- name: '[I] 🌍 其它地区 50'
   network: ws
   port: 443
   server: 87.120.126.131
@@ -1333,7 +1259,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 55'
+- name: '[I] 🌍 其它地区 51'
   network: ws
   port: 443
   server: 43.164.132.109
@@ -1345,7 +1271,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 56'
+- name: '[I] 🌍 其它地区 52'
   network: ws
   port: 443
   server: 66.42.97.131
@@ -1357,7 +1283,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 57'
+- name: '[I] 🌍 其它地区 53'
   network: ws
   port: 443
   server: 152.42.198.190
@@ -1369,7 +1295,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 58'
+- name: '[I] 🌍 其它地区 54'
   network: ws
   port: 443
   server: 195.133.92.228
@@ -1381,7 +1307,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 59'
+- name: '[I] 🌍 其它地区 55'
   network: ws
   port: 8443
   server: 103.199.19.132
@@ -1393,7 +1319,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 60'
+- name: '[I] 🌍 其它地区 56'
   network: ws
   port: 443
   server: 185.115.207.234
@@ -1405,7 +1331,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 61'
+- name: '[I] 🌍 其它地区 57'
   network: ws
   port: 443
   server: 206.237.107.205
@@ -1417,7 +1343,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 62'
+- name: '[I] 🌍 其它地区 58'
   network: ws
   port: 443
   server: 172.93.219.9
@@ -1429,7 +1355,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 63'
+- name: '[I] 🌍 其它地区 59'
   network: ws
   port: 2053
   server: 109.120.186.137
@@ -1441,7 +1367,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
-- name: '[I] 🌍 其它地区 64'
+- name: '[I] 🌍 其它地区 60'
   network: ws
   port: 443
   server: 13.140.29.253
@@ -1453,7 +1379,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 65'
+- name: '[I] 🌍 其它地区 61'
   network: ws
   port: 443
   server: 150.109.240.55
@@ -1465,7 +1391,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 66'
+- name: '[I] 🌍 其它地区 62'
   network: ws
   port: 443
   server: 216.23.93.27
@@ -1477,7 +1403,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 67'
+- name: '[I] 🌍 其它地区 63'
   network: ws
   port: 443
   server: 194.55.164.118
@@ -1489,7 +1415,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 68'
+- name: '[I] 🌍 其它地区 64'
   network: ws
   port: 8443
   server: 72.60.235.49
@@ -1501,7 +1427,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[I] 🌍 其它地区 69'
+- name: '[I] 🌍 其它地区 65'
   network: ws
   port: 443
   server: 45.136.14.153
@@ -1513,7 +1439,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 70'
+- name: '[I] 🌍 其它地区 66'
   network: ws
   port: 443
   server: 13.140.29.45
@@ -1525,7 +1451,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 71'
+- name: '[I] 🌍 其它地区 67'
   network: ws
   port: 8443
   server: 114.129.9.132
@@ -1537,7 +1463,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 72'
+- name: '[I] 🌍 其它地区 68'
   network: ws
   port: 443
   server: 94.20.154.66
@@ -1549,7 +1475,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 73'
+- name: '[I] 🌍 其它地区 69'
   network: ws
   port: 443
   server: 94.237.65.232
@@ -1561,7 +1487,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 74'
+- name: '[I] 🌍 其它地区 70'
   network: ws
   port: 443
   server: 104.252.30.35
@@ -1573,7 +1499,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 75'
+- name: '[I] 🌍 其它地区 71'
   network: ws
   port: 443
   server: 159.195.45.210
@@ -1585,7 +1511,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 76'
+- name: '[I] 🌍 其它地区 72'
   network: ws
   port: 8443
   server: 43.161.233.40
@@ -1597,7 +1523,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 77'
+- name: '[I] 🌍 其它地区 73'
   network: ws
   port: 443
   server: 138.124.36.67
@@ -1609,7 +1535,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 78'
+- name: '[I] 🌍 其它地区 74'
   network: ws
   port: 443
   server: 195.133.92.20
@@ -1621,7 +1547,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 79'
+- name: '[I] 🌍 其它地区 75'
   network: ws
   port: 443
   server: 155.117.234.52
@@ -1633,7 +1559,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 80'
+- name: '[I] 🌍 其它地区 76'
   network: ws
   port: 443
   server: 179.255.107.28
@@ -1645,7 +1571,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 81'
+- name: '[I] 🌍 其它地区 77'
   network: ws
   port: 2083
   server: 132.243.165.215
@@ -1657,7 +1583,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 82'
+- name: '[I] 🌍 其它地区 78'
   network: ws
   port: 443
   server: 13.233.229.128
@@ -1669,7 +1595,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 83'
+- name: '[I] 🌍 其它地区 79'
   network: ws
   port: 443
   server: 193.108.112.65
@@ -1681,7 +1607,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 84'
+- name: '[I] 🌍 其它地区 80'
   network: ws
   port: 443
   server: 43.154.165.40
@@ -1693,7 +1619,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 85'
+- name: '[I] 🌍 其它地区 81'
   network: ws
   port: 443
   server: 212.60.4.134
@@ -1705,7 +1631,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
-- name: '[I] 🌍 其它地区 86'
+- name: '[I] 🌍 其它地区 82'
   network: ws
   port: 8443
   server: 88.218.92.157
@@ -1720,7 +1646,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 87'
+  name: '[I] 🌍 其它地区 83'
   network: ws
   port: 443
   server: 103.13.211.236
@@ -1732,7 +1658,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 88'
+- name: '[I] 🌍 其它地区 84'
   network: ws
   port: 443
   server: 193.180.208.167
@@ -1744,7 +1670,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 89'
+- name: '[I] 🌍 其它地区 85'
   network: ws
   port: 443
   server: 129.151.124.127
@@ -1756,7 +1682,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 90'
+- name: '[I] 🌍 其它地区 86'
   network: ws
   port: 443
   server: 38.54.59.70
@@ -1768,7 +1694,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 91'
+- name: '[I] 🌍 其它地区 87'
   network: ws
   port: 443
   server: 141.253.194.63
@@ -1780,7 +1706,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[I] 🌍 其它地区 92'
+- name: '[I] 🌍 其它地区 88'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -1792,7 +1718,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 93'
+- name: '[I] 🌍 其它地区 89'
   network: ws
   port: 2053
   server: 194.135.119.82
@@ -1806,7 +1732,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[I] 🌍 其它地区 94'
+  name: '[I] 🌍 其它地区 90'
   network: ws
   port: 443
   server: 85.90.197.114
@@ -1818,7 +1744,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 95'
+- name: '[I] 🌍 其它地区 91'
   network: ws
   port: 443
   server: 166.1.221.39
@@ -1833,7 +1759,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 96'
+  name: '[I] 🌍 其它地区 92'
   network: ws
   port: 443
   server: 193.36.95.34
@@ -1845,7 +1771,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 97'
+- name: '[I] 🌍 其它地区 93'
   network: ws
   port: 443
   server: 143.246.223.110
@@ -1860,7 +1786,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 98'
+  name: '[I] 🌍 其它地区 94'
   network: ws
   port: 443
   server: 216.238.79.164
@@ -1872,7 +1798,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[I] 🌍 其它地区 99'
+- name: '[I] 🌍 其它地区 95'
   network: ws
   port: 8443
   server: 185.14.97.242
@@ -1884,7 +1810,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 100'
+- name: '[I] 🌍 其它地区 96'
   network: ws
   port: 443
   server: 136.0.254.132
@@ -1896,7 +1822,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 101'
+- name: '[I] 🌍 其它地区 97'
   network: ws
   port: 443
   server: 216.238.78.167
@@ -1911,7 +1837,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 102'
+  name: '[I] 🌍 其它地区 98'
   network: ws
   port: 443
   server: 185.71.230.237
@@ -1923,7 +1849,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 103'
+- name: '[I] 🌍 其它地区 99'
   network: ws
   port: 443
   server: 109.122.194.61
@@ -1935,7 +1861,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 104'
+- name: '[I] 🌍 其它地区 100'
   network: ws
   port: 2053
   server: 103.31.77.108
@@ -1950,7 +1876,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 105'
+  name: '[I] 🌍 其它地区 101'
   network: ws
   port: 443
   server: 130.94.58.215
@@ -1962,7 +1888,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[I] 🌍 其它地区 106'
+- name: '[I] 🌍 其它地区 102'
   network: ws
   port: 8443
   server: 130.94.58.215
@@ -1974,7 +1900,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 107'
+- name: '[I] 🌍 其它地区 103'
   network: ws
   port: 443
   server: 103.149.46.74
@@ -1989,7 +1915,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 108'
+  name: '[I] 🌍 其它地区 104'
   network: ws
   port: 443
   server: 152.53.197.166
@@ -2001,7 +1927,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 109'
+- name: '[I] 🌍 其它地区 105'
   network: ws
   port: 443
   server: 155.254.35.156
@@ -2013,7 +1939,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 110'
+- name: '[I] 🌍 其它地区 106'
   network: ws
   port: 443
   server: 101.32.169.108
@@ -2025,7 +1951,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 111'
+- name: '[I] 🌍 其它地区 107'
   network: ws
   port: 8443
   server: 144.31.181.177
@@ -2037,7 +1963,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 112'
+- name: '[I] 🌍 其它地区 108'
   network: ws
   port: 2053
   server: 178.105.215.151
@@ -2049,7 +1975,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 113'
+- name: '[I] 🌍 其它地区 109'
   network: ws
   port: 2053
   server: 103.136.68.176
@@ -2061,7 +1987,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 114'
+- name: '[I] 🌍 其它地区 110'
   network: ws
   port: 443
   server: 165.227.161.20
@@ -2073,7 +1999,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🌍 其它地区 115'
+- name: '[I] 🌍 其它地区 111'
   network: ws
   port: 443
   server: 206.189.56.164
@@ -2087,7 +2013,7 @@ proxies:
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - alpn:
   - http/1.1
-  name: '[I] 🌍 其它地区 116'
+  name: '[I] 🌍 其它地区 112'
   network: ws
   port: 443
   server: 185.230.44.140
@@ -2099,7 +2025,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 117'
+- name: '[I] 🌍 其它地区 113'
   network: ws
   port: 443
   server: 63.186.127.80
@@ -2111,7 +2037,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 118'
+- name: '[I] 🌍 其它地区 114'
   network: ws
   port: 443
   server: 144.24.90.178
@@ -2123,7 +2049,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 119'
+- name: '[I] 🌍 其它地区 115'
   network: ws
   port: 443
   server: 94.159.100.154
@@ -2135,7 +2061,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 120'
+- name: '[I] 🌍 其它地区 116'
   network: ws
   port: 443
   server: 168.107.36.135
@@ -2147,7 +2073,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 121'
+- name: '[I] 🌍 其它地区 117'
   network: ws
   port: 443
   server: 43.108.46.150
@@ -2159,7 +2085,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 122'
+- name: '[I] 🌍 其它地区 118'
   network: ws
   port: 8443
   server: 93.127.223.238
@@ -2173,7 +2099,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[I] 🌍 其它地区 123'
+  name: '[I] 🌍 其它地区 119'
   network: ws
   port: 443
   server: 141.164.35.4
@@ -2188,7 +2114,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 124'
+  name: '[I] 🌍 其它地区 120'
   network: ws
   port: 443
   server: 52.79.188.223
@@ -2200,7 +2126,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 125'
+- name: '[I] 🌍 其它地区 121'
   network: ws
   port: 443
   server: 141.164.44.60
@@ -2212,7 +2138,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 126'
+- name: '[I] 🌍 其它地区 122'
   network: ws
   port: 443
   server: 216.173.67.144
@@ -2227,7 +2153,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 127'
+  name: '[I] 🌍 其它地区 123'
   network: ws
   port: 443
   server: 166.88.35.242
@@ -2239,7 +2165,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 128'
+- name: '[I] 🌍 其它地区 124'
   network: ws
   port: 8443
   server: 134.209.166.201
@@ -2251,7 +2177,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
-- name: '[I] 🌍 其它地区 129'
+- name: '[I] 🌍 其它地区 125'
   network: ws
   port: 443
   server: 131.143.180.190
@@ -2263,7 +2189,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 130'
+- name: '[I] 🌍 其它地区 126'
   network: ws
   port: 443
   server: 154.12.52.153
@@ -2275,7 +2201,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 131'
+- name: '[I] 🌍 其它地区 127'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -2287,7 +2213,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 132'
+- name: '[I] 🌍 其它地区 128'
   network: ws
   port: 443
   server: 203.88.117.227
@@ -2299,7 +2225,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 133'
+- name: '[I] 🌍 其它地区 129'
   network: ws
   port: 443
   server: 154.21.197.32
@@ -2311,7 +2237,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 134'
+- name: '[I] 🌍 其它地区 130'
   network: ws
   port: 443
   server: 179.253.247.47
@@ -2323,7 +2249,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 135'
+- name: '[I] 🌍 其它地区 131'
   network: ws
   port: 8443
   server: 179.255.107.60
@@ -2335,7 +2261,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 136'
+- name: '[I] 🌍 其它地区 132'
   network: ws
   port: 443
   server: 179.255.99.95
@@ -2347,7 +2273,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 137'
+- name: '[I] 🌍 其它地区 133'
   network: ws
   port: 443
   server: 192.6.161.16
@@ -2359,7 +2285,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 138'
+- name: '[I] 🌍 其它地区 134'
   network: ws
   port: 443
   server: 45.39.230.139
@@ -2371,7 +2297,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 139'
+- name: '[I] 🌍 其它地区 135'
   network: ws
   port: 8443
   server: 52.26.119.209
@@ -2383,7 +2309,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 140'
+- name: '[I] 🌍 其它地区 136'
   network: ws
   port: 443
   server: 104.248.68.179
@@ -2395,7 +2321,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[I] 🌍 其它地区 141'
+- name: '[I] 🌍 其它地区 137'
   network: ws
   port: 8443
   server: 144.225.246.243
@@ -2407,7 +2333,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 142'
+- name: '[I] 🌍 其它地区 138'
   network: ws
   port: 8443
   server: 173.249.207.192
@@ -2419,7 +2345,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
-- name: '[I] 🌍 其它地区 143'
+- name: '[I] 🌍 其它地区 139'
   network: ws
   port: 8443
   server: 178.239.117.133
@@ -2431,7 +2357,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 144'
+- name: '[I] 🌍 其它地区 140'
   network: ws
   port: 443
   server: 38.47.52.252
@@ -2445,7 +2371,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[I] 🌍 其它地区 145'
+  name: '[I] 🌍 其它地区 141'
   network: ws
   port: 443
   server: 193.32.151.144
@@ -2459,7 +2385,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[I] 🌍 其它地区 146'
+  name: '[I] 🌍 其它地区 142'
   network: ws
   port: 8443
   server: 94.183.184.239
@@ -2471,7 +2397,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 147'
+- name: '[I] 🌍 其它地区 143'
   network: ws
   port: 443
   server: 161.33.45.250
@@ -2483,7 +2409,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 148'
+- name: '[I] 🌍 其它地区 144'
   network: ws
   port: 443
   server: 138.2.41.8
@@ -2495,7 +2421,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 149'
+- name: '[I] 🌍 其它地区 145'
   network: ws
   port: 443
   server: 35.74.79.196
@@ -2507,7 +2433,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 150'
+- name: '[I] 🌍 其它地区 146'
   network: ws
   port: 443
   server: 54.64.190.109
@@ -2519,7 +2445,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 151'
+- name: '[I] 🌍 其它地区 147'
   network: ws
   port: 443
   server: 139.84.244.9
@@ -2531,7 +2457,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 152'
+- name: '[I] 🌍 其它地区 148'
   network: ws
   port: 443
   server: 149.104.5.141
@@ -2543,7 +2469,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🌍 其它地区 153'
+- name: '[I] 🌍 其它地区 149'
   network: ws
   port: 8443
   server: 69.8.128.249
@@ -2555,7 +2481,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 154'
+- name: '[I] 🌍 其它地区 150'
   network: ws
   port: 2053
   server: 193.134.210.14
@@ -2567,7 +2493,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 155'
+- name: '[I] 🌍 其它地区 151'
   network: ws
   port: 443
   server: 45.152.65.100
@@ -2579,7 +2505,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 156'
+- name: '[I] 🌍 其它地区 152'
   network: ws
   port: 443
   server: 38.55.198.210
@@ -2591,7 +2517,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 157'
+- name: '[I] 🌍 其它地区 153'
   network: ws
   port: 443
   server: 68.64.178.52
@@ -2603,7 +2529,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 158'
+- name: '[I] 🌍 其它地区 154'
   network: ws
   port: 443
   server: 83.229.120.10
@@ -2615,7 +2541,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 159'
+- name: '[I] 🌍 其它地区 155'
   network: ws
   port: 443
   server: 207.57.133.165
@@ -2630,7 +2556,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 160'
+  name: '[I] 🌍 其它地区 156'
   network: ws
   port: 443
   server: 5.188.33.40
@@ -2642,7 +2568,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 161'
+- name: '[I] 🌍 其它地区 157'
   network: ws
   port: 443
   server: 116.251.217.65
@@ -2654,7 +2580,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🌍 其它地区 162'
+- name: '[I] 🌍 其它地区 158'
   network: ws
   port: 443
   server: 138.2.66.236
@@ -2666,7 +2592,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 163'
+- name: '[I] 🌍 其它地区 159'
   network: ws
   port: 443
   server: 152.42.175.157
@@ -2678,7 +2604,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 164'
+- name: '[I] 🌍 其它地区 160'
   network: ws
   port: 443
   server: 194.127.192.138
@@ -2690,7 +2616,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 165'
+- name: '[I] 🌍 其它地区 161'
   network: ws
   port: 443
   server: 165.22.106.244
@@ -2705,7 +2631,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 166'
+  name: '[I] 🌍 其它地区 162'
   network: ws
   port: 443
   server: 167.172.75.10
@@ -2717,7 +2643,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 167'
+- name: '[I] 🌍 其它地区 163'
   network: ws
   port: 443
   server: 165.232.173.161
@@ -2729,7 +2655,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 168'
+- name: '[I] 🌍 其它地区 164'
   network: ws
   port: 8443
   server: 206.206.77.6
@@ -2741,7 +2667,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 169'
+- name: '[I] 🌍 其它地区 165'
   network: ws
   port: 443
   server: 172.104.180.121
@@ -2753,7 +2679,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 170'
+- name: '[I] 🌍 其它地区 166'
   network: ws
   port: 443
   server: 168.144.128.4
@@ -2765,7 +2691,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
-- name: '[I] 🌍 其它地区 171'
+- name: '[I] 🌍 其它地区 167'
   network: ws
   port: 443
   server: 207.148.123.149
@@ -2777,7 +2703,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 172'
+- name: '[I] 🌍 其它地区 168'
   network: ws
   port: 443
   server: 69.8.133.6
@@ -2789,7 +2715,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 173'
+- name: '[I] 🌍 其它地区 169'
   network: ws
   port: 8443
   server: 5.223.70.20
@@ -2801,7 +2727,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 174'
+- name: '[I] 🌍 其它地区 170'
   network: ws
   port: 443
   server: 103.161.179.36
@@ -2813,7 +2739,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇰🇷 韩国 03'
+- name: '[I] 🇰🇷 韩国 06'
   network: ws
   port: 443
   server: 152.67.198.36
@@ -2825,7 +2751,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[I] 🇩🇪 德国 04'
+- name: '[I] 🇩🇪 德国 03'
   network: ws
   port: 2087
   server: 45.157.233.109
@@ -2837,7 +2763,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇩🇪 德国 05'
+- name: '[I] 🇩🇪 德国 04'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -2849,7 +2775,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[I] 🇰🇷 韩国 04'
+- name: '[I] 🇰🇷 韩国 07'
   network: ws
   port: 443
   server: 123.111.169.70
@@ -2861,7 +2787,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇸🇬 新加坡 09'
+- name: '[I] 🇸🇬 新加坡 14'
   network: ws
   port: 443
   server: 139.162.62.195
@@ -2873,7 +2799,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇺🇸 美国 08'
+- name: '[I] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 208.68.180.204
@@ -2885,7 +2811,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🇩🇪 德国 06'
+- name: '[I] 🇩🇪 德国 05'
   network: ws
   port: 8443
   server: 77.91.66.41
@@ -2897,7 +2823,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇰🇷 韩国 05'
+- name: '[I] 🇰🇷 韩国 08'
   network: ws
   port: 443
   server: 141.164.34.193
@@ -2909,7 +2835,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇭🇰 香港 13'
+- name: '[I] 🇭🇰 香港 11'
   network: ws
   port: 443
   server: 193.200.130.20
@@ -2921,7 +2847,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🌍 其它地区 175'
+- name: '[I] 🌍 其它地区 171'
   network: ws
   port: 443
   server: 154.46.31.118
@@ -2933,7 +2859,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇺🇸 美国 09'
+- name: '[I] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -2945,7 +2871,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇺🇸 美国 10'
+- name: '[I] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: 141.148.186.22
@@ -2957,7 +2883,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[I] 🇩🇪 德国 07'
+- name: '[I] 🇩🇪 德国 06'
   network: ws
   port: 443
   server: 165.245.214.107
@@ -2971,7 +2897,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[I] 🌍 其它地区 176'
+  name: '[I] 🌍 其它地区 172'
   network: ws
   port: 443
   server: 193.233.161.253
@@ -2983,7 +2909,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 177'
+- name: '[I] 🌍 其它地区 173'
   network: ws
   port: 8443
   server: 185.239.48.154
@@ -2995,7 +2921,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇰🇷 韩国 06'
+- name: '[I] 🇰🇷 韩国 09'
   network: ws
   port: 443
   server: 43.202.32.50
@@ -3007,7 +2933,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 178'
+- name: '[I] 🌍 其它地区 174'
   network: ws
   port: 443
   server: 149.154.157.213
@@ -3019,7 +2945,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🌍 其它地区 179'
+- name: '[I] 🌍 其它地区 175'
   network: ws
   port: 443
   server: 88.218.92.205
@@ -3031,7 +2957,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🌍 其它地区 180'
+- name: '[I] 🌍 其它地区 176'
   network: ws
   port: 8443
   server: 188.240.213.98
@@ -3057,7 +2983,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F%3FTELEGRAM-TOOTFFARANGIfp%3Dchrome'
-- name: '[I] 🇭🇰 香港 14'
+- name: '[I] 🇭🇰 香港 12'
   network: ws
   port: 8443
   server: 103.39.78.118
@@ -3069,7 +2995,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🇸🇬 新加坡 10'
+- name: '[I] 🇸🇬 新加坡 15'
   network: ws
   port: 8443
   server: 168.107.90.137
@@ -3081,7 +3007,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇺🇸 美国 11'
+- name: '[I] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -3093,7 +3019,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🇩🇪 德国 08'
+- name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 443
   server: 45.95.0.43
@@ -3105,7 +3031,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇺🇸 美国 12'
+- name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 166.88.33.135
@@ -3117,7 +3043,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[I] 🇩🇪 德国 09'
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 2053
   server: 89.127.210.245
@@ -3130,24 +3056,24 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 181'
+  name: '[I] 🌍 其它地区 177'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 182'
+  name: '[I] 🌍 其它地区 178'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 183'
+  name: '[I] 🌍 其它地区 179'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.151.160.18
   type: ss
-- name: '[I] 🌍 其它地区 184'
+- name: '[I] 🌍 其它地区 180'
   network: tcp
   port: 52683
   server: jp.sofast.live
@@ -3155,7 +3081,7 @@ proxies:
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - flow: xtls-rprx-vision
-  name: '[I] 🌍 其它地区 185'
+  name: '[I] 🌍 其它地区 181'
   network: tcp
   port: 30892
   reality-opts:
@@ -3166,7 +3092,7 @@ proxies:
   tls: false
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '[I] 🌍 其它地区 186'
+- name: '[I] 🌍 其它地区 182'
   network: ws
   port: 443
   server: cf.090227.xyz
@@ -3180,7 +3106,7 @@ proxies:
     path: /fp=chrome
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 187'
+  name: '[I] 🌍 其它地区 183'
   network: ws
   port: 8034
   server: 120.232.202.14
@@ -3193,7 +3119,7 @@ proxies:
     path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 188'
+  name: '[I] 🌍 其它地区 184'
   network: ws
   port: 8033
   server: 120.232.202.14
@@ -3206,7 +3132,7 @@ proxies:
     path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 189'
+  name: '[I] 🌍 其它地区 185'
   network: ws
   port: 8032
   server: 120.232.202.14
@@ -3219,7 +3145,7 @@ proxies:
     path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 190'
+  name: '[I] 🌍 其它地区 186'
   network: ws
   port: 8039
   server: 120.232.202.14
@@ -3233,7 +3159,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🌍 其它地区 191'
+  name: '[I] 🌍 其它地区 187'
   network: ws
   port: 443
   server: 146.56.188.74
@@ -3245,7 +3171,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[I] 🌍 其它地区 192'
+- name: '[I] 🌍 其它地区 188'
   network: ws
   port: 443
   server: 179.253.250.237
@@ -3257,7 +3183,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🌍 其它地区 193'
+- name: '[I] 🌍 其它地区 189'
   network: ws
   port: 443
   server: 103.97.200.42
@@ -3272,7 +3198,7 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: '[I] 🌍 其它地区 194'
+  name: '[I] 🌍 其它地区 190'
   network: xhttp
   port: 443
   server: pl-a50baf0d7f.shamanapp.online
@@ -3285,7 +3211,7 @@ proxies:
       Host: pl-a50baf0d7f.shamanapp.online
     path: '%2FShamanXHTTP2026'
 - client-fingerprint: firefox
-  name: '[I] 🌍 其它地区 195'
+  name: '[I] 🌍 其它地区 191'
   network: xhttp
   port: 443
   reality-opts:
@@ -3299,7 +3225,7 @@ proxies:
   ws-opts:
     path: '%2Fstatic%2F'
 - flow: xtls-rprx-vision
-  name: '[I] 🌍 其它地区 196'
+  name: '[I] 🌍 其它地区 192'
   network: tcp
   port: 20268
   reality-opts:
@@ -3313,7 +3239,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: unsafe
-  name: '[I] 🌍 其它地区 197'
+  name: '[I] 🌍 其它地区 193'
   network: ws
   port: 443
   server: 31.77.126.2
@@ -3327,7 +3253,7 @@ proxies:
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 198'
+  name: '[I] 🌍 其它地区 194'
   network: ws
   port: 2083
   server: 162.159.135.234
@@ -3341,7 +3267,7 @@ proxies:
     path: /or3
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🌍 其它地区 199'
+  name: '[I] 🌍 其它地区 195'
   network: tcp
   port: 443
   reality-opts:
@@ -3352,7 +3278,7 @@ proxies:
   tls: false
   type: vless
   uuid: 0ab273e4-cea6-41d0-bbab-41071d2fc455
-- name: '[I] 🌍 其它地区 200'
+- name: '[I] 🌍 其它地区 196'
   network: tcp
   port: 10443
   server: 178.94.25.73
@@ -3363,7 +3289,7 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: '[I] 🌍 其它地区 201'
+  name: '[I] 🌍 其它地区 197'
   network: xhttp
   port: 2053
   server: summerculture.net
@@ -3375,7 +3301,7 @@ proxies:
     headers:
       Host: summerculture.net
     path: '%2Fapi%2Fv1%2Fupload'
-- name: '[I] 🌍 其它地区 202'
+- name: '[I] 🌍 其它地区 198'
   network: ws
   port: 443
   server: 104.16.10.2

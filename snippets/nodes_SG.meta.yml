@@ -47,13 +47,48 @@ proxies:
 - name: '[H] 🇸🇬 新加坡 05'
   password: '!!str 1234'
   port: 2080
-  server: 54.255.133.243
+  server: 47.129.155.166
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 06'
+  password: '!!str 1234'
+  port: 2080
+  server: 47.129.174.248
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 07'
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.207.226
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 08'
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.229.54.109
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 09'
+  password: '!!str 1234'
+  port: '2080'
+  server: 18.143.176.211
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 10'
+  password: '!!str 1234'
+  port: '2080'
+  server: 54.169.228.182
   skip-cert-verify: true
   type: http
   username: '1234'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 06'
+  name: '[I] 🇸🇬 新加坡 11'
   network: tcp
   port: 55069
   reality-opts:
@@ -66,7 +101,7 @@ proxies:
   uuid: b2332eff-b231-4c10-8552-5dfad84f5521
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 07'
+  name: '[I] 🇸🇬 新加坡 12'
   network: tcp
   port: 36000
   reality-opts:
@@ -78,7 +113,7 @@ proxies:
   type: vless
   uuid: b2332eff-b231-4c10-8552-5dfad84f5521
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 08'
+  name: '[I] 🇸🇬 新加坡 13'
   network: ws
   port: 443
   server: 149.104.5.126
@@ -91,7 +126,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 09'
+  name: '[I] 🇸🇬 新加坡 14'
   network: ws
   port: 443
   server: 139.162.62.195
@@ -104,7 +139,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 10'
+  name: '[I] 🇸🇬 新加坡 15'
   network: ws
   port: 8443
   server: 168.107.90.137

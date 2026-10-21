@@ -55,38 +55,34 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - name: '[H] 🇸🇬 新加坡 06'
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.87.168
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 07'
   port: 9443
   server: 152.233.9.239
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇸🇬 新加坡 07'
-  password: '!!str 8888'
-  port: 1080
-  server: 47.236.168.243
+- name: '[H] 🇸🇬 新加坡 08'
+  port: 443
+  server: 156.146.56.97
   skip-cert-verify: true
-  type: socks5
-  username: '8888'
-- client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 08'
-  network: ws
-  port: '443'
-  server: 188.166.234.177
-  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
+  type: http
+- name: '[H] 🇸🇬 新加坡 09'
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.229.54.109
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 09'
+  name: '[I] 🇸🇬 新加坡 10'
   network: tcp
   port: 55069
   reality-opts:
@@ -99,7 +95,7 @@ proxies:
   uuid: b2332eff-b231-4c10-8552-5dfad84f5521
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 10'
+  name: '[I] 🇸🇬 新加坡 11'
   network: tcp
   port: 36000
   reality-opts:
@@ -111,7 +107,7 @@ proxies:
   type: vless
   uuid: b2332eff-b231-4c10-8552-5dfad84f5521
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 11'
+  name: '[I] 🇸🇬 新加坡 12'
   network: ws
   port: 443
   server: 149.104.5.126
@@ -124,7 +120,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 12'
+  name: '[I] 🇸🇬 新加坡 13'
   network: ws
   port: 443
   server: 139.162.62.195
@@ -137,7 +133,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 13'
+  name: '[I] 🇸🇬 新加坡 14'
   network: ws
   port: 8443
   server: 168.107.90.137

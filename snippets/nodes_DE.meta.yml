@@ -6,25 +6,19 @@ proxies:
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 02'
-  port: 9002
-  server: 158.173.154.4
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇩🇪 德国 03'
   port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
   server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 05'
+- name: '[H] 🇩🇪 德国 04'
   password: None
   port: 443
   server: 87.249.132.97
@@ -33,77 +27,24 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '[H] 🇩🇪 德国 06'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 07'
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 08'
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-service-name: 43f41cd7fee0
-  name: '[H] 🇩🇪 德国 09'
-  network: grpc
-  port: '25363'
-  reality-opts:
-    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
-    short-id: '!!str 7a8e24da4eb2c1b5'
-  server: 193.148.253.53
-  servername: www.chip.de
-  tls: true
+- encryption: mlkem768x25519plus.native.0rtt.PdwZJuxIVUGHGbEzz3Q39ZoRqqxfF0lFg22yCLQvaWk
+  name: '[H] 🇩🇪 德国 05'
+  network: ws
+  port: '8180'
+  server: dnld.chaqalli.com
   type: vless
   udp: true
-  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇩🇪 德国 10'
-  network: ws
-  port: 443
-  server: 22INLn9BmbA7RUmR.v.3dns.vip
-  servername: 22INLn9BmbA7RUmR.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
   ws-opts:
     headers:
-      Host: 22INLn9BmbA7RUmR.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇩🇪 德国 11'
-  network: ws
-  port: 443
-  server: 3E89CNW0HGtiFiDE.v.3dns.vip
-  servername: 3E89CNW0HGtiFiDE.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: 3E89CNW0HGtiFiDE.v.3dns.vip
-    path: /ws-vmess
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 06'
   network: tcp
   port: 443
   reality-opts:
@@ -118,7 +59,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 13'
+  name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -131,7 +72,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 2087
   server: 45.157.233.109
@@ -143,7 +84,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇩🇪 德国 15'
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -156,7 +97,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchromefp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 10'
   network: ws
   port: 8443
   server: 77.91.66.41
@@ -169,7 +110,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 443
   server: 165.245.214.107
@@ -181,7 +122,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇩🇪 德国 18'
+- name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 45.95.0.43
@@ -193,7 +134,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇩🇪 德国 19'
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 2053
   server: 89.127.210.245

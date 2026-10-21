@@ -1,23 +1,5 @@
 proxies:
-- name: '[H] 🇨🇦 加拿大 01'
-  port: 443
-  server: 206.223.183.13
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 02'
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 03'
-  port: 443
-  server: 23.169.224.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇨🇦 加拿大 04'
+- name: '[I] 🇨🇦 加拿大 01'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -32,7 +14,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🇨🇦 加拿大 05'
+  name: '[I] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -47,7 +29,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 06'
+  name: '[I] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: 188.114.97.6
@@ -62,7 +44,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 07'
+  name: '[I] 🇨🇦 加拿大 04'
   network: ws
   port: 443
   server: 104.17.148.22
@@ -77,7 +59,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 08'
+  name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: 443
   server: www.speedtest.net
@@ -92,7 +74,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 09'
+  name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -105,7 +87,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 10'
+  name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 443
   server: 172.64.150.43
@@ -118,7 +100,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 11'
+  name: '[I] 🇨🇦 加拿大 08'
   network: ws
   port: 443
   server: 104.17.147.22
@@ -131,7 +113,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 12'
+  name: '[I] 🇨🇦 加拿大 09'
   network: ws
   port: 443
   server: 162.159.130.234
@@ -145,7 +127,7 @@ proxies:
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
 - alpn:
   - http/1.1
-  name: '[I] 🇨🇦 加拿大 13'
+  name: '[I] 🇨🇦 加拿大 10'
   network: ws
   port: 443
   server: 104.19.45.195

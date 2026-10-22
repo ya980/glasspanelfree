@@ -12,7 +12,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
 - alterId: 0
   cipher: auto
   name: '[E] 🇰🇷 韩国 02'
@@ -26,7 +26,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[E] 🇰🇷 韩国 03'
@@ -64,25 +64,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇰🇷 韩国 06'
-  network: ws
-  port: '443'
-  server: 158.247.222.168
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /
-  xudp: true
-- name: '[I] 🇰🇷 韩国 07'
+- name: '[I] 🇰🇷 韩国 06'
   network: ws
   port: 443
   server: 123.111.169.70
@@ -94,7 +76,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇰🇷 韩国 08'
+- name: '[I] 🇰🇷 韩国 07'
   network: ws
   port: 443
   server: 146.56.151.92

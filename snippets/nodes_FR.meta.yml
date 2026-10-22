@@ -9,32 +9,3 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 02'
-  password: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  port: 443
-  server: 89.125.234.24
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 03'
-  network: ws
-  port: '33744'
-  server: 217.60.183.95
-  servername: de-d21e56c13c.shamanapp.online:33744
-  tls: false
-  type: vmess
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    headers:
-      Host: de-d21e56c13c.shamanapp.online:33744
-    path: /ShamanVMESS2026
-- name: '[H] 🇫🇷 法国 04'
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http

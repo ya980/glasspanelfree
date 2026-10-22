@@ -1,29 +1,7 @@
 proxies:
-- name: '[D] 🇺🇸 美国 01'
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 02'
-  network: ws
-  port: '80'
-  server: 104.17.147.222
-  servername: vmess.lbw666.dpdns.org
-  tls: false
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇺🇸 美国 03'
+  name: '[F] 🇺🇸 美国 01'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -38,7 +16,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 04'
+  name: '[F] 🇺🇸 美国 02'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -51,7 +29,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 05'
+- name: '[G] 🇺🇸 美国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -59,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 06'
+- name: '[G] 🇺🇸 美国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -67,30 +45,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 07'
+- name: '[H] 🇺🇸 美国 05'
   port: 443
-  server: 149.88.21.140
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 08'
-  password: None
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 09'
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 10'
+  name: '[I] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -102,7 +64,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇺🇸 美国 11'
+- name: '[I] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -115,7 +77,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 12'
+  name: '[I] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -128,7 +90,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -140,7 +102,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇺🇸 美国 14'
+- name: '[I] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -152,7 +114,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 11'
   network: ws
   port: 8443
   server: 45.61.149.205

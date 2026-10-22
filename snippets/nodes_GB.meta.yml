@@ -1,37 +1,11 @@
 proxies:
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇬🇧 英国 01'
-  network: ws
-  password: xwhfg0wu1wxv377f
-  port: '2087'
-  server: 216.24.57.225
+  - h3
+  name: '[D] 🇬🇧 英国 01'
+  password: Un62Uyh8P2Scl8x-9DSxFnpNO4GBs4pw
+  port: 8090
+  server: 185.139.7.254
   skip-cert-verify: true
-  sni: neo.xnetaro.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /wss
-- name: '[H] 🇬🇧 英国 02'
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 03'
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 04'
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: 185.139.7.254
+  tls: false
+  type: hysteria2

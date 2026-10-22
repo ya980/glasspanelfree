@@ -1,14 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 01'
+- name: '[B] 🇷🇺 俄罗斯 01'
   network: ws
-  port: 8443
-  server: 139.100.226.187
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  port: 8880
+  server: 45.67.215.30
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+      Host: vms.lifetime48.workers.dev
+    path: /

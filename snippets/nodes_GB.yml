@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 01'
+  network: ws
+  password: xwhfg0wu1wxv377f
+  port: '2087'
+  server: 216.24.57.225
+  skip-cert-verify: true
+  sni: neo.xnetaro.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /wss

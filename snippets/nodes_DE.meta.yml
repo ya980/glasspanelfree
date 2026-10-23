@@ -1,12 +1,17 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
-  password: None
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 01'
   port: 443
-  server: 152.233.20.206
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 103.91.147.212
+  servername: de.ozon.ru
   skip-cert-verify: true
   tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
 - name: '[I] 🇩🇪 德国 02'
   network: ws
   port: 443

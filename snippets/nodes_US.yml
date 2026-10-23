@@ -1,7 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 01'
+  name: '[E] 🇺🇸 美国 01'
+  network: ws
+  port: '80'
+  server: us-23.hihu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /870ao26f
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 02'
+  network: ws
+  port: '80'
+  server: us-23.hihu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 172.66.0.251
+    path: /870ao26f
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 03'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -16,7 +44,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 02'
+  name: '[F] 🇺🇸 美国 04'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -29,7 +57,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 03'
+- name: '[G] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -37,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 04'
+- name: '[G] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -45,3 +73,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: android
+  name: '[H] 🇺🇸 美国 28'
+  network: tcp
+  password: 6ab93ec68bd94b76
+  port: '20008'
+  server: ui108.pacemakere.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: android
+  name: '[H] 🇺🇸 美国 29'
+  network: tcp
+  password: 4fd2b10b6a754019
+  port: '20008'
+  server: su106.izzzzzi.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true

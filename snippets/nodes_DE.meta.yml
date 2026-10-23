@@ -1,28 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 01'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: YM1SjW-RyGtPYs_SgjtfaIxJpw2m-TZ8qnNFxkDxHV0
-    short-id: '!!str a5543a67f52ea8ab'
-  server: 31.76.15.24
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50a98bb9-8680-44b3-9962-902fff4631cf
-  xudp: true
-- name: '[H] 🇩🇪 德国 02'
+- alpn:
+  - h3
+  name: '[E] 🇩🇪 德国 01'
+  password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: promo.betust.net
+  sni: promo.betust.net
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 02'
   network: ws
   port: 443
   server: 177.1.187.183
@@ -38,26 +25,53 @@ proxies:
         like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /fp=chrome
   xudp: true
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 05'
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
+- name: '[H] 🇩🇪 德国 03'
+  password: None
   port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 04'
+  network: ws
+  port: 443
+  server: 95.169.166.3
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- name: '[H] 🇩🇪 德国 05'
+  password: None
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 06'
+  port: 443
   server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 08'
   network: ws
   port: '2083'
   server: 64.188.71.236
@@ -69,11 +83,18 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /fp=chrome
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /
   xudp: true
-- name: '[I] 🇩🇪 德国 08'
+- name: '[H] 🇩🇪 德国 09'
+  password: ''
+  port: '80'
+  server: 85.192.63.222
+  skip-cert-verify: true
+  type: http
+  username: ''
+- name: '[I] 🇩🇪 德国 10'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -85,7 +106,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 09'
+- name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -98,7 +119,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 12'
   network: tcp
   port: 443
   reality-opts:
@@ -111,7 +132,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 11'
+  name: '[I] 🇩🇪 德国 13'
   network: tcp
   port: 443
   reality-opts:
@@ -126,7 +147,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 14'
   network: ws
   port: 8443
   server: 2.28.42.209

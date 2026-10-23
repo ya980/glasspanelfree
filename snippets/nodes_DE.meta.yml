@@ -1,69 +1,77 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 01'
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 103.91.147.212
-  servername: de.ozon.ru
+  port: '43232'
+  server: fastiland.beautishine.ir
+  servername: fastiland.beautishine.ir
   tls: true
   type: vless
   udp: true
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
+  uuid: 0ceacfa0-6228-4e78-80e4-e5e29c924718
   xudp: true
 - name: '[H] 🇩🇪 德国 02'
   port: 9443
-  server: 213.177.229.161
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 03'
   password: None
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 04'
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 05'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 06'
-  network: tcp
   port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: '!!str b390142456517acc'
-  server: 149.33.47.172
-  servername: www.amazon.com
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 04'
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 05'
+  network: ws
+  port: '443'
+  server: 77.90.45.250
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-- name: '[H] 🇩🇪 德国 07'
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 06'
+  network: ws
+  port: '443'
+  server: 177.1.187.183
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
-- name: '[I] 🇩🇪 德国 08'
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /
+  xudp: true
+- name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -75,7 +83,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 09'
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -88,7 +96,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 443
   reality-opts:
@@ -101,7 +109,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 11'
+  name: '[I] 🇩🇪 德国 10'
   network: tcp
   port: 443
   reality-opts:
@@ -116,7 +124,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 8443
   server: 2.28.42.209

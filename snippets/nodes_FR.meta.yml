@@ -10,32 +10,29 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] 🇫🇷 法国 02'
-  port: 9443
-  server: 213.139.9.142
+  port: 443
+  server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇫🇷 法国 03'
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 04'
-  password: None
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇫🇷 法国 05'
   password: None
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+- name: '[H] 🇫🇷 法国 04'
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 05'
+  port: 443
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  tls: true
+  type: http

@@ -37,15 +37,8 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇸🇬 新加坡 04'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.87.168
-  skip-cert-verify: true
-  type: http
-  username: '1234'
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇸🇬 新加坡 05'
+  name: '[H] 🇸🇬 新加坡 04'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -55,78 +48,8 @@ proxies:
   server: 18.143.63.164
   type: ss
   udp: true
-- name: '[H] 🇸🇬 新加坡 06'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.90.38
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 07'
-  password: '!!str 1234'
-  port: 2080
-  server: 18.143.167.6
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 08'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.190.30
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 09'
-  password: '!!str 1234'
-  port: 2080
-  server: 54.151.160.36
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 10'
-  password: '!!str 1234'
-  port: '2080'
-  server: 54.251.149.207
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 11'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.14.88
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 12'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.229.91.101
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 13'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.250.6.249
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 14'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.250.8.222
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 15'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.235.123
-  skip-cert-verify: true
-  type: http
-  username: '1234'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 16'
+  name: '[I] 🇸🇬 新加坡 05'
   network: ws
   port: 443
   server: 43.174.195.1

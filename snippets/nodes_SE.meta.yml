@@ -1,12 +1,19 @@
 proxies:
 - name: '[D] SE 01'
+  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
+  port: 2053
+  server: 144.31.230.51
+  sni: sweden.luxes.network
+  tls: false
+  type: hysteria2
+- name: '[D] SE 02'
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
   server: 50.7.38.243
   sni: promo.betust.net
   tls: false
   type: hysteria2
-- name: '[D] SE 02'
+- name: '[D] SE 03'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -16,3 +23,17 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
+- name: '[H] SE 04'
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 05'
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

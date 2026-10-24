@@ -1,7 +1,12 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇩🇪 德国 01'
+- name: '[E] 🇩🇪 德国 01'
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  port: 443
+  server: 50.7.38.243
+  sni: promo.betust.net
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 02'
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
   server: promo.betust.net
@@ -10,112 +15,50 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇩🇪 德国 02'
+  name: '[E] 🇩🇪 德国 03'
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  port: 443
+  server: promo.betust.net
+  sni: promo.betust.net
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 04'
+  password: 46785352-db89-4839-8079-d4c69ad87996
+  port: 443
+  server: newswhy2.cryposikel.ru
+  sni: newswhy2.cryposikel.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 05'
+  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
+  port: 2053
+  server: 144.31.230.51
+  sni: sweden.luxes.network
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 06'
   password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
   port: 2053
   server: sweden.luxes.network
   sni: sweden.luxes.network
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 03'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 04'
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 05'
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  password: None
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 07'
-  password: None
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+- alpn:
+  - h3
+  name: '[E] 🇩🇪 德国 07'
+  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
+  port: 2053
+  server: sweden.luxes.network
+  sni: sweden.luxes.network
+  tls: false
+  type: hysteria2
 - name: '[H] 🇩🇪 德国 08'
-  password: None
   port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 09'
-  port: 9443
-  server: 213.177.229.161
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 10'
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: UZc4OlyX-cYmQh5FJtjzoSuVqtbiGJCNQGF_MN8CxA4
-    short-id: '!!str 748e4f563dd9bd02'
-  server: nl.shadowraze.co
-  servername: www.bmw.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
-  xudp: true
-- name: '[H] 🇩🇪 德国 12'
-  password: ''
-  port: '1080'
-  server: 89.191.226.64
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 13'
-  network: ws
-  port: '443'
-  server: 64.226.96.188
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
-- name: '[I] 🇩🇪 德国 14'
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -127,7 +70,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 15'
+- name: '[I] 🇩🇪 德国 10'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -140,7 +83,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 11'
   network: tcp
   port: 443
   reality-opts:
@@ -153,7 +96,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 12'
   network: tcp
   port: 443
   reality-opts:
@@ -168,7 +111,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 18'
+  name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 8443
   server: 2.28.42.209

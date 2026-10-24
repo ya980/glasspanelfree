@@ -2,14 +2,38 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
+  network: tcp
+  port: '50002'
+  server: 112.132.215.108
   servername: ''
   tls: false
   type: vmess
-  uuid: 2eb25c1e-c3b5-45cf-9afd-dd3ddc00da10
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 09'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a01e5d56-464f-45b9-b600-164db4700162
   ws-opts:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 10'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a01e5d56-464f-45b9-b600-164db4700162
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

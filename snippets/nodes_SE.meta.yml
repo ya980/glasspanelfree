@@ -9,8 +9,7 @@ proxies:
 - name: '[D] SE 02'
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
-  server: 50.7.38.243
-  sni: promo.betust.net
+  server: promo.betust.net
   tls: false
   type: hysteria2
 - name: '[D] SE 03'
@@ -37,3 +36,19 @@ proxies:
   tls: true
   type: http
   username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] SE 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: '!!str afee962d'
+  server: 91.242.228.29
+  servername: se1.mycloud1.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  xudp: true

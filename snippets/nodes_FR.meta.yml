@@ -34,7 +34,7 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 45.151.71.152
+  server: 45.151.71.164
   servername: abuse.ozon.ru
   tls: true
   type: vless
@@ -57,49 +57,82 @@ proxies:
   udp: true
   uuid: 2f5cfa10-43e5-4912-800d-557308a26a29
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 06'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 45.151.71.147
-  servername: abuse.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  xudp: true
-- name: '[H] 🇫🇷 法国 07'
+- name: '[H] 🇫🇷 法国 06'
   password: None
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 08'
+- name: '[H] 🇫🇷 法国 07'
   password: None
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] 🇫🇷 法国 08'
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 09'
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇫🇷 法国 10'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 11'
+  password: None
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇫🇷 法国 12'
+  password: ''
+  port: '1081'
+  server: 107.191.47.162
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 09'
+  name: '[H] 🇫🇷 法国 13'
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 103.91.147.247
-  servername: ozon.ru
-  skip-cert-verify: false
-  tfo: false
+    public-key: f2a5R8ubMtjmFDxUt1VtikDOmgPgVWBPzcZjOOJpYlc
+    short-id: '!!str 12f319370b60ec2f'
+  server: 194.113.235.121
+  servername: fr1-4v.zvcorp24.com
   tls: true
   type: vless
   udp: true
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  uuid: c5cf36f5-50e9-405b-adb4-b40fdf0d4619
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 14'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 147.45.47.86
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  xudp: true

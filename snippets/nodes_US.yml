@@ -1,34 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 03'
-  network: ws
-  port: '8080'
-  server: 23.254.194.215
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c75a551-81d6-46d0-876d-79519719bb22
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /3c75a551-81d6-46d0-876d-79519719bb22-vm
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '8080'
-  server: 23.254.194.215
-  servername: www.bing.com
-  tls: false
-  type: vmess
-  uuid: 3c75a551-81d6-46d0-876d-79519719bb22
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 3c75a551-81d6-46d0-876d-79519719bb22-vm
-- alterId: 0
-  cipher: auto
   name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443

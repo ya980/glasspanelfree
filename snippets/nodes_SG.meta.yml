@@ -37,27 +37,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇸🇬 新加坡 04'
-  network: ws
-  port: '443'
-  server: 172.64.154.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
-  xudp: true
+- name: '[H] 🇸🇬 新加坡 04'
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.87.168
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - cipher: chacha20-ietf-poly1305
   name: '[H] 🇸🇬 新加坡 05'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -69,90 +55,78 @@ proxies:
   server: 18.143.63.164
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇸🇬 新加坡 06'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 13.215.227.70
-  type: ss
-  udp: true
-- name: '[H] 🇸🇬 新加坡 07'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.229.54.109
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 08'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.207.226
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 09'
-  password: '!!str 1234'
-  port: 2080
-  server: 52.221.234.145
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 10'
-  password: '!!str 1234'
-  port: 2080
-  server: 18.143.176.211
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 11'
+- name: '[H] 🇸🇬 新加坡 06'
   password: '!!str 1234'
   port: 2080
   server: 13.212.90.38
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: '[H] 🇸🇬 新加坡 12'
+- name: '[H] 🇸🇬 新加坡 07'
   password: '!!str 1234'
   port: 2080
-  server: 18.143.144.220
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 13'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.212.249.115
+  server: 18.143.167.6
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: '[H] 🇸🇬 新加坡 14'
-  password: '!!str 1234'
-  port: 2080
-  server: 47.129.155.166
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 15'
+- name: '[H] 🇸🇬 新加坡 08'
   password: '!!str 1234'
   port: 2080
   server: 13.212.190.30
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: '[H] 🇸🇬 新加坡 16'
+- name: '[H] 🇸🇬 新加坡 09'
+  password: '!!str 1234'
+  port: 2080
+  server: 54.151.160.36
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 10'
   password: '!!str 1234'
   port: '2080'
-  server: 13.229.89.107
+  server: 54.251.149.207
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 11'
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.212.14.88
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 12'
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.229.91.101
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 13'
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.250.6.249
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 14'
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.250.8.222
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 15'
+  password: '!!str 1234'
+  port: '2080'
+  server: 13.212.235.123
   skip-cert-verify: true
   type: http
   username: '1234'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 17'
+  name: '[I] 🇸🇬 新加坡 16'
   network: ws
   port: 443
   server: 43.174.195.1

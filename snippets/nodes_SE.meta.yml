@@ -1,5 +1,12 @@
 proxies:
 - name: '[D] SE 01'
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  port: 443
+  server: 50.7.38.243
+  sni: promo.betust.net
+  tls: false
+  type: hysteria2
+- name: '[D] SE 02'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ

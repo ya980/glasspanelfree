@@ -1,34 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 02'
-  network: ws
-  port: '80'
-  server: us-23.hihu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /870ao26f
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 03'
-  network: ws
-  port: '80'
-  server: us-23.hihu.net
-  servername: 172.66.0.251
-  tls: false
-  type: vmess
-  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 172.66.0.251
-    path: /870ao26f
-- alterId: 0
-  cipher: auto
   name: '[F] 🇺🇸 美国 04'
   network: ws
   port: 443

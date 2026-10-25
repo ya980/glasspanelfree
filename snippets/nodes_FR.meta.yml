@@ -1,5 +1,21 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.36.234.11
+  skip-cert-verify: true
+  sni: vpn-fr-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 51.44.167.227
+  skip-cert-verify: true
+  sni: vpn-fr-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 03'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -9,7 +25,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 02'
+- name: '[E] 🇫🇷 法国 04'
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   port: 443
   server: 143.246.211.163
@@ -18,14 +34,37 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 03'
+  name: '[E] 🇫🇷 法国 05'
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   port: 443
   server: 143.246.211.163
   sni: fr.gorobsub.com
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 04'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 193.160.140.109
+  servername: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  xudp: true
+- name: '[H] 🇫🇷 法国 07'
+  password: None
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 08'
   password: None
   port: 9443
   server: 138.199.47.247
@@ -33,19 +72,3 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 147.45.47.91
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-  xudp: true

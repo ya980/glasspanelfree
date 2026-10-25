@@ -1,5 +1,53 @@
 proxies:
-- name: '[I] 🇩🇪 德国 01'
+- name: '[D] 🇩🇪 德国 01'
+  password: mhsl
+  port: 14444
+  server: 88.99.213.222
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  password: miaoge110
+  port: 51511
+  server: 5.45.100.100
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 03'
+  password: wdXYbPlYLa5yLB7LF2Ambo
+  port: 443
+  server: 46.225.10.16
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[H] 🇩🇪 德国 04'
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api
+  name: '[H] 🇩🇪 德国 05'
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: '!!str afee962d'
+  server: nl3.mycloud1.org
+  servername: nl3.mycloud1.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+- name: '[I] 🇩🇪 德国 06'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -11,7 +59,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 02'
+- name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -24,7 +72,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 03'
+  name: '[I] 🇩🇪 德国 08'
   network: tcp
   port: 443
   reality-opts:
@@ -37,7 +85,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 443
   reality-opts:
@@ -52,7 +100,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 10'
   network: ws
   port: 8443
   server: 2.28.42.209

@@ -1,37 +1,42 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
-  port: 2053
-  server: 2.26.48.112
-  sni: noway.luxes.network
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: edge
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: api
-  name: '[H] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 01'
   network: grpc
-  port: '2053'
+  port: 2053
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
     short-id: '!!str afee962d'
-  server: 193.111.248.80
+  server: nl3.mycloud1.org
   servername: nl3.mycloud1.org
   tls: true
   type: vless
   udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - de.my-gaming.ir
+    path:
+    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
+  name: '[H] 🇩🇪 德国 02'
+  network: http
+  port: '9090'
+  server: 188.245.184.137
+  type: vless
+  udp: true
+  uuid: fc1cab97-5935-42fa-8c76-f95b747c34c0
   xudp: true
 - name: '[H] 🇩🇪 德国 03'
   password: None
-  port: 443
-  server: 87.249.132.97
+  port: 9443
+  server: 79.127.156.177
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
 - name: '[H] 🇩🇪 德国 04'
   port: 9002
   server: 158.173.154.1
@@ -41,13 +46,26 @@ proxies:
   udp: true
 - name: '[H] 🇩🇪 德国 05'
   password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 06'
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
+  password: None
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 06'
+- name: '[H] 🇩🇪 德国 08'
   password: None
   port: 9002
   server: 158.173.154.2
@@ -55,7 +73,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 07'
+- name: '[H] 🇩🇪 德国 09'
   password: None
   port: 443
   server: 79.76.126.155
@@ -63,41 +81,28 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 08'
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 09'
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '[H] 🇩🇪 德国 10'
+  password: None
   port: 443
-  server: 149.36.50.157
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: CwVoZSZr3MQ8IEaxOqmZRolV2Vw5Ve-hwhRLHuOerzg
-    short-id: '!!str 44aa59cc84b532ed'
-  server: vb41fwol.himoy.space
-  servername: vb41fwol.himoy.space
+  username: null
+- name: '[H] 🇩🇪 德国 11'
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-  xudp: true
-- name: '[I] 🇩🇪 德国 12'
+  type: http
+- name: '[H] 🇩🇪 德国 12'
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -109,7 +114,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 13'
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -122,7 +127,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 15'
   network: tcp
   port: 443
   reality-opts:
@@ -135,7 +140,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 16'
   network: tcp
   port: 443
   reality-opts:
@@ -150,7 +155,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 17'
   network: ws
   port: 8443
   server: 2.28.42.209

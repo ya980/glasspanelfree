@@ -7,17 +7,7 @@ proxies:
   sni: 140.238.213.114
   tls: false
   type: hysteria2
-- name: '[D] CH 02'
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-  password: capadm96216165
-  port: 443
-  server: 208.69.78.217
-  skip-cert-verify: true
-  sni: vpn.local
-  tls: false
-  type: hysteria2
-- name: '[H] CH 03'
+- name: '[H] CH 02'
   password: None
   port: 9443
   server: 37.120.213.210
@@ -25,10 +15,16 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: '[H] CH 03'
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: '[H] CH 04'
   password: None
-  port: 9443
-  server: 149.88.27.46
+  port: 443
+  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http

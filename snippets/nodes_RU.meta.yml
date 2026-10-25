@@ -12,20 +12,23 @@ proxies:
   server: srv-17e124.21freedom.net
   tls: false
   type: hysteria2
-- client-fingerprint: qq
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 03'
   network: tcp
-  port: 8443
+  port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 193.160.140.117
-  servername: apple.com
+    short-id: '!!str '
+  server: 193.160.140.120
+  servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 57c87188-1056-4bd5-92f8-c7ca1fd19147
-- client-fingerprint: edge
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 04'
@@ -34,31 +37,15 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.223.104.140
-  servername: abuse.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 193.160.141.8
+  server: 193.160.140.99
   servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
   xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 06'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: ws
   port: 8443
   server: 139.100.226.187

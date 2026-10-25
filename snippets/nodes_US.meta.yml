@@ -6,54 +6,25 @@ proxies:
   sni: promo3.betust.net
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 02'
+- name: '[E] 🇺🇸 美国 02'
   password: 94c2b91777f8de3a5bc12d2a91b732c2
   port: 443
   server: promo3.betust.net
   sni: promo3.betust.net
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 03'
+  password: 94c2b91777f8de3a5bc12d2a91b732c2
+  port: 443
+  server: promo3.betust.net
+  sni: promo3.betust.net
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '8080'
-  server: 23.254.194.215
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c75a551-81d6-46d0-876d-79519719bb22
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 3c75a551-81d6-46d0-876d-79519719bb22-vm
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 05'
-  network: ws
-  port: '8080'
-  server: 23.254.194.215
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c75a551-81d6-46d0-876d-79519719bb22
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /3c75a551-81d6-46d0-876d-79519719bb22-vm
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇺🇸 美国 06'
+  name: '[F] 🇺🇸 美国 04'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -68,7 +39,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -81,7 +52,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 08'
+- name: '[G] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -89,7 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 09'
+- name: '[G] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -97,62 +68,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 10'
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 11'
-  password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 12'
-  port: 38182
-  server: 69.55.49.177
-  skip-cert-verify: true
-  type: socks5
-- name: '[H] 🇺🇸 美国 13'
-  password: None
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 14'
+- name: '[H] 🇺🇸 美国 08'
   port: 8443
   server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 15'
-  port: 9002
-  server: 138.199.35.204
+- name: '[H] 🇺🇸 美国 09'
+  password: ''
+  port: 22222
+  server: 64.118.155.2
   skip-cert-verify: true
-  tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 16'
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 17'
-  password: None
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 18'
+  username: ''
+- name: '[H] 🇺🇸 美国 10'
   password: None
   port: 9443
   server: 154.47.25.78
@@ -160,37 +90,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 19'
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 11'
+  network: xhttp
+  port: '443'
+  server: 87.58.199.144
+  servername: dmbdnpctq8hjxx.hat.onl
   tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 20'
-  password: None
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 21'
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 22'
-  password: None
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
+  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 12'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -202,7 +118,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 13'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -215,7 +131,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 14'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -228,7 +144,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 26'
+  name: '[I] 🇺🇸 美国 15'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -240,7 +156,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇺🇸 美国 27'
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -252,7 +168,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   port: 8443
   server: 45.61.149.205

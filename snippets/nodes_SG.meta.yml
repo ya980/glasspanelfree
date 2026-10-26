@@ -40,34 +40,19 @@ proxies:
 - name: '[H] 🇸🇬 新加坡 04'
   password: '!!str 1234'
   port: 2080
-  server: 13.212.190.30
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 05'
-  password: '!!str 1234'
-  port: 2080
-  server: 18.143.144.220
+  server: 13.250.6.200
   skip-cert-verify: true
   type: http
   udp: true
   username: '1234'
-- name: '[H] 🇸🇬 新加坡 06'
-  password: '!!str 1234'
-  port: '2080'
-  server: 18.143.167.6
-  skip-cert-verify: true
+- name: '[H] 🇸🇬 新加坡 05'
+  password: None
+  port: 9090
+  server: 152.42.170.187
   type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 07'
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.250.6.249
-  skip-cert-verify: true
-  type: http
-  username: '1234'
+  username: null
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 08'
+  name: '[I] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: 43.174.195.1

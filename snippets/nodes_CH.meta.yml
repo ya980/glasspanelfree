@@ -1,23 +1,26 @@
 proxies:
-- name: '[D] CH 01'
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
+- name: '[E] CH 01'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
   skip-cert-verify: true
-  sni: 140.238.213.114
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[H] CH 02'
+- alpn:
+  - h3
+  name: '[E] CH 02'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[H] CH 03'
   password: None
   port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] CH 03'
-  port: 9443
-  server: 149.88.27.33
+  server: 149.88.27.46
   skip-cert-verify: true
   tls: true
   type: http
@@ -25,6 +28,14 @@ proxies:
   password: None
   port: 443
   server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] CH 05'
+  password: None
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http

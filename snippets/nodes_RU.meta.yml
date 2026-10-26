@@ -1,17 +1,36 @@
 proxies:
-- name: '[B] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.160.140.118
+  servername: ozon.ru
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- client-fingerprint: edge
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 45.151.71.167
+  servername: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 443
   reality-opts:
@@ -24,40 +43,8 @@ proxies:
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 37.235.249.29
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 04'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 193.223.104.151
-  servername: abuse.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-  xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 05'
+  name: '[I] 🇷🇺 俄罗斯 04'
   network: ws
   port: 8443
   server: 139.100.226.187

@@ -1,30 +1,5 @@
 proxies:
-- name: '[B] 🇨🇦 加拿大 01'
-  network: ws
-  port: 8880
-  server: 50.62.195.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: '[B] 🇨🇦 加拿大 02'
-  network: ws
-  port: 443
-  security: tls
-  server: shopify.com
-  servername: misaka.cndyw.ggff.net
-  tls: true
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  ws-opts:
-    headers:
-      Host: misaka.cndyw.ggff.net
-    path: /?ed=2560
-- name: '[D] 🇨🇦 加拿大 03'
+- name: '[D] 🇨🇦 加拿大 01'
   obfs: salamander
   obfs-password: hfwq51con9efdxx6
   password: f04i31zq8sy80v9b
@@ -34,23 +9,10 @@ proxies:
   sni: r5ycmuko.zibayeman.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇦 加拿大 04'
-  network: ws
-  port: '443'
-  server: www.windowsmsidownloads.com
-  servername: www.windowsmsidownloads.com
-  tls: true
-  type: vmess
-  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
-  ws-opts:
-    headers:
-      Host: www.windowsmsidownloads.com
-    path: /truth
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇨🇦 加拿大 05'
+  name: '[H] 🇨🇦 加拿大 02'
   network: tcp
   port: 2093
   reality-opts:
@@ -58,45 +20,19 @@ proxies:
     short-id: '!!str 8a9725533854a7e8'
   server: 213.152.165.203
   servername: www.apple.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 28d7a636-fd0b-489e-bf99-baa5b1bf9f15
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇨🇦 加拿大 06'
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: '!!str 8a9725533854a7e8'
-  server: 213.152.165.201
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d7a636-fd0b-489e-bf99-baa5b1bf9f15
-- name: '[H] 🇨🇦 加拿大 07'
-  password: None
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  xudp: true
+- name: '[H] 🇨🇦 加拿大 03'
   port: 9443
-  server: 149.88.98.81
+  server: 198.44.157.19
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🇨🇦 加拿大 08'
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 09'
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 10'
+- name: '[H] 🇨🇦 加拿大 04'
   password: None
   port: 443
   server: 206.223.183.13
@@ -104,7 +40,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[I] 🇨🇦 加拿大 11'
+- name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: 443
   server: 172.64.150.43
@@ -116,7 +52,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
-- name: '[I] 🇨🇦 加拿大 12'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -131,7 +67,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[I] 🇨🇦 加拿大 13'
+  name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -146,7 +82,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 14'
+  name: '[I] 🇨🇦 加拿大 08'
   network: ws
   port: 443
   server: 104.17.148.22
@@ -161,7 +97,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 15'
+  name: '[I] 🇨🇦 加拿大 09'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -176,7 +112,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 16'
+  name: '[I] 🇨🇦 加拿大 10'
   network: ws
   port: 443
   server: 188.114.97.6

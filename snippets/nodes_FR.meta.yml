@@ -1,38 +1,5 @@
 proxies:
-- name: '[B] 🇫🇷 法国 01'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: '[B] 🇫🇷 法国 02'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇫🇷 法国 03'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 01'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -42,7 +9,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 02'
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   port: 443
   server: 143.246.211.163
@@ -51,51 +18,29 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 06'
+  name: '[E] 🇫🇷 法国 03'
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   port: 443
   server: 143.246.211.163
   sni: fr.gorobsub.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 07'
-  network: ws
-  port: '443'
-  server: www.windowssearchtools.com
-  servername: www.windowssearchtools.com
-  tls: true
-  type: vmess
-  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
-  ws-opts:
-    headers:
-      Host: www.windowssearchtools.com
-    path: /truth
-- name: '[H] 🇫🇷 法国 08'
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 09'
+  name: '[H] 🇫🇷 法国 04'
   network: tcp
-  port: 2092
+  port: 443
   reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.200
-  servername: www.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.160.141.27
+  servername: abuse.ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 901cb432-3807-404a-9bb8-987814b000ca
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 10'
+  name: '[H] 🇫🇷 法国 05'
   network: tcp
   port: 2092
   reality-opts:
@@ -107,44 +52,23 @@ proxies:
   type: vless
   udp: true
   uuid: 901cb432-3807-404a-9bb8-987814b000ca
-- name: '[H] 🇫🇷 法国 11'
-  password: None
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 12'
+  name: '[H] 🇫🇷 法国 06'
   network: tcp
-  port: 443
+  port: 2092
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.167
-  servername: abuse.ozon.ru
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: '!!str 716b7eba38125f3a'
+  server: 213.152.165.203
+  servername: www.apple.com
   skip-cert-verify: false
-  sni: abuse.ozon.ru
+  sni: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- name: '[H] 🇫🇷 法国 13'
-  port: 443
-  server: 141.94.16.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 14'
-  password: ''
-  port: 1081
-  server: 107.191.47.162
-  skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  udp: true
-  username: ''
-- name: '[H] 🇫🇷 法国 15'
+  uuid: 901cb432-3807-404a-9bb8-987814b000ca
+- name: '[H] 🇫🇷 法国 07'
   password: None
   port: 443
   server: 149.102.245.65
@@ -152,9 +76,24 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇫🇷 法国 16'
+- name: '[H] 🇫🇷 法国 08'
   port: 8090
   server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 09'
+  network: tcp
+  port: '2092'
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: '!!str 716b7eba38125f3a'
+  server: 213.152.165.204
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41e9280c-818c-4939-b5d6-332bf4d872e6
+  xudp: true

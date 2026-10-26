@@ -1,103 +1,50 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: '[B] 🇬🇧 英国 02'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: '[B] 🇬🇧 英国 03'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: '[B] 🇬🇧 英国 04'
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: '[B] 🇬🇧 英国 05'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇬🇧 英国 06'
-  network: ws
-  port: '443'
-  server: www.ubuntuupdates.com
-  servername: www.ubuntuupdates.com
-  tls: true
-  type: vmess
-  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
-  ws-opts:
-    headers:
-      Host: www.ubuntuupdates.com
-    path: /truth
-- name: '[H] 🇬🇧 英国 07'
+- name: '[H] 🇬🇧 英国 01'
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇬🇧 英国 08'
+- name: '[H] 🇬🇧 英国 02'
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 09'
+- name: '[H] 🇬🇧 英国 03'
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 04'
   password: None
   port: 9443
-  server: 84.17.50.214
+  server: 84.233.178.33
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 10'
+- name: '[H] 🇬🇧 英国 05'
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 11'
+- name: '[H] 🇬🇧 英国 06'
   password: None
-  port: 443
-  server: 212.102.63.1
+  port: 9443
+  server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 12'
+- name: '[H] 🇬🇧 英国 07'
   password: None
   port: 9443
   server: 37.120.233.34
@@ -105,48 +52,50 @@ proxies:
   tls: true
   type: http
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 13'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 45.151.71.150
-  servername: ai.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 14'
+  name: '[H] 🇬🇧 英国 08'
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.160.140.160
+  server: 147.45.46.183
   servername: gb.ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
   xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 15'
+  name: '[H] 🇬🇧 英国 09'
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 193.223.104.176
+  server: 193.160.140.157
+  servername: ai.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 37.235.249.12
   servername: gb.ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
   xudp: true

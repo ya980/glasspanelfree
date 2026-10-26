@@ -25,75 +25,111 @@ proxies:
   sni: fr.gorobsub.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 04'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 193.160.141.27
-  servername: abuse.ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 05'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.203
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 901cb432-3807-404a-9bb8-987814b000ca
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 06'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.203
-  servername: www.apple.com
-  skip-cert-verify: false
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 901cb432-3807-404a-9bb8-987814b000ca
-- name: '[H] 🇫🇷 法国 07'
+- name: '[E] 🇫🇷 法国 04'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 31.77.8.44
+  sni: de4.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 05'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 31.77.8.55
+  sni: de5.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 06'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 94.103.169.109
+  sni: de3.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 07'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 94.103.169.80
+  sni: de2.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 08'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: de2.shvpn.ru
+  sni: de2.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 09'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: de3.shvpn.ru
+  sni: de3.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 10'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: de4.shvpn.ru
+  sni: de4.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 11'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: de5.shvpn.ru
+  sni: de5.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[H] 🇫🇷 法国 12'
   password: None
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🇫🇷 法国 08'
-  port: 8090
-  server: 80.124.109.22
-  skip-cert-verify: true
-  tls: true
-  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 09'
-  network: tcp
-  port: '2092'
+  name: '[H] 🇫🇷 法国 13'
+  port: 443
   reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.204
-  servername: www.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.167
+  servername: abuse.ozon.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 41e9280c-818c-4939-b5d6-332bf4d872e6
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 14'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.167
+  servername: abuse.ozon.ru
+  skip-cert-verify: false
+  sni: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 15'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 147.45.47.117
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
   xudp: true

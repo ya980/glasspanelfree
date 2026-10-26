@@ -1,43 +1,32 @@
 proxies:
-- name: '[E] 🇩🇪 德国 01'
-  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
-  port: 443
-  server: 193.23.216.156
-  sni: crt.onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 01'
   password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
   port: 4443
-  server: 144.31.230.241
-  sni: se3.shvpn.ru
+  server: 31.77.8.44
+  sni: de4.shvpn.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 02'
   password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
   port: 4443
-  server: se3.shvpn.ru
-  sni: se3.shvpn.ru
+  server: 31.77.8.55
+  sni: de5.shvpn.ru
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇩🇪 德国 04'
-  network: xhttp
-  port: '2052'
-  reality-opts:
-    public-key: 3ds1sPK8MuZVr6IOAwjRx0h_2IZMZ2v_RzNGl3iYwno
-    short-id: '!!str 025ee5be0c789ece'
-  server: 2.27.206.215
-  servername: yastatic.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: fafc7c16-f890-45ee-a856-02df225172dd
-  xhttp-opts:
-    mode: stream-up
-    path: /cdn/api
-  xudp: true
+- name: '[D] 🇩🇪 德国 03'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 94.103.169.109
+  sni: de3.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 04'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 94.103.169.80
+  sni: de2.shvpn.ru
+  tls: false
+  type: hysteria2
 - name: '[I] 🇩🇪 德国 05'
   network: ws
   port: 443

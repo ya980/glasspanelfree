@@ -1,5 +1,12 @@
 proxies:
 - name: '[E] CH 01'
+  password: b3d079ff-b775-4ffe-bac9-41228b08b15b
+  port: 4443
+  server: 81.180.93.171
+  sni: ro.gorobsub.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 02'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -9,7 +16,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] CH 02'
+  name: '[E] CH 03'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -17,16 +24,17 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[H] CH 03'
+- name: '[H] CH 04'
+  password: None
   port: 9443
-  server: 149.88.27.33
+  server: 149.88.27.46
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] CH 04'
+- name: '[H] CH 05'
   password: None
-  port: 443
-  server: 31.7.62.50
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http

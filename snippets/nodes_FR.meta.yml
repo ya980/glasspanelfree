@@ -12,38 +12,59 @@ proxies:
 - name: '[E] 🇫🇷 法国 02'
   password: 4b1be712-774c-4b65-8491-a3339e124a70
   port: 443
+  server: 194.76.147.34
+  sni: hys-eu.letsconnectpoint.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 03'
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
+  port: 443
   server: hys-eu.letsconnectpoint.com
   sni: hys-eu.letsconnectpoint.com
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 03'
+- name: '[E] 🇫🇷 法国 04'
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  port: 443
+  server: 179.254.127.159
+  sni: steel7.hadsvpn.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 05'
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  port: 443
+  server: steel7.hadsvpn.com
+  sni: steel7.hadsvpn.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.nhSIR1t1CWYukAuI6cNN2d0JM-25b8yeNVlsDojFFRc
+  name: '[H] 🇫🇷 法国 06'
+  network: xhttp
+  port: 443
+  server: justfr.b-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1ccb5c3d-d5f7-4515-9666-dfc7489e78f7
+  xhttp-opts:
+    host: justfr.b-cdn.net
+    mode: auto
+    path: /
+- name: '[H] 🇫🇷 法国 07'
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 04'
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇫🇷 法国 05'
+- name: '[H] 🇫🇷 法国 08'
   password: None
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 06'
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 07'
+- name: '[H] 🇫🇷 法国 09'
   password: None
   port: 443
   server: 51.210.167.149
@@ -51,32 +72,16 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇫🇷 法国 08'
+- name: '[H] 🇫🇷 法国 10'
   password: None
   port: 443
   server: 82.66.235.221
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 09'
+- name: '[H] 🇫🇷 法国 11'
   port: 443
-  server: 141.94.16.4
+  server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 10'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
-    short-id: '!!str 1c5869a95671bcb0'
-  server: 51.158.36.16
-  servername: fr1.accessboy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
-  xudp: true

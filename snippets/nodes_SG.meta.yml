@@ -38,19 +38,20 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - name: '[H] 🇸🇬 新加坡 04'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.250.6.200
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 05'
   password: None
-  port: 9090
-  server: 152.42.170.187
+  port: 9443
+  server: 152.233.9.239
+  skip-cert-verify: true
+  tls: true
   type: http
   username: null
+- name: '[H] 🇸🇬 新加坡 05'
+  password: ''
+  port: '1080'
+  server: 8.219.245.123
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   name: '[I] 🇸🇬 新加坡 06'
   network: ws

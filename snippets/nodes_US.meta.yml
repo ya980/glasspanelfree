@@ -1,4 +1,11 @@
 proxies:
+- name: '[E] 🇺🇸 美国 01'
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  port: 4444
+  server: bl3.nexfile.net
+  sni: bl3.nexfile.net
+  tls: false
+  type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
   password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
   port: 4443
@@ -13,20 +20,15 @@ proxies:
   sni: de4.shvpn.ru
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
   name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '80'
-  server: 104.17.147.222
-  servername: ''
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: de4.shvpn.ru
+  sni: de4.shvpn.ru
   tls: false
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[F] 🇺🇸 美国 05'
@@ -73,48 +75,45 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 09'
-  network: ws
-  port: 8443
-  server: usa2.pad-sservice.lat
-  servername: usa2.pad-sservice.lat
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: laG5BxoSbdRozpauATNFBPPTwhuDuu0JFl_SCP2ZQlU
+    short-id: '!!str 14fbf992'
+  server: 177.7.51.29
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  uuid: c6b1b2d0-ed5e-48ce-99e6-112ff330030d
+  xudp: true
+- name: '[H] 🇺🇸 美国 10'
+  network: ws
+  port: '8880'
+  server: 185.193.30.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: usa2.pad-service.com
-    path: /usa2-1
-- name: '[H] 🇺🇸 美国 10'
-  password: None
-  port: 9443
-  server: 198.44.138.27
+      Host: vms.lifetime09.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /
+  xudp: true
+- name: '[H] 🇺🇸 美国 11'
+  port: 8443
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '[H] 🇺🇸 美国 11'
-  network: http
-  port: 443
-  server: 44.201.37.147
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
 - name: '[H] 🇺🇸 美国 12'
   port: 443
-  server: 38.247.141.135
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
@@ -130,92 +129,46 @@ proxies:
 - name: '[H] 🇺🇸 美国 14'
   password: None
   port: 443
-  server: 121.127.34.82
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] 🇺🇸 美国 15'
   password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 16'
-  password: None
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 17'
-  password: None
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 18'
-  password: None
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 19'
-  password: None
   port: 9443
   server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 20'
+- name: '[H] 🇺🇸 美国 16'
   password: None
-  port: 443
-  server: 64.98.50.100
+  port: 9443
+  server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 21'
+  username: null
+- name: '[H] 🇺🇸 美国 17'
   port: 443
-  server: 193.239.236.134
+  server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 22'
+- name: '[H] 🇺🇸 美国 18'
   password: None
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🇺🇸 美国 23'
-  port: 443
-  server: 198.44.135.27
+- name: '[H] 🇺🇸 美国 19'
+  port: 9443
+  server: 198.44.135.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 24'
-  password: None
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 25'
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 26'
+- name: '[H] 🇺🇸 美国 20'
   password: None
   port: 443
   server: 68.235.56.59
@@ -223,6 +176,69 @@ proxies:
   tls: true
   type: http
   username: null
+- name: '[H] 🇺🇸 美国 21'
+  password: None
+  port: 38182
+  server: 69.55.49.177
+  type: socks5
+  udp: true
+  username: null
+- name: '[H] 🇺🇸 美国 22'
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 23'
+  network: ws
+  port: '443'
+  server: 152.53.229.84
+  servername: jvnsvntui5.dev.onappjet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4138c499-f6fe-48b8-a7cc-56c315e94ff7
+  ws-opts:
+    headers:
+      Host: jvnsvntui5.dev.onappjet.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /ws/4138c499-f6fe-48b8-a7cc-56c315e94ff7
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇺🇸 美国 24'
+  obfs: ''
+  obfs-password: ''
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: '4443'
+  server: pl1.shvpn.ru
+  skip-cert-verify: false
+  sni: pl1.shvpn.ru
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 25'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 216.152.155.54
+  skip-cert-verify: false
+  sni: learn.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 26'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: '443'
+  server: 66.163.114.106
+  skip-cert-verify: false
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: '[I] 🇺🇸 美国 27'
   network: ws

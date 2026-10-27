@@ -51,18 +51,14 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇺🇸 美国 06'
-  obfs: ''
-  obfs-password: ''
-  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
-  port: '4443'
-  server: 201.58.183.5
-  skip-cert-verify: false
-  sni: de4.shvpn.ru
-  type: hysteria2
-  up: ''
+- name: '[H] 🇺🇸 美国 06'
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
   name: '[I] 🇺🇸 美国 07'
   network: ws

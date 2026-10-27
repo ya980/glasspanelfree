@@ -1,13 +1,61 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
-  password: 9qFAF3s4R7wkGxcI0fonColtap41RUTsWdW
-  port: 30396
-  server: 45.131.65.244
+  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
+  port: 8443
+  server: 95.85.252.217
   skip-cert-verify: false
-  sni: pisulka.jsbox.top
+  sni: speedtestmark.com
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 02'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 31.76.24.11
+  sni: de1.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 03'
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: hltm9jnj6ez4cbhd
+  port: 2098
+  server: vip.trapxan.ir
+  sni: vip.trapxan.ir
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 04'
+  network: tcp
+  port: '443'
+  server: de.zhou-yufan.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- name: '[H] 🇩🇪 德国 05'
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: B7a6QgVW-E1QjZf5qi92n6btgHvmzfX1ooE7llCCwW8
+    short-id: '!!str 66682da1'
+  server: 201.58.182.216
+  servername: nlport.ptlux.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2bb5176f-cc45-41b5-908c-441581dccf8a
+  xudp: true
+- name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -19,7 +67,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 03'
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -32,7 +80,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 443
   reality-opts:
@@ -45,7 +93,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 10'
   network: tcp
   port: 443
   reality-opts:
@@ -60,7 +108,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 8443
   server: 2.28.42.209

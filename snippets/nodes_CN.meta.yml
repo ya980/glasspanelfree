@@ -1,16 +1,6 @@
 proxies:
 - name: '[D] 🇨🇳 中国 01'
   obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇳 中国 02'
-  obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
   port: 52087
@@ -19,17 +9,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇳 中国 03'
-  obfs: salamander
-  obfs-password: 6cmj1dymhm79hopl
-  password: 8z2e26xkqsa598s3
-  port: 52000
-  server: gift-catalog.aroonia.ir
-  skip-cert-verify: false
-  sni: gift-catalog.aroonia.ir
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇳 中国 04'
+- name: '[D] 🇨🇳 中国 02'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: fmaznn1lrzys7ddy
@@ -39,7 +19,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇳 中国 05'
+- name: '[D] 🇨🇳 中国 03'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -49,7 +29,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇳 中国 06'
+- name: '[D] 🇨🇳 中国 04'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -59,26 +39,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇳 中国 07'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: xf2ak19a4uajprxg
-  port: 52090
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 08'
+  name: '[E] 🇨🇳 中国 05'
   network: ws
   port: '10086'
   server: 120.48.133.162
   servername: ''
   tls: false
   type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
   ws-opts:
     headers:
       Host: ''

@@ -10,24 +10,22 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] 🇨🇦 加拿大 02'
-  password: None
-  port: 9443
-  server: 198.44.157.19
+  port: 443
+  server: 206.223.161.47
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: '[H] 🇨🇦 加拿大 03'
   password: None
-  port: 9443
-  server: 198.44.157.27
+  port: 443
+  server: 206.223.183.16
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇨🇦 加拿大 04'
   password: None
-  port: 443
-  server: 206.223.183.13
+  port: 9443
+  server: 149.88.98.81
   skip-cert-verify: true
   tls: true
   type: http

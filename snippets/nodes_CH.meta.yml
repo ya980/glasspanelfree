@@ -20,15 +20,22 @@ proxies:
 - name: '[H] CH 03'
   password: None
   port: 9443
-  server: 37.120.213.210
+  server: 149.88.27.33
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] CH 04'
   password: None
   port: 9443
-  server: 149.88.27.46
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: '[H] CH 05'
+  password: ''
+  port: '12345'
+  server: 147.161.247.9
+  skip-cert-verify: true
+  type: http
+  username: ''

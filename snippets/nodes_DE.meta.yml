@@ -1,67 +1,106 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
-  port: 8443
-  server: 95.85.252.217
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
-  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
-  port: 4443
-  server: 31.76.24.11
-  sni: de1.shvpn.ru
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: hltm9jnj6ez4cbhd
-  port: 2098
-  server: vip.trapxan.ir
-  sni: vip.trapxan.ir
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 04'
+  name: '[E] 🇩🇪 德国 01'
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
+  servername: ''
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 02'
+  network: raw
+  port: '443'
+  server: de.zhou-yufan.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 03'
+  network: ws
+  port: '443'
+  server: lvi.su
+  servername: lvi.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
+  ws-opts:
+    headers:
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
+  xudp: true
+- name: '[H] 🇩🇪 德国 04'
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
 - name: '[H] 🇩🇪 德国 05'
   password: None
   port: 443
-  server: 79.127.156.177
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] 🇩🇪 德国 06'
   password: None
-  port: 443
-  server: 149.36.50.129
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
+  username: null
 - name: '[H] 🇩🇪 德国 07'
+  password: None
   port: 443
-  server: 87.106.223.158
+  server: 193.233.75.115
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - name: '[H] 🇩🇪 德国 08'
-  port: 443
-  server: 149.36.50.157
+  password: None
+  port: 9443
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[I] 🇩🇪 德国 09'
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 10'
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 11'
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -73,7 +112,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 10'
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -86,7 +125,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 11'
+  name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 443
   reality-opts:
@@ -99,7 +138,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 15'
   network: tcp
   port: 443
   reality-opts:
@@ -114,7 +153,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 13'
+  name: '[I] 🇩🇪 德国 16'
   network: ws
   port: 8443
   server: 2.28.42.209

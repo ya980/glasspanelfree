@@ -7,9 +7,25 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
+- name: '[E] 🇺🇸 美国 02'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 02'
+  name: '[F] 🇺🇸 美国 04'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -24,7 +40,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 03'
+  name: '[F] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -37,7 +53,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 04'
+- name: '[G] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -45,7 +61,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 05'
+- name: '[G] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -53,156 +69,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 06'
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: '443'
-  server: 66.163.122.7
-  skip-cert-verify: false
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 07'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
-    short-id: '!!str 336c2cff6e3717c4'
-  server: 155.117.232.61
-  servername: node-usa.blok-signalon.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-nl-stream
-  name: '[H] 🇺🇸 美国 08'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: WJrP73M7px11xkHKhmEMKnaqUR-DPZnKbR2m_N3TwEE
-    short-id: '!!str 724d6cab'
-  server: nl-all.vless-bitrhythmia.top
-  servername: nl-all.vless-bitrhythmia.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true
-- name: '[H] 🇺🇸 美国 09'
+- name: '[H] 🇺🇸 美国 08'
   port: 8443
-  server: 44.248.167.117
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 10'
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 11'
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 12'
-  password: None
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 13'
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 14'
-  password: None
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 15'
-  password: None
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 16'
-  password: None
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 17'
-  password: None
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 18'
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 19'
-  password: ''
-  port: '3000'
-  server: 20.121.179.183
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[H] 🇺🇸 美国 20'
-  password: ''
-  port: '80'
-  server: 193.233.220.20
-  skip-cert-verify: true
-  type: http
-  username: ''
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 21'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk
-    short-id: '!!str a9c3f7e2'
-  server: 93.152.214.248
-  servername: us5.pc-peervax.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 22'
+  name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -214,7 +88,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -227,7 +101,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 24'
+  name: '[I] 🇺🇸 美国 11'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -240,7 +114,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 12'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -252,7 +126,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇺🇸 美国 26'
+- name: '[I] 🇺🇸 美国 13'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -264,7 +138,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🇺🇸 美国 27'
+- name: '[I] 🇺🇸 美国 14'
   network: ws
   port: 8443
   server: 45.61.149.205

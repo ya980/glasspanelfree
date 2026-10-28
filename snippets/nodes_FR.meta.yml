@@ -9,16 +9,45 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇫🇷 法国 02'
-  obfs: salamander
-  obfs-password: a56415ff1be77383
-  password: de698ab0-709d-413f-b21f-a914e5e7c603
-  port: '20230'
-  server: 51.75.118.79
+- name: '[H] 🇫🇷 法国 02'
+  port: 443
+  server: 82.65.162.76
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇫🇷 法国 03'
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 04'
+  port: 443
+  server: 84.235.228.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 05'
+  password: None
+  port: 8090
+  server: 82.96.128.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 06'
+  password: None
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇫🇷 法国 07'
+  password: None
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http

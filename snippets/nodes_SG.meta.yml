@@ -1,7 +1,63 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 01'
+  name: '[E] 🇸🇬 新加坡 01'
+  network: ws
+  port: '443'
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 02'
+  network: ws
+  port: '443'
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '443'
+  server: 8.219.97.17
+  servername: wjofhsqteueywxeq.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: wjofhsqteueywxeq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 04'
+  network: ws
+  port: '443'
+  server: wjofhsqteueywxeq.v.3dns.vip
+  servername: wjofhsqteueywxeq.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇸🇬 新加坡 05'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -16,7 +72,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -29,7 +85,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 03'
+- name: '[G] 🇸🇬 新加坡 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -37,8 +93,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: '[H] 🇸🇬 新加坡 08'
+  password: '!!str 1234'
+  port: 2080
+  server: 13.250.6.200
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 09'
+  password: '!!str 1234'
+  port: '2080'
+  server: 54.151.160.36
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 04'
+  name: '[I] 🇸🇬 新加坡 10'
   network: ws
   port: 443
   server: 43.174.195.1

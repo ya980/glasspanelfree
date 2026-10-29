@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  name: '[E] EE 01'
+  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
+  port: 443
+  server: 13.143.239.127
+  sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- name: '[H] EE 02'
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] EE 03'
+  password: None
+  port: 443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  tls: true
+  type: http

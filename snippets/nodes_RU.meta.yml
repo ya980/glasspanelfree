@@ -1,6 +1,21 @@
 proxies:
+- encryption: mlkem768x25519plus.native.0rtt.8th1uEEPtl2BhPfgxINwmVO_Kq6V1htSghiTMdjWkRM
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: '443'
+  server: 146.185.197.95
+  type: vless
+  udp: true
+  uuid: 9ea8b000-58ce-0005-b108-989dd4f248f1
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /live/ws2
+  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 8443
   server: 139.100.226.187

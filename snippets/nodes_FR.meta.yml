@@ -1,16 +1,6 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
   obfs: salamander
-  obfs-password: ad7088dafb02115c
-  password: 418ddc75-aa9c-4e5d-a9a3-82c50a5a02b6
-  port: 20222
-  server: 51.75.118.5
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
-  obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35000
@@ -19,3 +9,66 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 02'
+  network: ws
+  port: '443'
+  server: BWkTc4i50kvHHerS.v.3dns.vip
+  servername: BWkTc4i50kvHHerS.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: BWkTc4i50kvHHerS.v.3dns.vip
+    path: /ws-vmess
+- name: '[H] 🇫🇷 法国 03'
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇫🇷 法国 04'
+  password: None
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 05'
+  password: None
+  port: 443
+  server: 51.210.167.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇫🇷 法国 06'
+  password: None
+  port: 8090
+  server: 82.96.128.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇫🇷 法国 07'
+  password: None
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 08'
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 09'
+  port: 8090
+  server: 80.124.109.22
+  skip-cert-verify: true
+  tls: true
+  type: http

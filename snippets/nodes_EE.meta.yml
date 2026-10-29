@@ -1,8 +1,7 @@
 proxies:
 - name: '[H] EE 01'
-  password: None
   port: 9443
-  server: 95.153.31.66
+  server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
@@ -12,3 +11,11 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] EE 03'
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

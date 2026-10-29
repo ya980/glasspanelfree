@@ -1,5 +1,12 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
+  password: 1953e43b-605c-4262-83eb-41a80646b801
+  port: 443
+  server: 31.185.105.12
+  sni: fr.song69.fun
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -9,34 +16,17 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 02'
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 03'
+  network: tcp
+  port: 28484
+  server: fr001.zestapp778.com
+  servername: fr001.zestapp778.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: '[H] 🇫🇷 法国 03'
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  tls: true
-  type: http
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - name: '[H] 🇫🇷 法国 04'
-  port: 443
-  server: 84.235.228.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 05'
-  password: None
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 06'
   password: None
   port: 9443
   server: 138.199.47.247
@@ -44,10 +34,24 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇫🇷 法国 07'
+- name: '[H] 🇫🇷 法国 05'
   password: None
-  port: 443
-  server: 82.66.235.221
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇫🇷 法国 06'
+  password: None
+  port: 8090
+  server: 82.96.128.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 07'
+  port: 8090
+  server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http

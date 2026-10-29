@@ -37,15 +37,8 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇸🇬 新加坡 04'
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 05'
+  name: '[I] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: 43.174.195.1

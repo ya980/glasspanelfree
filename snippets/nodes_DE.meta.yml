@@ -6,9 +6,59 @@ proxies:
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 02'
+  network: xhttp
+  port: 443
+  server: 144.31.213.229
+  servername: 6d160a52.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 03'
+  network: ws
+  port: '443'
+  server: lvi.su
+  servername: lvi.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
+  ws-opts:
+    headers:
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+  name: '[H] 🇩🇪 德国 04'
+  network: ws
+  port: '443'
+  server: msydjt.com
+  servername: msydjt.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    headers:
+      Host: ded1ws.samcdn.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /51544/ws
+  xudp: true
 - client-fingerprint: firefox
   encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
-  name: '[H] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 05'
   network: ws
   port: '443'
   server: www.naviga-ting.com
@@ -20,40 +70,20 @@ proxies:
   ws-opts:
     headers:
       Host: ded1ws.samcdn.shop
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /51544/ws
   xudp: true
-- name: '[H] 🇩🇪 德国 03'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 05'
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: '[H] 🇩🇪 德国 06'
-  port: 443
-  server: 149.36.50.129
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 07'
   port: 443
-  server: 87.106.223.158
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
@@ -64,42 +94,78 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  username: null
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 09'
-  network: ws
+  name: '[H] 🇩🇪 德国 10'
+  network: xhttp
   port: '443'
-  server: 148-253-210-191.sslip.io
-  servername: 148-253-210-191.sslip.io
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
   tls: true
   type: vless
   udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇩🇪 德国 11'
+  network: xhttp
+  port: '443'
+  server: e2865c20.con.rasterparcel.tech
+  servername: e2865c20.con.rasterparcel.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 12'
+  network: ws
+  port: '443'
+  server: 87.120.166.160
+  servername: lvi.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   ws-opts:
     headers:
-      Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /test-ws
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
   xudp: true
-- name: '[H] 🇩🇪 德国 10'
-  password: ''
-  port: '12345'
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: '[H] 🇩🇪 德国 11'
-  password: ''
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 13'
+  network: tcp
   port: '443'
-  server: 193.233.75.115
-  skip-cert-verify: true
+  reality-opts:
+    public-key: yKwDGqOdkC_nEPOQHMvAQLPcPK8YHskv_opYoY66Yk8
+    short-id: '!!str '
+  server: 93.152.223.244
+  servername: ddk5-ger.newagetechnologies.live
   tls: true
-  type: http
-  username: ''
-- name: '[I] 🇩🇪 德国 12'
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -111,7 +177,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 13'
+- name: '[I] 🇩🇪 德国 15'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -124,7 +190,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 16'
   network: tcp
   port: 443
   reality-opts:
@@ -137,7 +203,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 17'
   network: tcp
   port: 443
   reality-opts:
@@ -152,7 +218,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 18'
   network: ws
   port: 8443
   server: 2.28.42.209

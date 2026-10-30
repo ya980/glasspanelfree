@@ -59,43 +59,93 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 06'
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 06'
+  network: ws
+  port: '2053'
+  server: fast.145779.xyz
+  servername: fast.145779.xyz
   tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 07'
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
   udp: true
-- name: '[H] 🇺🇸 美国 08'
-  password: None
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  sub_tag: K001-260618
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  ws-opts:
+    headers:
+      Host: fast.145779.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /ws-tesla
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 07'
+  network: tcp
+  port: '47443'
+  reality-opts:
+    public-key: hz7rzdHvTAVwfy48pa6313yBF-sV7V0svvPVnl95bgY
+    short-id: '!!str ae97246a8f799854'
+  server: 185.168.208.190
+  servername: us-1.waspguard.ru
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 09'
-  password: None
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 08'
+  network: ws
+  port: '2053'
+  server: fast.145779.xyz
+  servername: fast.145779.xyz
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  ws-opts:
+    headers:
+      Host: fast.145779.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /ws-tesla
+  xudp: true
+- encryption: none
+  name: '[H] 🇺🇸 美国 09'
+  network: ws
+  port: '8880'
+  server: 89.116.180.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560
+  xudp: true
 - name: '[H] 🇺🇸 美国 10'
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 11'
   port: 443
   server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 11'
+- name: '[H] 🇺🇸 美国 12'
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 13'
   password: None
   port: 443
   server: 12.202.180.10
@@ -105,50 +155,57 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🇺🇸 美国 12'
+- name: '[H] 🇺🇸 美国 14'
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 15'
+  password: None
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 16'
+  password: None
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 17'
   password: None
   port: 9443
   server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 13'
-  password: None
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 14'
-  password: None
+- name: '[H] 🇺🇸 美国 18'
   port: 443
-  server: 68.235.56.59
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 15'
-  password: ''
-  port: 38182
-  server: 69.55.49.177
+- name: '[H] 🇺🇸 美国 19'
+  port: 8090
+  server: 184.188.139.2
   skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 16'
-  port: 44499
-  server: 45.61.188.134
-  type: socks5
-- name: '[H] 🇺🇸 美国 17'
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 20'
   password: ''
-  port: '3007'
-  server: 20.121.179.183
+  port: '11977'
+  server: 45.74.31.47
   skip-cert-verify: true
   type: socks5
   username: ''
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 18'
+  name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -160,7 +217,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[I] 🇺🇸 美国 19'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -173,7 +230,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 20'
+  name: '[I] 🇺🇸 美国 23'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -186,7 +243,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 21'
+  name: '[I] 🇺🇸 美国 24'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -198,7 +255,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -210,7 +267,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   port: 8443
   server: 45.61.149.205

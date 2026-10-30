@@ -1,70 +1,54 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.o0BcVARCrSaazhloS4J-7h2Z0pBRUSHhgNvtjuhuFWo
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: '[H] 🇩🇪 德国 01'
-  network: xhttp
-  port: '443'
-  server: 167.82.76.31
-  servername: speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9991b8e-7d19-49e7-ae1d-70ce37d7ca16
-  xhttp-opts:
-    host: mojehb.global.ssl.fastly.net
-    mode: auto
-    path: /configure/services/vzQ6lbMCPkOKGnZN5uJR3e/versions/2/domains
-  xudp: true
-- client-fingerprint: firefox
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 01'
+  network: tcp
+  port: '2052'
+  server: 92.42.203.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5
+- client-fingerprint: chrome
   encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
   name: '[H] 🇩🇪 德国 02'
   network: xhttp
-  port: '443'
-  server: avr.rlrlco.ir
-  servername: cdn.akamai.steamstatic.com
+  port: '8857'
+  reality-opts:
+    public-key: 0z13Oz2r2Khq0jHUgbPWxseVLoQTlFMuMDwL9a-X7yY
+    short-id: '!!str 37962ada43f6'
+  server: Ng1.istgahfilm.ir
+  servername: aparat.com
   tls: true
   type: vless
   udp: true
-  uuid: fd65fd49-beaf-4dbf-b689-bcc53595bd89
+  uuid: 9fcb8080-1ad9-4a37-b92f-46be7053e39a
   xhttp-opts:
-    host: gertypp.global.ssl.fastly.net
+    host: aparat.com
     mode: auto
-    path: /setare
-    reuse-settings:
-      h-keep-alive-period: 20
-      h-max-request-times: 300-500
-      h-max-reusable-secs: 300-480
-      max-concurrency: 16-32
-    x-padding-bytes: 100-1000
+    path: /
   xudp: true
-- name: '[H] 🇩🇪 德国 03'
-  port: 443
-  server: 213.109.163.119
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 03'
+  network: xhttp
+  port: '443'
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- name: '[H] 🇩🇪 德国 04'
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 04'
-  network: ws
-  port: 443
-  server: 155.212.240.10
-  servername: n.bitpulse.me
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  ws-opts:
-    headers:
-      Host: n.bitpulse.me
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
 - name: '[H] 🇩🇪 德国 05'
   password: None
   port: 443
@@ -75,25 +59,19 @@ proxies:
   username: null
 - name: '[H] 🇩🇪 德国 06'
   password: None
-  port: 443
-  server: 213.109.163.119
+  port: 9443
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - name: '[H] 🇩🇪 德国 07'
-  port: 9002
-  server: 158.173.154.4
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 08'
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 09'
   password: None
   port: 443
   server: 87.249.132.97
@@ -101,15 +79,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 10'
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 11'
+- name: '[H] 🇩🇪 德国 09'
   password: None
   port: 9443
   server: 213.177.229.161
@@ -117,51 +87,37 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 12'
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 13'
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 14'
-  password: 'null'
-  port: '443'
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇩🇪 德国 15'
-  password: ''
-  port: '9002'
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 16'
-  network: tcp
-  port: '43000'
+  name: '[H] 🇩🇪 德国 10'
+  network: raw
+  port: '47443'
   reality-opts:
-    public-key: YagqjrSaICX5_qhcRvWOfM_yatBa5FtJexO9IlZeIEo
-    short-id: '!!str 093e1846'
-  server: 94.249.189.41
+    public-key: MnW49sASUaQ1Sm8SbCWlU8eKfNR8x1O03YSZdj5vM3Y
+    short-id: '!!str ae97223a8f799003'
+  server: 217.60.151.187
+  servername: ge-3.waspguard.ru
   tls: true
   type: vless
   udp: true
-  uuid: cec0cf85-cf9f-44ce-9eb0-cb1f9b8d7ba1
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
   xudp: true
-- name: '[H] 🇩🇪 德国 17'
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 11'
+  network: tcp
+  port: '43000'
+  reality-opts:
+    public-key: QaPoY-5W4Z7NA_LUG37yjYNy3JWg53Ru7eWLTzec-nE
+    short-id: '!!str b62ac375'
+  server: 94.249.186.64
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4421e4d5-6869-4a45-a76b-5c822aac776d
+  xudp: true
+- name: '[H] 🇩🇪 德国 12'
   password: ''
   port: '443'
   server: 193.233.75.115
@@ -169,7 +125,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[I] 🇩🇪 德国 18'
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -181,7 +137,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 19'
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -194,7 +150,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 20'
+  name: '[I] 🇩🇪 德国 15'
   network: tcp
   port: 443
   reality-opts:
@@ -207,7 +163,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 21'
+  name: '[I] 🇩🇪 德国 16'
   network: tcp
   port: 443
   reality-opts:
@@ -222,7 +178,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 22'
+  name: '[I] 🇩🇪 德国 17'
   network: ws
   port: 8443
   server: 2.28.42.209

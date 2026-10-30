@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇦 加拿大 02'
+  network: ws
+  port: '8080'
+  server: octpus1.gsmonline.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea183122-9b4a-4dc3-afe2-adb114e2019d
+  ws-opts:
+    headers:
+      Host: snapp.ir
+    path: /

@@ -1,18 +1,8 @@
 proxies:
-- name: '[D] CH 01'
-  obfs: salamander
-  obfs-password: SalamanderNL2026
-  password: NL2026hy
-  port: 8443
-  server: 147.45.149.88
-  sni: nl.nobelchat.ru
-  tls: false
-  type: hysteria2
-- name: '[H] CH 02'
+- name: '[H] CH 01'
   password: None
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: null

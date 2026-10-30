@@ -9,3 +9,40 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
+- name: '[H] SE 02'
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 03'
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 04'
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] SE 05'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: '!!str ecb6f8fb31668176'
+  server: 171.25.158.163
+  servername: s9se1.newagetechnologies.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true

@@ -6,3 +6,57 @@ proxies:
   sni: blogs.blog-forme.ru
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  fingerprint: firefox
+  name: '[E] 🇬🇧 英国 02'
+  password: 6da2c981-8c77-4340-bda3-93399b7aea26
+  port: 443
+  server: 163.245.41.48
+  sni: blogs.blog-forme.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇬🇧 英国 03'
+  password: 6da2c981-8c77-4340-bda3-93399b7aea26
+  port: 443
+  server: blogs.blog-forme.ru
+  sni: blogs.blog-forme.ru
+  tls: false
+  type: hysteria2
+- name: '[H] 🇬🇧 英国 04'
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 06'
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 07'
+  password: None
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 08'
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

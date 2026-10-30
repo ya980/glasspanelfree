@@ -12,10 +12,24 @@ proxies:
   ws-opts:
     headers:
       Host: vmess.lbw666.dpdns.org
-    path: /ws?ed=2048
+    path: /ws
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 02'
+  name: '[E] 🇺🇸 美国 02'
+  network: ws
+  port: '39495'
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 03'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -30,7 +44,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 03'
+  name: '[F] 🇺🇸 美国 04'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -43,7 +57,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 04'
+- name: '[G] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -51,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 05'
+- name: '[G] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122

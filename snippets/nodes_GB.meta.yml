@@ -1,7 +1,8 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
+- name: '[D] 🇬🇧 英国 01'
+  password: 6da2c981-8c77-4340-bda3-93399b7aea26
   port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: 163.245.41.48
+  sni: blogs.blog-forme.ru
+  tls: false
+  type: hysteria2

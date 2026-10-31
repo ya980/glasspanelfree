@@ -1,18 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 02'
+  name: '[E] 🇺🇸 美国 01'
   network: ws
-  port: '39495'
-  server: 129.146.77.248
+  port: '80'
+  server: 104.17.147.222
   servername: ''
   tls: false
   type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
-      Host: 129.146.77.248
-    path: /cctv13.m3u8
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 02'
+  network: ws
+  port: '80'
+  server: 172.67.187.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
 - alterId: 0
   cipher: auto
   name: '[F] 🇺🇸 美国 03'

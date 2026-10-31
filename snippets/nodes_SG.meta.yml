@@ -37,8 +37,36 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: random
+  name: '[H] 🇸🇬 新加坡 04'
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: ap-south.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f735420-0179-45d7-ba4e-ed66d1bf3a89
+  ws-opts:
+    headers:
+      Host: ap-south.862400.xyz
+    path: /announcement?ed=2048
+- name: '[H] 🇸🇬 新加坡 05'
+  password: '!!str 1234'
+  port: 2080
+  server: 13.250.8.222
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: '[H] 🇸🇬 新加坡 06'
+  password: ''
+  port: '1080'
+  server: 121.43.176.35
+  skip-cert-verify: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 04'
+  name: '[I] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   server: 43.174.195.1

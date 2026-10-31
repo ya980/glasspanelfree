@@ -1,7 +1,23 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 18.193.79.104
+  skip-cert-verify: true
+  sni: 18.193.79.104
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.76.221.4
+  skip-cert-verify: true
+  sni: 3.76.221.4
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 01'
+  name: '[E] 🇩🇪 德国 03'
   network: tcp
   port: '2052'
   server: 92.42.203.240
@@ -9,7 +25,87 @@ proxies:
   tls: false
   type: vmess
   uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5
-- name: '[I] 🇩🇪 德国 02'
+- name: '[H] 🇩🇪 德国 04'
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 05'
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 06'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 07'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 08'
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇩🇪 德国 10'
+  network: ws
+  port: '443'
+  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  encryption: none
+  name: '[H] 🇩🇪 德国 11'
+  network: xhttp
+  port: '443'
+  server: f1.greewebservices.ir
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+  xhttp-opts:
+    host: Calmly-vibrant-dolphin-rosewood.global.ssl.fastly.net
+    mode: auto
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -21,7 +117,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[I] 🇩🇪 德国 03'
+- name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -34,7 +130,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 443
   reality-opts:
@@ -47,7 +143,7 @@ proxies:
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 15'
   network: tcp
   port: 443
   reality-opts:
@@ -62,7 +158,7 @@ proxies:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 16'
   network: ws
   port: 8443
   server: 2.28.42.209

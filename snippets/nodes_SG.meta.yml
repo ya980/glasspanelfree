@@ -1,7 +1,49 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 01'
+  name: '[E] 🇸🇬 新加坡 01'
+  network: ws
+  port: '53437'
+  server: az-1.linkaa.xyz
+  servername: az-1.linkaa.xyz
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 02'
+  network: ws
+  port: '53437'
+  server: az-1.linkaa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '80'
+  server: mdk.mdmekjll.best
+  servername: mdk.mdmekjll.best
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: mdk.mdmekjll.best
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -16,7 +58,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 05'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -29,7 +71,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 03'
+- name: '[G] 🇸🇬 新加坡 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -37,36 +79,30 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  name: '[H] 🇸🇬 新加坡 04'
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: ap-south.862400.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f735420-0179-45d7-ba4e-ed66d1bf3a89
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement?ed=2048
-- name: '[H] 🇸🇬 新加坡 05'
-  password: '!!str 1234'
-  port: 2080
-  server: 13.250.8.222
+- name: '[H] 🇸🇬 新加坡 07'
+  password: None
+  port: 9443
+  server: 152.233.9.239
   skip-cert-verify: true
+  tls: true
   type: http
-  username: '1234'
-- name: '[H] 🇸🇬 新加坡 06'
-  password: ''
-  port: '1080'
-  server: 121.43.176.35
+  username: null
+- name: '[H] 🇸🇬 新加坡 08'
+  password: None
+  port: '9090'
+  server: 104.248.151.93
   skip-cert-verify: true
   type: http
   username: ''
+- name: '[H] 🇸🇬 新加坡 09'
+  password: '!!str 1234'
+  port: '2080'
+  server: 18.143.144.220
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 07'
+  name: '[I] 🇸🇬 新加坡 10'
   network: ws
   port: 443
   server: 43.174.195.1

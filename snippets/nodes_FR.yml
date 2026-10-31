@@ -18,6 +18,20 @@ proxies:
   name: '[E] 🇫🇷 法国 04'
   network: ws
   port: '443'
+  server: 47.245.177.106
+  servername: BxMzry7bu86yuvNb.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  ws-opts:
+    headers:
+      Host: BxMzry7bu86yuvNb.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 05'
+  network: ws
+  port: '443'
   server: BxMzry7bu86yuvNb.v.3dns.vip
   servername: BxMzry7bu86yuvNb.v.3dns.vip
   tls: true
@@ -26,4 +40,46 @@ proxies:
   ws-opts:
     headers:
       Host: BxMzry7bu86yuvNb.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 06'
+  network: ws
+  port: '443'
+  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 07'
+  network: ws
+  port: '443'
+  server: LO7ioZK1FPYWR1t1.v.3dns.vip
+  servername: LO7ioZK1FPYWR1t1.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: LO7ioZK1FPYWR1t1.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 08'
+  network: ws
+  port: '443'
+  server: O3ZBhK3HTyKNltsS.v.3dns.vip
+  servername: O3ZBhK3HTyKNltsS.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: O3ZBhK3HTyKNltsS.v.3dns.vip
     path: /ws-vmess

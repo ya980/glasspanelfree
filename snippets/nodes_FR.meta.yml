@@ -9,14 +9,12 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: firefox
-  name: '[E] 🇫🇷 法国 02'
-  password: b61bd5c6-7f9d-4fa0-8e8e-1eb236c5e4dd
-  port: 443
-  server: 45.88.12.141
-  sni: crt.molniya.sbs
+- name: '[D] 🇫🇷 法国 02'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.188.142
+  skip-cert-verify: false
+  sni: bl1.nexfile.net
   tls: false
   type: hysteria2
 - alterId: 0
@@ -38,6 +36,20 @@ proxies:
   name: '[E] 🇫🇷 法国 04'
   network: ws
   port: '443'
+  server: 47.245.177.106
+  servername: BxMzry7bu86yuvNb.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  ws-opts:
+    headers:
+      Host: BxMzry7bu86yuvNb.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 05'
+  network: ws
+  port: '443'
   server: BxMzry7bu86yuvNb.v.3dns.vip
   servername: BxMzry7bu86yuvNb.v.3dns.vip
   tls: true
@@ -47,18 +59,72 @@ proxies:
     headers:
       Host: BxMzry7bu86yuvNb.v.3dns.vip
     path: /ws-vmess
-- name: '[H] 🇫🇷 法国 05'
-  port: 443
-  server: 82.65.162.76
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 06'
+  network: ws
+  port: '443'
+  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 07'
+  network: ws
+  port: '443'
+  server: LO7ioZK1FPYWR1t1.v.3dns.vip
+  servername: LO7ioZK1FPYWR1t1.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: LO7ioZK1FPYWR1t1.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 08'
+  network: ws
+  port: '443'
+  server: O3ZBhK3HTyKNltsS.v.3dns.vip
+  servername: O3ZBhK3HTyKNltsS.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: O3ZBhK3HTyKNltsS.v.3dns.vip
+    path: /ws-vmess
+- name: '[H] 🇫🇷 法国 09'
+  port: 6103
+  server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '[H] 🇫🇷 法国 06'
+- name: '[H] 🇫🇷 法国 10'
+  port: 8090
+  server: 82.96.128.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 11'
   password: None
   port: 443
-  server: 82.66.235.221
+  server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: '[H] 🇫🇷 法国 12'
+  password: None
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http

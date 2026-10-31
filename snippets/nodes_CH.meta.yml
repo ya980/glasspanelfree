@@ -7,9 +7,9 @@ proxies:
   type: http
   udp: true
 - name: '[H] CH 02'
-  password: ''
+  password: None
   port: 9443
-  server: 149.88.27.33
+  server: 149.88.27.46
   skip-cert-verify: true
   sub_tag: K001-260618
   tls: true
@@ -18,16 +18,8 @@ proxies:
   username: ''
 - name: '[H] CH 03'
   password: None
-  port: 443
-  server: 31.7.62.50
+  port: 9443
+  server: 149.88.27.33
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] CH 04'
-  password: ''
-  port: '14031'
-  server: 45.74.31.41
-  skip-cert-verify: true
-  type: socks5
-  username: ''

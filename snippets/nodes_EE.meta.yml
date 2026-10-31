@@ -6,7 +6,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: '[H] EE 02'
   password: None
   port: 9443
@@ -14,13 +13,4 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] EE 03'
-  password: None
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
+  username: null

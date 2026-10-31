@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇨🇦 加拿大 04'
+  network: ws
+  port: '443'
+  server: guanwang.awsno.com
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8

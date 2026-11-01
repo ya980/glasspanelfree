@@ -1,1 +1,41 @@
-proxies: []
+proxies:
+- name: '[D] CH 01'
+  obfs: salamander
+  obfs-password: SalamanderNL2026
+  password: NL2026hy
+  port: 8443
+  server: 147.45.149.88
+  sni: nl.nobelchat.ru
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] CH 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: U682Pn1N94W72DLrimGwWyePnEeeceKC7LojBtvFgSs
+    short-id: '!!str 82ae'
+    support-x25519mlkem768: true
+  server: 179.43.138.70
+  servername: ethz.ch
+  tls: true
+  type: vless
+  udp: true
+  uuid: e69fd81c-c6f4-4998-afb8-42e771f2d978
+  xudp: true
+- name: '[H] CH 03'
+  password: None
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] CH 04'
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

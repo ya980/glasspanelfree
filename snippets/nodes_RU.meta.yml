@@ -1,9 +1,17 @@
 proxies:
+- name: '[H] 🇷🇺 俄罗斯 01'
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - alpn:
   - http/1.1
   - h2
   client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   port: 443
   server: 87.242.119.253
   servername: hvtlr-ru-47sb.fade.mom

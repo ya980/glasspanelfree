@@ -16,9 +16,23 @@ proxies:
   sni: downloadchache1.song69.fun
   tls: false
   type: hysteria2
+- name: '[H] 🇨🇦 加拿大 03'
+  password: None
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇨🇦 加拿大 04'
+  password: None
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 03'
+  name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: '443'
   server: guanwang.awsno.com

@@ -3,65 +3,9 @@ proxies:
   cipher: auto
   name: '[E] 🇸🇬 新加坡 01'
   network: ws
-  port: '443'
-  server: wjofHsQtEuEywxEq.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 02'
-  network: ws
-  port: '443'
-  server: wjofHsQtEuEywxEq.v.3dns.vip
-  servername: wjofHsQtEuEywxEq.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: wjofHsQtEuEywxEq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
-  port: '443'
-  server: wjofhsqteueywxeq.v.3dns.vip
-  servername: wjofhsqteueywxeq.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 04'
-  network: ws
-  port: '443'
-  server: wjofhsqteueywxeq.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: wjofhsqteueywxeq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 05'
-  network: ws
   port: '80'
   server: mdk.mdmekjll.best
-  servername: mdk.mdmekjll.best
+  servername: ''
   tls: false
   type: vmess
   uuid: 6E571484-4166-4699-8F58-B34A1823691F
@@ -71,7 +15,21 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 06'
+  name: '[E] 🇸🇬 新加坡 02'
+  network: ws
+  port: '80'
+  server: mdk.mdmekjll.best
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -86,7 +44,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 07'
+  name: '[F] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -99,7 +57,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 08'
+- name: '[G] 🇸🇬 新加坡 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -107,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇸🇬 新加坡 09'
+- name: '[H] 🇸🇬 新加坡 06'
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 42338
   server: ench-snet-app.w-ctrip.cn
@@ -115,6 +73,29 @@ proxies:
   sni: cm.g.doubleclick.net
   type: trojan
   udp: true
+- name: '[H] 🇸🇬 新加坡 07'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 08'
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇸🇬 新加坡 09'
+  password: None
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
   name: '[I] 🇸🇬 新加坡 10'
   port: 56984

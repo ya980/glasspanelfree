@@ -17,20 +17,6 @@ proxies:
   cipher: auto
   name: '[E] 🇸🇬 新加坡 02'
   network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: ''
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
   port: '80'
   server: mdk.mdmekjll.best
   servername: mdk.mdmekjll.best
@@ -40,6 +26,20 @@ proxies:
   ws-opts:
     headers:
       Host: mdk.mdmekjll.best
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '53437'
+  server: az-1.linkaa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
     path: /game/resources
 - alterId: 0
   cipher: auto

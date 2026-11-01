@@ -1,5 +1,17 @@
 proxies:
-- name: '[D] 🌍 其它地区 01'
+- alpn:
+  - h3
+  name: '[D] 🌍 其它地区 01'
+  obfs: salamander
+  obfs-password: litevpn
+  password: 59018379-d5df-4314-ab23-df0e838d7953
+  port: 443
+  server: 198.13.140.193
+  skip-cert-verify: false
+  sni: efa11.lumariqis.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🌍 其它地区 02'
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
   password: 5bcodmhjtyfyyrqh
@@ -9,7 +21,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 02'
+- name: '[D] 🌍 其它地区 03'
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -19,7 +31,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 03'
+- name: '[D] 🌍 其它地区 04'
   password: 6da2c981-8c77-4340-bda3-93399b7aea26
   port: 443
   server: 195.63.146.10
@@ -44,7 +56,7 @@ proxies:
   sni: 3.76.221.4
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 04'
+- name: '[D] 🌍 其它地区 05'
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -54,7 +66,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 05'
+- name: '[D] 🌍 其它地区 06'
   obfs: salamander
   obfs-password: SalamanderNL2026
   password: NL2026hy
@@ -64,7 +76,7 @@ proxies:
   sni: nl.nobelchat.ru
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 06'
+- name: '[D] 🌍 其它地区 07'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram-Vpnjey
@@ -73,7 +85,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 07'
+- name: '[D] 🌍 其它地区 08'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram-vpnjey
@@ -85,7 +97,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🌍 其它地区 08'
+  name: '[D] 🌍 其它地区 09'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram-vpnjey
@@ -97,7 +109,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🌍 其它地区 09'
+  name: '[D] 🌍 其它地区 10'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram-vpnjey
@@ -107,7 +119,7 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 10'
+- name: '[D] 🌍 其它地区 11'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram
@@ -117,7 +129,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 11'
+- name: '[D] 🌍 其它地区 12'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram@vpnjey
@@ -126,7 +138,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 12'
+- name: '[D] 🌍 其它地区 13'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: VPNJEY
@@ -154,7 +166,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 13'
+- name: '[D] 🌍 其它地区 14'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.105
@@ -162,14 +174,14 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 14'
+- name: '[D] 🌍 其它地区 15'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.106
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 15'
+- name: '[D] 🌍 其它地区 16'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -179,7 +191,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 16'
+- name: '[D] 🌍 其它地区 17'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -219,7 +231,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 17'
+- name: '[D] 🌍 其它地区 18'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -232,7 +244,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🌍 其它地区 18'
+  name: '[D] 🌍 其它地区 19'
   obfs: salamander
   obfs-password: 2gg0tx9d2etug8n9
   password: rjj39jg8iphgd06h
@@ -251,7 +263,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 19'
+- name: '[D] 🌍 其它地区 20'
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -261,7 +273,7 @@ proxies:
   sni: bwdf2fnt.xn--e1aatfr8bwa.online
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 20'
+- name: '[D] 🌍 其它地区 21'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnjey
@@ -281,420 +293,60 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 01'
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: '[E] 🇫🇷 法国 03'
+  password: a80f3f43-4534-419e-81fa-a5e53f53b40c
   port: 443
-  server: 273d1420-tmm5c0-tug19l-1go3q.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 273d1420-tmm5c0-tug19l-1go3q.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 02'
-  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: a30d91ee-tmm5c0-ttx5yr-1j0y6.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 03'
-  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  port: 443
-  server: a30d91ee-tmm5c0-ttx5yr-1j0y6.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: a30d91ee-tmm5c0-ttx5yr-1j0y6.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 04'
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 443
-  server: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 05'
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  port: 443
-  server: 19a7f8ba-tmm5c0-tqgocx-1plv4.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 19a7f8ba-tmm5c0-tqgocx-1plv4.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 06'
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: 283aa14b-tmm5c0-tzkd63-1jr1u.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 283aa14b-tmm5c0-tzkd63-1jr1u.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 07'
-  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: c39e9624-tmm5c0-twnp5a-ahsb.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: c39e9624-tmm5c0-twnp5a-ahsb.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 08'
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 443
-  server: 112.120.123.140
-  sni: c58136f7-tmm5c0-trnd2c-jjv2.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 09'
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 443
-  server: c58136f7-tmm5c0-trnd2c-jjv2.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: c58136f7-tmm5c0-trnd2c-jjv2.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 10'
-  password: 367e233c-2f54-11ee-9ae1-f23c9164ca5d
-  port: 443
-  server: 3226c07a-tmm5c0-u093mf-1mina.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 3226c07a-tmm5c0-u093mf-1mina.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 11'
-  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0d6ed79d-tlsio0-u4ai7k-z7a1.nw4.hyhuawei.com
-  sni: 0d6ed79d-tlsio0-u4ai7k-z7a1.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 12'
-  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 112.120.123.140
-  sni: 9fc34650-tmm5c0-tmj4pk-1kcpe.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 13'
-  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 14'
-  password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  port: 443
-  server: 4edb5b8d-tmm5c0-tubliy-1la7v.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 4edb5b8d-tmm5c0-tubliy-1la7v.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 15'
-  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-  port: 443
-  server: 112.120.123.140
-  sni: 3d0bb862-tm96o0-tnhquc-1j0a4.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 16'
-  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  port: 443
-  server: 112.120.123.140
-  sni: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 17'
-  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  port: 443
-  server: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 18'
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  port: 443
-  server: b349b298-tmm5c0-tpda83-1lkbs.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: b349b298-tmm5c0-tpda83-1lkbs.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 19'
-  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: 7017cade-tmm5c0-u1dz9j-12hj8.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 20'
-  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 21'
-  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-  port: 443
-  server: 0499fc3f-tmkao0-tnnrly-g43g.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 0499fc3f-tmkao0-tnnrly-g43g.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 22'
-  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  port: 443
-  server: 75a08777-tmm5c0-ttxkqc-e06r.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 75a08777-tmm5c0-ttxkqc-e06r.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 23'
-  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-  port: 443
-  server: 62a43558-tmm5c0-trdynx-1rk9y.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 62a43558-tmm5c0-trdynx-1rk9y.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 24'
-  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-  port: 443
-  server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 25'
-  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-  port: 443
-  server: 6a3b19cf-tmm5c0-tpv2b9-1o8ak.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 6a3b19cf-tmm5c0-tpv2b9-1o8ak.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 26'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: ca9daafc-tmm5c0-u5ip77-duku.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: ca9daafc-tmm5c0-u5ip77-duku.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 27'
-  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: f7afb605-tmm5c0-tvh2gy-1qzi1.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 28'
-  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-  port: 443
-  server: 0fd83b77-tmm5c0-tuklme-ueq.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 0fd83b77-tmm5c0-tuklme-ueq.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 29'
-  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  port: 443
-  server: d83f22ac-tmm5c0-u10a65-1os43.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: d83f22ac-tmm5c0-u10a65-1os43.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 30'
-  password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 10839548-tmm5c0-ttyyk7-1h0r9.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 10839548-tmm5c0-ttyyk7-1h0r9.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 31'
-  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 112.120.123.140
-  sni: b3dfb3ed-tmm5c0-trg4wh-z65w.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 32'
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: 8a24f231-tmm5c0-tujecz-1qkeg.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 8a24f231-tmm5c0-tujecz-1qkeg.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 33'
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-  port: 443
-  server: e4e8e68f-tmm5c0-tny186-4lg6.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: e4e8e68f-tmm5c0-tny186-4lg6.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 34'
-  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: 8a10b982-tmm5c0-truoje-1uni.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 8a10b982-tmm5c0-truoje-1uni.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 35'
-  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-  port: 443
-  server: 112.120.123.140
-  sni: 818667a4-tmm5c0-tpsg94-1jbj0.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 36'
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 443
-  server: ae410052-tmm5c0-tsdg75-tlhh.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: ae410052-tmm5c0-tsdg75-tlhh.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 37'
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: 11158b9a-tmm5c0-u3xqxa-1q91p.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 38'
-  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 39'
-  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  port: 443
-  server: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 40'
-  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-  port: 443
-  server: 71db9f3f-tmm5c0-tyn7s3-1q3dm.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 71db9f3f-tmm5c0-tyn7s3-1q3dm.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 41'
-  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-  port: 443
-  server: 0a9bf068-tnhmo0-toktib-1hhyy.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 0a9bf068-tnhmo0-toktib-1hhyy.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 42'
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 443
-  server: b85c7e2f-tmm5c0-tvk1qn-19les.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: b85c7e2f-tmm5c0-tvk1qn-19les.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 43'
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: 51cc2d6e-tmm5c0-tw661e-1isea.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 44'
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 112.120.123.140
-  sni: 525b1a38-tly2o0-tn5bnx-19xg1.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 45'
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 443
-  server: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 46'
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  port: 443
-  server: 112.120.123.140
-  sni: 59c70bb8-tmm5c0-txfm0f-1qxa1.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 47'
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: 8f736ed1-tmm5c0-tnt75r-1k8ga.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 8f736ed1-tmm5c0-tnt75r-1k8ga.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 48'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
+  server: 93.123.101.253
+  sni: server1.gtavi-roleplay.ru
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇭🇰 香港 49'
+  fingerprint: firefox
+  name: '[E] 🇫🇷 法国 04'
+  password: b61bd5c6-7f9d-4fa0-8e8e-1eb236c5e4dd
+  port: 443
+  server: 45.88.12.141
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇭🇰 香港 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-hk-004.fastervpn.world
   sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 21'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - name: '[E] 🌍 其它地区 22'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 104.165.205.142
   skip-cert-verify: true
+  sni: onecloudstream.com
   tls: false
   type: hysteria2
 - name: '[E] 🌍 其它地区 23'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 104.165.205.21
   skip-cert-verify: true
-  sni: 5.129.235.85
+  sni: onecloudstream.com
   tls: false
   type: hysteria2
 - name: '[E] 🌍 其它地区 24'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.bing.com
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.142
+  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: '[E] 🌍 其它地区 25'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.146
+  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: '[E] 🌍 其它地区 26'
@@ -702,7 +354,7 @@ proxies:
   port: 443
   server: 5.129.235.85
   skip-cert-verify: true
-  sni: t.me
+  sni: vk.com
   tls: false
   type: hysteria2
 - name: '[E] 🌍 其它地区 27'
@@ -710,10 +362,92 @@ proxies:
   port: 443
   server: 5.129.235.85
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🌍 其它地区 28'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: 5.129.235.85
+  tls: false
+  type: hysteria2
+- name: '[E] 🌍 其它地区 29'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🌍 其它地区 30'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🌍 其它地区 31'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[E] 🌍 其它地区 32'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
   sni: www.linux.com
   tls: false
   type: hysteria2
+- fingerprint: firefox
+  name: '[E] 🇬🇧 英国 01'
+  password: b61bd5c6-7f9d-4fa0-8e8e-1eb236c5e4dd
+  port: 443
+  server: 45.88.12.144
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: firefox
+  name: '[E] 🇬🇧 英国 02'
+  password: b61bd5c6-7f9d-4fa0-8e8e-1eb236c5e4dd
+  port: 443
+  server: 45.88.12.144
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
+- fingerprint: firefox
+  name: '[E] 🇬🇧 英国 03'
+  password: b61bd5c6-7f9d-4fa0-8e8e-1eb236c5e4dd
+  port: 443
+  server: 45.88.12.85
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: firefox
+  name: '[E] 🇬🇧 英国 04'
+  password: b61bd5c6-7f9d-4fa0-8e8e-1eb236c5e4dd
+  port: 443
+  server: 45.88.12.85
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
 - name: '[E] 🇺🇸 美国 01'
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: 64.32.13.230
+  sni: 6f9a8496-tmm5c0-txkkcl-1fli7.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 02'
   password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
   port: 443
   server: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
@@ -721,20 +455,12 @@ proxies:
   sni: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
+- name: '[E] 🇺🇸 美国 03'
   password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
   port: 443
   server: 7be5fe79-tmm5c0-ttx5yr-1j0y6.los.hyhuawei.com
   skip-cert-verify: true
   sni: 7be5fe79-tmm5c0-ttx5yr-1j0y6.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
@@ -746,19 +472,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: e3e217d6-tmm5c0-tzkd63-1jr1u.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: e3e217d6-tmm5c0-tzkd63-1jr1u.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
   server: 24407910-tmm5c0-trnd2c-jjv2.los.hyhuawei.com
   skip-cert-verify: true
   sni: 24407910-tmm5c0-trnd2c-jjv2.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 06'
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  port: 443
+  server: 25188aad-tm3mo0-unh4sc-xm0q.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 07'
@@ -770,6 +496,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 08'
+  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 64.32.13.230
+  sni: 5e9b967f-tmm5c0-u4ai7k-z7a1.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 09'
   password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
   port: 443
   server: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
@@ -777,7 +510,7 @@ proxies:
   sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 10'
   password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
   port: 443
   server: 03aa25ad-tmm5c0-tmj4pk-1kcpe.los.hyhuawei.com
@@ -785,15 +518,45 @@ proxies:
   sni: 03aa25ad-tmm5c0-tmj4pk-1kcpe.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 10'
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+- name: '[E] 🇺🇸 美国 11'
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
   port: 443
-  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+  server: 64.32.13.230
+  sni: fed5d047-tmeqo0-0-1imi4.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
+- name: '[E] 🇺🇸 美国 12'
+  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  port: 443
+  server: 4cbb5b88-tm96o0-tnhquc-1j0a4.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 4cbb5b88-tm96o0-tnhquc-1j0a4.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 13'
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: 4e5b2b98-tmm5c0-tnkuks-wujn.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 4e5b2b98-tmm5c0-tnkuks-wujn.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 14'
+  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  port: 443
+  server: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 15'
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  port: 443
+  server: 64.32.13.230
+  sni: 9df552ab-tmkao0-u1vxv2-v3c2.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 16'
   password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
   port: 443
   server: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
@@ -801,15 +564,21 @@ proxies:
   sni: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
+- name: '[E] 🇺🇸 美国 17'
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   port: 443
-  server: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  server: 64.32.13.230
+  sni: 5333a9dd-tmm5c0-tonrqx-1khwf.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 13'
+- name: '[E] 🇺🇸 美国 18'
+  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+  port: 443
+  server: 64.32.13.230
+  sni: db09351f-tlsio0-0-mv7m.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 19'
   password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
   port: 443
   server: ea01572c-tmm5c0-tnhx9s-1rnrp.los.hyhuawei.com
@@ -817,7 +586,30 @@ proxies:
   sni: ea01572c-tmm5c0-tnhx9s-1rnrp.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 14'
+- name: '[E] 🇺🇸 美国 20'
+  password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 6ec450f1-tmm5c0-ttyyk7-1h0r9.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 6ec450f1-tmm5c0-ttyyk7-1h0r9.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 21'
+  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  port: 443
+  server: b2535a8d-tmm5c0-twjnjx-1q9g2.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: b2535a8d-tmm5c0-twjnjx-1q9g2.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 22'
+  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 64.32.13.230
+  sni: b66d1c8e-tmm5c0-trg4wh-z65w.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 23'
   password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
   port: 443
   server: 99ae88c3-tmm5c0-truoje-1uni.los.hyhuawei.com
@@ -825,7 +617,7 @@ proxies:
   sni: 99ae88c3-tmm5c0-truoje-1uni.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 15'
+- name: '[E] 🇺🇸 美国 24'
   password: ae5338ae-9a70-58c9-3d47-7d54a5675715
   port: 443
   server: f98f32f1-tmm5c0-tv7dx2-py5w.los.hyhuawei.com
@@ -833,7 +625,14 @@ proxies:
   sni: f98f32f1-tmm5c0-tv7dx2-py5w.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 16'
+- name: '[E] 🇺🇸 美国 25'
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 64.32.13.230
+  sni: be688289-tmm5c0-u1q5od-t6fv.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 26'
   password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 443
   server: ed4ccc41-tmm5c0-tpsg94-1jbj0.los.hyhuawei.com
@@ -841,31 +640,37 @@ proxies:
   sni: ed4ccc41-tmm5c0-tpsg94-1jbj0.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 17'
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- name: '[E] 🇺🇸 美国 27'
+  password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
   port: 443
-  server: 5da6c218-tmm5c0-tncdxq-m0b9.los.hyhuawei.com
+  server: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
   skip-cert-verify: true
-  sni: 5da6c218-tmm5c0-tncdxq-m0b9.los.hyhuawei.com
+  sni: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 18'
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- name: '[E] 🇺🇸 美国 28'
+  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
   port: 443
-  server: 01505e69-tmm5c0-tu0ezx-1m7l4.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 01505e69-tmm5c0-tu0ezx-1m7l4.los.hyhuawei.com
+  server: 64.32.13.230
+  sni: 3afac95e-tmm5c0-u3xqxa-1q91p.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 19'
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- name: '[E] 🇺🇸 美国 29'
+  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
   port: 443
-  server: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
+  server: 64.32.13.230
+  sni: 42fab11a-tm96o0-tnggms-6gn6.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 20'
+- name: '[E] 🇺🇸 美国 30'
+  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  port: 443
+  server: 1ba94b4c-tmm5c0-tw661e-1isea.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 1ba94b4c-tmm5c0-tw661e-1isea.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 31'
   password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
   port: 443
   server: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
@@ -873,31 +678,27 @@ proxies:
   sni: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 21'
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
+- name: '[E] 🇺🇸 美国 32'
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
-  server: 36cbcc3d-tmm5c0-tnt75r-1k8ga.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 36cbcc3d-tmm5c0-tnt75r-1k8ga.los.hyhuawei.com
+  server: 64.32.13.230
+  sni: bd6e538b-tmm5c0-tt2yf5-1j61y.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 33'
+  password: fcd39788-ca23-11ed-86e2-f23c913c8d2b
+  port: 443
+  server: 64.32.13.230
+  sni: 99a517d4-tmm5c0-u2e9xs-2b2n.los.hyhuawei.com
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 28'
+  name: '[E] 🌍 其它地区 33'
   network: tcp
   port: '10000'
   server: 47.250.135.244
   servername: 47.250.135.244
-  tls: false
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 29'
-  network: raw
-  port: '10000'
-  server: 47.250.135.244
-  servername: ''
   tls: false
   type: vmess
   uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
@@ -910,70 +711,14 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 中国 06'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 07'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 09'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 10'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -987,7 +732,21 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 11'
+  name: '[E] 🇨🇳 中国 07'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 19ee3050-be66-4850-9f13-fc9d47487a3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 08'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -1001,95 +760,11 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 03'
-  network: ws
-  port: '443'
-  server: kRUXDIdk3hdiDOcf.v.3dns.vip
-  servername: kRUXDIdk3hdiDOcf.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: kRUXDIdk3hdiDOcf.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 04'
-  network: ws
-  port: '443'
-  server: 47.245.177.106
-  servername: BxMzry7bu86yuvNb.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
-  ws-opts:
-    headers:
-      Host: BxMzry7bu86yuvNb.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 05'
-  network: ws
-  port: '443'
-  server: BxMzry7bu86yuvNb.v.3dns.vip
-  servername: BxMzry7bu86yuvNb.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: BxMzry7bu86yuvNb.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 06'
-  network: ws
-  port: '443'
-  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 07'
-  network: ws
-  port: '443'
-  server: LO7ioZK1FPYWR1t1.v.3dns.vip
-  servername: LO7ioZK1FPYWR1t1.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: LO7ioZK1FPYWR1t1.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 08'
-  network: ws
-  port: '443'
-  server: O3ZBhK3HTyKNltsS.v.3dns.vip
-  servername: O3ZBhK3HTyKNltsS.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: O3ZBhK3HTyKNltsS.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 50'
+  name: '[E] 🇭🇰 香港 02'
   network: ws
   port: '53617'
   server: az-1.linkaa.xyz
-  servername: az-1.linkaa.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: 6E571484-4166-4699-8F58-B34A1823691F
@@ -1099,7 +774,7 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 51'
+  name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '53110'
   server: az-1.linkaa.xyz
@@ -1113,7 +788,31 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 30'
+  name: '[E] 🇭🇰 香港 04'
+  network: tcp
+  port: '50001'
+  server: 101.32.8.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5706beb5-479b-475d-b557-00309327e9cc
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 05'
+  network: ws
+  port: '53110'
+  server: az-1.linkaa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 34'
   network: ws
   port: '55386'
   server: az-1.linkaa.xyz
@@ -1143,20 +842,6 @@ proxies:
   cipher: auto
   name: '[E] 🇸🇬 新加坡 02'
   network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: ''
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
   port: '80'
   server: mdk.mdmekjll.best
   servername: mdk.mdmekjll.best
@@ -1167,15 +852,29 @@ proxies:
     headers:
       Host: mdk.mdmekjll.best
     path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '53437'
+  server: az-1.linkaa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
+    path: /game/resources
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 31'
+  name: '[F] 🌍 其它地区 35'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 52'
+  name: '[F] 🇭🇰 香港 06'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -1184,7 +883,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 53'
+  name: '[F] 🇭🇰 香港 07'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -1199,7 +898,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 54'
+  name: '[F] 🇭🇰 香港 08'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -1214,7 +913,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 55'
+  name: '[F] 🇭🇰 香港 09'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -1229,7 +928,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 56'
+  name: '[F] 🇭🇰 香港 10'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -1334,7 +1033,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 22'
+  name: '[F] 🇺🇸 美国 34'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -1349,7 +1048,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 23'
+  name: '[F] 🇺🇸 美国 35'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -1364,7 +1063,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 57'
+  name: '[G] 🇭🇰 香港 11'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1372,7 +1071,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 58'
+- name: '[G] 🇭🇰 香港 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -1380,7 +1079,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 59'
+- name: '[G] 🇭🇰 香港 13'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -1388,7 +1087,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 60'
+- name: '[G] 🇭🇰 香港 14'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -1396,7 +1095,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 61'
+- name: '[G] 🇭🇰 香港 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -1420,7 +1119,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 24'
+- name: '[G] 🇺🇸 美国 36'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -1428,7 +1127,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 25'
+- name: '[G] 🇺🇸 美国 37'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -1452,121 +1151,45 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🌍 其它地区 32'
-  network: ws
-  password: humanity
-  port: 443
-  server: 213.165.55.4
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 33'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.177
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 34'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.153.224
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 35'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 202.61.226.121
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 36'
-  network: ws
-  password: humanity
-  port: 443
-  server: 93.85.236.9
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: '[H] 🌍 其它地区 37'
-  network: ws
-  port: '443'
-  server: 146.75.59.186
-  servername: www.firefox.com
+  name: '[H] 🇩🇪 德国 02'
+  network: tcp
+  port: '63053'
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 57197967-f14a-4b5b-8b75-a0c6d19db048
-  ws-opts:
-    headers:
-      Host: takidopower-point.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    path: /
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
   xudp: true
+- cipher: aes-256-gcm
+  name: '[H] 🌍 其它地区 36'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
 - encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: '[H] 🇺🇸 美国 26'
-  network: xhttp
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: '[H] 🇺🇸 美国 38'
+  network: ws
   port: '443'
-  server: 199.232.20.113
-  servername: www.firefox.com
+  server: 146.75.57.238
+  servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 57197967-f14a-4b5b-8b75-a0c6d19db048
-  xhttp-opts:
-    host: xm6514.global.ssl.fastly.net
-    mode: auto
-    path: /
-  xudp: true
-- name: '[H] 🌍 其它地区 38'
-  network: ws
-  password: humanity
-  port: 2053
-  server: 83.147.254.59
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
   ws-opts:
-    path: /assignment
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: ''
+  xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 39'
+  name: '[H] 🌍 其它地区 37'
   network: tcp
   port: '443'
   reality-opts:
@@ -1579,271 +1202,244 @@ proxies:
   udp: true
   uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
   xudp: true
-- name: '[H] CH 01'
-  port: 9443
-  server: 149.88.27.46
+- encryption: mlkem768x25519plus.native.0rtt.MIEqLh3WxwwZotHqV_grO6PSOeCbHUQXyrBGnz3RzgQ
+  name: '[H] 🌍 其它地区 38'
+  network: tcp
+  port: '2050'
+  server: 94.184.23.97
+  type: vless
+  udp: true
+  uuid: c69a6591-b34b-4dad-a234-ce5b4c3725b2
+  xudp: true
+- name: '[H] 🇺🇸 美国 39'
+  network: ws
+  port: '8880'
+  server: 154.83.2.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime28.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- encryption: none
+  name: '[H] 🇺🇸 美国 40'
+  network: ws
+  port: '443'
+  server: 141.193.213.10
+  servername: m.udemy.com.r3xxe.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: a321980f-54ce-432a-862a-76035b9d78ad
+  ws-opts:
+    headers:
+      Host: m.udemy.com.r3xxe.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /nl-tw
+  xudp: true
+- name: '[H] 🌍 其它地区 39'
+  network: ws
+  port: 443
+  server: 80.211.170.53
+  servername: vp58.cc.cd
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳 fp=chromefp=chrome
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: qq
+  name: '[H] 🌍 其它地区 40'
+  network: tcp
+  port: 443
+  server: 87.242.119.253
+  servername: hvtlr-ru-47sb.fade.mom
+  tls: true
+  type: vless
+  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
+  ws-opts:
+    path: /
+- name: '[H] 🌍 其它地区 41'
+  port: 443
+  server: 154.47.29.161
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '[H] 🌍 其它地区 40'
-  network: ws
-  password: humanity
+- name: '[H] SE 02'
+  password: None
   port: 443
-  server: 162.159.61.183
-  servername: www.cordweave.com
+  server: 146.70.242.146
   skip-cert-verify: true
-  sni: www.cordweave.com
   tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 41'
+  type: http
+- name: '[H] 🌍 其它地区 42'
   port: 443
   server: 149.22.86.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 42'
-  password: None
-  port: 443
-  server: 149.22.86.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 02'
+- name: '[H] 🇩🇪 德国 03'
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: '[H] 🇫🇷 法国 05'
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '[H] 🌍 其它地区 43'
+  password: None
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: null
+- name: '[H] 🌍 其它地区 44'
+  password: 'null'
+  port: 443
+  server: 103.97.88.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: '[H] 🌍 其它地区 45'
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🌍 其它地区 46'
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🌍 其它地区 44'
+- name: '[H] 🇺🇸 美国 41'
   network: ws
-  password: humanity
+  password: e7TTceggMwUMg+aFN:F4
   port: 443
-  server: 82.118.18.179
-  servername: www.cordweave.com
+  server: 172.66.47.18
+  servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
   tls: true
   type: trojan
   udp: true
   ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 45'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.155.36
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 46'
-  network: ws
-  password: humanity
-  port: 443
-  server: 143.110.175.165
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 47'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.133.174.88
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 48'
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.82.218.224
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 49'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 91.149.167.147
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 50'
-  network: ws
-  password: humanity
-  port: 443
-  server: 213.111.148.137
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 51'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.153.224
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 52'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.148.230
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 53'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.89.103
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 54'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.67.89
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 55'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.32.54.55
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 56'
-  network: ws
-  password: humanity
-  port: 443
-  server: 87.120.126.131
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 57'
-  network: ws
-  password: humanity
-  port: 443
-  server: 144.31.120.77
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] CH 02'
-  password: None
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] CH 03'
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
+- name: '[H] CH 01'
   password: None
   port: 9443
   server: 149.88.27.33
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 09'
-  port: 6103
-  server: 87.98.174.157
+- name: '[H] 🌍 其它地区 47'
+  password: None
+  port: 443
+  server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 58'
+- name: '[H] 🇫🇷 法国 06'
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 07'
+  password: None
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🌍 其它地区 48'
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 42'
+  password: ''
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🌍 其它地区 49'
+  password: None
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 43'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🌍 其它地区 50'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🌍 其它地区 51'
   port: 443
   server: 185.183.105.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇸🇬 新加坡 07'
-  port: 443
-  server: 156.146.56.97
+- name: '[H] 🇺🇸 美国 44'
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 27'
+- name: '[H] 🇺🇸 美国 45'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 46'
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '[H] 🇺🇸 美国 47'
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -1851,37 +1447,13 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🌍 其它地区 59'
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🌍 其它地区 60'
-  password: None
-  port: 9443
-  server: 152.233.3.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🌍 其它地区 61'
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🌍 其它地区 62'
-  password: None
+- name: '[H] 🌍 其它地区 52'
   port: 443
-  server: 185.94.192.210
+  server: 149.88.96.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🌍 其它地区 63'
+- name: '[H] 🌍 其它地区 53'
   password: None
   port: 443
   server: 31.171.154.66
@@ -1891,21 +1463,23 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🌍 其它地区 64'
-  password: None
+- name: '[H] 🌍 其它地区 54'
+  password: 'null'
   port: 9002
-  server: 84.17.47.148
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🌍 其它地区 55'
+  password: None
+  port: 443
+  server: 146.70.123.98
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🌍 其它地区 65'
-  port: 9443
-  server: 31.171.155.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🌍 其它地区 66'
+- name: '[H] 🌍 其它地区 56'
   password: None
   port: 443
   server: 130.195.250.34
@@ -1913,96 +1487,88 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🌍 其它地区 67'
+- name: '[H] 🌍 其它地区 57'
   password: None
   port: 9002
-  server: 84.17.47.126
+  server: 84.17.47.123
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 48'
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 68'
+- name: '[H] 🌍 其它地区 58'
   password: None
-  port: 443
-  server: 149.36.51.129
+  port: 9443
+  server: 185.164.35.16
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇷🇺 俄罗斯 01'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 29'
-  password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🌍 其它地区 69'
+- name: '[H] 🌍 其它地区 59'
   password: None
   port: 443
-  server: 95.229.15.89
+  server: 82.102.17.178
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] SE 02'
+- name: '[H] 🇺🇸 美国 49'
+  password: None
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] SE 03'
   port: 443
   server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 70'
-  password: None
-  port: 23856
-  server: 51.159.225.196
+- name: '[H] 🌍 其它地区 60'
+  port: 443
+  server: 146.70.203.18
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🇺🇸 美国 30'
+- name: '[H] 🌍 其它地区 61'
+  password: None
+  port: 9002
+  server: 193.176.84.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 50'
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 51'
   password: None
   port: 9443
   server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 71'
-  port: 443
-  server: 130.195.250.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🌍 其它地区 72'
-  password: ''
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🌍 其它地区 73'
+  username: null
+- name: '[H] 🇩🇪 德国 04'
   password: None
   port: 443
-  server: 146.70.203.18
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 01'
+- name: '[H] 🌍 其它地区 62'
   port: 443
-  server: 37.120.233.34
+  server: 130.195.250.18
   skip-cert-verify: true
   tls: true
   type: http
@@ -2013,28 +1579,75 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 74'
+- name: '[H] 🇺🇸 美国 52'
   password: None
-  port: 443
-  server: 62.90.77.30
+  port: 9443
+  server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 02'
+- name: '[H] 🌍 其它地区 63'
   password: None
-  port: 9443
-  server: 84.17.50.214
+  port: 443
+  server: 146.70.221.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 10'
+  username: null
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🌍 其它地区 64'
+  port: 443
+  server: 185.183.105.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 06'
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 05'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 08'
   port: 8090
   server: 82.96.128.175
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 11'
+- name: '[H] 🇨🇦 加拿大 03'
+  port: 443
+  server: 4.172.245.121
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🌍 其它地区 65'
+  password: None
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 06'
+  port: 443
+  server: 217.92.132.233
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 09'
   password: None
   port: 443
   server: 149.102.245.65
@@ -2042,21 +1655,87 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 03'
-  password: ''
+- name: '[H] CH 02'
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 53'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mvgWVqCFiqMKlst2NpfN71iKmD1dFd2iTBEP929UozE
+    short-id: 'b91971fe98d55eb9'
+  server: us.huahua.wiki
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9dd6833-9121-41fc-badc-ecbab952f606
+- name: '[H] 🇨🇦 加拿大 04'
+  password: None
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 07'
+  password: None
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: '[H] 🌍 其它地区 75'
-  port: 443
-  server: 5.255.97.222
+  username: null
+- name: '[H] CH 03'
+  password: None
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 76'
+  username: null
+- name: '[H] 🌍 其它地区 66'
+  port: 9443
+  server: 149.88.96.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇷🇺 俄罗斯 01'
+  password: 'null'
+  port: 443
+  server: 178.219.43.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🌍 其它地区 67'
+  password: None
+  port: 443
+  server: 87.120.103.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🌍 其它地区 68'
+  port: 443
+  server: 87.120.103.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] SE 04'
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🌍 其它地区 69'
   password: None
   port: 9443
   server: 146.70.170.210
@@ -2064,73 +1743,16 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🌍 其它地区 77'
-  password: None
-  port: 443
-  server: 157.22.183.72
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 31'
-  port: 443
-  server: 216.107.139.82
+- name: '[H] 🇺🇸 美国 54'
+  password: ''
+  port: 38182
+  server: 69.55.49.177
   skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 03'
-  password: None
-  port: 443
-  server: 206.223.183.13
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🌍 其它地区 78'
-  password: None
-  port: 443
-  server: 146.70.244.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🌍 其它地区 79'
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  sni: 52c40907.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: '[H] 🇩🇪 德国 03'
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 32'
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🌍 其它地区 80'
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 33'
-  password: None
-  port: 8090
-  server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🌍 其它地区 81'
+  sub_tag: S001-260618
+  type: socks5
+  udp: true
+  username: ''
+- name: '[H] 🌍 其它地区 70'
   password: None
   port: 443
   server: 109.248.147.66
@@ -2138,28 +1760,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🌍 其它地区 82'
-  password: 'null'
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🌍 其它地区 83'
-  password: None
+- name: '[H] 🇺🇸 美国 55'
   port: 443
-  server: 134.65.17.77
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 84'
-  port: 9443
-  server: 161.129.60.66
+- name: '[H] 🇺🇸 美国 56'
+  password: None
+  port: 8443
+  server: 44.217.145.28
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 85'
+  username: null
+- name: '[H] 🌍 其它地区 71'
   password: None
   port: 9443
   server: 149.36.51.161
@@ -2169,43 +1784,12 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🇩🇪 德国 04'
-  password: None
-  port: 9002
-  server: 158.173.154.3
+- name: '[H] 🌍 其它地区 72'
+  port: 9443
+  server: 169.150.237.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[H] 🌍 其它地区 86'
-  password: None
-  port: 443
-  server: 82.102.17.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇭🇰 香港 62'
-  port: 1080
-  server: 34.150.120.78
-  type: socks5
-- name: '[H] 🇫🇷 法国 12'
-  password: None
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🌍 其它地区 87'
-  password: None
-  port: 443
-  server: 154.47.29.174
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - name: '[H] EE 01'
   password: None
   port: 9443
@@ -2213,29 +1797,55 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] EE 02'
+- name: '[H] 🌍 其它地区 73'
+  port: 443
+  server: 213.207.130.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇸🇬 新加坡 07'
   password: None
   port: 9443
-  server: 95.153.31.66
+  server: 152.233.9.239
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🌍 其它地区 88'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.64.150.181
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
+- encryption: none
+  name: '[H] 🌍 其它地区 74'
+  network: xhttp
+  port: '61374'
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+    short-id: ''
+  server: se-2.pythonsetupbib.online
+  servername: se-2.pythonsetupbib.online
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /assignment
-- name: '[H] 🇺🇸 美国 34'
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xhttp-opts:
+    host: se-2.pythonsetupbib.online
+    mode: packet-up
+    path: /
+    reuse-settings:
+      max-connections: '3'
+    x-padding-bytes: 100-500
+  xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 02'
+  port: 8443
+  reality-opts:
+    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
+    short-id: 'a1b2c3d4e5f6a7b8'
+  server: xnod13x.artemida.live
+  servername: xnod13x.artemida.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: c05ec3c7-2784-da2b-aa98-a3c132860fcb
+- name: '[H] 🇺🇸 美国 57'
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
@@ -2243,108 +1853,158 @@ proxies:
   tls: true
   type: http
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: '[H] 🌍 其它地区 89'
+- name: '[H] 🇺🇸 美国 58'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 5443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: '[H] 🌍 其它地区 75'
   port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🌍 其它地区 90'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.64.154.144
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- name: '[H] 🌍 其它地区 91'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.66.0.118
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: '%2Fassignment'
-- name: '[H] 🇸🇬 新加坡 08'
-  password: '1234'
-  port: '2080'
-  server: 18.143.144.220
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: '[H] 🌍 其它地区 92'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.64.155.36
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: '%2Fassignment'
-- name: '[H] 🌍 其它地区 93'
-  password: 'null'
-  port: '443'
-  server: 134.65.17.77
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇭🇰 香港 63'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-    short-id: ''
-  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  xudp: true
-- name: '[H] 🌍 其它地区 94'
-  port: 9002
-  server: 193.176.84.24
+  server: 193.176.84.32
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: '[H] 🌍 其它地区 95'
+- name: '[H] 🌍 其它地区 76'
   port: 9002
   server: 193.176.84.25
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇰🇷 韩国 03'
+  password: ''
+  port: '1080'
+  server: 47.80.16.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[H] SE 05'
+  network: ws
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  port: '443'
+  server: 121.127.33.130
+  skip-cert-verify: false
+  sni: likejennie.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: ''
+- client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🌍 其它地区 77'
+  network: tcp
+  port: '62083'
+  server: 179.253.179.109
+  servername: 177.3.220.159
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef988d56-9c18-408e-ae1f-a144a332ebce
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇩🇪 德国 07'
+  network: tcp
+  port: '63080'
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  xudp: true
+- encryption: none
+  name: '[H] 🇫🇷 法国 10'
+  network: ws
+  port: '443'
+  server: 199.232.78.170
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49e29dba-814a-50b0-b4a9-deffe26ae624
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '[H] 🌍 其它地区 78'
+  network: xhttp
+  port: '6003'
+  server: 87.242.94.1
+  servername: finn.centermass.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f4e8129-56ae-4b6e-baeb-ebdd07d8b2c5
+  xhttp-opts:
+    mode: packet-up
+    path: /media/playback/v1/SessionGateway
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      h-keep-alive-period: 30
+      h-max-request-times: 800-1200
+      h-max-reusable-secs: 1800-3600
+      max-concurrency: 16-32
+      max-connections: '0'
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 08'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
+    short-id: 'e0aadc6f38ff06a8'
+  server: 200.169.184.168
+  servername: tm6.24convertflow.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
+    short-id: '8937c9ed2d470352'
+  server: 46.254.19.164
+  servername: wtb.tems.bet
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  xudp: true
+- name: '[H] 🌍 其它地区 79'
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 35'
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
-  sni: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+- name: '[H] 🌍 其它地区 80'
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-- name: '[H] 🇬🇧 英国 04'
+- name: '[H] 🇬🇧 英国 08'
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
   server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
@@ -2358,14 +2018,14 @@ proxies:
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 96'
+  name: '[I] 🌍 其它地区 81'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 04'
+  name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: '443'
   server: guanwang.awsno.com
@@ -2377,56 +2037,50 @@ proxies:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 97'
+  name: '[I] 🌍 其它地区 82'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 98'
+  name: '[I] 🌍 其它地区 83'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 99'
+  name: '[I] 🌍 其它地区 84'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 100'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 101'
+  name: '[I] 🌍 其它地区 85'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 102'
+  name: '[I] 🌍 其它地区 86'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 103'
+  name: '[I] 🌍 其它地区 87'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 104'
+  name: '[I] 🌍 其它地区 88'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🌍 其它地区 105'
+  name: '[I] 🌍 其它地区 89'
   network: tcp
   port: 47443
   reality-opts:
@@ -2437,27 +2091,16 @@ proxies:
   tls: false
   type: vless
   uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-- name: '[I] 🇸🇬 新加坡 09'
+- name: '[I] 🇸🇬 新加坡 08'
   port: 56984
   server: sg1.zestapp778.com
   servername: sg1.zestapp778.com
   tls: true
   type: vless
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 02'
-  port: 443
-  server: 87.242.119.253
-  servername: hvtlr-ru-47sb.fade.mom
-  tls: true
-  type: vless
-  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🌍 其它地区 106'
+  name: '[I] 🌍 其它地区 90'
   network: tcp
   port: 443
   reality-opts:
@@ -2469,7 +2112,7 @@ proxies:
   type: vless
   uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
 - client-fingerprint: firefox
-  name: '[I] 🌍 其它地区 107'
+  name: '[I] 🌍 其它地区 91'
   network: tcp
   port: 27591
   reality-opts:
@@ -2485,7 +2128,7 @@ proxies:
       Host: www.samsung.com
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🌍 其它地区 108'
+  name: '[I] 🌍 其它地区 92'
   network: tcp
   port: 443
   reality-opts:

@@ -1,21 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 28'
+  name: '[E] 🌍 其它地区 33'
   network: tcp
   port: '10000'
   server: 47.250.135.244
   servername: 47.250.135.244
-  tls: false
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 29'
-  network: raw
-  port: '10000'
-  server: 47.250.135.244
-  servername: ''
   tls: false
   type: vmess
   uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
@@ -28,70 +18,14 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 中国 06'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 07'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 09'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 10'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -105,7 +39,21 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 11'
+  name: '[E] 🇨🇳 中国 07'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 19ee3050-be66-4850-9f13-fc9d47487a3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 08'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -119,95 +67,11 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 03'
-  network: ws
-  port: '443'
-  server: kRUXDIdk3hdiDOcf.v.3dns.vip
-  servername: kRUXDIdk3hdiDOcf.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: kRUXDIdk3hdiDOcf.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 04'
-  network: ws
-  port: '443'
-  server: 47.245.177.106
-  servername: BxMzry7bu86yuvNb.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
-  ws-opts:
-    headers:
-      Host: BxMzry7bu86yuvNb.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 05'
-  network: ws
-  port: '443'
-  server: BxMzry7bu86yuvNb.v.3dns.vip
-  servername: BxMzry7bu86yuvNb.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: BxMzry7bu86yuvNb.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 06'
-  network: ws
-  port: '443'
-  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 07'
-  network: ws
-  port: '443'
-  server: LO7ioZK1FPYWR1t1.v.3dns.vip
-  servername: LO7ioZK1FPYWR1t1.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: LO7ioZK1FPYWR1t1.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 08'
-  network: ws
-  port: '443'
-  server: O3ZBhK3HTyKNltsS.v.3dns.vip
-  servername: O3ZBhK3HTyKNltsS.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: O3ZBhK3HTyKNltsS.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 50'
+  name: '[E] 🇭🇰 香港 02'
   network: ws
   port: '53617'
   server: az-1.linkaa.xyz
-  servername: az-1.linkaa.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: 6E571484-4166-4699-8F58-B34A1823691F
@@ -217,7 +81,7 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 51'
+  name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '53110'
   server: az-1.linkaa.xyz
@@ -231,7 +95,31 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 30'
+  name: '[E] 🇭🇰 香港 04'
+  network: tcp
+  port: '50001'
+  server: 101.32.8.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5706beb5-479b-475d-b557-00309327e9cc
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 05'
+  network: ws
+  port: '53110'
+  server: az-1.linkaa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 34'
   network: ws
   port: '55386'
   server: az-1.linkaa.xyz
@@ -261,20 +149,6 @@ proxies:
   cipher: auto
   name: '[E] 🇸🇬 新加坡 02'
   network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: ''
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
   port: '80'
   server: mdk.mdmekjll.best
   servername: mdk.mdmekjll.best
@@ -285,15 +159,29 @@ proxies:
     headers:
       Host: mdk.mdmekjll.best
     path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '53437'
+  server: az-1.linkaa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
+    path: /game/resources
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 31'
+  name: '[F] 🌍 其它地区 35'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 52'
+  name: '[F] 🇭🇰 香港 06'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -302,7 +190,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 53'
+  name: '[F] 🇭🇰 香港 07'
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -317,7 +205,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 54'
+  name: '[F] 🇭🇰 香港 08'
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -332,7 +220,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 55'
+  name: '[F] 🇭🇰 香港 09'
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -347,7 +235,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇭🇰 香港 56'
+  name: '[F] 🇭🇰 香港 10'
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -452,7 +340,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 22'
+  name: '[F] 🇺🇸 美国 34'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -467,7 +355,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 23'
+  name: '[F] 🇺🇸 美国 35'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -482,7 +370,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 57'
+  name: '[G] 🇭🇰 香港 11'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -490,7 +378,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 58'
+- name: '[G] 🇭🇰 香港 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -498,7 +386,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 59'
+- name: '[G] 🇭🇰 香港 13'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -506,7 +394,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 60'
+- name: '[G] 🇭🇰 香港 14'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -514,7 +402,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇭🇰 香港 61'
+- name: '[G] 🇭🇰 香港 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -538,7 +426,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 24'
+- name: '[G] 🇺🇸 美国 36'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -546,7 +434,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 25'
+- name: '[G] 🇺🇸 美国 37'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -570,335 +458,40 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🌍 其它地区 32'
+- cipher: aes-256-gcm
+  name: '[H] 🌍 其它地区 36'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- name: '[H] 🇺🇸 美国 41'
   network: ws
-  password: humanity
+  password: e7TTceggMwUMg+aFN:F4
   port: 443
-  server: 213.165.55.4
+  server: 172.66.47.18
+  servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
   skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 33'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.177
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 34'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.153.224
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 35'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 202.61.226.121
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 36'
-  network: ws
-  password: humanity
-  port: 443
-  server: 93.85.236.9
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '[H] 🌍 其它地区 38'
-  network: ws
-  password: humanity
-  port: 2053
-  server: 83.147.254.59
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
   tls: true
   type: trojan
   udp: true
   ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 40'
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
+- name: '[H] SE 05'
   network: ws
-  password: humanity
-  port: 443
-  server: 162.159.61.183
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 44'
-  network: ws
-  password: humanity
-  port: 443
-  server: 82.118.18.179
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 45'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.155.36
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 46'
-  network: ws
-  password: humanity
-  port: 443
-  server: 143.110.175.165
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 47'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.133.174.88
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 48'
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.82.218.224
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 49'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 91.149.167.147
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 50'
-  network: ws
-  password: humanity
-  port: 443
-  server: 213.111.148.137
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 51'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.153.224
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 52'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.148.230
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 53'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.89.103
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 54'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.67.89
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 55'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.32.54.55
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 56'
-  network: ws
-  password: humanity
-  port: 443
-  server: 87.120.126.131
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 57'
-  network: ws
-  password: humanity
-  port: 443
-  server: 144.31.120.77
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: '[H] 🌍 其它地区 88'
-  network: ws
-  password: humanity
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
   port: '443'
-  server: 172.64.150.181
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /assignment
-- name: '[H] 🌍 其它地区 90'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.64.154.144
+  server: 121.127.33.130
   skip-cert-verify: false
-  sni: www.cordweave.com
+  sni: likejennie.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- name: '[H] 🌍 其它地区 91'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.66.0.118
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: '%2Fassignment'
-- name: '[H] 🌍 其它地区 92'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.64.155.36
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: '%2Fassignment'
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: ''
 - cipher: aes-256-gcm
   name: '[I] 🇯🇵 日本 05'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -906,14 +499,14 @@ proxies:
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 96'
+  name: '[I] 🌍 其它地区 81'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 04'
+  name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: '443'
   server: guanwang.awsno.com
@@ -925,49 +518,43 @@ proxies:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 97'
+  name: '[I] 🌍 其它地区 82'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 98'
+  name: '[I] 🌍 其它地区 83'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 99'
+  name: '[I] 🌍 其它地区 84'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 100'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 101'
+  name: '[I] 🌍 其它地区 85'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 102'
+  name: '[I] 🌍 其它地区 86'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 103'
+  name: '[I] 🌍 其它地区 87'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 104'
+  name: '[I] 🌍 其它地区 88'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81

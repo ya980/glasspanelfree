@@ -17,20 +17,6 @@ proxies:
   cipher: auto
   name: '[E] 🇸🇬 新加坡 02'
   network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: ''
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
   port: '80'
   server: mdk.mdmekjll.best
   servername: mdk.mdmekjll.best
@@ -40,6 +26,20 @@ proxies:
   ws-opts:
     headers:
       Host: mdk.mdmekjll.best
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '53437'
+  server: az-1.linkaa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: ''
     path: /game/resources
 - alterId: 0
   cipher: auto
@@ -80,20 +80,15 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - name: '[H] 🇸🇬 新加坡 07'
-  port: 443
-  server: 156.146.56.97
+  password: None
+  port: 9443
+  server: 152.233.9.239
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇸🇬 新加坡 08'
-  password: '!!str 1234'
-  port: '2080'
-  server: 18.143.144.220
-  skip-cert-verify: true
-  type: http
-  username: '1234'
+  username: null
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 09'
+  name: '[I] 🇸🇬 新加坡 08'
   port: 56984
   server: sg1.zestapp778.com
   servername: sg1.zestapp778.com

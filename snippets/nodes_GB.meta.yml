@@ -1,8 +1,22 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
+- name: '[E] 🇬🇧 英国 01'
+  password: 5062e1a7-89aa-4bd0-be2a-4f4a88f6c325
+  port: 443
+  server: 45.88.12.36
+  sni: va.stream-room.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇬🇧 英国 02'
+  password: 5a7cb309-4ce9-4f2a-b887-747f991e03da
+  port: 443
+  server: 45.88.12.120
+  sni: crt.onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
-  server: 84.17.50.193
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http

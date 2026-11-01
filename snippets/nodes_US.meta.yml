@@ -1,258 +1,21 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
-  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
-  port: 443
-  server: 64.32.13.230
-  sni: 6f9a8496-tmm5c0-txkkcl-1fli7.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 443
-  server: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: 64.32.13.230
-  sni: e3e217d6-tmm5c0-tzkd63-1jr1u.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 443
-  server: 24407910-tmm5c0-trnd2c-jjv2.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 24407910-tmm5c0-trnd2c-jjv2.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
-  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
-  port: 443
-  server: 25188aad-tm3mo0-unh4sc-xm0q.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
-  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 64.32.13.230
-  sni: 5e9b967f-tmm5c0-u4ai7k-z7a1.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 08'
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  port: 443
-  server: 64.32.13.230
-  sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 09'
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  port: 443
-  server: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 10'
-  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 03aa25ad-tmm5c0-tmj4pk-1kcpe.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 03aa25ad-tmm5c0-tmj4pk-1kcpe.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
-  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-  port: 443
-  server: 64.32.13.230
-  sni: 4cbb5b88-tm96o0-tnhquc-1j0a4.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: 4e5b2b98-tmm5c0-tnkuks-wujn.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 4e5b2b98-tmm5c0-tnkuks-wujn.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 13'
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  port: 443
-  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 14'
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  port: 443
-  server: 64.32.13.230
-  sni: 9df552ab-tmkao0-u1vxv2-v3c2.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 15'
-  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-  port: 443
-  server: 64.32.13.230
-  sni: 35b28de6-tmkao0-tnnrly-g43g.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 16'
-  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  port: 443
-  server: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 17'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 64.32.13.230
-  sni: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 18'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 19'
-  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
-  port: 443
-  server: 64.32.13.230
-  sni: 402cf505-tly2o0-tn3jhp-1qthu.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 20'
-  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  port: 443
-  server: 64.32.13.230
-  sni: db09351f-tlsio0-0-mv7m.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 21'
-  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: 64.32.13.230
-  sni: 99ae88c3-tmm5c0-truoje-1uni.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 22'
-  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: 99ae88c3-tmm5c0-truoje-1uni.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 99ae88c3-tmm5c0-truoje-1uni.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 23'
-  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
-  port: 443
-  server: f98f32f1-tmm5c0-tv7dx2-py5w.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: f98f32f1-tmm5c0-tv7dx2-py5w.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 24'
-  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  port: 443
-  server: 64.32.13.230
-  sni: 0a2298d1-tm3mo0-0-1rfon.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 25'
-  password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 26'
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 443
-  server: 64.32.13.230
-  sni: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 27'
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 443
-  server: 64.32.13.230
-  sni: 3afac95e-tmm5c0-u3xqxa-1q91p.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 28'
-  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-  port: 443
-  server: 64.32.13.230
-  sni: 83401821-tnhmo0-toktib-1hhyy.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 29'
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 64.32.13.230
-  sni: bd6e538b-tmm5c0-tt2yf5-1j61y.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 30'
-  password: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-  port: 443
-  server: 64.32.13.230
-  sni: 99a517d4-tmm5c0-u2e9xs-2b2n.los.hyhuawei.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 31'
+  name: '[E] 🇺🇸 美国 01'
   network: ws
   port: '28167'
   server: 142.171.48.179
   servername: ''
   tls: false
   type: vmess
-  uuid: c20f5c31-488e-44c7-b26a-8be8e0737066
+  uuid: f949f286-b709-4617-8f26-2e0dfdd7ca6a
   ws-opts:
     headers:
       Host: gw.alicdn.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 32'
-  network: ws
-  port: '28167'
-  server: 142.171.48.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eeb623e4-b27c-4031-bab6-51e068c7dc6a
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇺🇸 美国 33'
+  name: '[F] 🇺🇸 美国 02'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -267,7 +30,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 34'
+  name: '[F] 🇺🇸 美国 03'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -280,7 +43,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 35'
+- name: '[G] 🇺🇸 美国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -288,7 +51,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 36'
+- name: '[G] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -296,10 +59,10 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 37'
-  password: None
+- name: '[H] 🇺🇸 美国 06'
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
   tls: true
   type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d

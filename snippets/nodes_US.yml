@@ -1,7 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 34'
+  name: '[E] 🇺🇸 美国 31'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c20f5c31-488e-44c7-b26a-8be8e0737066
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 32'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eeb623e4-b27c-4031-bab6-51e068c7dc6a
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 33'
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -16,7 +44,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 35'
+  name: '[F] 🇺🇸 美国 34'
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -29,7 +57,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇺🇸 美国 36'
+- name: '[G] 🇺🇸 美国 35'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -37,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[G] 🇺🇸 美国 37'
+- name: '[G] 🇺🇸 美国 36'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -45,16 +73,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇺🇸 美国 41'
-  network: ws
-  password: e7TTceggMwUMg+aFN:F4
-  port: 443
-  server: 172.66.47.18
-  servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
-  skip-cert-verify: true
-  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560

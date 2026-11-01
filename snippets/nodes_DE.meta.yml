@@ -7,69 +7,13 @@ proxies:
   sni: 3.76.221.4
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 02'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 02'
   network: tcp
-  port: '63053'
-  server: 179.253.179.109
-  servername: de2.derevohom.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
-  xudp: true
-- name: '[H] 🇩🇪 德国 03'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 04'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 05'
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  port: 443
-  server: 217.92.132.233
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇩🇪 德国 07'
-  network: tcp
-  port: '63080'
-  server: 179.253.179.109
-  servername: de2.derevohom.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 08'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
-    short-id: '!!str e0aadc6f38ff06a8'
-  server: 200.169.184.168
-  servername: tm6.24convertflow.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
-  xudp: true
+  port: '8080'
+  server: 89.46.217.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fabd9542-e7a6-46e3-96bb-cda4eebc150b

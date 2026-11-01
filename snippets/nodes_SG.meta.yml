@@ -3,47 +3,33 @@ proxies:
   cipher: auto
   name: '[E] 🇸🇬 新加坡 01'
   network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: az-1.linkaa.xyz
-  tls: false
+  port: '443'
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   ws-opts:
     headers:
-      Host: az-1.linkaa.xyz
-    path: /game/resources
+      Host: ''
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: '[E] 🇸🇬 新加坡 02'
   network: ws
-  port: '80'
-  server: mdk.mdmekjll.best
-  servername: mdk.mdmekjll.best
-  tls: false
+  port: '443'
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   ws-opts:
     headers:
-      Host: mdk.mdmekjll.best
-    path: /game/resources
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: ''
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇸🇬 新加坡 04'
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -58,7 +44,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[F] 🇸🇬 新加坡 05'
+  name: '[F] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -71,7 +57,7 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 06'
+- name: '[G] 🇸🇬 新加坡 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -79,16 +65,8 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[H] 🇸🇬 新加坡 07'
-  password: None
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 08'
+  name: '[I] 🇸🇬 新加坡 06'
   port: 56984
   server: sg1.zestapp778.com
   servername: sg1.zestapp778.com

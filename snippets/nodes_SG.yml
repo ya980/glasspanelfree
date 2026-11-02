@@ -1,81 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 01'
-  network: ws
-  port: '80'
-  server: mdk.mdmekjll.best
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: mdk.mdmekjll.best
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 02'
-  network: ws
-  port: '80'
-  server: mdk.mdmekjll.best
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: ''
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇸🇬 新加坡 03'
-  network: ws
-  port: 443
-  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇸🇬 新加坡 04'
-  network: ws
-  port: 443
-  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
-    path: /ws-vmess
-- name: '[G] 🇸🇬 新加坡 05'
+- name: '[F] 🇸🇬 新加坡 01'
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10135
-  server: 7d0a2gz0-7a0c.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 47966
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: cm.g.doubleclick.net
   type: trojan
-- name: '[H] 🇸🇬 新加坡 06'
+- name: '[F] 🇸🇬 新加坡 02'
+  network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 42338
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 07'
+- name: '[F] 🇸🇬 新加坡 03'
+  network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 15589
+  port: 37212
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net

@@ -1,20 +1,62 @@
 proxies:
-- name: '[H] 🇷🇺 俄罗斯 01'
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - alpn:
-  - http/1.1
   - h2
-  client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 02'
-  port: 443
-  server: 87.242.119.253
-  servername: hvtlr-ru-47sb.fade.mom
+  client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: xhttp
+  port: '443'
+  server: 188.72.103.4
+  servername: ru.nnight.cfd
   tls: true
   type: vless
-  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
+  udp: true
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  xhttp-opts:
+    host: ru.nnight.cfd
+    mode: packet-up
+    path: /api/v4/media/session/poll
+    reuse-settings:
+      c-max-reuse-times: 128-256
+      h-keep-alive-period: 30
+      h-max-request-times: 600-1000
+      h-max-reusable-secs: 1800-3600
+      max-concurrency: 8-16
+      max-connections: '0'
+    seq-key: offset
+    seq-placement: query
+    session-length: '0'
+    uplink-data-key: X-Playback-Token
+    uplink-data-placement: header
+    uplink-http-method: GET
+    x-padding-bytes: 48-320
+    x-padding-key: q
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: '443'
+  server: 185.229.9.135
+  servername: business.lesotorg-kirov.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4df3e06b-85e9-4b69-b38a-be37bad2fe9d
+  ws-opts:
+    headers:
+      Host: business.lesotorg-kirov.ru
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /chws
+  xudp: true
+- cipher: aes-256-gcm
+  name: '[I] 🇷🇺 俄罗斯 03'
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.46.27
+  type: ss

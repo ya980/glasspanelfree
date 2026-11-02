@@ -52,17 +52,17 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 中国 06'
   network: ws
   port: '10086'
-  server: 120.48.133.162
+  server: 39.108.113.127
   servername: ''
   tls: false
   type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  uuid: 19ee3050-be66-4850-9f13-fc9d47487a3c
   ws-opts:
     headers:
       Host: ''
@@ -80,37 +80,18 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+    path: /
 - ip: 172.16.0.2/32
-  keepalive: '5'
-  mtu: 1280
-  name: '[H] 🇨🇳 中国 09'
-  persistent-keepalive: '5'
-  port: 4500
-  private-key: QN9e//MZcXBdaz7vDo7hX6tY5xh2yFzlActftLGlA10=
+  mtu: 1380
+  name: '[H] 🇨🇳 中国 08'
+  port: 3581
+  presharedkey: ''
+  private-key: 2FaqTm+aXdVK00dvbeuMW/t741BWYu9lNOOVtMI4R3Y=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 255
-  - 89
-  - 117
-  server: 162.159.192.1
+  - 80
+  - 103
+  - 64
+  server: 162.159.192.11
   type: wireguard
   udp: true
-  wnoise: quic
-  wnoisecount: '5'
-  wnoisedelay: '5'
-  wpayloadsize: 40-90

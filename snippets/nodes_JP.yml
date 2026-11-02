@@ -1,60 +1,32 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇯🇵 日本 01'
-  network: ws
-  port: 443
-  server: Z9FfBx3zs2q5O0BG.v.3dns.vip
-  servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Z9FfBx3zs2q5O0BG.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇯🇵 日本 02'
-  network: ws
-  port: 443
-  server: kQov7UKaDknXb8a3.v.3dns.vip
-  servername: kQov7UKaDknXb8a3.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: kQov7UKaDknXb8a3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇯🇵 日本 03'
-  network: ws
-  port: 443
-  server: kneNaKHeSXnZH259.v.3dns.vip
-  servername: kneNaKHeSXnZH259.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: kneNaKHeSXnZH259.v.3dns.vip
-    path: /ws-vmess
-- name: '[G] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10125
-  server: 63182sh8-4d7b.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 24914
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: '[F] 🇯🇵 日本 02'
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18295
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: '[F] 🇯🇵 日本 03'
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 43992
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: wximg.qq.com
   type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇯🇵 日本 06'
+  name: '[I] 🇯🇵 日本 04'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.90
+  server: 202.50.253.54
   type: ss

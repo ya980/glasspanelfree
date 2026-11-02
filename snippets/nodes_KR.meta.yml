@@ -1,24 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[F] 🇰🇷 韩国 01'
-  network: ws
-  port: 443
-  server: 8nTzyR5KNivfabaT.v.3dns.vip
-  servername: 8nTzyR5KNivfabaT.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 8nTzyR5KNivfabaT.v.3dns.vip
-    path: /ws-vmess
-- name: '[G] 🇰🇷 韩国 02'
+- name: '[F] 🇰🇷 韩国 01'
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 11171
-  server: 63182sh8-4d7b.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 29628
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: cm.g.doubleclick.net
   type: trojan
+- name: '[F] 🇰🇷 韩国 02'
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18572
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: '[H] 🇰🇷 韩国 03'
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 31433
+  server: 783f6643-tcev40-th02zb-m0b9.kr.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b

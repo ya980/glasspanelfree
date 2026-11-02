@@ -1,15 +1,32 @@
 proxies:
-- name: '[H] EE 01'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] EE 01'
+  network: tcp
+  port: '25895'
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: '!!str a73f0410d728c823'
+  server: ee.h1cloud.net
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  xudp: true
+- name: '[H] EE 02'
   password: None
   port: 9443
   server: 192.159.101.174
   skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
-  username: null
-- name: '[H] EE 02'
+  udp: true
+- name: '[H] EE 03'
+  password: None
   port: 9443
-  server: 95.153.31.66
+  server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http

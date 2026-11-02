@@ -12,17 +12,17 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 中国 06'
   network: ws
   port: '10086'
-  server: 120.48.133.162
+  server: 39.108.113.127
   servername: ''
   tls: false
   type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  uuid: 19ee3050-be66-4850-9f13-fc9d47487a3c
   ws-opts:
     headers:
       Host: ''
@@ -40,18 +40,4 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+    path: /

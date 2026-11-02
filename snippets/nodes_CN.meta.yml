@@ -58,18 +58,32 @@ proxies:
   name: '[E] 🇨🇳 中国 06'
   network: ws
   port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 07'
+  network: ws
+  port: '10086'
   server: 39.108.113.127
   servername: ''
   tls: false
   type: vmess
-  uuid: 19ee3050-be66-4850-9f13-fc9d47487a3c
+  uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761
   ws-opts:
     headers:
       Host: ''
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 07'
+  name: '[E] 🇨🇳 中国 08'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -81,17 +95,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- ip: 172.16.0.2/32
-  mtu: 1380
-  name: '[H] 🇨🇳 中国 08'
-  port: 3581
-  presharedkey: ''
-  private-key: 2FaqTm+aXdVK00dvbeuMW/t741BWYu9lNOOVtMI4R3Y=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 80
-  - 103
-  - 64
-  server: 162.159.192.11
-  type: wireguard
-  udp: true

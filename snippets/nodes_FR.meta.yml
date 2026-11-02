@@ -17,96 +17,10 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 03'
-  network: ws
-  port: '443'
-  server: qexQourmGimzvkWY.v.3dns.vip
-  servername: qexQourmGimzvkWY.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qexQourmGimzvkWY.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 04'
-  network: ws
-  port: '443'
-  server: 3E89CNW0HGtiFiDE.v.3dns.vip
-  servername: 3E89CNW0HGtiFiDE.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 3E89CNW0HGtiFiDE.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 05'
-  network: ws
-  port: '443'
-  server: 8.211.22.106
-  servername: 3E89CNW0HGtiFiDE.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 32b241cc-b2a5-47d7-adbe-03365155f8de
-  ws-opts:
-    headers:
-      Host: 3E89CNW0HGtiFiDE.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 06'
-  network: ws
-  port: '443'
-  server: 8.211.41.141
-  servername: qexQourmGimzvkWY.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 32b241cc-b2a5-47d7-adbe-03365155f8de
-  ws-opts:
-    headers:
-      Host: qexQourmGimzvkWY.v.3dns.vip
-    path: /ws-vmess
-- name: '[H] 🇫🇷 法国 07'
+- name: '[H] 🇫🇷 法国 03'
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
   server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
   tls: true
   type: http
   username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: '[H] 🇫🇷 法国 08'
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 09'
-  password: None
-  port: 443
-  server: fan.132031.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇫🇷 法国 10'
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇫🇷 法国 11'
-  password: ''
-  port: '443'
-  server: fan.132031.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: bnVsbDpudWxs

@@ -23,17 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 04'
-  password: None
-  port: 9090
-  server: 128.199.254.13
-  type: http
-  username: null
-- name: '[H] 🇸🇬 新加坡 05'
-  password: ''
-  port: '14872'
-  server: 45.74.31.42
-  skip-cert-verify: true
-  type: socks5
-  username: ''

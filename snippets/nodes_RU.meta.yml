@@ -1,17 +1,47 @@
 proxies:
-- alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: qq
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 01'
+  network: tcp
   port: 443
-  server: 87.242.119.253
-  servername: hvtlr-ru-47sb.fade.mom
-  tls: true
+  reality-opts:
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: '!!str 97a15f5af85c4a30'
+  server: 213.159.209.66
+  servername: ru11.oshost.network
+  skip-cert-verify: true
+  tls: false
   type: vless
-  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
-- cipher: aes-256-gcm
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: '!!str 97a15f5af85c4a30'
+  server: ru11.oshost.network
+  servername: ru11.oshost.network
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- client-fingerprint: firefox
+  name: '[I] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
+    short-id: '!!str 50ad5564'
+  server: 186.246.9.29
+  servername: wordpress.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
+- cipher: aes-256-gcm
+  name: '[I] 🇷🇺 俄罗斯 04'
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   port: 18443
   server: 46.17.46.27

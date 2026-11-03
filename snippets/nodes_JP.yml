@@ -1,5 +1,5 @@
 proxies:
-- name: '[F] 🇯🇵 日本 06'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 24914
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[F] 🇯🇵 日本 07'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 18295
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[F] 🇯🇵 日本 08'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 43992
@@ -24,8 +24,8 @@ proxies:
   sni: wximg.qq.com
   type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇯🇵 日本 09'
+  name: '[I] 🇯🇵 日本 05'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.54
+  server: 202.50.253.27
   type: ss

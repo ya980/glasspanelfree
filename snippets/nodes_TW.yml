@@ -1,5 +1,18 @@
 proxies:
-- name: '[F] 🇨🇳 台湾 01'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 02'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- name: '[F] 🇨🇳 台湾 03'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 47786
@@ -7,7 +20,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[F] 🇨🇳 台湾 02'
+- name: '[F] 🇨🇳 台湾 04'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 54815

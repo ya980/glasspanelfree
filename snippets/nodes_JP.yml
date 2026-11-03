@@ -1,5 +1,14 @@
 proxies:
-- name: '[F] 🇯🇵 日本 01'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 04'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '[F] 🇯🇵 日本 10'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 24914
@@ -7,7 +16,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[F] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 11'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 18295
@@ -15,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 12'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 43992
@@ -24,7 +33,7 @@ proxies:
   sni: wximg.qq.com
   type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇯🇵 日本 04'
+  name: '[I] 🇯🇵 日本 13'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27

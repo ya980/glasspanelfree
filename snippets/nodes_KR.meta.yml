@@ -1,5 +1,23 @@
 proxies:
-- name: '[F] 🇰🇷 韩国 01'
+- name: '[B] 🇰🇷 韩国 01'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[F] 🇰🇷 韩国 03'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 29628
@@ -7,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[F] 🇰🇷 韩国 02'
+- name: '[F] 🇰🇷 韩国 04'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 18572

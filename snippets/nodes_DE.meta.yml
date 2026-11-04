@@ -71,21 +71,12 @@ proxies:
   tls: true
   type: vless
   uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
-- name: '[D] 🇩🇪 德国 07'
-  obfs: salamander
-  obfs-password: 7kydvvvn3bwt66ff
-  password: ripa841juk7gwn4t
-  port: 10005
-  server: 31.76.241.169
-  sni: de.c0d1xdev.xyz
+- alpn:
+  - h3
+  name: '[D] 🇩🇪 德国 07'
+  password: 80cbaaec-caff-4181-8539-ea6e51731007
+  port: 443
+  server: 45.88.12.119
+  sni: crt.onecloudstream.com
   tls: false
   type: hysteria2
-- flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 08'
-  network: tcp
-  port: 20065
-  server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  tls: true
-  type: vless
-  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c

@@ -34,9 +34,18 @@ proxies:
   sni: r5ycmuko.zibayeman.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 04'
+  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:cv_QNzenE8BtqjxU5H4mzZ7ki0M4jLW2DCs01wdD78Y
+  port: 8443
+  server: 102.208.216.88
+  sni: za2.lumacache.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 04'
+  name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: '443'
   server: guanwang.awsno.com
@@ -47,3 +56,15 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
+- name: '[I] 🇨🇦 加拿大 06'
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /fp=chromefp=chrome

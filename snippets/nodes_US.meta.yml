@@ -531,7 +531,36 @@ proxies:
   sni: us2.lumacache.com
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 47'
+- name: '[E] 🇺🇸 美国 47'
+  password: '!!str 1793747701'
+  port: 443
+  server: 84.38.184.87
+  sni: us2.lumacache.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 48'
+  password: 78585441-c8b3-40fb-9b94-15edd312fdcf
+  port: 44444
+  server: 107.172.16.232
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 49'
+  network: ws
+  port: '80'
+  server: cf.0sm.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- name: '[F] 🇺🇸 美国 50'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 19466
@@ -539,7 +568,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[F] 🇺🇸 美国 48'
+- name: '[F] 🇺🇸 美国 51'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 49049
@@ -547,7 +576,7 @@ proxies:
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-- name: '[F] 🇺🇸 美国 49'
+- name: '[F] 🇺🇸 美国 52'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 17285
@@ -555,3 +584,16 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇺🇸 美国 53'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DUpNPvLjiL1GzeF7DfKWba-LYLz1KPuQXewhgNGPiDM
+    short-id: '!!str ab0a5b56'
+  server: 38.244.5.231
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 1bd6c8a2-01db-4a3d-8b2c-0b2f2c3e8b5a

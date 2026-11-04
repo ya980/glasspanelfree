@@ -2,16 +2,6 @@ proxies:
 - name: '[D] 🇨🇳 中国 01'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52076
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇳 中国 02'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
   port: 52050
   server: giftcard.gateway-stream.com
@@ -19,7 +9,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇳 中国 03'
+- name: '[D] 🇨🇳 中国 02'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
@@ -31,7 +21,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 04'
+  name: '[E] 🇨🇳 中国 03'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -45,24 +35,10 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 05'
+  name: '[E] 🇨🇳 中国 04'
   network: ws
   port: '10086'
   server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 06'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
   servername: ''
   tls: false
   type: vmess
@@ -73,29 +49,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 中国 07'
+  name: '[E] 🇨🇳 中国 05'
   network: ws
   port: '10086'
-  server: 39.108.113.127
+  server: 120.48.133.162
   servername: ''
   tls: false
   type: vmess
-  uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 08'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+    path: /

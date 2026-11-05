@@ -1,29 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '443'
-  server: 192.166.82.21
-  servername: us-slc-global1.xeovo.eu
-  tls: true
+  name: '[E] 🇺🇸 美国 13'
+  network: tcp
+  port: '47116'
+  server: 43.173.67.42
+  servername: ''
+  tls: false
   type: vmess
-  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
-  ws-opts:
-    headers:
-      Host: ''
-    path: /sacaca
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 05'
-  network: ws
-  port: '443'
-  server: 192.166.82.21
-  servername: us-slc-global1.xeovo.eu
-  tls: true
-  type: vmess
-  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
-  ws-opts:
-    headers:
-      Host: us-slc-global1.xeovo.eu
-    path: /sacaca
+  uuid: fc3347e2-007d-4cad-fe28-3d80672c3ccc

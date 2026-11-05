@@ -1,35 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 40'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
+  name: '[E] 🌍 其它地区 47'
+  network: tcp
+  port: '11674'
+  server: 176.65.151.175
   servername: ''
   tls: false
   type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇳 中国 03'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 04'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -43,7 +25,49 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '[E] 🇨🇳 中国 04'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: '[E] 🇨🇳 中国 05'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 06'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 07'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -57,95 +81,145 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
-  network: ws
+  name: '[E] 🇩🇪 德国 02'
+  network: tcp
   port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  server: de.zhou-yufan.com
+  servername: de.zhou-yufan.com
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 03'
+  network: raw
+  port: '443'
+  server: de.zhou-yufan.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 04'
+  network: ws
+  port: '8080'
+  server: getnet.serversubasli.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d2b67e48-c341-47ba-8caa-5658df693ac4
   ws-opts:
     headers:
       Host: ''
-    path: /ws-vmess
+    path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
+  name: '[E] 🇺🇸 美国 13'
+  network: tcp
+  port: '47116'
+  server: 43.173.67.42
+  servername: ''
+  tls: false
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 03'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '443'
-  server: 192.166.82.21
-  servername: us-slc-global1.xeovo.eu
-  tls: true
-  type: vmess
-  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
-  ws-opts:
-    headers:
-      Host: ''
-    path: /sacaca
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 05'
-  network: ws
-  port: '443'
-  server: 192.166.82.21
-  servername: us-slc-global1.xeovo.eu
-  tls: true
-  type: vmess
-  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
-  ws-opts:
-    headers:
-      Host: us-slc-global1.xeovo.eu
-    path: /sacaca
+  uuid: fc3347e2-007d-4cad-fe28-3d80672c3ccc
 - cipher: aes-256-gcm
   name: '[I] 🇯🇵 日本 11'
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.46.27
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 68'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 61'
+  name: '[I] 🌍 其它地区 69'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 62'
+  name: '[I] 🌍 其它地区 70'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 71'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 72'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 73'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 74'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 75'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 76'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🌍 其它地区 77'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
 - alterId: 0
   cipher: auto
   name: '[I] 🇨🇦 加拿大 11'
+  network: ws
+  port: '443'
+  server: 172.67.190.164
+  servername: guanwang.awsno.com
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇨🇦 加拿大 12'
+  network: ws
+  port: '443'
+  server: www.shopify.com
+  servername: guanwang.awsno.com
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇨🇦 加拿大 13'
   network: ws
   port: '443'
   server: guanwang.awsno.com
@@ -156,57 +230,3 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 63'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 64'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 65'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 66'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 67'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇭🇰 香港 13'
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40006
-  server: xunlinknode.csdjhajkshdjkas.com
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 68'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 69'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🇷🇺 俄罗斯 02'
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 46.17.46.27
-  type: ss

@@ -177,3 +177,16 @@ proxies:
   type: vless
   udp: true
   uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇫🇷 法国 13'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: edge.bookmai.com
+  servername: mother-earth.fyi
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f

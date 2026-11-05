@@ -1,38 +1,5 @@
 proxies:
-- name: '[B] 🇫🇷 法国 01'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: '[B] 🇫🇷 法国 02'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇫🇷 法国 03'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 01'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -42,7 +9,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
+- name: '[D] 🇫🇷 法国 02'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.188.142
@@ -50,6 +17,48 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 03'
+  network: ws
+  port: '443'
+  server: www.windowssearchtools.com
+  servername: www.windowssearchtools.com
+  tls: true
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: www.windowssearchtools.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 04'
+  network: ws
+  port: '443'
+  server: 104.21.15.251
+  servername: www.windowssearchtools.com
+  tls: true
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: www.windowssearchtools.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 05'
+  network: ws
+  port: '443'
+  server: www.windowssearchtools.com
+  servername: www.windowssearchtools.com
+  tls: true
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: ''
+    path: /truth
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[F] 🇫🇷 法国 06'
@@ -210,27 +219,41 @@ proxies:
   type: vless
   udp: true
   uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.I5ge5qOTUhKE8xpufKI84yktvqqG9qkViwYe20uFZUyGwbnK7QMv6Tih0subInSmZTyem1QFG1CDFvGfgMBu3Yw1ryNJfGjMnALAqZawBoukaROcTzxXmFAzuejDalyhxxfNJkeUefW3biOHIzcu_AairYSvJ8l_iHJpKVEKXZWPQWiq-tm_nPJz_oDDhFElaCHKnCslodSen2M6afQQ0HYKc6nKZmZwc1cHG1GKW9xHx6CBfLhFVOhT62tCvbxShul1NJgL-shELnovAtS1aHBFQKDOIiJYC7Ww0awUfsyGIFhnJIhdnqFHnkG7sOcdiWiH-ZkQ11p065zAWEQ14HTOi-aqCAsnWNwdRxwj1_qlArYd3nNF1dXKARRikbMFutC5GyyvSJxk7XwHRGWoK_q6_zK2amtIrsin6tov5kKs3UqywFJMJ2rMtgYZXpvK_TdXumLGUimIq9vFW7idpbMlv9F84NY8UbtrkyB87IQwdKqbtnuOMzxkYik-i9N5vaKcXLSdOGRpMgAKSMt5NbSyllcEh6qUTZoVb_h8ZmYij8csvbGWxodCj1WvOGoRtGGnTSpWMdG3X3ZxXlhNQ6tpIPGTfxkzjPtRjHQDcqm0fgrLjWONnkGxMQRO-Wi50vzNPzW9Vuy5BlZszdGqpjLNRLGw24JTAYKXpxiUkTxUxhO3LRC8kMvGVBgxjImwmwev1IqfPiVIMSwhV0FAMNw27nALh0qyPnNLbFpbTFuTL6V83YypFDl1yahns_AE86ufKnSAaSs_0PwMM_ZDfkhE7nRKCygaD9UjWWygRWq6fZarZahcTAqrZUYPXWxqDsrE7VRYO3ch70AHi6ZXTyKR1YcyM0Kiw3S0kxpjbtWReOJ3lXwry-BjcusDKhRsAxErDIBD6IFuY5ucRTtpfPoNgiq7rSFG8SFNvTe-_wh39Bwjj3JeRnw6kzujiKgxGiAH9GYm6LVvG2ljdWacJjSyoDE6mbFwgRCGdDh4h6eMCPs7hjQmNByx76lb0PYt-BuD9xCfiEFMoKJzTjWUvOy1gbmOrjY5xtkkByo8PCS40YRqXiYQ0Me9U5t_lsdxrvO6f7ajFHBNp_IiQOAstWu9UKC2hiABnVWbHaTFeQSp0tAx9rm5vehC0_a3EAHByGzGFUQ-QWpUO5mvGzZKpPVQrgovg2GsgepxgOMymOgv2CbLNKiwAJJyjDe5d5yXiueH3ZdppJqepXrOGuGOn3e-8RKVu3I-nCp-aMS769Yl5mmS8BYOpxW3HseSzZZMIta4hjsa7hqSgmycflvLV5x-8bM9iBFZ7iOey9oYyEkEbFN-6-Alh2dQfopjE2QNFqW6KatBKHXKHNVoayoc4ZegDKPNAEnAo9wIHkBpDFC-fVoCkGMDcRSeNbF67keruuE0xfMA8ltaklEyRwMcxVQwMhILq6vKlzpJF9OJMGVg5amP_-i4NAsKEfC8Ayp61gByykoWKTWkuLAEAYtXXNIfQ9BPvZca1BITgpC69lapO4SH1UAZ4KRxOTVtbHES_GsjM_lkTv940p3IDkG7jfvxIfY_Q9C3QVbkilRpPvg
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
   name: '[H] 🇫🇷 法国 16'
-  network: xhttp
-  port: 37783
-  reality-opts:
-    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
-    short-id: '!!str 21569dd6'
-  server: 62.210.70.194
-  servername: www.yahoo.com
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.28.175
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
   tls: true
-  type: vless
-  udp: true
-  uuid: a289c660-1b12-432b-a06c-c2ae469272b0
-  xhttp-opts:
-    host: www.yahoo.com
-    mode: auto
-    path: /OCrp5Ajs
+  type: hysteria
+  up: '11'
+- name: '[H] 🇫🇷 法国 17'
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 18'
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 19'
+  port: 443
+  server: 141.94.16.4
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 17'
+  name: '[I] 🇫🇷 法国 20'
   network: tcp
   port: 443
   reality-opts:

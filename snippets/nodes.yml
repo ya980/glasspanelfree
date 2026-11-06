@@ -1,32 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 36'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: '[E] 🌍 其它地区 37'
   network: ws
-  port: '10086'
-  server: 120.48.133.162
+  port: '443'
+  server: www.windowssearchtools.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: www.windowssearchtools.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 38'
+  network: ws
+  port: '443'
+  server: www.gptcloudai.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  ws-opts:
+    headers:
+      Host: www.gptcloudai.com
+    path: /truth
 - alterId: 0
   cipher: auto
   name: '[E] 🇨🇦 加拿大 01'
@@ -116,6 +116,20 @@ proxies:
   name: '[E] 🇨🇦 加拿大 07'
   network: ws
   port: '443'
+  server: www.windowsmsidownloads.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇦 加拿大 08'
+  network: ws
+  port: '443'
   server: 104.21.3.99
   servername: www.windowsmsidownloads.com
   tls: true
@@ -127,7 +141,7 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇦 加拿大 08'
+  name: '[E] 🇨🇦 加拿大 09'
   network: ws
   port: '443'
   server: 172.67.153.127
@@ -141,49 +155,7 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇦 加拿大 09'
-  network: ws
-  port: '443'
-  server: www.windowsmsidownloads.com
-  servername: www.windowsmsidownloads.com
-  tls: true
-  type: vmess
-  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /truth
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 中国 03'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '[E] 🇫🇷 法国 02'
-  network: ws
-  port: '443'
-  server: www.windowssearchtools.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
-  ws-opts:
-    headers:
-      Host: www.windowssearchtools.com
-    path: /truth
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇫🇷 法国 03'
   network: ws
   port: '443'
   server: www.windowssearchtools.com
@@ -197,7 +169,7 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 04'
+  name: '[E] 🇫🇷 法国 03'
   network: ws
   port: '443'
   server: 104.21.15.251
@@ -211,7 +183,7 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 05'
+  name: '[E] 🇫🇷 法国 04'
   network: ws
   port: '443'
   server: 188.114.97.1
@@ -225,7 +197,7 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 06'
+  name: '[E] 🇫🇷 法国 05'
   network: ws
   port: '443'
   server: 188.114.97.1
@@ -239,7 +211,7 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 01'
+  name: '[E] 🇩🇪 德国 02'
   network: ws
   port: '443'
   server: 172.67.156.121
@@ -253,7 +225,7 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 02'
+  name: '[E] 🇩🇪 德国 03'
   network: ws
   port: '443'
   server: www.gptcloudai.com
@@ -267,21 +239,21 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 03'
+  name: '[E] 🇭🇰 香港 02'
   network: ws
   port: '443'
-  server: www.gptcloudai.com
+  server: vipccc.cc
   servername: ''
   tls: true
   type: vmess
-  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  uuid: 5bead32f-a987-4f57-b1a8-6698778facda
   ws-opts:
     headers:
-      Host: www.gptcloudai.com
-    path: /truth
+      Host: ''
+    path: /ray_proxy
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '443'
   server: vipccc.cc
@@ -295,7 +267,7 @@ proxies:
     path: /ray_proxy
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 38'
+  name: '[E] 🌍 其它地区 39'
   network: tcp
   port: '443'
   server: free.ertebatgoostar.ir
@@ -308,7 +280,7 @@ proxies:
   name: '[E] 🇺🇸 美国 04'
   network: ws
   port: '443'
-  server: 172.66.203.67
+  server: 104.21.7.133
   servername: ''
   tls: true
   type: vmess
@@ -322,8 +294,8 @@ proxies:
   name: '[E] 🇺🇸 美国 05'
   network: ws
   port: '443'
-  server: 172.64.229.21
-  servername: ''
+  server: 104.17.136.198
+  servername: vmess.lbw666.dpdns.org
   tls: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
@@ -336,7 +308,7 @@ proxies:
   name: '[E] 🇺🇸 美国 06'
   network: ws
   port: '443'
-  server: 104.17.136.198
+  server: 172.64.229.21
   servername: ''
   tls: true
   type: vmess
@@ -344,27 +316,13 @@ proxies:
   ws-opts:
     headers:
       Host: vmess.lbw666.dpdns.org
-    path: /ws
+    path: /ws?ed=2048
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 07'
   network: ws
   port: '443'
-  server: 104.17.136.198
-  servername: vmess.lbw666.dpdns.org
-  tls: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 08'
-  network: ws
-  port: '443'
-  server: 104.27.0.1
+  server: 172.66.0.1
   servername: ''
   tls: true
   type: vmess
@@ -375,11 +333,11 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 08'
   network: ws
   port: '443'
-  server: 104.21.7.133
-  servername: vmess.lbw666.dpdns.org
+  server: 172.66.203.67
+  servername: ''
   tls: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
@@ -389,10 +347,24 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
+  name: '[E] 🇺🇸 美国 09'
+  network: ws
+  port: '443'
+  server: 172.66.203.67
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
   name: '[E] 🇺🇸 美国 10'
   network: ws
   port: '443'
-  server: 172.66.0.1
+  server: cf.877771.xyz
   servername: vmess.lbw666.dpdns.org
   tls: true
   type: vmess
@@ -406,15 +378,15 @@ proxies:
   name: '[E] 🇺🇸 美国 11'
   network: ws
   port: '443'
-  server: 172.66.203.67
-  servername: ''
+  server: cf.877771.xyz
+  servername: vmess.lbw666.dpdns.org
   tls: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
       Host: vmess.lbw666.dpdns.org
-    path: /ws
+    path: /ws?ed=2048
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 12'
@@ -434,8 +406,8 @@ proxies:
   name: '[E] 🇺🇸 美国 13'
   network: ws
   port: '443'
-  server: cf.0sm.com
-  servername: ''
+  server: cf.090227.xyz
+  servername: vmess.lbw666.dpdns.org
   tls: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
@@ -448,15 +420,15 @@ proxies:
   name: '[E] 🇺🇸 美国 14'
   network: ws
   port: '443'
-  server: cf.877771.xyz
-  servername: vmess.lbw666.dpdns.org
+  server: cf.090227.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
       Host: vmess.lbw666.dpdns.org
-    path: /ws
+    path: /ws?ed=2048
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 15'
@@ -469,42 +441,42 @@ proxies:
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
-      Host: vmess.lbw666.dpdns.org
+      Host: ''
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 16'
   network: ws
   port: '443'
-  server: cf.877771.xyz
-  servername: vmess.lbw666.dpdns.org
+  server: cf.0sm.com
+  servername: ''
   tls: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
-      Host: ''
+      Host: vmess.lbw666.dpdns.org
     path: /ws
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 17'
   network: ws
-  port: '80'
-  server: 104.17.147.222
+  port: '443'
+  server: 104.27.0.1
   servername: ''
-  tls: false
+  tls: true
   type: vmess
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
       Host: vmess.lbw666.dpdns.org
-    path: /ws?ed=2048
+    path: /ws
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 18'
   network: ws
   port: '443'
-  server: 172.64.229.21
+  server: 172.66.0.1
   servername: vmess.lbw666.dpdns.org
   tls: true
   type: vmess
@@ -518,6 +490,62 @@ proxies:
   name: '[E] 🇺🇸 美国 19'
   network: ws
   port: '443'
+  server: cf.0sm.com
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 20'
+  network: ws
+  port: '443'
+  server: cf.877771.xyz
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 21'
+  network: ws
+  port: '443'
+  server: 104.17.136.198
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 22'
+  network: ws
+  port: '443'
+  server: 172.64.229.21
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 23'
+  network: ws
+  port: '443'
   server: 172.64.229.21
   servername: ''
   tls: true
@@ -529,21 +557,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 20'
-  network: ws
-  port: '443'
-  server: 172.66.0.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 21'
+  name: '[E] 🇺🇸 美国 24'
   network: ws
   port: '443'
   server: 172.66.203.67
@@ -557,48 +571,6 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 22'
-  network: ws
-  port: '443'
-  server: cf.877771.xyz
-  servername: vmess.lbw666.dpdns.org
-  tls: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 23'
-  network: ws
-  port: '443'
-  server: cf.090227.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 24'
-  network: ws
-  port: '443'
-  server: cf.090227.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- alterId: 0
-  cipher: auto
   name: '[E] 🇺🇸 美国 25'
   network: ws
   port: '8443'
@@ -609,21 +581,21 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 26'
   network: ws
   port: '8443'
-  server: 104.21.57.84
-  servername: ''
+  server: 104.21.91.53
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: ''
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
@@ -637,7 +609,7 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
@@ -654,7 +626,7 @@ proxies:
       Host: ''
     path: /lMnsZUN4/
 - alterId: 0
-  cipher: none
+  cipher: auto
   name: '[E] 🇺🇸 美国 29'
   network: ws
   port: '8443'
@@ -673,20 +645,6 @@ proxies:
   network: ws
   port: '8443'
   server: 172.67.167.78
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 31'
-  network: ws
-  port: '8443'
-  server: 172.67.167.78
   servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
@@ -694,6 +652,20 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 31'
+  network: ws
+  port: '8443'
+  server: 172.67.167.78
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
@@ -715,7 +687,7 @@ proxies:
   network: ws
   port: '8443'
   server: 172.67.161.144
-  servername: ''
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -729,13 +701,13 @@ proxies:
   network: ws
   port: '8443'
   server: 172.64.155.209
-  servername: v2ray1.dozapp.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
@@ -763,67 +735,11 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 37'
-  network: ws
-  port: '8443'
-  server: 188.114.96.3
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 38'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 39'
-  network: ws
-  port: '8443'
-  server: 104.21.91.53
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 40'
-  network: ws
-  port: '8443'
-  server: 172.64.155.209
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 41'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -837,7 +753,7 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 42'
+  name: '[E] 🇺🇸 美国 38'
   network: ws
   port: '8443'
   server: chatgpt.com
@@ -849,189 +765,71 @@ proxies:
     headers:
       Host: ''
     path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 02'
-  network: ws
-  port: '2083'
-  server: or3.sfacg.uk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 03'
-  network: ws
-  port: '2083'
-  server: 104.17.0.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 04'
-  network: ws
-  port: '2083'
-  server: 104.21.0.1
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 05'
-  network: ws
-  port: '2083'
-  server: cdn.sfacg.uk
-  servername: cdn.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 06'
-  network: ws
-  port: '2083'
-  server: 162.159.130.234
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 07'
-  network: ws
-  port: '2083'
-  server: 162.159.135.234
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 08'
-  network: ws
-  port: '2083'
-  server: or3.sfacg.uk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    path:
-    - /QQqun-737805443
-  name: '[H] 🇺🇸 美国 48'
-  network: http
-  port: '52080'
-  server: 23.94.83.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
-  xudp: true
-- name: '[H] 🇺🇸 美国 69'
+- name: '[H] 🇺🇸 美国 44'
   network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: '443'
-  server: 216.106.186.46
-  skip-cert-verify: false
-  sni: cdn.findlocaljobnetworkandbuildcommunityconnections.com
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: '[I] 🇯🇵 日本 16'
+  name: '[I] 🇯🇵 日本 07'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 87'
+  name: '[I] 🌍 其它地区 49'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 88'
+  name: '[I] 🌍 其它地区 50'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 89'
+  name: '[I] 🌍 其它地区 51'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 90'
+  name: '[I] 🌍 其它地区 52'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 91'
+  name: '[I] 🌍 其它地区 53'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 92'
+  name: '[I] 🌍 其它地区 54'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 93'
+  name: '[I] 🌍 其它地区 55'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 94'
+  name: '[I] 🌍 其它地区 56'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 95'
+  name: '[I] 🌍 其它地区 57'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18

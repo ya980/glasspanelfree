@@ -9,14 +9,20 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.188.142
-  skip-cert-verify: false
-  sni: bl1.nexfile.net
-  tls: false
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 02'
+  network: ws
+  port: '443'
+  server: www.windowssearchtools.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: www.windowssearchtools.com
+    path: /truth
 - alterId: 0
   cipher: auto
   name: '[E] 🇫🇷 法国 03'
@@ -29,7 +35,7 @@ proxies:
   uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
   ws-opts:
     headers:
-      Host: www.windowssearchtools.com
+      Host: ''
     path: /truth
 - alterId: 0
   cipher: auto
@@ -37,7 +43,7 @@ proxies:
   network: ws
   port: '443'
   server: 104.21.15.251
-  servername: www.windowssearchtools.com
+  servername: ''
   tls: true
   type: vmess
   uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
@@ -50,7 +56,7 @@ proxies:
   name: '[E] 🇫🇷 法国 05'
   network: ws
   port: '443'
-  server: www.windowssearchtools.com
+  server: 188.114.97.1
   servername: www.windowssearchtools.com
   tls: true
   type: vmess
@@ -59,208 +65,44 @@ proxies:
     headers:
       Host: ''
     path: /truth
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 06'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 188.95.52.121
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 07'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 188.95.52.120
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 08'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 188.95.52.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 09'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 188.95.52.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 10'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 11'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.201
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 12'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 13'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 14'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇫🇷 法国 15'
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: '!!str 716b7eba38125f3a'
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: '[H] 🇫🇷 法国 16'
-  password: dongtaiwang.com
-  port: 24667
-  server: 62.210.28.175
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 06'
+  network: ws
+  port: '443'
+  server: 188.114.97.1
+  servername: www.windowssearchtools.com
   tls: true
-  type: hysteria
-  up: '11'
-- name: '[H] 🇫🇷 法国 17'
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇫🇷 法国 18'
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: www.windowssearchtools.com
+    path: /truth
+- name: '[H] 🇫🇷 法国 07'
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇫🇷 法国 19'
-  port: 443
-  server: 141.94.16.4
+- name: '[H] 🇫🇷 法国 08'
+  password: None
+  port: 8081
+  server: 31.32.19.111
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 20'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+- name: '[H] 🇫🇷 法国 09'
+  port: 8090
+  server: 80.124.109.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 10'
+  password: ''
+  port: '443'
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

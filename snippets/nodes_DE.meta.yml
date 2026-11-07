@@ -1,86 +1,135 @@
 proxies:
-- client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 01'
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
+- encryption: none
+  name: '[B] 🇩🇪 德国 01'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
   type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: /asdasd
-- client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 02'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: /asdasd
-- client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇩🇪 德国 03'
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
-- client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇩🇪 德国 04'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 05'
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: '!!str 55986a94e2228791'
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: false
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7d28421-b7f8-43af-ad2a-da2da9ca6520
-- name: '[H] 🇩🇪 德国 06'
-  password: None
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: '[B] 🇩🇪 德国 02'
+  network: tcp
   port: 443
-  server: 87.249.132.97
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: '[B] 🇩🇪 德国 03'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: '[B] 🇩🇪 德国 04'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: '[B] 🇩🇪 德国 05'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇩🇪 德国 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
+- client-fingerprint: firefox
+  name: '[F] 🇩🇪 德国 07'
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: '[F] 🇩🇪 德国 08'
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  flow: ''
+  name: '[G] 🇩🇪 德国 09'
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
   skip-cert-verify: true
   tls: true
-  type: http
-  username: null
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: '%2Fasdasd'
+- client-fingerprint: firefox
+  flow: ''
+  name: '[G] 🇩🇪 德国 10'
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: '%2Fasdasd'

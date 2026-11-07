@@ -1,32 +1,5 @@
 proxies:
-- insecure: '1'
-  mport: 40000-49999
-  name: '[B] 🇨🇳 台湾 01'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- name: '[F] 🇨🇳 台湾 03'
+- name: '[F] 🇨🇳 台湾 01'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 6549
   server: tw.ccwink.cc
@@ -35,7 +8,7 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: firefox
-  name: '[F] 🇨🇳 台湾 04'
+  name: '[F] 🇨🇳 台湾 02'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -53,7 +26,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇨🇳 台湾 05'
+  name: '[F] 🇨🇳 台湾 03'
   network: ws
   port: 53725
   server: 45.207.159.60
@@ -70,7 +43,7 @@ proxies:
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇨🇳 台湾 06'
+  name: '[G] 🇨🇳 台湾 04'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -87,7 +60,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇨🇳 台湾 07'
+  name: '[G] 🇨🇳 台湾 05'
   network: ws
   port: 53725
   server: 45.207.159.60

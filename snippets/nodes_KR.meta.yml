@@ -1,26 +1,8 @@
 proxies:
-- name: '[B] 🇰🇷 韩国 01'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: '[B] 🇰🇷 韩国 02'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇰🇷 韩国 03'
+  name: '[F] 🇰🇷 韩国 01'
   network: ws
   port: 443
   server: 109.61.127.247
@@ -38,7 +20,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇰🇷 韩国 04'
+  name: '[F] 🇰🇷 韩国 02'
   network: ws
   port: 28017
   server: 121.154.67.134
@@ -57,7 +39,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇰🇷 韩国 05'
+  name: '[G] 🇰🇷 韩国 03'
   network: ws
   port: 443
   server: 109.61.127.247
@@ -73,7 +55,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇰🇷 韩国 06'
+  name: '[G] 🇰🇷 韩国 04'
   network: ws
   port: 28017
   server: 121.154.67.134

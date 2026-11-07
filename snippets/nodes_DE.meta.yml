@@ -11,11 +11,25 @@ proxies:
   uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
   ws-opts:
     headers:
-      Host: www.gptcloudai.com
+      Host: ''
     path: /truth
 - alterId: 0
   cipher: auto
   name: '[E] 🇩🇪 德国 02'
+  network: ws
+  port: '443'
+  server: 172.67.156.121
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  ws-opts:
+    headers:
+      Host: www.gptcloudai.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 03'
   network: ws
   port: '443'
   server: www.gptcloudai.com
@@ -27,8 +41,22 @@ proxies:
     headers:
       Host: ''
     path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 04'
+  network: ws
+  port: '443'
+  server: www.gptcloudai.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  ws-opts:
+    headers:
+      Host: www.gptcloudai.com
+    path: /truth
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 03'
+  name: '[F] 🇩🇪 德国 05'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -44,7 +72,7 @@ proxies:
       Host: de01.564895.xyz
     path: /asdasd
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 04'
+  name: '[F] 🇩🇪 德国 06'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -61,7 +89,7 @@ proxies:
     path: /asdasd
 - client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇩🇪 德国 05'
+  name: '[G] 🇩🇪 德国 07'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -76,7 +104,7 @@ proxies:
     path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇩🇪 德国 06'
+  name: '[G] 🇩🇪 德国 08'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -89,21 +117,46 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- name: '[H] 🇩🇪 德国 07'
-  port: 9443
-  server: 79.127.156.177
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 01ad85319ae3
+  name: '[H] 🇩🇪 德国 09'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q
+    short-id: '!!str 051e90ed3d657158'
+  server: 79.182.39.110
+  servername: ac3f32g.de18.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
+  xudp: true
+- name: '[H] 🇩🇪 德国 10'
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 08'
+  udp: true
+- name: '[H] 🇩🇪 德国 11'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 12'
   password: None
   port: 443
-  server: 149.36.50.157
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 09'
+- name: '[H] 🇩🇪 德国 13'
   password: None
   port: 443
   server: 87.249.132.97
@@ -111,13 +164,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 10'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 11'
+- name: '[H] 🇩🇪 德国 14'
   password: None
   port: 443
   server: 152.233.20.206
@@ -125,7 +172,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 12'
+- name: '[H] 🇩🇪 德国 15'
   password: None
   port: 443
   server: 172.64.68.89
@@ -133,24 +180,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 13'
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 14'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 15'
-  password: ''
-  port: '12345'
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
-  username: ''

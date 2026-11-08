@@ -1,20 +1,18 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.188.143
   skip-cert-verify: false
   sni: bl1.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.101
+  skip-cert-verify: false
+  sni: pl1.nexfile.net
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 03'
@@ -25,7 +23,23 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 04'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.142
+  skip-cert-verify: false
+  sni: pl3.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 05'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.149
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 06'
   password: p5xt6oLOA3qikIaj
   port: 25482
   server: fi-p1.h1cloud.net
@@ -33,15 +47,24 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[I] 🇫🇷 法国 05'
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: am-3rjmrITvv3q3smauPEtMZYnwvt-48611YJfKQhig
-    short-id: '!!str e722d6ff'
-  server: 179.253.98.66
-  servername: skskks.top
-  tls: false
-  type: vless
-  uuid: af185070-7170-46a8-b1e9-d61a035f4691
+- name: '[H] 🇫🇷 法国 07'
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇫🇷 法国 08'
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 09'
+  password: ''
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

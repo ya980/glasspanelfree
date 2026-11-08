@@ -6,10 +6,29 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: '[H] 🇷🇺 俄罗斯 02'
-  port: 8443
-  server: 87.242.85.187
+  password: ''
+  port: '3128'
+  server: 156.59.9.65
   skip-cert-verify: true
-  tls: true
   type: http
+  username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o
+    short-id: '!!str 8d03c10b6a874a9c'
+  server: 92.243.66.79
+  servername: ru-mow.probe.geomyip.com
+  tls: false
+  type: vless
+  uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
+- cipher: aes-256-gcm
+  name: '[I] 🇷🇺 俄罗斯 04'
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.47.58
+  type: ss

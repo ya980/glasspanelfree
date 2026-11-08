@@ -5,9 +5,27 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] EE 02'
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] EE 02'
+  network: tcp
+  port: 2087
+  reality-opts:
+    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
+  server: ee.song69.fun
+  servername: ee.song69.fun
+  tls: false
+  type: vless
+  uuid: 92b79c22-f68b-4713-8b21-52f264cb92f5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] EE 03'
+  network: tcp
+  port: 2087
+  reality-opts:
+    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
+  server: 132.243.74.104
+  servername: ee.song69.fun
+  tls: false
+  type: vless
+  uuid: 92b79c22-f68b-4713-8b21-52f264cb92f5

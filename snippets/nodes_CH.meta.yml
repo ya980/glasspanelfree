@@ -1,33 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] CH 01'
-  network: tcp
-  port: 2058
-  reality-opts:
-    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
-    short-id: '!!str 937255313d6ce673'
-  server: 62.109.1.5
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
-- name: '[H] CH 02'
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] CH 03'
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] CH 04'
+  name: '[I] CH 01'
   network: tcp
   port: 443
   reality-opts:

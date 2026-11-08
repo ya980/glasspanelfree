@@ -1,13 +1,5 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: 144.31.221.57
-  skip-cert-verify: true
-  sni: player.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 02'
+- name: '[E] 🇩🇪 德国 01'
   password: ba3aeb91-2ed0-45d3-8dcf-81e5ed45168b
   port: 8443
   server: 89.105.218.106
@@ -16,7 +8,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 03'
+  name: '[E] 🇩🇪 德国 02'
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
@@ -26,7 +18,7 @@ proxies:
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 04'
+  name: '[E] 🇩🇪 德国 03'
   network: raw
   port: '443'
   server: de.zhou-yufan.com
@@ -35,7 +27,7 @@ proxies:
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 05'
+  name: '[F] 🇩🇪 德国 04'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -51,7 +43,7 @@ proxies:
       Host: de01.564895.xyz
     path: /asdasd
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 06'
+  name: '[F] 🇩🇪 德国 05'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -66,25 +58,25 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: /asdasd
+- client-fingerprint: firefox
+  flow: ''
+  name: '[G] 🇩🇪 德国 06'
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: ''
   name: '[G] 🇩🇪 德国 07'
   network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
-- client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇩🇪 德国 08'
-  network: ws
   port: 2096
   server: cf02.564895.xyz
   servername: de01.564895.xyz
@@ -96,88 +88,24 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.gamsBJiUbGb-5RA4-tFL9_fkSCAAPnyduBmUDKIH_Fc
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: '[H] 🇩🇪 德国 09'
-  network: xhttp
-  port: '443'
-  server: 146.75.57.111
-  servername: community.fastly.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc66f7b1-2ca2-4078-a520-4cab4f2f731e
-  xhttp-opts:
-    host: konokshwyeuueushsjskkknd.global.ssl.fastly.net
-    mode: auto
-    path: /configure/services/vzQ6lbMCPkOKGnZN5uJR3e/versions/2/domains
-  xudp: true
-- name: '[H] 🇩🇪 德国 10'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 11'
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 12'
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 13'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇩🇪 德国 14'
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 15'
-  network: xhttp
-  port: '61374'
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 08'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-    short-id: '!!str '
-  server: pl-b1.golangwikito.cfd
-  servername: pl-b1.golangwikito.cfd
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: '!!str 2c9a2790ad5900b2'
+  server: 64.188.66.181
+  servername: ge-s-1.pythonmakemigreat.wiki
   tls: true
   type: vless
   udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: pl-b1.golangwikito.cfd
-    mode: packet-up
-    path: /
-    reuse-settings:
-      max-connections: '3'
-    x-padding-bytes: 100-500
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 443
   reality-opts:
@@ -190,7 +118,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 10'
   network: tcp
   port: 9889
   reality-opts:

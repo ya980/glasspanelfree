@@ -9,37 +9,18 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
   name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: vipccc.cc
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5bead32f-a987-4f57-b1a8-6698778facda
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ray_proxy
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  sni: vpn-hk-004.fastervpn.world
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[E] 🇭🇰 香港 03'
-  network: ws
-  port: '443'
-  server: vipccc.cc
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5bead32f-a987-4f57-b1a8-6698778facda
-  ws-opts:
-    headers:
-      Host: vipccc.cc
-    path: /ray_proxy
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 04'
   network: ws
   port: '443'
   server: 104.25.134.76
@@ -54,7 +35,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 04'
   network: ws
   port: 11310
   server: 218.102.64.147
@@ -72,7 +53,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 05'
   network: ws
   port: 9383
   server: 218.102.64.147
@@ -90,7 +71,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 06'
   network: ws
   port: 12611
   server: 45.221.114.46
@@ -109,7 +90,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 07'
   network: ws
   port: 11310
   server: 218.102.64.147
@@ -125,7 +106,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇭🇰 香港 09'
+  name: '[G] 🇭🇰 香港 08'
   network: ws
   port: 9383
   server: 218.102.64.147
@@ -141,7 +122,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[G] 🇭🇰 香港 10'
+  name: '[G] 🇭🇰 香港 09'
   network: ws
   port: 12611
   server: 45.221.114.46

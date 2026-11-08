@@ -1,11 +1,15 @@
 proxies:
-- name: '[D] 🇨🇳 中国 01'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52062
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 01'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''

@@ -15,10 +15,27 @@ proxies:
   sni: pl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
-  port: 20443
-  server: 84.32.98.84
-  sni: hy6b373d.w-mebel.pro
+- name: '[D] 🇫🇷 法国 03'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.106
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 04'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.142
+  skip-cert-verify: false
+  sni: pl3.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 05'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.149
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
   tls: false
   type: hysteria2

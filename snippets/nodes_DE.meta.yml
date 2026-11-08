@@ -1,9 +1,12 @@
 proxies:
-- name: '[E] 🇩🇪 德国 01'
-  password: ba3aeb91-2ed0-45d3-8dcf-81e5ed45168b
-  port: 8443
-  server: 89.105.218.106
-  sni: speedtestmark.com
+- name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: vpnJey
+  port: 36264
+  server: 179.61.138.145
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
 - alterId: 0
@@ -16,18 +19,8 @@ proxies:
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇩🇪 德国 03'
-  network: raw
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 04'
+  name: '[F] 🇩🇪 德国 03'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -43,7 +36,7 @@ proxies:
       Host: de01.564895.xyz
     path: /asdasd
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 05'
+  name: '[F] 🇩🇪 德国 04'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -58,25 +51,25 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: /asdasd
+- client-fingerprint: firefox
+  flow: ''
+  name: '[G] 🇩🇪 德国 05'
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: ''
   name: '[G] 🇩🇪 德国 06'
   network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
-- client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇩🇪 德国 07'
-  network: ws
   port: 2096
   server: cf02.564895.xyz
   servername: de01.564895.xyz
@@ -88,24 +81,9 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 08'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: '!!str 2c9a2790ad5900b2'
-  server: 64.188.66.181
-  servername: ge-s-1.pythonmakemigreat.wiki
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 09'
+  name: '[I] 🇩🇪 德国 07'
   network: tcp
   port: 443
   reality-opts:
@@ -118,7 +96,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 08'
   network: tcp
   port: 9889
   reality-opts:

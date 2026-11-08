@@ -1,7 +1,15 @@
 proxies:
+- fingerprint: firefox
+  name: '[E] EE 01'
+  password: 190edece-2750-454c-b766-0570fc32deca
+  port: 19453
+  server: 89.125.214.221
+  sni: mshvpn.online
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] EE 01'
+  name: '[I] EE 02'
   network: tcp
   port: 2087
   reality-opts:
@@ -13,7 +21,7 @@ proxies:
   uuid: 92b79c22-f68b-4713-8b21-52f264cb92f5
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] EE 02'
+  name: '[I] EE 03'
   network: tcp
   port: 2087
   reality-opts:

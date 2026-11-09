@@ -1,15 +1,6 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: 5ictxgawam84vgrp
-  port: 2098
-  server: arsalanvpn.trapxan.ir
-  sni: arsalanvpn.trapxan.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 02'
+  name: '[F] 🇩🇪 德国 01'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -25,7 +16,7 @@ proxies:
       Host: de01.564895.xyz
     path: /asdasd
 - client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 03'
+  name: '[F] 🇩🇪 德国 02'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -42,7 +33,7 @@ proxies:
     path: /asdasd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 04'
+  name: '[G] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:
@@ -55,7 +46,7 @@ proxies:
   uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -68,7 +59,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 05'
   network: tcp
   port: 443
   reality-opts:

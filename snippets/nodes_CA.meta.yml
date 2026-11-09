@@ -1,50 +1,17 @@
 proxies:
-- name: '[E] 🇨🇦 加拿大 01'
-  password: cJytMmPWpB4JAC-VlzE8rCMhcLznQiLb
-  port: 27017
-  server: 31.56.189.198
-  sni: static.cdnnow.xyz
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇦 加拿大 01'
+  network: raw
+  port: '8080'
+  server: 116.88.224.217
+  servername: ''
   tls: false
-  type: hysteria2
-- fingerprint: firefox
-  name: '[E] 🇨🇦 加拿大 02'
-  password: 190edece-2750-454c-b766-0570fc32deca
-  port: 19455
-  server: 89.125.214.221
-  sni: mshvpn.online
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: firefox
-  name: '[E] 🇨🇦 加拿大 03'
-  password: 190edece-2750-454c-b766-0570fc32deca
-  port: 19455
-  server: 89.125.214.221
-  sni: mshvpn.online
-  tls: false
-  type: hysteria2
-- fingerprint: firefox
-  name: '[E] 🇨🇦 加拿大 04'
-  password: 190edece-2750-454c-b766-0570fc32deca
-  port: 19453
-  server: 89.125.214.221
-  sni: mshvpn.online
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: firefox
-  name: '[E] 🇨🇦 加拿大 05'
-  password: 190edece-2750-454c-b766-0570fc32deca
-  port: 19453
-  server: 89.125.214.221
-  sni: mshvpn.online
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇦 加拿大 06'
+  name: '[I] 🇨🇦 加拿大 02'
   network: tcp
   port: 8443
   reality-opts:
@@ -57,7 +24,7 @@ proxies:
   uuid: b3ac565c-fe3a-4279-868c-43c41c05e358
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇦 加拿大 07'
+  name: '[I] 🇨🇦 加拿大 03'
   network: tcp
   port: 8443
   reality-opts:
@@ -70,7 +37,7 @@ proxies:
   uuid: 1f734181-97b2-479e-87f9-3dda35fc3685
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇦 加拿大 08'
+  name: '[I] 🇨🇦 加拿大 04'
   network: tcp
   port: 8443
   reality-opts:
@@ -83,7 +50,7 @@ proxies:
   uuid: e1b32562-91ba-404f-946e-d4c41293a67b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇦 加拿大 09'
+  name: '[I] 🇨🇦 加拿大 05'
   network: tcp
   port: 8443
   reality-opts:

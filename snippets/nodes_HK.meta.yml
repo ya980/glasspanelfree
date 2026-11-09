@@ -9,9 +9,48 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
+- name: '[E] 🇭🇰 香港 02'
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  port: 443
+  server: 653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 03'
+  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
+  port: 443
+  server: 4e3e8635-tmm5c0-tvh2gy-1qzi1.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 4e3e8635-tmm5c0-tvh2gy-1qzi1.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 04'
+  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 7fd7c72c-tlsio0-trg4wh-z65w.hk3.hyhuawei.com
+  sni: 7fd7c72c-tlsio0-trg4wh-z65w.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 05'
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: 5e293df6-tmm5c0-tujecz-1qkeg.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 5e293df6-tmm5c0-tujecz-1qkeg.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 06'
+  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  port: 443
+  server: 6dd24f6b-tm96o0-tnggms-6gn6.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 6dd24f6b-tm96o0-tnggms-6gn6.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇭🇰 香港 07'
   network: tcp
   port: '10898'
   server: 101.32.187.182
@@ -19,20 +58,10 @@ proxies:
   tls: false
   type: vmess
   uuid: b6b14ef7-a769-406f-9df7-31790ff7a920
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 03'
-  network: tcp
-  port: '22222'
-  server: 64.118.129.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a5206a55-d5bd-41b9-92a5-bd27a90355ff
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 08'
   network: ws
   port: 11310
   server: 218.102.64.147
@@ -50,7 +79,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 09'
   network: ws
   port: 9383
   server: 218.102.64.147
@@ -68,7 +97,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 10'
   network: ws
   port: 12611
   server: 45.221.114.46
@@ -85,7 +114,7 @@ proxies:
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇭🇰 香港 07'
+  name: '[G] 🇭🇰 香港 11'
   network: tcp
   port: 443
   reality-opts:
@@ -96,7 +125,7 @@ proxies:
   tls: false
   type: vless
   uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
-- name: '[H] 🇭🇰 香港 08'
+- name: '[H] 🇭🇰 香港 12'
   password: None
   port: 31343
   server: 120.232.204.58
@@ -104,7 +133,7 @@ proxies:
   tls: true
   type: http
 - client-fingerprint: firefox
-  name: '[I] 🇭🇰 香港 09'
+  name: '[I] 🇭🇰 香港 13'
   port: 31884
   server: 152.175.6.229
   servername: hk010.zestapp778.com

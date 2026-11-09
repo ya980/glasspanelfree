@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  fingerprint: firefox
+  name: '[E] EE 01'
+  password: 190edece-2750-454c-b766-0570fc32deca
+  port: 19453
+  server: 89.125.214.221
+  sni: mshvpn.online
+  tls: false
+  type: hysteria2

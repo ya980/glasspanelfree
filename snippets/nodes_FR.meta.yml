@@ -2,20 +2,12 @@ proxies:
 - name: '[D] 🇫🇷 法国 01'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
-  server: 13.143.188.143
-  skip-cert-verify: false
-  sni: bl1.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
   server: 13.143.189.101
   skip-cert-verify: false
   sni: pl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 02'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.106
@@ -23,7 +15,7 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 03'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.142
@@ -31,7 +23,7 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
+- name: '[D] 🇫🇷 法国 04'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.149

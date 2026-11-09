@@ -2,12 +2,20 @@ proxies:
 - name: '[D] 🇫🇷 法国 01'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
+  server: 13.143.188.143
+  skip-cert-verify: false
+  sni: bl1.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
   server: 13.143.189.101
   skip-cert-verify: false
   sni: pl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
+- name: '[D] 🇫🇷 法国 03'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.106
@@ -15,7 +23,7 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 04'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.142
@@ -23,7 +31,7 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 05'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.149
@@ -31,3 +39,43 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: '[H] 🇫🇷 法国 06'
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.28.175
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: '11'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: '[H] 🇫🇷 法国 07'
+  port: 24667
+  protocol: udp
+  server: 62.210.28.175
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: '[H] 🇫🇷 法国 08'
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 09'
+  password: None
+  port: 443
+  server: 84.235.228.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

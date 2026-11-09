@@ -44,9 +44,135 @@ proxies:
   tls: false
   type: vless
   uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
+- encryption: none
+  name: '[H] 🇩🇪 德国 04'
+  network: xhttp
+  port: '20705'
+  server: fast.mo-chephosting.ir
+  type: vless
+  udp: true
+  uuid: 1e8edcb4-844f-43e1-9ce0-99d07038f17c
+  xhttp-opts:
+    host: cafeariel.ir
+    mode: stream-up
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+  encryption: none
+  name: '[H] 🇩🇪 德国 05'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
+    short-id: '!!str e572b6579ea525d4'
+  server: 79.182.39.109
+  servername: 71b840t.de7.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+  xudp: true
+- name: '[H] 🇩🇪 德国 06'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 07'
+  port: 443
+  server: 116.202.172.99
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 08'
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 09'
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 10'
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 11'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 12'
+  port: 443
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 13'
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 14'
+  password: None
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 15'
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇩🇪 德国 16'
+  network: xhttp
+  port: '61374'
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+    short-id: '!!str '
+  server: 187.7.206.127
+  servername: fl-b2.golangwikito.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xhttp-opts:
+    host: fl-b2.golangwikito.cfd
+    mode: packet-up
+    path: /
+    reuse-settings:
+      max-connections: '3'
+    x-padding-bytes: 100-500
+  xudp: true
+- name: '[H] 🇩🇪 德国 17'
+  password: 'null'
+  port: '443'
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 18'
   network: tcp
   port: 443
   reality-opts:
@@ -57,15 +183,3 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 05'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
-  server: 176.100.37.154
-  servername: modx-au.bachidze.com
-  tls: false
-  type: vless
-  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137

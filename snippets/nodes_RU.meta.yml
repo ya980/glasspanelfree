@@ -1,13 +1,8 @@
 proxies:
-- cipher: aes-256-gcm
-  name: '[I] 🇷🇺 俄罗斯 01'
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 46.17.47.58
-  type: ss
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[H] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 443
   reality-opts:
@@ -17,4 +12,6 @@ proxies:
   servername: ru-mow.probe.geomyip.com
   tls: false
   type: vless
+  udp: true
   uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
+  xudp: true

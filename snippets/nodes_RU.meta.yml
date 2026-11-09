@@ -1,7 +1,13 @@
 proxies:
+- cipher: aes-256-gcm
+  name: '[I] 🇷🇺 俄罗斯 01'
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.47.58
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
   port: 443
   reality-opts:
@@ -12,9 +18,3 @@ proxies:
   tls: false
   type: vless
   uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
-- cipher: aes-256-gcm
-  name: '[I] 🇷🇺 俄罗斯 02'
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 46.17.47.58
-  type: ss

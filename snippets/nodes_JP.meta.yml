@@ -2,6 +2,16 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 01'
+  network: tcp
+  port: '32515'
+  server: 141.11.139.102
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 081dbf5a-d8b6-40c8-96f8-3c4ca9f50442
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 02'
   network: ws
   port: '443'
   server: 162.159.128.17
@@ -13,8 +23,102 @@ proxies:
     headers:
       Host: v2ray.ryin.vip
     path: /ryinsocksv2board
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 03'
+  network: tcp
+  port: '11353'
+  server: df.668fx.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d105eadc-c3ea-4a82-a299-373d75f2d2b7
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 04'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 05'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 06'
+  network: ws
+  port: '2083'
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 07'
+  network: ws
+  port: '2083'
+  server: 104.21.0.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 08'
+  network: ws
+  port: '2083'
+  server: 104.17.0.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 09'
+  network: ws
+  port: '2083'
+  server: 162.159.135.234
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - client-fingerprint: firefox
-  name: '[F] 🇯🇵 日本 02'
+  name: '[F] 🇯🇵 日本 10'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -32,7 +136,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 11'
   network: ws
   port: 5002
   server: 104.194.83.133
@@ -50,7 +154,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 12'
   network: ws
   port: 18549
   server: 45.196.233.54
@@ -65,63 +169,41 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇯🇵 日本 05'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: jp01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: jp01.564895.xyz
-    path: '%2Fasdasd'
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇯🇵 日本 06'
-  network: ws
-  port: 5002
-  server: 104.194.83.133
-  servername: speedtest.danfengno1.kdns.fr
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇯🇵 日本 07'
-  network: ws
-  port: 18549
-  server: 45.196.233.54
-  servername: speedtest.danfengno1.kdns.fr
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 08'
+  name: '[G] 🇯🇵 日本 13'
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-    short-id: '!!str 7da3ba09a037e956'
-  server: 212.69.135.27
-  servername: uk-room05.filesnap.tech
+    public-key: dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I
+    short-id: '!!str 2c92d6'
+  server: jpgajma.xyy123.date
+  servername: home.amazon.com
   tls: false
   type: vless
-  uuid: b3ac565c-fe3a-4279-868c-43c41c05e358
+  uuid: a4fa57a2-d4df-482b-afec-aa38a824a23a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇯🇵 日本 14'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
+    short-id: '!!str aa0760ff'
+  server: jp2static.xyy123.bid
+  servername: p-yo-www-amazon-com-kalias.amazon.com
+  tls: false
+  type: vless
+  uuid: 97d628e6-f4f2-4673-ac1f-703b8d4c871b
+- cipher: aes-256-gcm
+  name: '[I] 🇯🇵 日本 15'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇯🇵 日本 16'
+  password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9
+  port: 443
+  server: 45.12.89.202
+  type: ss

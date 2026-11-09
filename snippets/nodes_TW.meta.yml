@@ -1,5 +1,15 @@
 proxies:
-- name: '[F] 🇨🇳 台湾 01'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 台湾 01'
+  network: tcp
+  port: '22222'
+  server: 103.160.180.26
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5206a55-d5bd-41b9-92a5-bd27a90355ff
+- name: '[F] 🇨🇳 台湾 02'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 6549
   server: tw.ccwink.cc
@@ -8,7 +18,7 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: firefox
-  name: '[F] 🇨🇳 台湾 02'
+  name: '[F] 🇨🇳 台湾 03'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -26,7 +36,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇨🇳 台湾 03'
+  name: '[F] 🇨🇳 台湾 04'
   network: ws
   port: 53725
   server: 45.207.159.60
@@ -41,34 +51,3 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇨🇳 台湾 04'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: tw01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: tw01.564895.xyz
-    path: '%2Fasdasd'
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇨🇳 台湾 05'
-  network: ws
-  port: 53725
-  server: 45.207.159.60
-  servername: speedtest.danfengno1.kdns.fr
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'

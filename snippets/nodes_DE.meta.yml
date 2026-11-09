@@ -1,23 +1,32 @@
 proxies:
-- client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 01'
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: /asdasd
+- name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: 5ictxgawam84vgrp
+  port: 2098
+  server: arsalanvpn.trapxan.ir
+  sni: arsalanvpn.trapxan.ir
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   name: '[F] 🇩🇪 德国 02'
   network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: '[F] 🇩🇪 德国 03'
+  network: ws
   port: 2096
   server: cf02.564895.xyz
   servername: de01.564895.xyz
@@ -31,36 +40,19 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: /asdasd
-- client-fingerprint: firefox
-  flow: ''
-  name: '[G] 🇩🇪 德国 03'
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
-- client-fingerprint: firefox
-  flow: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[G] 🇩🇪 德国 04'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
+    short-id: '!!str 83faf94a0e'
+  server: jp2static.xyy123.bid
+  servername: amazon.com
+  tls: false
   type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
+  uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[I] 🇩🇪 德国 05'
@@ -78,11 +70,11 @@ proxies:
   flow: xtls-rprx-vision
   name: '[I] 🇩🇪 德国 06'
   network: tcp
-  port: 9889
+  port: 443
   reality-opts:
-    public-key: GPwEGfRBoztNbcAvfX4ojY9FJ1vaMD3v21tnIrN2xyE
-  server: 200.96.106.2
-  servername: tiktok2.transitbp2systems.com
+    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
+  server: 176.100.37.154
+  servername: modx-au.bachidze.com
   tls: false
   type: vless
-  uuid: 0dcefe19-a42a-4d57-96be-83dcbffd425f
+  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137

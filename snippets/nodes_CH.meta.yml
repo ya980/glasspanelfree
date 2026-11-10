@@ -1,7 +1,21 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[H] CH 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: prvtch.titun.su
+  servername: perevodchiki.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] CH 02'
   network: tcp
   port: 443
   reality-opts:
@@ -13,25 +27,15 @@ proxies:
   type: vless
   udp: true
   uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] CH 02'
-  network: tcp
+- name: '[H] CH 03'
   port: 443
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: '!!str 428ef87fd47a3a32'
-  server: 46.19.138.214
-  servername: perevodchiki.su
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  xudp: true
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] CH 03'
+  name: '[H] CH 04'
   port: 443
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
@@ -44,17 +48,16 @@ proxies:
   type: vless
   udp: true
   uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- name: '[H] CH 04'
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] CH 05'
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] CH 05'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: '!!str 428ef87fd47a3a32'
+  server: 46.19.138.214
+  servername: perevodchiki.su
+  tls: false
+  type: vless
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24

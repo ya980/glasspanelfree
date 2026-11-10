@@ -18,21 +18,21 @@ proxies:
   name: '[E] 🇯🇵 日本 02'
   network: ws
   port: '2083'
-  server: or3.sfacg.uk
-  servername: cdn.sfacg.uk
+  server: 104.21.0.1
+  servername: or3.sfacg.uk
   tls: true
   type: vmess
   uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
+      Host: ''
     path: /or3
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 03'
   network: ws
   port: '2083'
-  server: 104.17.0.1
+  server: 104.21.0.1
   servername: ''
   tls: true
   type: vmess
@@ -46,34 +46,6 @@ proxies:
   name: '[E] 🇯🇵 日本 04'
   network: ws
   port: '2083'
-  server: 104.21.0.1
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 05'
-  network: ws
-  port: '2083'
-  server: 162.159.130.234
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 06'
-  network: ws
-  port: '2083'
   server: cdn.sfacg.uk
   servername: cdn.sfacg.uk
   tls: true
@@ -85,63 +57,7 @@ proxies:
     path: /or3
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 07'
-  network: ws
-  port: '2083'
-  server: 104.21.0.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 08'
-  network: ws
-  port: '2083'
-  server: 104.21.50.177
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 09'
-  network: ws
-  port: '2083'
-  server: 104.21.50.177
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 10'
-  network: ws
-  port: '2083'
-  server: 162.159.135.234
-  servername: cdn.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 11'
+  name: '[E] 🇯🇵 日本 05'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
@@ -151,10 +67,10 @@ proxies:
   uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: ''
+      Host: or3.sfacg.uk
     path: /or3
 - client-fingerprint: firefox
-  name: '[F] 🇯🇵 日本 12'
+  name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -172,7 +88,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇯🇵 日本 13'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 5002
   server: 104.194.83.133
@@ -190,7 +106,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇯🇵 日本 14'
+  name: '[F] 🇯🇵 日本 08'
   network: ws
   port: 18549
   server: 45.196.233.54
@@ -207,7 +123,7 @@ proxies:
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇯🇵 日本 15'
+  name: '[G] 🇯🇵 日本 09'
   network: tcp
   port: 443
   reality-opts:
@@ -220,7 +136,7 @@ proxies:
   uuid: a4fa57a2-d4df-482b-afec-aa38a824a23a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇯🇵 日本 16'
+  name: '[G] 🇯🇵 日本 10'
   network: tcp
   port: 443
   reality-opts:
@@ -231,3 +147,9 @@ proxies:
   tls: false
   type: vless
   uuid: 97d628e6-f4f2-4673-ac1f-703b8d4c871b
+- cipher: aes-256-gcm
+  name: '[I] 🇯🇵 日本 11'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss

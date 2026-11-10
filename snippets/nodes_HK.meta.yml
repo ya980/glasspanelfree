@@ -1,8 +1,46 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: vipccc.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5bead32f-a987-4f57-b1a8-6698778facda
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ray_proxy
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
+  server: vipccc.cc
+  servername: vipccc.cc
+  tls: true
+  type: vmess
+  uuid: 5bead32f-a987-4f57-b1a8-6698778facda
+  ws-opts:
+    headers:
+      Host: vipccc.cc
+    path: /ray_proxy
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 03'
+  network: tcp
+  port: '10898'
+  server: 101.32.187.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b6b14ef7-a769-406f-9df7-31790ff7a920
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 01'
+  name: '[F] 🇭🇰 香港 04'
   network: ws
   port: 11310
   server: 218.102.64.147
@@ -20,7 +58,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 05'
   network: ws
   port: 9383
   server: 218.102.64.147
@@ -38,7 +76,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 06'
   network: ws
   port: 12611
   server: 45.221.114.46
@@ -55,7 +93,7 @@ proxies:
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇭🇰 香港 04'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: 443
   reality-opts:
@@ -66,3 +104,13 @@ proxies:
   tls: false
   type: vless
   uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
+- fingerprint: ''
+  name: '[H] 🇭🇰 香港 08'
+  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  port: '43120'
+  server: dddz-1-x.473221.xyz
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: anytls
+  udp: true
+  username: 65ec84f5-0dd4-4582-8b4f-592e50b22116

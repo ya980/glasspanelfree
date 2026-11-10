@@ -18,15 +18,16 @@ proxies:
   type: http
 - name: '[H] 🇨🇦 加拿大 03'
   password: None
-  port: 9443
-  server: 23.169.224.34
+  port: 443
+  server: 206.223.183.21
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[H] 🇨🇦 加拿大 04'
-  port: 443
-  server: 206.223.161.47
+  password: None
+  port: 9443
+  server: 149.88.98.81
   skip-cert-verify: true
   tls: true
   type: http
@@ -37,14 +38,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇨🇦 加拿大 06'
-  password: None
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
   port: 443

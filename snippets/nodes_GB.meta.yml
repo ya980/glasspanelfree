@@ -1,9 +1,56 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇬🇧 英国 01'
+  network: ws
+  port: '443'
+  server: eu2.998998.best
+  servername: server47.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae
+  ws-opts:
+    headers:
+      Host: server47.9966338.xyz
+    path: /socks
+- name: '[H] 🇬🇧 英国 02'
   password: None
-  port: 443
-  server: 185.164.138.156
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: '[H] 🇬🇧 英国 03'
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 04'
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 06'
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: '29813'
+  server: en001.zestapp778.com
+  skip-cert-verify: true
+  sni: en001.zestapp778.com
+  type: trojan
+  udp: true

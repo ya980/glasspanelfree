@@ -5,7 +5,7 @@ proxies:
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
-  servername: ''
+  servername: de.zhou-yufan.com
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
@@ -54,16 +54,97 @@ proxies:
   tls: false
   type: vless
   uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
-- auth: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
-  name: '[H] 🇩🇪 德国 05'
-  password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
+- name: '[H] 🇩🇪 德国 05'
+  password: None
   port: 443
-  server: 194.48.250.233
+  server: 152.233.20.206
   skip-cert-verify: true
-  sni: mol.ultimagamest.com
-  type: hysteria2
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 06'
+  password: 'null'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇩🇪 德国 07'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 08'
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 09'
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 10'
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 11'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 12'
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 13'
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 14'
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 15'
+  network: xhttp
+  port: '443'
+  server: neeee.kpt99.uk
+  servername: neeee.kpt99.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38de3363-7945-402e-9a9b-6f2f9015a44e
+  xhttp-opts:
+    host: neeee.kpt99.uk
+    mode: stream-one
+    path: /static/js/chunk
+  xudp: true
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 16'
   network: tcp
   port: 443
   reality-opts:

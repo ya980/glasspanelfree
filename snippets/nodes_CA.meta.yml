@@ -9,36 +9,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
-- name: '[H] 🇨🇦 加拿大 02'
-  password: None
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 03'
-  password: None
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇨🇦 加拿大 04'
-  password: None
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇨🇦 加拿大 05'
-  password: None
-  port: 443
-  server: 206.223.183.13
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇨🇦 加拿大 06'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇦 加拿大 02'
+  network: raw
+  port: '8080'
+  server: 116.88.224.217
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
+- name: '[I] 🇨🇦 加拿大 03'
   network: ws
   password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
   port: 443

@@ -1,46 +1,7 @@
 proxies:
-- name: '[D] 🇷🇺 俄罗斯 01'
-  password: kKd2watTl7WACOoIAjkzt4MW6ak6I3c1Un8c4-oNMtU
-  port: 5443
-  server: 84.252.100.138
-  sni: nl.vip-get.ru
-  tls: false
-  type: hysteria2
-- name: '[H] 🇷🇺 俄罗斯 02'
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: xhttp
-  port: '443'
-  server: www.codex2api.com
-  servername: a16f22cds861.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: a16f22cds861.kuback.top
-    path: e5cd832964ff5385df8fd301ac09aef0
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache
-    x-padding-key: ts
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 443
   reality-opts:

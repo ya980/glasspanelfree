@@ -12,13 +12,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇸🇬 新加坡 02'
-  network: raw
-  port: '10086'
-  server: 195.133.135.238
+  network: tcp
+  port: '8080'
+  server: 116.88.224.217
   servername: ''
   tls: false
   type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[F] 🇸🇬 新加坡 03'
@@ -97,3 +97,48 @@ proxies:
     headers:
       Host: cdn-sg.skyvora.app
     path: '%2Faxzfrv47qcn'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 08'
+  network: tcp
+  port: '46105'
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: '!!str 28f5c1f8f98a'
+  server: zfapi.zalolink.com
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 09'
+  network: tcp
+  port: '46957'
+  reality-opts:
+    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
+    short-id: '!!str 8f6683a234d3'
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 10'
+  network: tcp
+  port: '35460'
+  reality-opts:
+    public-key: mkVsbEvwaiSo9QwnrVN65YZ92QntQQyYs2iDxN6yTlw
+    short-id: '!!str 30d976db3eab32'
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true

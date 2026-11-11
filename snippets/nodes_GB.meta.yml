@@ -1,15 +1,24 @@
 proxies:
 - name: '[H] 🇬🇧 英国 01'
   password: None
-  port: 9443
-  server: 84.17.50.214
+  port: 443
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 02'
-  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  password: None
   port: 443
-  server: 475c295c-t9zts0-tfi5fd-1imi4.uk.oshuawei.com
+  server: 212.102.63.31
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
-  username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  udp: true
+- name: '[H] 🇬🇧 英国 03'
+  password: None
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -65,9 +65,44 @@ proxies:
   sni: guide.blog-forme.ru
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 09'
-  port: 9443
-  server: 138.199.47.247
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 09'
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  port: 443
+  server: guide.blog-forme.ru
+  skip-cert-verify: false
+  sni: guide.blog-forme.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: '[H] 🇫🇷 法国 10'
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.28.175
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: '11'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: '[H] 🇫🇷 法国 11'
+  port: 36699
+  server: 163.172.117.163
+  skip-cert-verify: true
+  type: hysteria
+  up: '11'
+  x-toolall-mihomo: true
+- name: '[H] 🇫🇷 法国 12'
+  port: 443
+  server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http

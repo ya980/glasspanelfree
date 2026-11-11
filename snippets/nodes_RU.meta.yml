@@ -1,28 +1,32 @@
 proxies:
 - name: '[H] 🇷🇺 俄罗斯 01'
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇷🇺 俄罗斯 02'
-  password: 'null'
-  port: '1446'
+  password: None
+  port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o
-    short-id: '!!str 8d03c10b6a874a9c'
-  server: 92.243.66.79
-  servername: ru-mow.probe.geomyip.com
-  tls: false
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: xhttp
+  port: '443'
+  server: www.codex2api.com
+  servername: 6f01ee42s71.kuback.top
+  tls: true
   type: vless
-  uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: 6f01ee42s71.kuback.top
+    path: 5c2362f82436fa224a67e22abb0a5e42
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Cache-Key
+    x-padding-key: bust
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+  xudp: true

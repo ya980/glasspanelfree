@@ -9,92 +9,91 @@ proxies:
   tls: false
   type: vmess
   uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-- client-fingerprint: firefox
-  name: '[F] 🇸🇬 新加坡 02'
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: sg01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: sg01.564895.xyz
-    path: /asdasd
-- client-fingerprint: firefox
-  name: '[F] 🇸🇬 新加坡 03'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: sg01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: sg01.564895.xyz
-    path: /asdasd
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[F] 🇸🇬 新加坡 04'
-  network: ws
-  port: 443
-  server: 206.54.46.225
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[F] 🇸🇬 新加坡 05'
-  network: ws
-  port: 443
-  server: 206.54.46.241
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.SBhv9qyZHRZ-dNjgM7FYWs97MXcEd8KXzMTrFc7X6Gs
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 02'
+  network: raw
+  port: '10086'
+  server: 195.133.135.238
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇸🇬 新加坡 06'
-  network: xhttp
+  name: '[F] 🇸🇬 新加坡 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: '!!str deccc6fac1ddb0ff'
+  server: 67.159.49.30
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[F] 🇸🇬 新加坡 04'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: '!!str deccc6fac1ddb0ff'
+  server: 67.159.49.26
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[F] 🇸🇬 新加坡 05'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: '!!str deccc6fac1ddb0ff'
+  server: 67.159.49.27
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+- client-fingerprint: chrome
+  name: '[F] 🇸🇬 新加坡 06'
+  network: ws
   port: 8443
-  server: sgp.beijingshi.asia
-  servername: sgp.beijingshi.asia
+  server: cdn-sg.skyvora.app
+  servername: cdn-sg.skyvora.app
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 14c36bd3-d631-4618-99aa-5f6c1c9f4abc
-  xhttp-opts:
-    host: sgp.beijingshi.asia
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+  ws-opts:
+    headers:
+      Host: cdn-sg.skyvora.app
+    path: /axzfrv47qcn
+- client-fingerprint: chrome
+  flow: ''
+  name: '[G] 🇸🇬 新加坡 07'
+  network: ws
+  port: 8443
+  server: cdn-sg.skyvora.app
+  servername: cdn-sg.skyvora.app
+  tls: true
+  type: vless
+  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+  ws-opts:
+    headers:
+      Host: cdn-sg.skyvora.app
+    path: '%2Faxzfrv47qcn'

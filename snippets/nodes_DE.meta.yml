@@ -5,113 +5,62 @@ proxies:
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
+  servername: ''
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 02'
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: /asdasd
-- client-fingerprint: firefox
-  name: '[F] 🇩🇪 德国 03'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: /asdasd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 04'
+  name: '[F] 🇩🇪 德国 02'
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
-    short-id: '!!str 83faf94a0e'
-  server: jp2static.xyy123.bid
-  servername: amazon.com
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 50.7.86.203
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
-- name: '[H] 🇩🇪 德国 05'
+  udp: true
+  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[F] 🇩🇪 德国 03'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 50.7.86.214
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- name: '[H] 🇩🇪 德国 04'
   password: None
   port: 443
-  server: 152.233.20.206
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 05'
+  port: 443
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 06'
-  password: 'null'
-  port: 9002
-  server: 158.173.154.2
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: '[H] 🇩🇪 德国 07'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 08'
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 09'
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 10'
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 11'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇩🇪 德国 12'
-  password: None
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 13'
   password: None
   port: 443
   server: 172.64.68.89
@@ -119,32 +68,49 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇩🇪 德国 14'
-  port: 9443
-  server: 213.177.229.161
+- name: '[H] 🇩🇪 德国 08'
+  password: None
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 15'
-  network: xhttp
+  username: null
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 10'
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 11'
+  network: ws
   port: '443'
-  server: neeee.kpt99.uk
-  servername: neeee.kpt99.uk
+  server: support.zoom.us.vltj.qzz.io
+  servername: support.zoom.us.vltj.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 38de3363-7945-402e-9a9b-6f2f9015a44e
-  xhttp-opts:
-    host: neeee.kpt99.uk
-    mode: stream-one
-    path: /static/js/chunk
+  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
+  ws-opts:
+    headers:
+      Host: support.zoom.us.vltj.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /id-pusat
   xudp: true
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 12'
   network: tcp
   port: 443
   reality-opts:

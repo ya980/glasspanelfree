@@ -2,7 +2,34 @@ proxies:
 - name: '[H] 🇬🇧 英国 01'
   password: None
   port: 9443
-  server: 84.17.50.129
+  server: 84.17.50.214
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇬🇧 英国 02'
+  password: None
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] 🇬🇧 英国 03'
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇬🇧 英国 04'
+  password: ''
+  port: '9052'
+  server: 57.128.249.250
+  skip-cert-verify: true
+  type: socks5
+  username: ''

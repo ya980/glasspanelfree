@@ -1,17 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇩🇪 德国 01'
-  network: raw
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇩🇪 德国 02'
+  name: '[F] 🇩🇪 德国 01'
   network: tcp
   port: 2053
   reality-opts:
@@ -27,7 +17,7 @@ proxies:
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇩🇪 德国 03'
+  name: '[F] 🇩🇪 德国 02'
   network: tcp
   port: 2053
   reality-opts:
@@ -41,8 +31,65 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 03'
+  network: ws
+  port: '1001'
+  server: ir.li6nk.ir
+  servername: ir.li6nk.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b24b15b-4f09-4ace-867b-dcd2f5a08c4d
+  ws-opts:
+    headers:
+      Host: filimo.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /
+  xudp: true
+- name: '[H] 🇩🇪 德国 04'
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 05'
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 06'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 08'
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 443
   reality-opts:

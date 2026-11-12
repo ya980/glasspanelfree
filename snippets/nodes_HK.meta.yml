@@ -94,3 +94,41 @@ proxies:
     headers:
       Host: cdn-hk.skyvora.app
     path: '%2Fzmeadqv620k'
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇭🇰 香港 08'
+  obfs: ''
+  obfs-password: ''
+  password: 7HJAmHSJ7A5SJp2J
+  port: '56577'
+  server: 18.163.210.78
+  skip-cert-verify: true
+  sni: hk-ls-p-11.czzhkractqqakfzdmrgd.cc
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇭🇰 香港 09'
+  obfs: ''
+  obfs-password: ''
+  password: mn5vCwjc0e9nEryV
+  port: '16199'
+  server: 18.163.119.155
+  skip-cert-verify: true
+  sni: hk-ls-m-20.khljbzxpeytzgsqgtfki.cc
+  type: hysteria2
+  up: ''
+- cipher: aes-128-gcm
+  name: '[H] 🇭🇰 香港 10'
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: '40011'
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '[H] 🇭🇰 香港 11'
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: '40010'
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+  udp: true

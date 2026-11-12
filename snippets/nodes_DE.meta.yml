@@ -2,13 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇩🇪 德国 01'
-  network: httpupgrade
+  network: raw
   port: '443'
-  server: 91.199.19.62
+  server: de.zhou-yufan.com
   servername: ''
   tls: true
   type: vmess
-  uuid: fb38f723-410d-4bfa-9ba6-a2895305a169
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[F] 🇩🇪 德国 02'
@@ -41,67 +41,8 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- name: '[H] 🇩🇪 德国 04'
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 05'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 07'
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 08'
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 09'
-  network: tcp
-  port: '8443'
-  server: static.54.132.13.49.clients.your-server.de
-  servername: static.241.103.99.91.clients.your-server.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696906b1-f085-4561-8237-d7dd660bb7ed
-  xudp: true
-- name: '[H] 🇩🇪 德国 10'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 11'
+  name: '[I] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:

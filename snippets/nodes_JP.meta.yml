@@ -1,121 +1,7 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  network: ws
-  port: 17416
-  security: tls
-  server: 103.133.240.115
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristifp=chrome
-- name: '[B] 🇯🇵 日本 02'
-  network: ws
-  port: 30003
-  security: tls
-  server: 140.235.10.14
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristifp=chrome
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 03'
-  network: ws
-  port: 15807
-  server: 138.2.112.117
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  skip-cert-verify: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 04'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '[B] 🇯🇵 日本 05'
-  network: ws
-  port: 8880
-  server: 176.124.223.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 06'
-  network: ws
-  port: 30001
-  security: tls
-  server: 114.204.40.185
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 07'
-  network: ws
-  port: 7152
-  security: tls
-  server: 8.219.129.246
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 08'
-  network: ws
-  port: 42769
-  server: 45.143.131.216
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  skip-cert-verify: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristi
-- name: '[B] 🇯🇵 日本 09'
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  port: 443
-  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 10'
+  name: '[E] 🇯🇵 日本 01'
   network: ws
   port: '443'
   server: 162.159.128.17
@@ -129,17 +15,7 @@ proxies:
     path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 11'
-  network: tcp
-  port: '64952'
-  server: 106.15.230.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 279c2c58-2001-4f1a-8c12-fa9bd992f4ef
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 12'
+  name: '[E] 🇯🇵 日本 02'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
@@ -153,133 +29,105 @@ proxies:
     path: /or3
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 13'
+  name: '[E] 🇯🇵 日本 03'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 04'
   network: ws
   port: '2083'
   server: 104.17.0.1
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 14'
-  network: ws
-  port: '2083'
-  server: 162.159.135.234
-  servername: cdn.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 15'
-  network: ws
-  port: '2083'
-  server: 104.21.0.1
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 16'
-  network: ws
-  port: '2083'
-  server: 104.21.0.1
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 17'
-  network: ws
-  port: '2083'
-  server: 104.21.50.177
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 18'
-  network: ws
-  port: '2083'
-  server: 104.21.50.177
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 19'
-  network: ws
-  port: '2083'
-  server: 162.159.130.234
-  servername: or3.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 20'
-  network: ws
-  port: '2083'
-  server: cdn.sfacg.uk
-  servername: cdn.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 21'
-  network: ws
-  port: '2083'
-  server: or3.sfacg.uk
   servername: ''
   tls: true
   type: vmess
   uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 05'
+  network: ws
+  port: '2083'
+  server: 104.21.0.1
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
       Host: ''
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 06'
+  network: ws
+  port: '2083'
+  server: 104.21.0.1
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 07'
+  network: ws
+  port: '2083'
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 08'
+  network: ws
+  port: '2083'
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 09'
+  network: ws
+  port: '2083'
+  server: 162.159.130.234
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
     path: /or3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇯🇵 日本 22'
+  name: '[F] 🇯🇵 日本 10'
   network: tcp
   port: 443
   reality-opts:
@@ -295,7 +143,7 @@ proxies:
   uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇯🇵 日本 23'
+  name: '[F] 🇯🇵 日本 11'
   network: tcp
   port: 2053
   reality-opts:
@@ -311,7 +159,7 @@ proxies:
   uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇯🇵 日本 24'
+  name: '[F] 🇯🇵 日本 12'
   network: tcp
   port: 2083
   reality-opts:
@@ -326,7 +174,7 @@ proxies:
   udp: true
   uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 25'
+  name: '[F] 🇯🇵 日本 13'
   network: ws
   port: 8443
   server: cdn-jp.skyvora.app
@@ -343,7 +191,7 @@ proxies:
     path: /pmcxbjzdau6
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 26'
+  name: '[G] 🇯🇵 日本 14'
   network: ws
   port: 8443
   server: cdn-jp.skyvora.app
@@ -355,23 +203,24 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: tj
-  name: '[H] 🇯🇵 日本 27'
-  network: grpc
-  port: '20230'
-  reality-opts:
-    public-key: lbOfuIKCBPcQH4AEnwnPw1LNxWrl-Bul6KU99H240Fc
-    short-id: '!!str abae4722'
-  server: jp004.421421.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0400697c-b581-4575-9d2f-0bbd4659312d
-  xudp: true
-- name: '[I] 🇯🇵 日本 28'
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇯🇵 日本 15'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
+    mode: tls
+  port: 2377
+  server: 13.231.100.94
+  type: ss
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: '[I] 🇯🇵 日本 16'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+- name: '[I] 🇯🇵 日本 17'
   network: ws
   port: 443
   server: 3.169.9.125

@@ -44,28 +44,27 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
+- name: '[D] SE 07'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 2.27.210.6
+  skip-cert-verify: true
+  sni: lv2.nexfile.net
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[D] SE 07'
+  name: '[D] SE 08'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 2.27.210.6
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] SE 08'
+- name: '[D] SE 09'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: bl1.nexfile.net
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '[H] SE 09'
-  port: 9443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true

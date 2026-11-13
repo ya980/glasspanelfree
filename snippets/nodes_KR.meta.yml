@@ -1,23 +1,19 @@
 proxies:
-- name: '[H] 🇰🇷 韩国 01'
-  port: 443
-  server: 152.69.230.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇰🇷 韩国 02'
-  network: tcp
-  port: '2087'
-  reality-opts:
-    public-key: AAYhSMyOgyytc9fhznqZtWFV-XZJ9t1vwV6vzGaWUi0
-    short-id: '!!str 3208691e9b9f3369'
-  server: 3.35.47.150
-  servername: test-sto.dev.helpnow.ai
-  tls: true
+- name: '[B] 🇰🇷 韩国 01'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
   type: vless
-  udp: true
-  uuid: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
-  xudp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev

@@ -1,15 +1,25 @@
 proxies:
-- cipher: aes-128-gcm
-  name: '[H] 🇭🇰 香港 10'
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-  port: '40011'
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[H] 🇭🇰 香港 11'
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-  port: '40010'
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 04'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 06'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 07'
+  network: tcp
+  port: '49534'
+  server: 139.224.244.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 279c2c58-2001-4f1a-8c12-fa9bd992f4ef

@@ -1,17 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 01'
-  network: tcp
-  port: '10086'
-  server: 195.133.135.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 01'
   network: tcp
   port: 443
   reality-opts:
@@ -27,7 +17,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇸🇬 新加坡 03'
+  name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   port: 2053
   reality-opts:
@@ -43,7 +33,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇸🇬 新加坡 04'
+  name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   port: 2053
   reality-opts:
@@ -58,7 +48,7 @@ proxies:
   udp: true
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
-  name: '[F] 🇸🇬 新加坡 05'
+  name: '[F] 🇸🇬 新加坡 04'
   network: ws
   port: 8443
   server: cdn-sg.skyvora.app
@@ -75,7 +65,7 @@ proxies:
     path: /axzfrv47qcn
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇸🇬 新加坡 06'
+  name: '[G] 🇸🇬 新加坡 05'
   network: ws
   port: 8443
   server: cdn-sg.skyvora.app
@@ -87,3 +77,20 @@ proxies:
     headers:
       Host: cdn-sg.skyvora.app
     path: '%2Faxzfrv47qcn'
+- name: '[H] 🇸🇬 新加坡 06'
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: '[H] 🇸🇬 新加坡 07'
+  password: None
+  port: '9090'
+  server: 128.199.254.13
+  skip-cert-verify: true
+  type: http
+  username: ''

@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  name: '[D] 🇷🇺 俄罗斯 01'
+  password: '!!str 1794613669'
+  port: 443
+  server: 212.41.9.190
+  skip-cert-verify: false
+  sni: hu.lumacache.com
+  tls: false
+  type: hysteria2
+- name: '[H] 🇷🇺 俄罗斯 02'
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http

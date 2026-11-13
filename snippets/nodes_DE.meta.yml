@@ -1,31 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇩🇪 德国 01'
-  network: tcp
-  port: '44580'
-  server: 94.184.18.132
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45dc5086-f30d-4b34-aac4-612c074243c8
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇩🇪 德国 02'
-  network: ws
-  port: '443'
-  server: 13.249.231.85
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a84c132a-3151-40fe-947b-4dd9a7d2122c
-  ws-opts:
-    headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
-    path: /vmess
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇩🇪 德国 03'
+  name: '[F] 🇩🇪 德国 01'
   network: tcp
   port: 2053
   reality-opts:
@@ -41,7 +17,7 @@ proxies:
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇩🇪 德国 04'
+  name: '[F] 🇩🇪 德国 02'
   network: tcp
   port: 2053
   reality-opts:
@@ -55,7 +31,62 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- client-fingerprint: chrome
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: '[H] 🇩🇪 德国 03'
+  network: xhttp
+  port: '443'
+  server: 167.82.76.31
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5a5c345-e307-45ce-abf4-2bb8131adc86
+  xhttp-opts:
+    host: sammpolic.global.ssl.fastly.net
+    mode: auto
+    path: /setare
+    reuse-settings:
+      h-keep-alive-period: 20
+      h-max-request-times: 300-500
+      h-max-reusable-secs: 300-480
+      max-concurrency: 16-32
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: '[H] 🇩🇪 德国 04'
+  network: ws
+  port: '443'
+  server: 199.232.78.120
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+  ws-opts:
+    headers:
+      Host: finalnsdger.global.ssl.fastly.net.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
 - name: '[H] 🇩🇪 德国 05'
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 06'
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -64,9 +95,56 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 08'
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 09'
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 10'
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: mlkem768x25519plus.native.0rtt.w4VhnEPArk9nRWufTDpPfnv7b-aqjeULWesK74OpJE4
+  name: '[H] 🇩🇪 德国 11'
+  network: tcp
+  port: '1468'
+  server: n8.hyby.ir
+  type: vless
+  udp: true
+  uuid: b6da1396-cfa7-421c-92b6-8bc947f0d308
+  xudp: true
+- name: '[H] 🇩🇪 德国 12'
+  password: ''
+  port: '443'
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇩🇪 德国 13'
+  password: ''
+  port: '9002'
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 443
   reality-opts:

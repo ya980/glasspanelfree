@@ -7,7 +7,8 @@ proxies:
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
-- name: '[D] SE 02'
+- fingerprint: chrome
+  name: '[D] SE 02'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 24433
   server: 94.183.164.119
@@ -52,19 +53,29 @@ proxies:
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[D] SE 08'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 2.27.210.6
-  sni: lv2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '[D] SE 09'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: bl1.nexfile.net
-  sni: bl1.nexfile.net
-  tls: false
-  type: hysteria2
+- name: '[H] SE 08'
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: '[H] SE 09'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+    short-id: '!!str 27350908de933e09'
+  server: 185.117.89.74
+  servername: seb.kosmosapp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8cb3c89-32af-4255-bebc-d90aad175069
+  xudp: true

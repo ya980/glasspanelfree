@@ -87,27 +87,3 @@ proxies:
     headers:
       Host: cdn-sg.skyvora.app
     path: '%2Faxzfrv47qcn'
-- client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 07'
-  password: Z5lvhmLqSc
-  port: 48994
-  server: matrix.phonicsindia.mobi
-  skip-cert-verify: true
-  sni: m.microsoft.com
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 08'
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇸🇬 新加坡 09'
-  password: None
-  port: '9090'
-  server: 152.42.170.187
-  skip-cert-verify: true
-  type: http
-  username: ''

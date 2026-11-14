@@ -17,79 +17,79 @@ proxies:
   cipher: auto
   name: '[E] 🇯🇵 日本 02'
   network: ws
-  port: '2083'
-  server: 104.21.50.177
-  servername: or3.sfacg.uk
+  port: '443'
+  server: JP032001.ssgreen.org
+  servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 40ac6697-aeba-40a5-a984-e127508a1c9e
   ws-opts:
     headers:
-      Host: ''
-    path: /or3
+      Host: JP032001.ssgreen.org
+    path: /wes
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 03'
   network: ws
-  port: '2083'
-  server: 104.21.50.177
-  servername: or3.sfacg.uk
+  port: '443'
+  server: JP032009.ssgreen.org
+  servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: ea7d284e-e6c2-456e-afe6-9496afed6a0a
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
+      Host: JP032009.ssgreen.org
+    path: /wes
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 04'
   network: ws
-  port: '2083'
-  server: 104.17.0.1
-  servername: or3.sfacg.uk
+  port: '443'
+  server: JP032004.ssgreen.org
+  servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 01258924-ee53-495e-8adb-36303844d330
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
+      Host: JP032004.ssgreen.org
+    path: /wes
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 05'
   network: ws
-  port: '2083'
-  server: 162.159.130.234
-  servername: cdn.sfacg.uk
+  port: '443'
+  server: JP032010.ssgreen.org
+  servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 3d7189ba-1efa-41eb-b7a5-793af4d2d728
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
+      Host: JP032010.ssgreen.org
+    path: /wes
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 06'
   network: ws
-  port: '2083'
-  server: cdn.sfacg.uk
-  servername: cdn.sfacg.uk
+  port: '443'
+  server: JP032005.ssgreen.org
+  servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 70437360-4442-438f-83ba-4b82013cddb9
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
+      Host: JP032005.ssgreen.org
+    path: /wes
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 07'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
-  servername: or3.sfacg.uk
+  servername: ''
   tls: true
   type: vmess
   uuid: ac251237-576f-40c8-a543-554960c958b1
@@ -102,8 +102,8 @@ proxies:
   name: '[E] 🇯🇵 日本 08'
   network: ws
   port: '2083'
-  server: or3.sfacg.uk
-  servername: cdn.sfacg.uk
+  server: 162.159.130.234
+  servername: ''
   tls: true
   type: vmess
   uuid: ac251237-576f-40c8-a543-554960c958b1
@@ -117,7 +117,21 @@ proxies:
   network: ws
   port: '2083'
   server: 162.159.135.234
-  servername: cdn.sfacg.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 10'
+  network: ws
+  port: '2083'
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
   tls: true
   type: vmess
   uuid: ac251237-576f-40c8-a543-554960c958b1
@@ -127,7 +141,7 @@ proxies:
     path: /or3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇯🇵 日本 10'
+  name: '[F] 🇯🇵 日本 11'
   network: tcp
   port: 443
   reality-opts:
@@ -143,7 +157,7 @@ proxies:
   uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇯🇵 日本 11'
+  name: '[F] 🇯🇵 日本 12'
   network: tcp
   port: 2053
   reality-opts:
@@ -159,7 +173,7 @@ proxies:
   uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇯🇵 日本 12'
+  name: '[F] 🇯🇵 日本 13'
   network: tcp
   port: 2083
   reality-opts:
@@ -174,7 +188,7 @@ proxies:
   udp: true
   uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 13'
+  name: '[F] 🇯🇵 日本 14'
   network: ws
   port: 8443
   server: cdn-jp.skyvora.app
@@ -191,7 +205,7 @@ proxies:
     path: /pmcxbjzdau6
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 14'
+  name: '[G] 🇯🇵 日本 15'
   network: ws
   port: 8443
   server: cdn-jp.skyvora.app
@@ -203,32 +217,3 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇯🇵 日本 15'
-  port: 43149
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: '!!str 15aa0ad4'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: false
-  sni: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇯🇵 日本 16'
-  network: tcp
-  port: '43149'
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: '!!str 15aa0ad4'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true

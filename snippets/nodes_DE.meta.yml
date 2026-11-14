@@ -1,14 +1,7 @@
 proxies:
-- name: '[E] 🇩🇪 德国 01'
-  password: 7d718630-7a1a-4af8-9332-aa0610634e8a
-  port: 443
-  server: 157.173.16.59
-  sni: static.hain.lalibobi.online
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇩🇪 德国 02'
+  name: '[F] 🇩🇪 德国 01'
   network: tcp
   port: 2053
   reality-opts:
@@ -24,7 +17,7 @@ proxies:
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇩🇪 德国 03'
+  name: '[F] 🇩🇪 德国 02'
   network: tcp
   port: 2053
   reality-opts:
@@ -38,74 +31,41 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 03'
+  network: xhttp
+  port: 2053
+  server: check-host.net
+  servername: n8.hyby.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: d133dd1c-3084-46c3-ba6e-aa3597c43cc1
+  xhttp-opts:
+    host: n8.hyby.ir
+    mode: auto
+    path: /
 - name: '[H] 🇩🇪 德国 04'
-  password: None
   port: 443
-  server: 172.64.68.89
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇩🇪 德国 05'
   port: 443
-  server: 172.64.69.89
+  server: 172.64.68.89
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 06'
-  port: 443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 07'
-  password: 'null'
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  sni: 158.173.154.4
-  tls: true
-  type: http
-  username: 'null'
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇩🇪 德国 08'
-  network: tcp
-  port: 19829
-  server: 109.70.74.217
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 36071c7e-846d-4f3e-a97a-cc8d28c94277
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 10'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI
-    short-id: '!!str db71028aeb67289c'
-  server: 83.141.69.239
-  servername: 83.141.69.239.sslip.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b487f79-6b87-4971-863c-526bd31abd44
-  xudp: true
-- name: '[H] 🇩🇪 德国 11'
-  password: 'null'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-  username: 'null'
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 06'
   network: tcp
   port: 443
   reality-opts:

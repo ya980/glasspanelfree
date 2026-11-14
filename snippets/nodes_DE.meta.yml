@@ -31,30 +31,13 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 03'
-  network: xhttp
-  port: 2053
-  server: check-host.net
-  servername: n8.hyby.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: d133dd1c-3084-46c3-ba6e-aa3597c43cc1
-  xhttp-opts:
-    host: n8.hyby.ir
-    mode: auto
-    path: /
-- name: '[H] 🇩🇪 德国 04'
+- name: '[H] 🇩🇪 德国 03'
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 05'
+- name: '[H] 🇩🇪 德国 04'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -63,9 +46,44 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
+- encryption: mlkem768x25519plus.native.0rtt.GlIc2LFlqBQ3itRnw8zoo3tfD7MSknWWmmLVDdr88jE
+  name: '[H] 🇩🇪 德国 05'
+  network: ws
+  port: 80
+  server: 104.18.43.144
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: erosan.seminar-irani.ir
+    path: /MiMiTDL
+    v2ray-http-upgrade: true
+- name: '[H] 🇩🇪 德国 06'
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 07'
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇩🇪 德国 08'
+  password: 'null'
+  port: '443'
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 443
   reality-opts:

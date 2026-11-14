@@ -15,3 +15,27 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: qi8ws15c7jv5q2fa
+  name: '[H] 🇫🇷 法国 03'
+  network: grpc
+  port: 80
+  server: 200.102.183.226
+  servername: 68r2nrw6avta71yq.cdn.cachefleet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: '[H] 🇫🇷 法国 04'
+  port: 36699
+  server: 163.172.117.163
+  skip-cert-verify: true
+  type: hysteria
+  up: '11'
+  x-toolall-mihomo: true

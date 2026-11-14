@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 01'
+  network: tcp
+  port: '10086'
+  server: 195.133.135.238
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 07'
+  password: Z5lvhmLqSc
+  port: 48994
+  server: matrix.phonicsindia.mobi
+  skip-cert-verify: true
+  sni: m.microsoft.com
+  type: trojan
+  udp: true

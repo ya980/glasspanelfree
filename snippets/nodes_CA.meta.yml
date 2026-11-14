@@ -1,13 +1,13 @@
 proxies:
-- name: '[H] 🇨🇦 加拿大 01'
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 01'
+  password: e45c1654-9184-40c7-b68b-2929ce2a0a89
   port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+  server: 86.107.179.245
+  sni: cruises-cdn.travel-blogmir.blog
+  tls: false
+  type: hysteria2
 - name: '[H] 🇨🇦 加拿大 02'
   password: None
   port: 443

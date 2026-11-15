@@ -15,19 +15,13 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: qi8ws15c7jv5q2fa
-  name: '[H] 🇫🇷 法国 03'
-  network: grpc
-  port: 80
-  server: 200.102.183.226
-  servername: 68r2nrw6avta71yq.cdn.cachefleet.com
+- name: '[H] 🇫🇷 法国 03'
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -39,3 +33,73 @@ proxies:
   type: hysteria
   up: '11'
   x-toolall-mihomo: true
+- name: '[H] 🇫🇷 法国 05'
+  password: None
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: '[H] 🇫🇷 法国 06'
+  password: 'null'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: '[H] 🇫🇷 法国 07'
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.28.175
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: '11'
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇫🇷 法国 08'
+  network: xhttp
+  port: '443'
+  server: 151.101.36.2
+  servername: accounts.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  xhttp-opts:
+    host: oh4.global.ssl.fastly.net
+    mode: auto
+    no-grpc-header: true
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '16'
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇫🇷 法国 09'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: edge.bookmai.com
+  servername: mother-earth.fyi
+  tls: false
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f

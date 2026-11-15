@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: '[H] 🇬🇧 英国 01'
+  network: ws
+  port: '443'
+  server: 146.75.59.186
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+  ws-opts:
+    headers:
+      Host: ukoijji.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: '[H] 🇬🇧 英国 02'
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: '!!str 6976d670818644cc'
+  server: 4935e4t.de25.h1clayd.click
+  servername: 4935e4t.de25.h1clayd.click
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81

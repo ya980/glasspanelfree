@@ -1,11 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
+  name: '[H] 🇭🇰 香港 06'
   network: tcp
-  port: '22222'
-  server: 64.118.129.151
-  servername: ''
+  port: '16113'
+  server: zfd-hkv1.kunlun01dns.com
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: a5206a55-d5bd-41b9-92a5-bd27a90355ff
+  udp: true
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  xudp: true

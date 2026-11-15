@@ -53,12 +53,3 @@ proxies:
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- name: '[H] SE 08'
-  port: 9443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true

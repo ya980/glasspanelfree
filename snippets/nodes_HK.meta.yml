@@ -14,11 +14,17 @@ proxies:
       Host: arranged-samuel-cradle-hayes.trycloudflare.com
     path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
 - name: '[H] 🇭🇰 香港 02'
+  port: 8443
+  server: 38.76.140.254
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: '[H] 🇭🇰 香港 03'
   password: 3b985d60-e252-4935-8e03-06afeb1144c9
-  port: 18000
+  port: '18000'
   server: 112.49.65.212
-  servername: www.biliimg.com
   skip-cert-verify: true
   sni: www.biliimg.com
-  tls: true
   type: trojan
+  udp: true

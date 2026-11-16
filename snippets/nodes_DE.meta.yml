@@ -1,23 +1,94 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt._qY1MWcrBsC4vR5V1hzkHjMTNsnMIRvvkwWc_FBCUCI
+  name: '[H] 🇩🇪 德国 01'
+  network: ws
+  port: 443
+  server: www.thevicinityapp.cn
+  servername: www.thevicinityapp.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1af5253b-75e6-4e2c-8b9e-2b7b92dbb845
+  ws-opts:
+    headers:
+      Host: ded2http.samcdn.shop
+    path: /msn
+    v2ray-http-upgrade: true
+- name: '[H] 🇩🇪 德国 02'
+  password: 'null'
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 02'
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 03'
   port: 443
-  server: 172.64.68.89
+  server: 116.202.172.99
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 03'
-  password: None
+- name: '[H] 🇩🇪 德国 04'
+  password: 'null'
   port: 443
-  server: 172.64.68.89
+  server: 116.202.172.99
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 05'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 06'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 07'
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 08'
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 09'
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true

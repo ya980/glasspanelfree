@@ -17,8 +17,36 @@ proxies:
   tls: false
   type: vmess
   uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 03'
+  network: ws
+  port: '8443'
+  server: 141.193.213.21
+  servername: matrix.phonicsindia.mobi
+  tls: true
+  type: vmess
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  ws-opts:
+    headers:
+      Host: matrix.phonicsindia.mobi
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 04'
+  network: ws
+  port: '8443'
+  server: news.zoom.us
+  servername: matrix.phonicsindia.mobi
+  tls: true
+  type: vmess
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  ws-opts:
+    headers:
+      Host: matrix.phonicsindia.mobi
+    path: /
 - client-fingerprint: chrome
-  name: '[F] 🇸🇬 新加坡 03'
+  name: '[F] 🇸🇬 新加坡 05'
   network: ws
   port: 443
   reality-opts:
@@ -36,7 +64,7 @@ proxies:
     path: /ws
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇸🇬 新加坡 04'
+  name: '[G] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   reality-opts:
@@ -49,10 +77,3 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- name: '[H] 🇸🇬 新加坡 05'
-  password: ''
-  port: '9090'
-  server: 128.199.121.61
-  skip-cert-verify: true
-  type: http
-  username: ''

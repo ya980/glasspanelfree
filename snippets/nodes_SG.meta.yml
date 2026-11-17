@@ -7,8 +7,22 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 02'
+  network: ws
+  port: '8443'
+  server: 141.193.213.21
+  servername: matrix.phonicsindia.mobi
+  tls: true
+  type: vmess
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  ws-opts:
+    headers:
+      Host: matrix.phonicsindia.mobi
+    path: /
 - client-fingerprint: chrome
-  name: '[F] 🇸🇬 新加坡 02'
+  name: '[F] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   reality-opts:
@@ -26,7 +40,7 @@ proxies:
     path: /ws
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇸🇬 新加坡 03'
+  name: '[G] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   reality-opts:

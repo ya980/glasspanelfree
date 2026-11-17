@@ -36,11 +36,9 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] SE 06'
-  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
-  server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
+  server: guide.blog-forme.ru
   tls: false
   type: hysteria2
 - name: '[D] SE 07'
@@ -66,3 +64,15 @@ proxies:
   sni: promo.betust.net
   tls: false
   type: hysteria2
+- client-fingerprint: ios
+  name: '[I] SE 10'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '!!str a7c92e4b10d6f835'
+  server: 88.216.60.73
+  servername: ns-api-gw.galioncc.com
+  tls: false
+  type: vless
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c

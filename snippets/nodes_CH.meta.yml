@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  name: '[E] CH 01'
+  password: 6fffde27-86de-49e5-9ece-0669b6680afc
+  port: 19446
+  server: 89.125.214.221
+  sni: mshvpn.online
+  tls: false
+  type: hysteria2

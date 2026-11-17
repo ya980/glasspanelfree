@@ -20,28 +20,27 @@ proxies:
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
+- name: '[D] SE 04'
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  port: 443
+  server: 212.34.137.105
+  sni: shorts.blog-forme.ru
+  tls: false
+  type: hysteria2
 - fingerprint: chrome
-  name: '[D] SE 04'
+  name: '[D] SE 05'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 24433
   server: 94.183.164.119
   sni: lakes.blog-forme.ru
   tls: false
   type: hysteria2
-- name: '[D] SE 05'
+- name: '[D] SE 06'
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   port: 443
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   skip-cert-verify: true
   sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[D] SE 06'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.96
-  skip-cert-verify: false
-  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: '[D] SE 07'
@@ -67,17 +66,3 @@ proxies:
   sni: promo.betust.net
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: '[H] SE 10'
-  obfs: salamander
-  obfs-password: vxvnmus9agdzduvz
-  password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
-  port: '26206'
-  server: m1.config7x.kz.ci
-  skip-cert-verify: false
-  sni: config7x.de5.net
-  type: hysteria2
-  up: ''

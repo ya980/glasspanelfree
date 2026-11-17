@@ -10,23 +10,22 @@ proxies:
   password: 23c82941-70f4-4381-90db-bd28e9a902e9
   port: 443
   server: steel7.hadsvpn.com
+  tls: false
+  type: hysteria2
+- name: '[D] SE 03'
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  port: 443
+  server: steel7.hadsvpn.com
   skip-cert-verify: false
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
 - fingerprint: chrome
-  name: '[D] SE 03'
+  name: '[D] SE 04'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 24433
   server: 94.183.164.119
   sni: lakes.blog-forme.ru
-  tls: false
-  type: hysteria2
-- name: '[D] SE 04'
-  password: 63e1b9462d708b56d5d5a0267cffecdc
-  port: 443
-  server: 88.216.195.188
-  sni: promo3.goonars.com
   tls: false
   type: hysteria2
 - name: '[D] SE 05'
@@ -61,3 +60,24 @@ proxies:
   sni: hy2-eee-1.aloranode.top
   tls: false
   type: hysteria2
+- name: '[D] SE 09'
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  port: 443
+  server: 50.7.38.243
+  sni: promo.betust.net
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: '[H] SE 10'
+  obfs: salamander
+  obfs-password: vxvnmus9agdzduvz
+  password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
+  port: '26206'
+  server: m1.config7x.kz.ci
+  skip-cert-verify: false
+  sni: config7x.de5.net
+  type: hysteria2
+  up: ''

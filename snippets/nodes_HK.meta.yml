@@ -1,1 +1,38 @@
-proxies: []
+proxies:
+- name: '[D] 🇭🇰 香港 01'
+  obfs: salamander
+  obfs-password: 9veAh9pTbrAfDwM1fIYI
+  password: hAUdd15a7YGHUSgiPOUz
+  port: 443
+  server: 43.103.2.53
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
+  server: cdns.doon.eu.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8614bde7-34cf-4413-8360-e96f1b960528
+  ws-opts:
+    headers:
+      Host: consisting-hosted-memphis-tee.trycloudflare.com
+    path: /vmess-argo?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: fighter-initiatives-plates-spectacular.trycloudflare.com
+  servername: fighter-initiatives-plates-spectacular.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
+  ws-opts:
+    headers:
+      Host: fighter-initiatives-plates-spectacular.trycloudflare.com
+    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm

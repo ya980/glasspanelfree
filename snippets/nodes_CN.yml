@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 01'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a625d148-e988-4008-b957-e9051a6371d2
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 中国 02'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b4eabb06-18ea-4bcb-9ca3-7e8bf3a2d71d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''

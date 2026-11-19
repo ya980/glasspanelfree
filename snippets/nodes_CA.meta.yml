@@ -1,32 +1,80 @@
 proxies:
-- name: '[B] 🇨🇦 加拿大 01'
-  network: ws
-  port: 8880
-  server: 50.62.195.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: '[B] 🇨🇦 加拿大 02'
-  network: ws
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 01'
+  password: 29f90c01-02b6-0001-9249-e3558a9c73a4
   port: 443
-  security: tls
-  server: shopify.com
-  servername: misaka.cndyw.ggff.net
-  tls: true
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  ws-opts:
-    headers:
-      Host: misaka.cndyw.ggff.net
-    path: /?ed=2560
+  server: 185.151.243.186
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 02'
+  password: 00717a40-f058-0001-bd8b-946b3d578273
+  port: 443
+  server: 168.113.254.247
+  sni: vcerx-ru-67sb.my-fade.cloud
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 03'
+  password: 3098af7f-dd3e-0001-b8e5-05a194206ac0
+  port: 443
+  server: 168.113.254.183
+  sni: xykmh-ru-70sb.my-fade.cloud
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 04'
+  password: 5c49355f-afbc-0001-9c1c-8205436bb97c
+  port: 443
+  server: 185.151.243.186
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 05'
+  password: 5c49355f-afbc-0001-9c1c-8205436bb97c
+  port: 443
+  server: 185.151.243.186
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 06'
+  password: 00717a40-f058-0001-bd8b-946b3d578273
+  port: 443
+  server: 168.113.254.247
+  sni: vcerx-ru-67sb.my-fade.cloud
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 07'
+  password: b006650f-8771-0001-b7fa-e18fc6e80ef1
+  port: 443
+  server: 168.113.254.247
+  sni: vcerx-ru-67sb.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 08'
+  password: b006650f-8771-0001-b7fa-e18fc6e80ef1
+  port: 443
+  server: 168.113.254.247
+  sni: vcerx-ru-67sb.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 09'
+  password: 401db914-1fef-0001-b41a-287bd9ac13f9
+  port: 443
+  server: 185.151.243.186
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 03'
+  name: '[I] 🇨🇦 加拿大 10'
   network: ws
   port: '443'
   server: 104.18.42.163
@@ -40,7 +88,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 04'
+  name: '[I] 🇨🇦 加拿大 11'
   network: ws
   port: '443'
   server: 172.64.145.93
@@ -54,7 +102,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 05'
+  name: '[I] 🇨🇦 加拿大 12'
   network: ws
   port: '443'
   server: 172.67.190.164

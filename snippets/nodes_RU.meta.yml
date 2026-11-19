@@ -1,11 +1,14 @@
 proxies:
-- name: '[B] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: '!!str 42426c882c5fcd41'
+  server: 7aa271t.es1.h1clayd.click
+  servername: 7aa271t.es1.h1clayd.click
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81

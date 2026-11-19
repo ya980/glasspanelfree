@@ -12,7 +12,9 @@ proxies:
   server: steel7.hadsvpn.com
   tls: false
   type: hysteria2
-- name: '[D] SE 03'
+- alpn:
+  - h3
+  name: '[D] SE 03'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
@@ -20,12 +22,12 @@ proxies:
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
-- fingerprint: chrome
-  name: '[D] SE 04'
+- name: '[D] SE 04'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  port: 24433
-  server: 94.183.164.119
-  sni: lakes.blog-forme.ru
+  port: 443
+  server: 212.34.137.105
+  skip-cert-verify: true
+  sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
 - name: '[D] SE 05'
@@ -56,3 +58,26 @@ proxies:
   sni: germany.cloudhouse1.ru
   tls: false
   type: hysteria2
+- name: '[D] SE 09'
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  port: 10444
+  server: 195.63.138.212
+  sni: cloudehouse24.ru
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] SE 10'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: '!!str 8d0d0679f42ffd98'
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  ws-opts:
+    headers:
+      Host: 8a2e72t.nl20.h1clayd.shop

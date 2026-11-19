@@ -1,28 +1,14 @@
 proxies:
-- insecure: '1'
-  mport: 40000-49999
-  name: '[B] 🇨🇳 台湾 01'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
+  name: '[H] 🇨🇳 台湾 01'
   network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
+  port: 16616
+  server: dp8yk.xiaoyan.io
+  skip-cert-verify: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
   ws-opts:
     headers:
-      Host: ct3.ainivp.com
-    path: /ray
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /

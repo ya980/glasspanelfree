@@ -1,8 +1,9 @@
 proxies:
 - name: '[H] CH 01'
   password: ''
-  port: '5002'
-  server: 132.243.174.245
+  port: '9443'
+  server: 37.120.213.210
   skip-cert-verify: true
+  tls: true
   type: http
   username: ''

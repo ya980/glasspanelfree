@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇬🇧 英国 01'
+  network: ws
+  port: '8448'
+  server: 83.147.19.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ec23abba-e6ae-395a-8986-2bd39a377a78
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /xray/vmess

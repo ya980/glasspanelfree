@@ -1,19 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: proceed-entered-tomato-ctrl.trycloudflare.com
-  servername: proceed-entered-tomato-ctrl.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: proceed-entered-tomato-ctrl.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
-- name: '[I] 🇭🇰 香港 05'
+- name: '[I] 🇭🇰 香港 01'
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
   server: sclass-00.catcat321.com

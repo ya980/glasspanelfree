@@ -29,14 +29,14 @@ proxies:
   uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
   ws-opts:
     headers:
-      Host: matrix.phonicsindia.mobi
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
   name: '[E] 🇸🇬 新加坡 04'
   network: ws
   port: '8443'
-  server: 141.193.213.21
+  server: 141.193.213.20
   servername: matrix.phonicsindia.mobi
   tls: true
   type: vmess
@@ -50,6 +50,20 @@ proxies:
   name: '[E] 🇸🇬 新加坡 05'
   network: ws
   port: '8443'
+  server: 141.193.213.21
+  servername: matrix.phonicsindia.mobi
+  tls: true
+  type: vmess
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  ws-opts:
+    headers:
+      Host: matrix.phonicsindia.mobi
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 06'
+  network: ws
+  port: '8443'
   server: news.zoom.us
   servername: matrix.phonicsindia.mobi
   tls: true
@@ -60,7 +74,7 @@ proxies:
       Host: matrix.phonicsindia.mobi
     path: /
 - client-fingerprint: chrome
-  name: '[F] 🇸🇬 新加坡 06'
+  name: '[F] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   reality-opts:
@@ -78,7 +92,7 @@ proxies:
     path: /ws
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇸🇬 新加坡 07'
+  name: '[G] 🇸🇬 新加坡 08'
   network: ws
   port: 443
   reality-opts:
@@ -91,24 +105,24 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- name: '[H] 🇸🇬 新加坡 09'
-  password: '!!str 8888'
-  port: '1080'
-  server: 47.236.168.243
-  skip-cert-verify: true
-  type: socks5
-  username: '8888'
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 09'
+  network: ws
+  port: 8443
+  server: 172.64.154.113
+  servername: freeceshi6.frii.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
 - name: '[H] 🇸🇬 新加坡 10'
   password: ''
-  port: '9090'
-  server: 128.199.113.85
+  port: '5555'
+  server: 103.248.228.166
   skip-cert-verify: true
-  type: http
-  username: ''
-- name: '[H] 🇸🇬 新加坡 11'
-  password: ''
-  port: '9090'
-  server: 167.99.74.174
-  skip-cert-verify: true
-  type: http
+  type: socks5
   username: ''

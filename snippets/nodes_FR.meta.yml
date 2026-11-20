@@ -16,18 +16,29 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: '[H] 🇫🇷 法国 02'
-  port: 24667
-  protocol: udp
-  server: 62.210.124.132
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
+  network: tcp
+  port: 443
+  server: 45.95.98.139
+  servername: 45.95.98.130
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
 - name: '[H] 🇫🇷 法国 03'
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇫🇷 法国 04'
   password: None
   port: 9443
   server: 138.199.47.247
@@ -37,45 +48,9 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 04'
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '50'
-  name: '[H] 🇫🇷 法国 05'
-  port: 24667
-  server: 62.210.70.191
-  skip-cert-verify: true
-  type: hysteria
-  up: '10'
-  x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 06'
-  password: ''
-  port: '8090'
-  server: 80.124.109.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇫🇷 法国 07'
-  password: ''
-  port: '443'
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 08'
+  name: '[I] 🇫🇷 法国 05'
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc

@@ -1,14 +1,28 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇨🇦 加拿大 01'
+- name: '[E] 🇨🇦 加拿大 01'
   password: 29f90c01-02b6-0001-9249-e3558a9c73a4
   port: 443
   server: 185.151.243.186
   sni: piodr-ru-74sel.my-fade.cloud
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇦 加拿大 02'
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 02'
+  password: 29f90c01-02b6-0001-9249-e3558a9c73a4
+  port: 443
+  server: 185.151.243.186
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 03'
+  password: be986553-5976-0001-9209-3050366e40d1
+  port: 443
+  server: 185.151.243.186
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 04'
   password: 00717a40-f058-0001-bd8b-946b3d578273
   port: 443
   server: 168.113.254.247
@@ -17,24 +31,8 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇨🇦 加拿大 03'
-  password: 3098af7f-dd3e-0001-b8e5-05a194206ac0
-  port: 443
-  server: 168.113.254.183
-  sni: xykmh-ru-70sb.my-fade.cloud
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇨🇦 加拿大 04'
-  password: 5c49355f-afbc-0001-9c1c-8205436bb97c
-  port: 443
-  server: 185.151.243.186
-  sni: piodr-ru-74sel.my-fade.cloud
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 05'
-  password: 5c49355f-afbc-0001-9c1c-8205436bb97c
+  name: '[E] 🇨🇦 加拿大 05'
+  password: be986553-5976-0001-9209-3050366e40d1
   port: 443
   server: 185.151.243.186
   sni: piodr-ru-74sel.my-fade.cloud
@@ -66,15 +64,32 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 09'
-  password: 401db914-1fef-0001-b41a-287bd9ac13f9
+  password: 5c49355f-afbc-0001-9c1c-8205436bb97c
   port: 443
   server: 185.151.243.186
   sni: piodr-ru-74sel.my-fade.cloud
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 10'
+  password: 5c49355f-afbc-0001-9c1c-8205436bb97c
+  port: 443
+  server: 185.151.243.186
+  sni: piodr-ru-74sel.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[H] 🇨🇦 加拿大 11'
+  password: ''
+  port: '9443'
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 10'
+  name: '[I] 🇨🇦 加拿大 12'
   network: ws
   port: '443'
   server: 104.18.42.163
@@ -88,7 +103,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 11'
+  name: '[I] 🇨🇦 加拿大 13'
   network: ws
   port: '443'
   server: 172.64.145.93
@@ -102,7 +117,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 12'
+  name: '[I] 🇨🇦 加拿大 14'
   network: ws
   port: '443'
   server: 172.67.190.164

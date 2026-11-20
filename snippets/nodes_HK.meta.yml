@@ -1,43 +1,5 @@
 proxies:
-- name: '[E] 🇭🇰 香港 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇭🇰 香港 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 03'
-  password: ca60984f-b1f0-4073-bd33-4c75168f749a
-  port: 443
-  server: 31.59.169.225
-  sni: ge-beer-1.fantoff.online
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: proceed-entered-tomato-ctrl.trycloudflare.com
-  servername: proceed-entered-tomato-ctrl.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: proceed-entered-tomato-ctrl.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
-- name: '[I] 🇭🇰 香港 05'
+- name: '[I] 🇭🇰 香港 01'
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
   server: sclass-00.catcat321.com

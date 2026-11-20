@@ -2,65 +2,90 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇩🇪 德国 01'
-  network: raw
+  network: tcp
   port: '443'
   server: de.zhou-yufan.com
-  servername: ''
+  servername: de.zhou-yufan.com
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 02'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UpOOm5-gcSp3fLuCzWl2HJnnqtUHpnbyOWU2yUCcsRI
-    short-id: '!!str 0492eabdb9'
-  server: 88.216.74.37
-  servername: yw0ein72.dendi.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
 - auth: ca60984f-b1f0-4073-bd33-4c75168f749a
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 02'
   password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
-  server: 191.217.204.101
+  server: 31.59.169.225
   skip-cert-verify: true
-  sni: ge-beer-10.fantoff.online
+  sni: ge-beer-1.fantoff.online
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 04'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
-    short-id: '!!str a9dc98a7dc87a7dc'
-  server: 176.108.245.73
-  servername: pawuk.belka.tv
+  encryption: mlkem768x25519plus.native.0rtt.F5LiR4Hs6W_x17I2LmxdFA8MUGvpHSaVuZ4zxTCAkmI
+  name: '[H] 🇩🇪 德国 03'
+  network: ws
+  port: '27181'
+  server: du5g.altheora.ir
+  servername: login.zanjanphone.ir
   tls: true
   type: vless
   udp: true
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  uuid: a8779cac-a237-4b17-922d-a43a8bc8c5ac
+  ws-opts:
+    headers:
+      Host: login.zanjanphone.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /user
   xudp: true
-- name: '[H] 🇩🇪 德国 05'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 04'
+  network: xhttp
+  port: '443'
+  server: 104.18.138.67
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  xhttp-opts:
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+    mode: auto
+    path: /api
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: edge
+  encryption: none
+  name: '[H] 🇩🇪 德国 05'
+  network: xhttp
+  port: '443'
+  server: chess.com
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  xhttp-opts:
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+    mode: auto
+    path: /api
+  xudp: true
+- name: '[H] 🇩🇪 德国 06'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 06'
+- name: '[H] 🇩🇪 德国 07'
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 07'
+- name: '[H] 🇩🇪 德国 08'
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -68,21 +93,6 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 08'
-  port: 443
-  reality-opts:
-    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
-    short-id: '!!str a9dc98a7dc87a7dc'
-  server: 176.108.245.73
-  servername: pawuk.belka.tv
-  skip-cert-verify: false
-  sni: pawuk.belka.tv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - name: '[H] 🇩🇪 德国 09'
   password: None
   port: 443
@@ -93,40 +103,68 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 10'
-  network: ws
-  password: bpb-trojan
-  port: '443'
-  server: russia.com
-  skip-cert-verify: false
-  sni: kargar001.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /tr?ed=2560
-- name: '[H] 🇩🇪 德国 11'
-  password: ''
-  port: '1080'
-  server: 92.5.68.29
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: '[H] 🇩🇪 德国 12'
-  password: ''
-  port: '9002'
+- name: '[H] 🇩🇪 德国 10'
+  port: 9002
   server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] 🇩🇪 德国 11'
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 12'
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 13'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: '!!str 6976d670818644cc'
+  server: 196.196.148.177
+  servername: 4935e4t.de25.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  xudp: true
+- name: '[H] 🇩🇪 德国 14'
+  password: 'null'
+  port: '443'
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇩🇪 德国 15'
+  password: 'null'
+  port: '9002'
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇩🇪 德国 16'
+  password: ''
+  port: '9002'
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: ''
-- flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 13'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 17'
   network: tcp
   port: 443
   reality-opts:
@@ -138,7 +176,7 @@ proxies:
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 18'
   network: tcp
   port: 443
   reality-opts:

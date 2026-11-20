@@ -2,16 +2,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇩🇪 德国 01'
-  network: tcp
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇩🇪 德国 02'
   network: raw
   port: '443'
   server: de.zhou-yufan.com
@@ -21,7 +11,7 @@ proxies:
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -34,7 +24,7 @@ proxies:
   udp: true
   uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
 - auth: ca60984f-b1f0-4073-bd33-4c75168f749a
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 03'
   password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
   server: 191.217.204.101
@@ -44,7 +34,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 04'
   network: tcp
   port: '443'
   reality-opts:
@@ -57,20 +47,20 @@ proxies:
   udp: true
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
   xudp: true
-- name: '[H] 🇩🇪 德国 06'
+- name: '[H] 🇩🇪 德国 05'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 07'
+- name: '[H] 🇩🇪 德国 06'
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 08'
+- name: '[H] 🇩🇪 德国 07'
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -80,7 +70,7 @@ proxies:
   username: 'null'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 08'
   port: 443
   reality-opts:
     public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
@@ -93,7 +83,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-- name: '[H] 🇩🇪 德国 10'
+- name: '[H] 🇩🇪 德国 09'
   password: None
   port: 443
   server: 149.36.50.1
@@ -106,7 +96,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 11'
+  name: '[H] 🇩🇪 德国 10'
   network: ws
   password: bpb-trojan
   port: '443'
@@ -120,14 +110,14 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /tr?ed=2560
-- name: '[H] 🇩🇪 德国 12'
+- name: '[H] 🇩🇪 德国 11'
   password: ''
   port: '1080'
   server: 92.5.68.29
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: '[H] 🇩🇪 德国 13'
+- name: '[H] 🇩🇪 德国 12'
   password: ''
   port: '9002'
   server: 158.173.154.4
@@ -136,7 +126,7 @@ proxies:
   type: http
   username: ''
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 13'
   network: tcp
   port: 443
   reality-opts:
@@ -148,7 +138,7 @@ proxies:
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 443
   reality-opts:

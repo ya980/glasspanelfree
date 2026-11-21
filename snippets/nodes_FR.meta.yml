@@ -15,30 +15,7 @@ proxies:
   type: vless
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: '[H] 🇫🇷 法国 02'
-  password: dongtaiwang.com
-  port: 24667
-  server: 62.210.124.132
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  tls: true
-  type: hysteria
-  up: '11'
-- name: '[H] 🇫🇷 法国 03'
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 04'
+- name: '[H] 🇫🇷 法国 02'
   password: None
   port: 9443
   server: 138.199.47.247
@@ -48,27 +25,17 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 05'
-  port: 8090
-  server: 83.206.1.225
+- name: '[H] 🇫🇷 法国 03'
+  port: 443
+  server: 149.102.245.65
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: '[H] 🇫🇷 法国 06'
-  port: 24667
-  protocol: udp
-  server: 62.210.124.132
-  skip-cert-verify: true
-  type: hysteria
-  up: '11'
   x-toolall-mihomo: true
 - client-fingerprint: qq
-  name: '[I] 🇫🇷 法国 07'
+  name: '[I] 🇫🇷 法国 04'
   port: 443
   server: 136.148.83.69
   servername: szqbx-ru-77dc.my-fade.cloud

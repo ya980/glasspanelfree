@@ -1,45 +1,37 @@
 proxies:
 - name: '[E] 🇨🇦 加拿大 01'
-  password: 3098af7f-dd3e-0001-b8e5-05a194206ac0
+  password: 7f83bad7-cbcc-45e5-b3c5-75fe4fb52368
   port: 443
-  server: 168.113.254.183
-  sni: xykmh-ru-70sb.my-fade.cloud
+  server: 31.56.189.8
+  sni: download.klairo.cfd
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 02'
-  password: 274cf8bb-ff99-0001-81b0-17273a3b7692
-  port: 443
-  server: 168.113.254.183
-  sni: xykmh-ru-70sb.my-fade.cloud
+  password: 7f83bad7-cbcc-45e5-b3c5-75fe4fb52368
+  port: 4443
+  server: 45.198.0.42
+  sni: poland-the-best.moonpaw.space
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇨🇦 加拿大 03'
-  password: 274cf8bb-ff99-0001-81b0-17273a3b7692
+- name: '[E] 🇨🇦 加拿大 03'
+  password: 004ea4a8-d701-0001-b0c0-8e61a5c31a23
   port: 443
-  server: 168.113.254.183
-  sni: xykmh-ru-70sb.my-fade.cloud
+  server: 168.113.252.11
+  sni: jkawq-ru-45sb.fade.mom
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[E] 🇨🇦 加拿大 04'
-  password: 3098af7f-dd3e-0001-b8e5-05a194206ac0
+  password: 004ea4a8-d701-0001-b0c0-8e61a5c31a23
   port: 443
-  server: 168.113.254.183
-  sni: xykmh-ru-70sb.my-fade.cloud
+  server: 168.113.252.11
+  sni: jkawq-ru-45sb.fade.mom
   tls: false
   type: hysteria2
-- name: '[H] 🇨🇦 加拿大 05'
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 06'
+  name: '[I] 🇨🇦 加拿大 05'
   network: ws
   port: '443'
   server: 104.18.42.163
@@ -53,7 +45,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 07'
+  name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: '443'
   server: 172.64.145.93
@@ -67,7 +59,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 08'
+  name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: '443'
   server: 172.67.190.164

@@ -71,9 +71,19 @@ proxies:
   uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
   ws-opts:
     path: '%2Fws'
+- name: '[H] 🇯🇵 日本 06'
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  type: socks5
+  udp: true
+  username: paZFN3JA
+  x-toolall-mihomo: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 06'
+  name: '[I] 🇯🇵 日本 07'
   network: tcp
   port: 443
   reality-opts:

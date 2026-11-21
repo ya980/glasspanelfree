@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: '[H] 🇬🇧 英国 01'
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true

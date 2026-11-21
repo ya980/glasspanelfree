@@ -9,3 +9,20 @@ proxies:
   sni: ganlanc.at
   tls: false
   type: hysteria2
+- name: '[H] CH 02'
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] CH 03'
+  password: ''
+  port: '10918'
+  server: 147.161.246.34
+  skip-cert-verify: true
+  type: http
+  username: ''

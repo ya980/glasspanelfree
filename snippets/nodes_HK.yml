@@ -4,40 +4,12 @@ proxies:
   name: '[E] 🇭🇰 香港 01'
   network: ws
   port: '443'
-  server: 47.86.90.31
-  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
-  ws-opts:
-    headers:
-      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: bYWXdhIRqKJj8XAZ.v.3dns.vip
-  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 03'
-  network: ws
-  port: '443'
-  server: robertson-connectivity-amber-coaching.trycloudflare.com
-  servername: robertson-connectivity-amber-coaching.trycloudflare.com
+  server: auto-sheet-arctic-mesa.trycloudflare.com
+  servername: auto-sheet-arctic-mesa.trycloudflare.com
   tls: true
   type: vmess
   uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
   ws-opts:
     headers:
-      Host: robertson-connectivity-amber-coaching.trycloudflare.com
+      Host: auto-sheet-arctic-mesa.trycloudflare.com
     path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm

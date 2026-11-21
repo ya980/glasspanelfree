@@ -37,6 +37,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] SE 06'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 179.254.191.251
+  skip-cert-verify: false
+  sni: bl1.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[D] SE 07'
   obfs: ''
   obfs-password: ''
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
@@ -46,7 +54,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] SE 07'
+- name: '[D] SE 08'
   password: b36a14f8-fc3f-4142-968f-48031cf5f330
   port: 443
   server: hy2-eee-1.aloranode.top
@@ -54,28 +62,28 @@ proxies:
   sni: hy2-eee-1.aloranode.top
   tls: false
   type: hysteria2
-- name: '[D] SE 08'
+- name: '[D] SE 09'
   password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
   server: 45.137.201.211
   sni: wwe.fantoff.online
   tls: false
   type: hysteria2
-- name: '[D] SE 09'
+- name: '[D] SE 10'
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
   server: 50.7.38.243
   sni: promo.betust.net
   tls: false
   type: hysteria2
-- name: '[D] SE 10'
+- name: '[D] SE 11'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 5443
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
   tls: false
   type: hysteria2
-- name: '[D] SE 11'
+- name: '[D] SE 12'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.138.212
@@ -84,7 +92,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] SE 12'
+  name: '[I] SE 13'
   network: tcp
   port: 443
   reality-opts:

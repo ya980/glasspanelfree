@@ -1,15 +1,91 @@
 proxies:
-- name: '[E] 🇭🇰 香港 01'
-  password: ePPsH1bMFD
-  port: 50541
-  server: 23.141.172.229
-  skip-cert-verify: true
-  sni: is1-ssl.mzstatic.com
-  tls: false
-  type: hysteria2
+- name: '[B] 🇭🇰 香港 01'
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 5228
+  server: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
+  sni: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- client-fingerprint: randomized
+  encryption: none
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: 443
+  security: tls
+  server: 198.41.219.218
+  servername: zyzzzoao.xn--fiqv8j.eu.org
+  tls: true
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- name: '[B] 🇭🇰 香港 03'
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  port: 5228
+  server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 04'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇭🇰 香港 02'
+  name: '[B] 🇭🇰 香港 05'
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  server: 103.123.162.50
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 06'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 07'
+  network: ws
+  port: '443'
+  server: 47.86.90.31
+  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  ws-opts:
+    headers:
+      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 08'
+  network: ws
+  port: '443'
+  server: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[F] 🇭🇰 香港 09'
   network: tcp
   port: 11103
   reality-opts:
@@ -25,7 +101,7 @@ proxies:
   uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 10'
   network: tcp
   port: 11107
   reality-opts:
@@ -41,7 +117,7 @@ proxies:
   uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 11'
   network: tcp
   port: 443
   reality-opts:
@@ -55,34 +131,52 @@ proxies:
   type: vless
   udp: true
   uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
-- alpn:
-  - h3
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: 200
-  name: '[H] 🇭🇰 香港 05'
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇭🇰 香港 12'
+  network: ws
+  port: '60852'
+  server: hkgb707.ifastcdncache.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇭🇰 香港 13'
   obfs: salamander
-  obfs-password: o5qgnpl75wayhkn5
+  obfs-password: aemx2gndpgrt1qau
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nb2hk.hikigo.com
+  port: '443'
+  server: 66hk.mateflora.com
   skip-cert-verify: true
-  sni: nb2hk.hikigo.com
+  sni: 66hk.mateflora.com
   type: hysteria2
-  udp: true
-  up: 100
-- name: '[H] 🇭🇰 香港 06'
-  password: ''
-  port: 8443
-  server: 38.76.140.254
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
+  up: ''
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 07'
+  name: '[H] 🇭🇰 香港 14'
+  network: ws
+  port: 16632
+  server: pdmv4.xiaoyan.io
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 15'
   network: ws
   port: 16617
   server: afzuv.xiaoyan.io
@@ -95,7 +189,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 08'
+  name: '[I] 🇭🇰 香港 16'
   network: ws
   port: 16617
   server: d1eyz.xiaoyan.io
@@ -108,7 +202,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 09'
+  name: '[I] 🇭🇰 香港 17'
   network: ws
   port: 16648
   server: afzuv.xiaoyan.io

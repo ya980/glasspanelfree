@@ -1,21 +1,34 @@
 proxies:
+- insecure: '1'
+  mport: 40000-49999
+  name: '[B] 🇨🇳 台湾 01'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
+  name: '[B] 🇨🇳 台湾 02'
   network: ws
-  port: '443'
-  server: terutrrj.ghmkdty.top
-  servername: terutrrj.ghmkdty.top
+  port: 33412
+  server: ct3.ainivp.com
   tls: true
   type: vmess
-  uuid: 42a7cb20-e771-442c-b04e-70bb079d780e
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
-      Host: terutrrj.ghmkdty.top
-    path: /
+      Host: ct3.ainivp.com
+    path: /ray
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇨🇳 台湾 02'
+  name: '[F] 🇨🇳 台湾 03'
   network: tcp
   port: 11102
   reality-opts:
@@ -29,3 +42,10 @@ proxies:
   type: vless
   udp: true
   uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
+- name: '[H] 🇨🇳 台湾 04'
+  password: 2902c46c8493
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls

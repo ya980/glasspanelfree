@@ -1,7 +1,25 @@
 proxies:
+- name: '[B] 🇰🇷 韩国 01'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[F] 🇰🇷 韩国 01'
+  name: '[F] 🇰🇷 韩国 03'
   network: tcp
   port: 443
   reality-opts:
@@ -15,3 +33,10 @@ proxies:
   type: vless
   udp: true
   uuid: 4ded3111-b418-475a-93de-0360932508b2
+- name: '[H] 🇰🇷 韩国 04'
+  password: ''
+  port: '1090'
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: T2clM0QlM0Q6

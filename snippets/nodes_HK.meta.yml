@@ -1,21 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 01'
-  network: ws
-  port: '443'
-  server: bYWXdhIRqKJj8XAZ.v.3dns.vip
-  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
-    path: /ws-vmess
+- name: '[E] 🇭🇰 香港 01'
+  password: ePPsH1bMFD
+  port: 50541
+  server: 23.141.172.229
+  skip-cert-verify: true
+  sni: is1-ssl.mzstatic.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 02'
   network: tcp
   port: 11103
   reality-opts:
@@ -23,12 +17,15 @@ proxies:
     short-id: '!!str 9564e1a7a1cf8b3a'
   server: 116.213.43.43
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
+  udp: true
   uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 03'
   network: tcp
   port: 11107
   reality-opts:
@@ -36,12 +33,15 @@ proxies:
     short-id: '!!str e2ccd8eedcbee2ce'
   server: 116.213.43.43
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
+  udp: true
   uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 04'
   network: tcp
   port: 443
   reality-opts:
@@ -49,40 +49,69 @@ proxies:
     short-id: '!!str 58d234c8c6a009bc'
   server: 47.243.230.253
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: 104.20.63.254
-  servername: joeypg.ezbiz.dynv6.net
-  tls: true
-  type: vless
   udp: true
-  uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
-  ws-opts:
-    headers:
-      Host: joeypg.ezbiz.dynv6.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /?ed=2048
-  xudp: true
+  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
+- alpn:
+  - h3
+  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  down: 200
+  name: '[H] 🇭🇰 香港 05'
+  obfs: salamander
+  obfs-password: o5qgnpl75wayhkn5
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: nb2hk.hikigo.com
+  skip-cert-verify: true
+  sni: nb2hk.hikigo.com
+  type: hysteria2
+  udp: true
+  up: 100
 - name: '[H] 🇭🇰 香港 06'
   password: ''
-  port: '5001'
-  server: 219.78.223.199
+  port: 8443
+  server: 38.76.140.254
   skip-cert-verify: true
-  type: socks5
+  tls: true
+  type: http
+  udp: true
   username: ''
+  x-toolall-mihomo: true
 - alterId: 0
   cipher: auto
   name: '[I] 🇭🇰 香港 07'
   network: ws
   port: 16617
+  server: afzuv.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 08'
+  network: ws
+  port: 16617
   server: d1eyz.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 09'
+  network: ws
+  port: 16648
+  server: afzuv.xiaoyan.io
   tls: false
   type: vmess
   uuid: 904f0569-8695-466f-97cf-0de2face1b46

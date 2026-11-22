@@ -4,20 +4,6 @@ proxies:
   name: '[E] 🇭🇰 香港 01'
   network: ws
   port: '443'
-  server: 47.86.90.31
-  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
-  ws-opts:
-    headers:
-      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
   server: bYWXdhIRqKJj8XAZ.v.3dns.vip
   servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
   tls: true
@@ -27,13 +13,80 @@ proxies:
     headers:
       Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
     path: /ws-vmess
-- name: '[H] 🇭🇰 香港 03'
-  password: ''
-  port: 8443
-  server: 38.76.140.254
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇭🇰 香港 02'
+  network: tcp
+  port: 11103
+  reality-opts:
+    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
+    short-id: '!!str 9564e1a7a1cf8b3a'
+  server: 116.213.43.43
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇭🇰 香港 03'
+  network: tcp
+  port: 11107
+  reality-opts:
+    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
+    short-id: '!!str e2ccd8eedcbee2ce'
+  server: 116.213.43.43
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇭🇰 香港 04'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
+    short-id: '!!str 58d234c8c6a009bc'
+  server: 47.243.230.253
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇭🇰 香港 05'
+  network: ws
+  port: '443'
+  server: 104.20.63.254
+  servername: joeypg.ezbiz.dynv6.net
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
+  ws-opts:
+    headers:
+      Host: joeypg.ezbiz.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- name: '[H] 🇭🇰 香港 06'
+  password: ''
+  port: '5001'
+  server: 219.78.223.199
+  skip-cert-verify: true
+  type: socks5
   username: ''
-  x-toolall-mihomo: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 07'
+  network: ws
+  port: 16617
+  server: d1eyz.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /

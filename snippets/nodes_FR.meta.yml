@@ -6,103 +6,65 @@ proxies:
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
   server: edge.bookmai.com
   servername: mother-earth.fyi
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: '[H] 🇫🇷 法国 02'
-  password: dongtaiwang.com
-  port: 24667
-  server: 62.210.124.132
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  tls: true
-  type: hysteria
-  up: '11'
-- name: '[H] 🇫🇷 法国 03'
+- name: '[H] 🇫🇷 法国 02'
   port: 8090
   server: 83.206.1.225
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇫🇷 法国 04'
+- name: '[H] 🇫🇷 法国 03'
   password: 'null'
-  port: 443
-  server: 82.66.235.221
+  port: 6103
+  server: 87.98.174.157
   skip-cert-verify: true
-  sub_tag: P002-260618
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   username: 'null'
   x-toolall-mihomo: true
+- name: '[H] 🇫🇷 法国 04'
+  password: ''
+  port: '8081'
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: '[H] 🇫🇷 法国 05'
-  password: None
-  port: 443
-  server: 82.66.235.221
+  password: ''
+  port: '6103'
+  server: 87.98.174.157
   skip-cert-verify: true
-  sub_tag: K001-260618
   tls: true
   type: http
-  udp: true
   username: ''
-  x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 06'
-  password: None
-  port: 443
-  server: 84.235.228.156
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 07'
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 08'
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 09'
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
 - client-fingerprint: qq
-  name: '[I] 🇫🇷 法国 10'
+  name: '[I] 🇫🇷 法国 06'
   port: 443
   server: 136.148.83.69
   servername: szqbx-ru-77dc.my-fade.cloud
   tls: true
   type: vless
   uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇫🇷 法国 07'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 163.245.42.87
+  servername: mother-earth.fyi
+  tls: false
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f

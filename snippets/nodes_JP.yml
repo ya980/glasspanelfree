@@ -1,9 +1,40 @@
 proxies:
-- name: '[F] 🇯🇵 日本 02'
-  network: tcp
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 01'
+  network: ws
+  port: 16617
+  server: afzuv.xiaoyan.io
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- name: '[F] 🇯🇵 日本 03'
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   port: 44184
   server: v2jp.k1.ssnss.live
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇯🇵 日本 08'
+  network: ws
+  port: '8081'
+  server: 168.110.63.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vless

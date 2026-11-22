@@ -1,89 +1,115 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
+    short-id: '!!str b73c53b18b65dd90'
+  server: 189.24.82.30
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: b354463f-ac84-422e-9a26-556c81ba001c
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 02'
+  network: tcp
+  port: '2053'
+  server: 191.217.215.186
+  servername: 191.217.215.186
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇩🇪 德国 03'
+  network: ws
+  port: '443'
+  server: 128.140.49.30
+  servername: germanyhetz.onlinernet.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 11edc5c6-bd3f-48f5-ae44-7b61758f323b
+  ws-opts:
+    headers:
+      Host: germanyhetz.onlinernet.ir
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 04'
+  network: tcp
+  port: '3939'
+  reality-opts:
+    public-key: dnnN66V_xqEbGoG5P8E_Zqk3TaZt2lM4SI9N7Ana7FA
+    short-id: '!!str d9a2600fdecd7be2'
+  server: zibanabz.jonsonvip.ir
+  servername: ai.android
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c49810a-e6e7-4948-8061-6f6243b0124d
+  xudp: true
+- name: '[H] 🇩🇪 德国 05'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: '[H] 🇩🇪 德国 02'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇩🇪 德国 03'
-  password: 'null'
-  port: 443
-  server: 159.69.94.125
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 04'
-  password: None
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 05'
-  password: 'null'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
 - name: '[H] 🇩🇪 德国 06'
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 07'
-  password: 'null'
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 08'
-  password: 'null'
+  password: None
   port: 443
   server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 09'
-  password: None
-  port: 443
-  server: 149.36.50.1
   skip-cert-verify: true
   sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 07'
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 08'
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 09'
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: '[H] 🇩🇪 德国 10'
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: '[H] 🇩🇪 德国 11'
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -91,7 +117,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇩🇪 德国 11'
+- name: '[H] 🇩🇪 德国 12'
   password: 'null'
   port: 9002
   server: 158.173.154.4
@@ -103,27 +129,7 @@ proxies:
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 12'
-  password: 'null'
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
 - name: '[H] 🇩🇪 德国 13'
-  password: None
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 14'
   password: 'null'
   port: 443
   server: 193.233.75.115
@@ -133,17 +139,17 @@ proxies:
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 15'
+- name: '[H] 🇩🇪 德国 14'
   password: None
   port: 443
-  server: 87.106.223.158
+  server: 213.109.163.119
   skip-cert-verify: true
   sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 16'
+- name: '[H] 🇩🇪 德国 15'
   password: None
   port: 9002
   server: 158.173.154.4
@@ -153,23 +159,49 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 17'
-  password: ''
-  port: '8888'
-  server: 217.154.195.87
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: '[H] 🇩🇪 德国 18'
-  password: ''
-  port: '12345'
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
-  username: ''
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇩🇪 德国 16'
+  network: xhttp
+  port: '443'
+  server: 50.7.28.213
+  servername: api-v3-e9958027.vmagnum.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9958027-03be-4eb5-bcec-70415b2e4844
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 19'
+  name: '[H] 🇩🇪 德国 17'
+  network: tcp
+  port: '3939'
+  reality-opts:
+    public-key: dnnN66V_xqEbGoG5P8E_Zqk3TaZt2lM4SI9N7Ana7FA
+    short-id: '!!str d9a2600fdecd7be2'
+  server: 2.28.45.87
+  servername: ai.android
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c49810a-e6e7-4948-8061-6f6243b0124d
+  xudp: true
+- name: '[I] 🇩🇪 德国 19'
+  network: tcp
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 20'
   network: tcp
   port: 443
   reality-opts:
@@ -180,15 +212,11 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-- client-fingerprint: firefox
-  name: '[I] 🇩🇪 德国 20'
+- name: '[I] 🇩🇪 德国 21'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: '!!str ba2a3dce62b99092'
-  server: 217.69.174.175
-  servername: 04535dt.us8.h1clayd.click
-  tls: false
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan

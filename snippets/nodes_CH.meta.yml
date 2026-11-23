@@ -1,24 +1,5 @@
 proxies:
-- name: '[D] CH 01'
-  obfs: salamander
-  obfs-password: HATATEAYA
-  password: HATATEAYA
-  port: 8964
-  server: 77.90.15.183
-  skip-cert-verify: true
-  sni: ganlanc.at
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] CH 02'
-  password: lvu_fb79ddb9bbda86f657cf34ee5dbe40bd_cf1aff9abf2b3945664fd63a07229839:np2.1.Q6bg95HDIqzwSQwdlbeS4-tGJpT8yFUcNQd7KGxqbXU
-  port: 10443
-  server: 212.102.227.131
-  sni: n32.neproxy.net
-  tls: false
-  type: hysteria2
-- name: '[H] CH 03'
+- name: '[H] CH 01'
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true

@@ -1,7 +1,63 @@
 proxies:
+- encryption: none
+  name: '[H] 🇫🇷 法国 01'
+  network: ws
+  port: '2025'
+  server: 88.151.197.87
+  type: vless
+  udp: true
+  uuid: 1697852e-cd5c-472d-b377-0def0f301d98
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: '[H] 🇫🇷 法国 02'
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.124.132
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: '11'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: '[H] 🇫🇷 法国 03'
+  port: 24667
+  protocol: udp
+  server: 62.210.124.132
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: '[H] 🇫🇷 法国 04'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: qq
+  name: '[I] 🇫🇷 法国 05'
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 01'
+  name: '[I] 🇫🇷 法国 06'
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc

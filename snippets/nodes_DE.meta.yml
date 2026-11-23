@@ -1,5 +1,14 @@
 proxies:
-- name: '[H] 🇩🇪 德国 01'
+- name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: S4iBMpc3aIzLC1c-6fE6rU15ZzXyfjr0ciGdh0A3alI
+  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
+  port: 443
+  server: 166.0.28.140
+  sni: static-de.snobmenu.xyz
+  tls: false
+  type: hysteria2
+- name: '[H] 🇩🇪 德国 03'
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -7,7 +16,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇩🇪 德国 02'
+- name: '[H] 🇩🇪 德国 04'
   password: None
   port: 443
   server: 172.64.68.89
@@ -17,17 +26,76 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[I] 🇩🇪 德国 05'
-  network: tcp
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20051
-  server: sclass-c2.catcat321.com
+- name: '[H] 🇩🇪 德国 05'
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 06'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 07'
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 08'
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 09'
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇩🇪 德国 10'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sni: 172.64.68.89
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇩🇪 德国 11'
+  obfs: ''
+  obfs-password: ''
+  password: PEisy6m-98HcX1TWZt0yXiCS7jRZG4IzKQTXo6k1qb4
+  port: '443'
+  server: 48.102.130.17
   skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: firefox
+  sni: de2.substituteme.space
+  type: hysteria2
+  up: ''
+- name: '[H] 🇩🇪 德国 12'
+  password: 'null'
+  port: '443'
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 15'
   network: tcp
   port: 443
   reality-opts:
@@ -38,3 +106,23 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+- client-fingerprint: firefox
+  name: '[I] 🇩🇪 德国 16'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: '!!str ba2a3dce62b99092'
+  server: 217.69.174.175
+  servername: 04535dt.us8.h1clayd.click
+  tls: false
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: '[I] 🇩🇪 德国 17'
+  network: tcp
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan

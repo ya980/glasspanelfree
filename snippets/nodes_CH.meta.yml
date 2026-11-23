@@ -9,13 +9,18 @@ proxies:
   sni: ganlanc.at
   tls: false
   type: hysteria2
-- name: '[H] CH 02'
-  password: None
-  port: 443
-  server: 31.7.62.50
+- alpn:
+  - h3
+  name: '[E] CH 02'
+  password: lvu_fb79ddb9bbda86f657cf34ee5dbe40bd_cf1aff9abf2b3945664fd63a07229839:np2.1.Q6bg95HDIqzwSQwdlbeS4-tGJpT8yFUcNQd7KGxqbXU
+  port: 10443
+  server: 212.102.227.131
+  sni: n32.neproxy.net
+  tls: false
+  type: hysteria2
+- name: '[H] CH 03'
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true

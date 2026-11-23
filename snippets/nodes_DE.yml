@@ -1,25 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 03'
-  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
-  port: '443'
-  server: P1.shoppingturbo.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 16'
-  network: ws
-  port: 16632
-  server: pdmv4.xiaoyan.io
-  tls: false
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- name: '[I] 🇩🇪 德国 18'
+- name: '[I] 🇩🇪 德国 05'
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20051

@@ -1,93 +1,28 @@
 proxies:
-- encryption: none
-  name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: 10443
-  server: 136.244.94.171
-  type: vless
-  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
-- encryption: none
-  name: '[B] 🇩🇪 德国 02'
-  network: tcp
-  port: 443
-  server: 136.244.94.171
-  type: vless
-  uuid: 52516534-4986-4959-b30b-a89463eed9af
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GrpcFuckRKN
-  name: '[B] 🇩🇪 德国 03'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: GrpcFuckRKN
-  name: '[B] 🇩🇪 德国 04'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65-uhe66vr6.nike77prime.ru
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- name: '[B] 🇩🇪 德国 05'
-  network: ws
-  port: 8880
-  server: 45.80.111.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime52.workers.dev
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇩🇪 德国 03'
+  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
+  port: '443'
+  server: P1.shoppingturbo.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[B] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 04'
   network: tcp
-  port: 443
+  port: '9543'
   reality-opts:
-    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
-    short-id: '!!str a1b2c3d4e5f6'
-  security: reality
-  server: 84.21.189.197
-  servername: queuev4.vk.com
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: '!!str 123abcdf'
+  server: 146.103.42.165
+  servername: storage.yandexcloud.net
   tls: true
-  type: vless
-  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇩🇪 德国 07'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
-    short-id: '!!str b73c53b18b65dd90'
-  server: 189.24.82.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
   type: vless
   udp: true
-  uuid: b354463f-ac84-422e-9a26-556c81ba001c
-- name: '[H] 🇩🇪 德国 08'
+  uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
+  xudp: true
+- name: '[H] 🇩🇪 德国 05'
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -95,7 +30,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇩🇪 德国 09'
+- name: '[H] 🇩🇪 德国 06'
   password: 'null'
   port: 443
   server: 172.64.68.89
@@ -105,24 +40,7 @@ proxies:
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: '[H] 🇩🇪 德国 10'
-  network: xhttp
-  port: 443
-  server: terrace.elvano.website
-  servername: terrace.elvano.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  xhttp-opts:
-    host: terrace.elvano.website
-    mode: auto
-    path: /api/de5/sync
-- name: '[H] 🇩🇪 德国 11'
+- name: '[H] 🇩🇪 德国 07'
   password: None
   port: 443
   server: 149.36.50.1
@@ -130,21 +48,22 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '[H] 🇩🇪 德国 12'
+- name: '[H] 🇩🇪 德国 08'
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇩🇪 德国 13'
-  port: 443
-  server: 172.64.69.89
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 9002
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇩🇪 德国 14'
+- name: '[H] 🇩🇪 德国 10'
   password: 'null'
   port: 443
   server: 159.69.94.125
@@ -155,47 +74,16 @@ proxies:
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 15'
-  password: None
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 16'
-  port: 9002
-  server: 158.173.154.2
+- name: '[H] 🇩🇪 德国 11'
+  port: 443
+  server: 87.106.223.158
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 17'
-  password: 'null'
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 18'
-  password: ''
-  port: 443
-  server: 37.203.35.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 19'
+- name: '[H] 🇩🇪 德国 12'
   password: None
   port: 443
   server: 172.64.68.89
@@ -205,58 +93,55 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 20'
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 21'
+- name: '[H] 🇩🇪 德国 13'
   password: 'null'
   port: 9002
-  server: 158.173.154.3
+  server: 158.173.154.4
   skip-cert-verify: true
+  sni: 158.173.154.4
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 22'
-  port: 443
-  server: 217.92.132.233
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 23'
-  password: None
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇩🇪 德国 24'
-  password: ''
+- client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇩🇪 德国 14'
+  network: ws
   port: '443'
-  server: 79.127.156.177
-  skip-cert-verify: true
+  server: 31.77.142.19
+  servername: calendarbaseline.lucheeebezlimitnoekino.stream
   tls: true
-  type: http
-  username: ''
+  type: vless
+  udp: true
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /media/ws/
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: v4-clequinix-globalinetforallalwaysandneverbanyoubelieveme-com
+  name: '[H] 🇩🇪 德国 15'
+  network: grpc
+  port: '443'
+  server: 109.248.17.252
+  servername: v4.clequinix.globalinetforallalwaysandneverbanyoubelieveme.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9000a7f3-df2a-49a8-ae56-3e7777bd32f7
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 26'
+  name: '[I] 🇩🇪 德国 16'
   network: ws
-  port: 16616
-  server: afzuv.xiaoyan.io
+  port: 16632
+  server: pdmv4.xiaoyan.io
   tls: false
   type: vmess
   uuid: 904f0569-8695-466f-97cf-0de2face1b46
@@ -264,20 +149,7 @@ proxies:
     headers:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 27'
-  network: ws
-  port: 16648
-  server: d1eyz.xiaoyan.io
-  tls: false
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- name: '[I] 🇩🇪 德国 28'
+- name: '[I] 🇩🇪 德国 18'
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20051
@@ -285,8 +157,9 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 29'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 19'
   network: tcp
   port: 443
   reality-opts:
@@ -297,11 +170,3 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-- name: '[I] 🇩🇪 德国 30'
-  network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20051
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan

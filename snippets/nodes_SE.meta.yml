@@ -13,7 +13,7 @@ proxies:
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
@@ -69,14 +69,20 @@ proxies:
   sni: cloudehouse24.ru
   tls: false
   type: hysteria2
-- name: '[H] SE 10'
-  password: ''
-  port: '443'
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  fingerprint: chrome
+  name: '[D] SE 10'
+  obfs: salamander
+  obfs-password: anhzfr8jwm3m1cb0
+  password: fup6jqo76blcumls
+  port: 33971
+  server: 13.53.131.128
+  sni: se.accuratenetworkchecker.ir
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[I] SE 11'

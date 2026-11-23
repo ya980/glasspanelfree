@@ -1,40 +1,7 @@
 proxies:
-- name: '[B] 🇫🇷 法国 01'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: '[B] 🇫🇷 法国 02'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇫🇷 法国 03'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
 - alterId: 0
   cipher: auto
-  name: '[E] 🇫🇷 法国 04'
+  name: '[E] 🇫🇷 法国 01'
   network: tcp
   port: '8443'
   server: 161.120.223.62
@@ -46,7 +13,7 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   down: '55'
-  name: '[H] 🇫🇷 法国 05'
+  name: '[H] 🇫🇷 法国 02'
   password: dongtaiwang.com
   port: 24667
   server: 62.210.124.132
@@ -56,66 +23,64 @@ proxies:
   tls: true
   type: hysteria
   up: '11'
-- name: '[H] 🇫🇷 法国 06'
+- name: '[H] 🇫🇷 法国 03'
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇫🇷 法国 07'
-  password: 'null'
+- name: '[H] 🇫🇷 法国 04'
+  password: None
   port: 443
   server: 82.66.235.221
   skip-cert-verify: true
-  sub_tag: P002-260618
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: '[H] 🇫🇷 法国 05'
+  password: Zn5mR7vA
+  port: 42000
+  server: 144.56.22.78
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: socks5
+  udp: true
+  username: L8wP3kQx
+  x-toolall-mihomo: true
+- name: '[H] 🇫🇷 法国 06'
+  password: 'null'
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 08'
+- name: '[H] 🇫🇷 法国 07'
   port: 443
-  server: 149.102.245.65
+  server: 103.82.101.44
   skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 09'
-  port: 8090
-  server: 80.124.109.22
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[H] 🇫🇷 法国 10'
-  password: ''
-  port: '3128'
-  server: 54.36.150.233
-  skip-cert-verify: true
-  type: http
-  username: ''
-- client-fingerprint: qq
-  name: '[I] 🇫🇷 法国 11'
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 12'
-  network: tcp
+  name: '[I] 🇫🇷 法国 08'
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 163.245.42.87
   servername: mother-earth.fyi
+  skip-cert-verify: false
   tls: false
   type: vless
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f

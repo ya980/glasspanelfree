@@ -1,42 +1,136 @@
 proxies:
-- name: '[B] 🇰🇷 韩国 01'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: '[B] 🇰🇷 韩国 02'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇰🇷 韩国 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
-    short-id: '!!str b79a86e2b1a586a0'
-  server: 43.108.109.112
-  servername: www.samsung.com
+  name: '[F] 🇰🇷 韩国 01'
+  network: ws
+  port: 8443
+  server: 131.186.22.95
+  servername: senflarelink-node-il65vh.pages.dev
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 4ded3111-b418-475a-93de-0360932508b2
-- name: '[H] 🇰🇷 韩国 04'
-  password: ''
-  port: '1090'
-  server: 121.169.46.116
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: '[F] 🇰🇷 韩国 02'
+  network: ws
+  port: 12101
+  server: 14.44.19.57
+  servername: senflarelink-node-nwz76h.pages.dev
   skip-cert-verify: true
-  type: socks5
-  username: T2clM0QlM0Q6
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
+  name: '[G] 🇰🇷 韩国 03'
+  network: ws
+  port: 8443
+  server: 131.186.22.95
+  servername: senflarelink-node-il65vh.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: '[G] 🇰🇷 韩国 04'
+  network: ws
+  port: 12101
+  server: 14.44.19.57
+  servername: senflarelink-node-nwz76h.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    path: '%2F'
+- name: '[H] 🇰🇷 韩国 05'
+  password: ''
+  port: '8081'
+  server: 43.166.21.97
+  skip-cert-verify: true
+  type: http
+  username: ''
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇰🇷 韩国 06'
+  network: ws
+  port: 16616
+  server: dp8yk.xiaoyan.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇰🇷 韩国 07'
+  network: ws
+  port: 16617
+  server: d1eyz.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇰🇷 韩国 08'
+  network: ws
+  port: 16616
+  server: afzuv.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇰🇷 韩国 09'
+  network: ws
+  port: 16648
+  server: afzuv.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇰🇷 韩国 10'
+  network: ws
+  port: 16648
+  server: d1eyz.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /

@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: '[E] EE 01'
+  password: 7cbd9bf9-a3b1-4257-8406-df6109cd882f
+  port: 443
+  server: ee.chick-chirik.com
+  sni: nl.chick-chirik.com
+  tls: false
+  type: hysteria2

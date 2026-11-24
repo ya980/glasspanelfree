@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '[F] 🇰🇷 韩国 01'
+  name: '[E] 🇰🇷 韩国 01'
   network: ws
   port: 8443
   server: 131.186.22.95
@@ -17,7 +17,7 @@ proxies:
     path: /
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇰🇷 韩国 02'
+  name: '[E] 🇰🇷 韩国 02'
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -35,7 +35,7 @@ proxies:
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇰🇷 韩国 03'
+  name: '[F] 🇰🇷 韩国 03'
   network: ws
   port: 8443
   server: 131.186.22.95
@@ -49,7 +49,7 @@ proxies:
     path: '%2F'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇰🇷 韩国 04'
+  name: '[F] 🇰🇷 韩国 04'
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -61,7 +61,7 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: '[H] 🇰🇷 韩国 05'
+- name: '[G] 🇰🇷 韩国 05'
   port: 1080
   server: 59.11.209.162
   skip-cert-verify: true

@@ -1,5 +1,25 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
+  obfs: salamander
+  obfs-password: 7lxfFHnxyPtOOafv
+  password: 4cbeddb7-022d-46a8-bca8-a3667abda9ac
+  port: 45106
+  server: v1fr4.stablenode.cloud
+  skip-cert-verify: false
+  sni: v1fr4.stablenode.cloud
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
+  obfs: salamander
+  obfs-password: N2rvCMYcDxnEWHVQ
+  password: 4cbeddb7-022d-46a8-bca8-a3667abda9ac
+  port: 45206
+  server: v1fr4.stablenode.cloud
+  skip-cert-verify: false
+  sni: v1fr4.stablenode.cloud
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.36.234.11
@@ -7,8 +27,28 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   tls: false
   type: hysteria2
+- name: '[D] 🇫🇷 法国 04'
+  obfs: salamander
+  obfs-password: N2rvCMYcDxnEWHVQ
+  password: b6492705-8cac-4454-9d34-1498dd2ded87
+  port: 45206
+  server: v1fr4.stablenode.cloud
+  skip-cert-verify: false
+  sni: v1fr4.stablenode.cloud
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 05'
+  obfs: salamander
+  obfs-password: N2rvCMYcDxnEWHVQ
+  password: cc0212a7-6b18-42f8-bb1f-177e035d1acb
+  port: 45206
+  server: v1fr4.stablenode.cloud
+  skip-cert-verify: false
+  sni: v1fr4.stablenode.cloud
+  tls: false
+  type: hysteria2
 - client-fingerprint: qq
-  name: '[I] 🇫🇷 法国 02'
+  name: '[I] 🇫🇷 法国 06'
   port: 443
   server: 136.148.83.70
   servername: aszbk-ru-78dc.my-fade.cloud

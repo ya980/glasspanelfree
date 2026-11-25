@@ -1,14 +1,6 @@
 proxies:
-- name: '[D] 🇰🇷 韩国 01'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 43.203.228.99
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: '[F] 🇰🇷 韩国 02'
+  name: '[F] 🇰🇷 韩国 01'
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -26,7 +18,7 @@ proxies:
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇰🇷 韩国 03'
+  name: '[G] 🇰🇷 韩国 02'
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -38,8 +30,3 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: '[H] 🇰🇷 韩国 04'
-  port: 1080
-  server: 59.11.209.162
-  skip-cert-verify: true
-  type: socks5

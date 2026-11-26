@@ -8,16 +8,9 @@ proxies:
   sni: docs.microsoft.com
   type: anytls
   udp: true
-- name: '[H] 🇨🇳 台湾 02'
-  password: 2902c46c8493
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 台湾 03'
+  name: '[I] 🇨🇳 台湾 02'
   network: tcp
   port: 51283
   reality-opts:
@@ -30,7 +23,7 @@ proxies:
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 台湾 04'
+  name: '[I] 🇨🇳 台湾 03'
   network: tcp
   port: 19482
   reality-opts:

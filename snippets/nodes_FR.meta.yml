@@ -12,24 +12,7 @@ proxies:
   name: '[E] 🇫🇷 法国 02'
   password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
   port: 443
-  server: n49.neproxy.net
-  skip-cert-verify: false
+  server: 194.87.224.8
   sni: n49.neproxy.net
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 03'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: DulhUFMYzxIsucjtPONJQMszzyi9V6bqQ9WI3GjGFAY
-    short-id: '!!str abc123'
-  server: 161.104.89.44
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f092ef0-a7e6-03e9-b989-836aebc00ff7
-  xudp: true

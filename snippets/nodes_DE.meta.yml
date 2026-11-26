@@ -61,19 +61,11 @@ proxies:
     headers:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: '%2F'
-- name: '[H] 🇩🇪 德国 05'
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.57
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
 - auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   name: '[H] 🇩🇪 德国 06'
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
-  server: 128.254.186.190
+  server: 128.254.186.57
   skip-cert-verify: true
   sni: mother-earth.fyi
   tls: false

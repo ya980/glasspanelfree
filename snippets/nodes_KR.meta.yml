@@ -2,7 +2,7 @@ proxies:
 - name: '[D] 🇰🇷 韩国 01'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 43.201.31.151
+  server: 13.124.238.118
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -38,8 +38,3 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: '[H] 🇰🇷 韩国 04'
-  port: 1080
-  server: 59.11.209.162
-  skip-cert-verify: true
-  type: socks5

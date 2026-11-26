@@ -16,14 +16,22 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] SE 03'
+  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
+  port: 443
+  server: 136.148.83.69
+  sni: szqbx-ru-77dc.my-fade.cloud
+  tls: false
+  type: hysteria2
+- name: '[D] SE 04'
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
   server: uk-tube-01.stre4m.net
+  servername: mother-earth.fyi
   skip-cert-verify: true
   sni: mother-earth.fyi
   tls: false
   type: hysteria2
-- name: '[D] SE 04'
+- name: '[D] SE 05'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 179.254.191.251
@@ -31,10 +39,26 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '[D] SE 05'
+- name: '[D] SE 06'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] SE 07'
+  network: tcp
+  port: '443'
+  server: sw6.yndx-game.com
+  servername: sw6.yndx-game.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb83b44c-ad8c-4658-9923-313e59bb4d5e
+  xudp: true

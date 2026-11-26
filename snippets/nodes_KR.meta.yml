@@ -1,6 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 01'
+  network: tcp
+  port: '19283'
+  server: kr.075661.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3153def6-eecb-414d-88aa-7e59ea525e5d
 - client-fingerprint: chrome
-  name: '[F] 🇰🇷 韩国 01'
+  name: '[F] 🇰🇷 韩国 02'
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -18,7 +28,7 @@ proxies:
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇰🇷 韩国 02'
+  name: '[G] 🇰🇷 韩国 03'
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -30,3 +40,8 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
+- name: '[H] 🇰🇷 韩国 04'
+  port: 1080
+  server: 59.11.209.162
+  skip-cert-verify: true
+  type: socks5

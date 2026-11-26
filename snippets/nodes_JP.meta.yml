@@ -1,6 +1,192 @@
 proxies:
+- name: '[E] 🇯🇵 日本 01'
+  password: oracle_hy2_pass_2026
+  port: 8443
+  server: 129.225.181.46
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇯🇵 日本 02'
+  password: oracle_hy2_pass_2026
+  port: 8443
+  server: 129.225.181.46
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 03'
+  network: ws
+  port: '2083'
+  server: 104.16.0.1
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 04'
+  network: ws
+  port: '2083'
+  server: 104.25.0.1
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 05'
+  network: ws
+  port: '2083'
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 06'
+  network: ws
+  port: '2083'
+  server: 162.159.135.234
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 07'
+  network: ws
+  port: '2083'
+  server: 104.21.0.1
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 08'
+  network: ws
+  port: '2083'
+  server: 104.17.0.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 09'
+  network: ws
+  port: '2083'
+  server: 104.16.0.1
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 10'
+  network: ws
+  port: '2083'
+  server: 162.159.130.234
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 11'
+  network: ws
+  port: '2083'
+  server: 188.114.99.137
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 12'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 13'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 14'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 01'
+  name: '[F] 🇯🇵 日本 15'
   network: ws
   port: 443
   reality-opts:
@@ -20,7 +206,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 02'
+  name: '[F] 🇯🇵 日本 16'
   network: ws
   port: 443
   reality-opts:
@@ -40,7 +226,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 17'
   network: ws
   port: 8443
   server: 166.88.14.71
@@ -57,7 +243,7 @@ proxies:
     path: /
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 18'
   network: ws
   port: 8443
   server: 45.32.57.15
@@ -75,7 +261,7 @@ proxies:
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 05'
+  name: '[G] 🇯🇵 日本 19'
   network: ws
   port: 443
   reality-opts:
@@ -92,7 +278,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 06'
+  name: '[G] 🇯🇵 日本 20'
   network: ws
   port: 443
   reality-opts:
@@ -109,7 +295,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 07'
+  name: '[G] 🇯🇵 日本 21'
   network: ws
   port: 8443
   server: 166.88.14.71
@@ -123,7 +309,7 @@ proxies:
     path: '%2F'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 08'
+  name: '[G] 🇯🇵 日本 22'
   network: ws
   port: 8443
   server: 45.32.57.15
@@ -135,3 +321,17 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
+- name: '[H] 🇯🇵 日本 23'
+  password: J5rM2xL9
+  port: '42000'
+  server: 103.248.150.238
+  skip-cert-verify: true
+  type: socks5
+  username: tB4vN7qP
+- name: '[H] 🇯🇵 日本 24'
+  password: ''
+  port: '1080'
+  server: 218.52.200.62
+  skip-cert-verify: true
+  type: socks5
+  username: ''

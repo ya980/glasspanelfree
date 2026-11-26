@@ -7,16 +7,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 02'
-  network: tcp
-  port: '10086'
-  server: 195.133.135.238
-  servername: ''
+- name: '[D] 🇸🇬 新加坡 02'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 54.255.246.31
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  type: hysteria2
 - client-fingerprint: chrome
   name: '[F] 🇸🇬 新加坡 03'
   network: ws
@@ -48,17 +46,18 @@ proxies:
     headers:
       Host: senflarelink-node-6b9.pages.dev
     path: '%2F'
-- name: '[H] 🇸🇬 新加坡 05'
-  password: ''
-  port: '9090'
-  server: 159.223.41.216
-  skip-cert-verify: true
-  type: http
-  username: ''
-- name: '[H] 🇸🇬 新加坡 06'
-  password: ''
-  port: '9090'
-  server: 68.183.226.190
-  skip-cert-verify: true
-  type: http
-  username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 05'
+  network: tcp
+  port: '37998'
+  reality-opts:
+    public-key: j7lihAdLvNKWg67WMGQsRSM8WFbaUK5dAi7D2R7iXHM
+    short-id: '!!str d5a01375'
+  server: vl-x2.qz10086.top
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
+  xudp: true

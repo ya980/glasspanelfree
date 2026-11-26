@@ -1,21 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: xhttp
-  port: 2053
-  server: 78.159.240.62
-  servername: polarladder.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  xhttp-opts:
-    host: polarladder.com
-    mode: auto
-    path: /api/v1/upload
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 443
   reality-opts:

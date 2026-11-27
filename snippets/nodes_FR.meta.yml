@@ -7,12 +7,51 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 02'
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇫🇷 法国 02'
+  network: xhttp
+  port: '443'
+  server: 194.122.84.6
+  servername: fl1.internium.forum
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d52328-2d60-4fcf-812c-9734493baf11
+  xhttp-opts:
+    host: fl1.internium.forum
+    mode: auto
+    path: /connect
+  xudp: true
+- client-fingerprint: qq
+  name: '[I] 🇫🇷 法国 03'
+  network: tcp
   port: 443
-  server: 194.87.224.8
-  sni: n49.neproxy.net
+  server: 136.148.83.70
+  servername: aszbk-ru-78dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 00000000-0000-0001-0000-000000000000
+- name: '[I] 🇫🇷 法国 04'
+  network: tcp
+  port: 443
+  server: 136.148.83.71
+  servername: wccfu-ru-79dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 00000000-0000-0001-0000-000000000000
+- client-fingerprint: chrome
+  name: '[I] 🇫🇷 法国 05'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: '!!str 361d0dd59c70516f'
+  server: 5d0319t.nl7.h1clayd.click
+  servername: 5d0319t.nl7.h1clayd.click
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  ws-opts:
+    headers:
+      Host: 5d0319t.nl7.h1clayd.click

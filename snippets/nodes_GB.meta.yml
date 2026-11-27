@@ -1,25 +1,14 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇬🇧 英国 01'
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
-  port: 443
-  server: n48.neproxy.net
-  skip-cert-verify: false
-  sni: n48.neproxy.net
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf
-  port: 443
-  server: 45.88.12.121
-  sni: n48.neproxy.net
-  tls: false
-  type: hysteria2
-- name: '[H] 🇬🇧 英国 03'
+- name: '[H] 🇬🇧 英国 01'
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: '[H] 🇬🇧 英国 02'
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http

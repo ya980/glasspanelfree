@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
+- name: '[D] 🇯🇵 日本 01'
   password: oracle_hy2_pass_2026
   port: 8443
   server: 129.225.181.46
@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇯🇵 日本 02'
+  name: '[D] 🇯🇵 日本 02'
   password: oracle_hy2_pass_2026
   port: 8443
   server: 129.225.181.46
@@ -17,22 +17,8 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇯🇵 日本 03'
-  network: ws
-  port: '443'
-  server: JP032005.ssgreen.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 41ad70cc-ce1f-43c9-8424-7c1d24d975ee
-  ws-opts:
-    headers:
-      Host: ''
-    path: /wes
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 04'
+  name: '[E] 🇯🇵 日本 03'
   network: ws
   port: 443
   reality-opts:
@@ -52,7 +38,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 05'
+  name: '[E] 🇯🇵 日本 04'
   network: ws
   port: 443
   reality-opts:
@@ -72,7 +58,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 06'
+  name: '[E] 🇯🇵 日本 05'
   network: ws
   port: 443
   reality-opts:
@@ -92,7 +78,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 07'
+  name: '[E] 🇯🇵 日本 06'
   network: ws
   port: 443
   reality-opts:
@@ -112,31 +98,31 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
+  name: '[E] 🇯🇵 日本 07'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+    short-id: '!!str 772bef67'
+  server: 172.105.197.24
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
   name: '[F] 🇯🇵 日本 08'
   network: ws
   port: 443
   reality-opts:
-    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
-    short-id: '!!str 772bef67'
-  server: 172.105.197.24
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  flow: ''
-  name: '[G] 🇯🇵 日本 09'
-  network: ws
-  port: 443
-  reality-opts:
     public-key: k0o_QkU2gSE5m1a6tWbkkZ-Z28GTj30UHW8cHWCulzU
     short-id: '!!str db1a5f5e'
   server: 139.162.91.182
@@ -150,7 +136,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 10'
+  name: '[F] 🇯🇵 日本 09'
   network: ws
   port: 443
   reality-opts:
@@ -167,7 +153,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 11'
+  name: '[F] 🇯🇵 日本 10'
   network: ws
   port: 443
   reality-opts:
@@ -184,7 +170,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 12'
+  name: '[F] 🇯🇵 日本 11'
   network: ws
   port: 443
   reality-opts:
@@ -201,7 +187,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 13'
+  name: '[F] 🇯🇵 日本 12'
   network: ws
   port: 443
   reality-opts:
@@ -216,20 +202,8 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇯🇵 日本 14'
-  network: tcp
-  port: '443'
-  server: 50.7.159.242
-  servername: jp.reddotcorp.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
-  xudp: true
 - cipher: aes-256-gcm
-  name: '[I] 🇯🇵 日本 15'
+  name: '[I] 🇯🇵 日本 13'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27

@@ -1,5 +1,5 @@
 proxies:
-- name: '[D] 🇰🇷 韩国 01'
+- name: '[C] 🇰🇷 韩国 01'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 13.124.238.118
@@ -7,13 +7,8 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[H] 🇰🇷 韩国 02'
-  port: 1080
-  server: 59.11.209.162
-  skip-cert-verify: true
-  type: socks5
 - cipher: aes-256-gcm
-  name: '[I] 🇰🇷 韩国 03'
+  name: '[I] 🇰🇷 韩国 02'
   password: qpowi_vip_tunnel_2026_secure
   port: 8388
   server: 211.233.33.228

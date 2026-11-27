@@ -1,5 +1,5 @@
 proxies:
-- name: '[D] 🇸🇬 新加坡 01'
+- name: '[C] 🇸🇬 新加坡 01'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
@@ -7,7 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇸🇬 新加坡 02'
+- name: '[C] 🇸🇬 新加坡 02'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 47.129.155.154
@@ -15,32 +15,8 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 03'
-  network: tcp
-  port: '10086'
-  server: 195.133.135.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇸🇬 新加坡 04'
-  network: ws
-  port: '54327'
-  server: 8.222.172.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8a3d03bc-9b35-43b4-d901-c8531f2bbc6d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /pages
 - client-fingerprint: chrome
-  name: '[F] 🇸🇬 新加坡 05'
+  name: '[E] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   reality-opts:
@@ -60,51 +36,51 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
+  name: '[E] 🇸🇬 新加坡 04'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+    short-id: '!!str b0af872e'
+  server: 172.104.48.194
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: '[E] 🇸🇬 新加坡 05'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+    short-id: '!!str b29516da'
+  server: 172.104.186.185
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
   name: '[F] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   reality-opts:
-    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
-    short-id: '!!str b0af872e'
-  server: 172.104.48.194
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: '[F] 🇸🇬 新加坡 07'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
-    short-id: '!!str b29516da'
-  server: 172.104.186.185
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  flow: ''
-  name: '[G] 🇸🇬 新加坡 08'
-  network: ws
-  port: 443
-  reality-opts:
     public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
     short-id: '!!str 9360f0d0'
   server: 172.104.48.162
@@ -118,7 +94,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇸🇬 新加坡 09'
+  name: '[F] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   reality-opts:
@@ -135,7 +111,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇸🇬 新加坡 10'
+  name: '[F] 🇸🇬 新加坡 08'
   network: ws
   port: 443
   reality-opts:
@@ -150,26 +126,9 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇸🇬 新加坡 11'
-  network: raw
-  packet-encoding: xudp
-  port: '43113'
-  reality-opts:
-    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
-    short-id: '!!str ff2c978a0b'
-  server: dddz-1-x.473221.xyz
-  servername: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 12'
+  name: '[I] 🇸🇬 新加坡 09'
   network: tcp
   port: 443
   reality-opts:

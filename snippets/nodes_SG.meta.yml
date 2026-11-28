@@ -1,5 +1,5 @@
 proxies:
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[D] 🇸🇬 新加坡 01'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
@@ -7,138 +7,198 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 02'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 47.129.155.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '[E] 🇸🇬 新加坡 03'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
-    short-id: '!!str 9360f0d0'
-  server: 172.104.48.162
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: '[E] 🇸🇬 新加坡 04'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
-    short-id: '!!str b0af872e'
-  server: 172.104.48.194
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: '[E] 🇸🇬 新加坡 05'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
-    short-id: '!!str b29516da'
-  server: 172.104.186.185
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  flow: ''
-  name: '[F] 🇸🇬 新加坡 06'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
-    short-id: '!!str 9360f0d0'
-  server: 172.104.48.162
-  servername: itunes.apple.com
-  tls: false
-  type: vless
-  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: '%2Fws'
-- client-fingerprint: chrome
-  flow: ''
-  name: '[F] 🇸🇬 新加坡 07'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
-    short-id: '!!str b0af872e'
-  server: 172.104.48.194
-  servername: itunes.apple.com
-  tls: false
-  type: vless
-  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: '%2Fws'
-- client-fingerprint: chrome
-  flow: ''
-  name: '[F] 🇸🇬 新加坡 08'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
-    short-id: '!!str b29516da'
-  server: 172.104.186.185
-  servername: itunes.apple.com
-  tls: false
-  type: vless
-  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: '%2Fws'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 09'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 02'
   network: tcp
+  port: '10086'
+  server: 195.133.135.238
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+- client-fingerprint: chrome
+  name: '[F] 🇸🇬 新加坡 03'
+  network: ws
   port: 443
   reality-opts:
-    public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
-    short-id: '!!str 0123456789abcdef'
-  server: 43.163.112.174
-  servername: www.cloudflare.com
-  tls: false
+    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+    short-id: '!!str 9360f0d0'
+  server: 172.104.48.162
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: vless
-  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
+  udp: true
+  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
   ws-opts:
     headers:
-      Host: www.cloudflare.com
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: '[F] 🇸🇬 新加坡 04'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+    short-id: '!!str b0af872e'
+  server: 172.104.48.194
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: '[F] 🇸🇬 新加坡 05'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+    short-id: '!!str b29516da'
+  server: 172.104.186.185
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
+  name: '[G] 🇸🇬 新加坡 06'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+    short-id: '!!str 9360f0d0'
+  server: 172.104.48.162
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: '[G] 🇸🇬 新加坡 07'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+    short-id: '!!str b0af872e'
+  server: 172.104.48.194
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: '[G] 🇸🇬 新加坡 08'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+    short-id: '!!str b29516da'
+  server: 172.104.186.185
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 09'
+  network: ws
+  port: 443
+  server: 188.164.248.110
+  servername: imanvipreserved.pages.dev
+  skip-cert-verify: true
+  sni: imanvipreserved.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  ws-opts:
+    headers:
+      Host: imanvipreserved.pages.dev
+    path: /
+- name: '[H] 🇸🇬 新加坡 10'
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
+  type: socks5
+  username: '8888'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 11'
+  network: ws
+  port: '443'
+  server: 188.164.248.110
+  servername: imanvipreserved.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  ws-opts:
+    headers:
+      Host: imanvipreserved.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 12'
+  network: ws
+  port: '443'
+  server: 104.18.41.145
+  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
+  ws-opts:
+    headers:
+      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 13'
+  network: ws
+  port: '443'
+  server: www.buydomains.com
+  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
+  ws-opts:
+    headers:
+      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome
+  xudp: true

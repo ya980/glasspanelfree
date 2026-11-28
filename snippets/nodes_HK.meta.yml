@@ -1,5 +1,5 @@
 proxies:
-- name: '[D] 🇭🇰 香港 01'
+- name: '[C] 🇭🇰 香港 01'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -9,20 +9,14 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[E] 🇭🇰 香港 02'
-  obfs: ''
-  obfs-password: ''
-  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  port: '443'
-  server: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
+- name: '[D] 🇭🇰 香港 02'
+  password: 5ec96249-b753-317a-b065-b67ad66b8185
+  port: 60001
+  server: 14.137.237.98
+  sni: hk01.kfc-520.com
   tls: false
   type: hysteria2
-  up: ''
-- name: '[E] 🇭🇰 香港 03'
+- name: '[D] 🇭🇰 香港 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-hk-004.fastervpn.world
@@ -30,31 +24,8 @@ proxies:
   sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇭🇰 香港 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: bill-defendant-purse-reflect.trycloudflare.com
-  servername: bill-defendant-purse-reflect.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: bill-defendant-purse-reflect.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
 - client-fingerprint: chrome
-  name: '[F] 🇭🇰 香港 06'
+  name: '[E] 🇭🇰 香港 04'
   password: 2902c46c8493
   port: 443
   server: ibsdsf.df6h451rh.xin
@@ -63,24 +34,41 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[F] 🇭🇰 香港 07'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
-    short-id: '!!str 6a3c0a718181'
-  server: jp2mqtt.jumpernode.site
-  servername: stg.nvbugspro.nvidia.com
+  name: '[E] 🇭🇰 香港 05'
+  network: ws
+  port: 1891
+  server: 216.236.51.44
+  servername: senflarelink-node-71i.pages.dev
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[E] 🇭🇰 香港 06'
+  network: tcp
+  port: 28418
+  reality-opts:
+    public-key: mfxE6lW_fuPZKWtrySdTx9HOh0vtX3-7aMiYDCh2YCA
+    short-id: '!!str ddd21e20'
+  server: 38.207.172.59
+  servername: op.gg
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e6552569-97ce-430c-a324-53ad1c546e05
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 07'
   network: ws
   port: 1891
   server: 216.236.51.44
@@ -93,23 +81,8 @@ proxies:
       Host: senflarelink-node-71i.pages.dev
     path: '%2F'
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇭🇰 香港 09'
+  name: '[I] 🇭🇰 香港 08'
   password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
   port: 28014
   server: waic.pro.main.sys-metric-report.com
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇭🇰 香港 10'
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
-  port: '28014'
-  server: 143.20.71.68
-  type: ss
-  udp: true
-- name: '[H] 🇭🇰 香港 11'
-  password: ''
-  port: '8080'
-  server: 34.96.238.40
-  skip-cert-verify: true
-  type: http
-  username: ''

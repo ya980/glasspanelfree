@@ -1,14 +1,8 @@
 proxies:
-- name: '[D] 🇰🇷 韩国 01'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 3.35.174.64
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[H] 🇰🇷 韩国 02'
-  port: 1080
+- name: '[G] 🇰🇷 韩国 01'
+  password: ''
+  port: '1080'
   server: 59.11.209.162
   skip-cert-verify: true
   type: socks5
+  username: ''

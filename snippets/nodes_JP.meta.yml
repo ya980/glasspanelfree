@@ -1,24 +1,6 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇯🇵 日本 02'
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 03'
+  name: '[E] 🇯🇵 日本 01'
   network: ws
   port: 443
   reality-opts:
@@ -38,7 +20,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 04'
+  name: '[E] 🇯🇵 日本 02'
   network: ws
   port: 443
   reality-opts:
@@ -58,7 +40,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 05'
+  name: '[E] 🇯🇵 日本 03'
   network: ws
   port: 443
   reality-opts:
@@ -78,51 +60,51 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
+  name: '[E] 🇯🇵 日本 04'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
+    short-id: '!!str d1244137'
+  server: 139.162.91.228
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: '[E] 🇯🇵 日本 05'
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+    short-id: '!!str 772bef67'
+  server: 172.105.197.24
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
   name: '[F] 🇯🇵 日本 06'
   network: ws
   port: 443
   reality-opts:
-    public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
-    short-id: '!!str d1244137'
-  server: 139.162.91.228
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: '[F] 🇯🇵 日本 07'
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
-    short-id: '!!str 772bef67'
-  server: 172.105.197.24
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  flow: ''
-  name: '[G] 🇯🇵 日本 08'
-  network: ws
-  port: 443
-  reality-opts:
     public-key: k0o_QkU2gSE5m1a6tWbkkZ-Z28GTj30UHW8cHWCulzU
     short-id: '!!str db1a5f5e'
   server: 139.162.91.182
@@ -136,7 +118,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 09'
+  name: '[F] 🇯🇵 日本 07'
   network: ws
   port: 443
   reality-opts:
@@ -153,7 +135,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 10'
+  name: '[F] 🇯🇵 日本 08'
   network: ws
   port: 443
   reality-opts:
@@ -170,7 +152,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 11'
+  name: '[F] 🇯🇵 日本 09'
   network: ws
   port: 443
   reality-opts:
@@ -187,7 +169,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[G] 🇯🇵 日本 12'
+  name: '[F] 🇯🇵 日本 10'
   network: ws
   port: 443
   reality-opts:
@@ -202,43 +184,3 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇯🇵 日本 13'
-  network: ws
-  port: '443'
-  server: 8.222.193.153
-  servername: app-base-njw3ky.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
-  ws-opts:
-    headers:
-      Host: app-base-njw3ky.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws?ip=8.222.193.153:443
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇯🇵 日本 14'
-  network: ws
-  port: '443'
-  server: 212.192.221.107
-  servername: app-base-njw3ky.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
-  ws-opts:
-    headers:
-      Host: app-base-njw3ky.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /ws?ip=212.192.221.107:443
-  xudp: true
